@@ -1,0 +1,370 @@
+[start] output=test.txt
+[IMG_LOAD] /usr/local/sbin/lighttpd (main)
+[plugin.init.sym] fn=mod_rewrite_plugin_init addr=0x55a3c177b1fd img=/usr/local/sbin/lighttpd
+[plugin.init.sym] fn=mod_redirect_plugin_init addr=0x55a3c177bb21 img=/usr/local/sbin/lighttpd
+[plugin.init.sym] fn=mod_access_plugin_init addr=0x55a3c177bfd5 img=/usr/local/sbin/lighttpd
+[plugin.init.sym] fn=mod_alias_plugin_init addr=0x55a3c177c831 img=/usr/local/sbin/lighttpd
+[plugin.init.sym] fn=mod_indexfile_plugin_init addr=0x55a3c177cf00 img=/usr/local/sbin/lighttpd
+[plugin.init.sym] fn=mod_staticfile_plugin_init addr=0x55a3c177d3a0 img=/usr/local/sbin/lighttpd
+[plugin.init.sym] fn=mod_setenv_plugin_init addr=0x55a3c177e00e img=/usr/local/sbin/lighttpd
+[plugin.init.sym] fn=mod_expire_plugin_init addr=0x55a3c177eb3e img=/usr/local/sbin/lighttpd
+[plugin.init.sym] fn=mod_simple_vhost_plugin_init addr=0x55a3c177f318 img=/usr/local/sbin/lighttpd
+[plugin.init.sym] fn=mod_evhost_plugin_init addr=0x55a3c17803dc img=/usr/local/sbin/lighttpd
+[plugin.init.sym] fn=mod_fastcgi_plugin_init addr=0x55a3c17819f7 img=/usr/local/sbin/lighttpd
+[plugin.init.sym] fn=mod_scgi_plugin_init addr=0x55a3c17826f0 img=/usr/local/sbin/lighttpd
+[IMG_LOAD] /lib64/ld-linux-x86-64.so.2
+[IMG_LOAD] [vdso]
+[IMG_LOAD] /lib/x86_64-linux-gnu/libpcre2-8.so.0
+[IMG_LOAD] /lib/x86_64-linux-gnu/libc.so.6
+[hook] dlsym in /lib/x86_64-linux-gnu/libc.so.6
+[hook] dlopen in /lib/x86_64-linux-gnu/libc.so.6
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x7fc297f3df00 fn=mallopt img=/lib/x86_64-linux-gnu/libc.so.6
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x7fc297f3d870 fn=malloc_trim img=/lib/x86_64-linux-gnu/libc.so.6
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x55a3c177b1fd[mapped.add] fn=0x55a3c177b1fd name=mod_rewrite_plugin_init img=/usr/local/sbin/lighttpd
+ fn=mod_rewrite_plugin_init img=/usr/local/sbin/lighttpd
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177b1fd callee_fn=mod_rewrite_plugin_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d89798f0 arg1_rsi=0x0 arg2_rdx=0x55a3c177b1fd arg3_rcx=0x55a3d89798e0 arg4_r8=0x7fc298068460 arg5_r9=0x55a3d89798f0
+[plugin.init.enter] init=0x55a3c177b1fd fn=mod_rewrite_plugin_init img=/usr/local/sbin/lighttpd p=0x55a3d89798f0
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d89799a8 VAL=0x10450 init_fn=mod_rewrite_plugin_init fn= img=
+[mapped.add] fn=0x55a3c17b7943 name=? img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d89799a0 VAL=0x55a3c17b7943 init_fn=mod_rewrite_plugin_init fn= img=/usr/local/sbin/lighttpd
+[mapped.add] fn=0x55a3c177a3da name=mod_rewrite_init img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979978 VAL=0x55a3c177a3da init_fn=mod_rewrite_plugin_init fn=mod_rewrite_init img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_rewrite.c:28
+[mapped.add] fn=0x55a3c177b18e name=mod_rewrite_uri_handler img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d89798f8 VAL=0x55a3c177b18e init_fn=mod_rewrite_plugin_init fn=mod_rewrite_uri_handler img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_rewrite.c:345
+[mapped.add] fn=0x55a3c177b0d1 name=mod_rewrite_physical img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979910 VAL=0x55a3c177b0d1 init_fn=mod_rewrite_plugin_init fn=mod_rewrite_physical img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_rewrite.c:330
+[mapped.add] fn=0x55a3c177a3f3 name=mod_rewrite_free img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979998 VAL=0x55a3c177a3f3 init_fn=mod_rewrite_plugin_init fn=mod_rewrite_free img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_rewrite.c:32
+[mapped.add] fn=0x55a3c177ad41 name=mod_rewrite_con_reset img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979940 VAL=0x55a3c177ad41 init_fn=mod_rewrite_plugin_init fn=mod_rewrite_con_reset img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_rewrite.c:274
+[mapped.add] fn=0x55a3c177a859 name=mod_rewrite_set_defaults img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979988 VAL=0x55a3c177a859 init_fn=mod_rewrite_plugin_init fn=mod_rewrite_set_defaults img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_rewrite.c:135
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x55a3c177bb21[mapped.add] fn=0x55a3c177bb21 name=mod_redirect_plugin_init img=/usr/local/sbin/lighttpd
+ fn=mod_redirect_plugin_init img=/usr/local/sbin/lighttpd
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177bb21 callee_fn=mod_redirect_plugin_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d89799c0 arg1_rsi=0x0 arg2_rdx=0x55a3c177bb21 arg3_rcx=0x55a3d89799b0 arg4_r8=0x7fc298068460 arg5_r9=0x55a3d89799c0
+[plugin.init.enter] init=0x55a3c177bb21 fn=mod_redirect_plugin_init img=/usr/local/sbin/lighttpd p=0x55a3d89799c0
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d8979a78 VAL=0x10450 init_fn=mod_redirect_plugin_init fn= img=
+[mapped.add] fn=0x55a3c17b7a43 name=? img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979a70 VAL=0x55a3c17b7a43 init_fn=mod_redirect_plugin_init fn= img=/usr/local/sbin/lighttpd
+[mapped.add] fn=0x55a3c177b2ea name=mod_redirect_init img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979a48 VAL=0x55a3c177b2ea init_fn=mod_redirect_plugin_init fn=mod_redirect_init img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_redirect.c:27
+[mapped.add] fn=0x55a3c177b897 name=mod_redirect_uri_handler img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d89799d0 VAL=0x55a3c177b897 init_fn=mod_redirect_plugin_init fn=mod_redirect_uri_handler img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_redirect.c:160
+[mapped.add] fn=0x55a3c177b6e1 name=mod_redirect_set_defaults img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979a58 VAL=0x55a3c177b6e1 init_fn=mod_redirect_plugin_init fn=mod_redirect_set_defaults img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_redirect.c:112
+[mapped.add] fn=0x55a3c177b303 name=mod_redirect_free img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979a68 VAL=0x55a3c177b303 init_fn=mod_redirect_plugin_init fn=mod_redirect_free img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_redirect.c:31
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x55a3c177bfd5[mapped.add] fn=0x55a3c177bfd5 name=mod_access_plugin_init img=/usr/local/sbin/lighttpd
+ fn=mod_access_plugin_init img=/usr/local/sbin/lighttpd
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177bfd5 callee_fn=mod_access_plugin_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8979a90 arg1_rsi=0x0 arg2_rdx=0x55a3c177bfd5 arg3_rcx=0x55a3d8979a80 arg4_r8=0x7fc298068460 arg5_r9=0x55a3d8979a90
+[plugin.init.enter] init=0x55a3c177bfd5 fn=mod_access_plugin_init img=/usr/local/sbin/lighttpd p=0x55a3d8979a90
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d8979b48 VAL=0x10450 init_fn=mod_access_plugin_init fn= img=
+[mapped.add] fn=0x55a3c17b7aee name=? img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979b40 VAL=0x55a3c17b7aee init_fn=mod_access_plugin_init fn= img=/usr/local/sbin/lighttpd
+[mapped.add] fn=0x55a3c177bb9a name=mod_access_init img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979b18 VAL=0x55a3c177bb9a init_fn=mod_access_plugin_init fn=mod_access_init img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_redirect.c:221
+[mapped.add] fn=0x55a3c177bce5 name=mod_access_set_defaults img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979b28 VAL=0x55a3c177bce5 init_fn=mod_access_plugin_init fn=mod_access_set_defaults img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_access.c:53
+[mapped.add] fn=0x55a3c177bf2c name=mod_access_uri_handler img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979aa0 VAL=0x55a3c177bf2c init_fn=mod_access_plugin_init fn=mod_access_uri_handler img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_access.c:125
+[mapped.add] fn=0x55a3c177bf2c name=mod_access_uri_handler img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979ac8 VAL=0x55a3c177bf2c init_fn=mod_access_plugin_init fn=mod_access_uri_handler img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_access.c:125
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x55a3c177c831[mapped.add] fn=0x55a3c177c831 name=mod_alias_plugin_init img=/usr/local/sbin/lighttpd
+ fn=mod_alias_plugin_init img=/usr/local/sbin/lighttpd
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177c831 callee_fn=mod_alias_plugin_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8979b60 arg1_rsi=0x0 arg2_rdx=0x55a3c177c831 arg3_rcx=0x55a3d8979b50 arg4_r8=0x7fc298068460 arg5_r9=0x55a3d8979b60
+[plugin.init.enter] init=0x55a3c177c831 fn=mod_alias_plugin_init img=/usr/local/sbin/lighttpd p=0x55a3d8979b60
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d8979c18 VAL=0x10450 init_fn=mod_alias_plugin_init fn= img=
+[mapped.add] fn=0x55a3c17b7b65 name=? img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979c10 VAL=0x55a3c17b7b65 init_fn=mod_alias_plugin_init fn= img=/usr/local/sbin/lighttpd
+[mapped.add] fn=0x55a3c177c118 name=mod_alias_init img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979be8 VAL=0x55a3c177c118 init_fn=mod_alias_plugin_init fn=mod_alias_init img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_alias.c:23
+[mapped.add] fn=0x55a3c177c7d5 name=mod_alias_physical_handler img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979b80 VAL=0x55a3c177c7d5 init_fn=mod_alias_plugin_init fn=mod_alias_physical_handler img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_alias.c:177
+[mapped.add] fn=0x55a3c177c3d5 name=mod_alias_set_defaults img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979bf8 VAL=0x55a3c177c3d5 init_fn=mod_alias_plugin_init fn=mod_alias_set_defaults img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_alias.c:80
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x55a3c177cf00[mapped.add] fn=0x55a3c177cf00 name=mod_indexfile_plugin_init img=/usr/local/sbin/lighttpd
+ fn=mod_indexfile_plugin_init img=/usr/local/sbin/lighttpd
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177cf00 callee_fn=mod_indexfile_plugin_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8979c30 arg1_rsi=0x0 arg2_rdx=0x55a3c177cf00 arg3_rcx=0x55a3d8979c20 arg4_r8=0x7fc298068460 arg5_r9=0x55a3d8979c30
+[plugin.init.enter] init=0x55a3c177cf00 fn=mod_indexfile_plugin_init img=/usr/local/sbin/lighttpd p=0x55a3d8979c30
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d8979ce8 VAL=0x10450 init_fn=mod_indexfile_plugin_init fn= img=
+[mapped.add] fn=0x55a3c17b7c0f name=? img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979ce0 VAL=0x55a3c17b7c0f init_fn=mod_indexfile_plugin_init fn= img=/usr/local/sbin/lighttpd
+[mapped.add] fn=0x55a3c177c994 name=mod_indexfile_init img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979cb8 VAL=0x55a3c177c994 init_fn=mod_indexfile_plugin_init fn=mod_indexfile_init img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_indexfile.c:24
+[mapped.add] fn=0x55a3c177cdf4 name=mod_indexfile_subrequest img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979c68 VAL=0x55a3c177cdf4 init_fn=mod_indexfile_plugin_init fn=mod_indexfile_subrequest img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_indexfile.c:142
+[mapped.add] fn=0x55a3c177cac1 name=mod_indexfile_set_defaults img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979cc8 VAL=0x55a3c177cac1 init_fn=mod_indexfile_plugin_init fn=mod_indexfile_set_defaults img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_indexfile.c:54
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x55a3c177e00e[mapped.add] fn=0x55a3c177e00e name=mod_setenv_plugin_init img=/usr/local/sbin/lighttpd
+ fn=mod_setenv_plugin_init img=/usr/local/sbin/lighttpd
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177e00e callee_fn=mod_setenv_plugin_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8979d00 arg1_rsi=0x0 arg2_rdx=0x55a3c177e00e arg3_rcx=0x55a3d8979cf0 arg4_r8=0x7fc298068460 arg5_r9=0x55a3d8979d00
+[plugin.init.enter] init=0x55a3c177e00e fn=mod_setenv_plugin_init img=/usr/local/sbin/lighttpd p=0x55a3d8979d00
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d8979db8 VAL=0x10450 init_fn=mod_setenv_plugin_init fn= img=
+[mapped.add] fn=0x55a3c17b7db2 name=? img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979db0 VAL=0x55a3c17b7db2 init_fn=mod_setenv_plugin_init fn= img=/usr/local/sbin/lighttpd
+[mapped.add] fn=0x55a3c177d4a8 name=mod_setenv_init img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979d88 VAL=0x55a3c177d4a8 init_fn=mod_setenv_plugin_init fn=mod_setenv_init img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_setenv.c:43
+[mapped.add] fn=0x55a3c177d8db name=mod_setenv_set_defaults img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979d98 VAL=0x55a3c177d8db init_fn=mod_setenv_plugin_init fn=mod_setenv_set_defaults img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_setenv.c:126
+[mapped.add] fn=0x55a3c177da4d name=mod_setenv_uri_handler img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979d10 VAL=0x55a3c177da4d init_fn=mod_setenv_plugin_init fn=mod_setenv_uri_handler img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_setenv.c:189
+[mapped.add] fn=0x55a3c177dc68 name=mod_setenv_handle_request_env img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979d28 VAL=0x55a3c177dc68 init_fn=mod_setenv_plugin_init fn=mod_setenv_handle_request_env img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_setenv.c:224
+[mapped.add] fn=0x55a3c177ddef name=mod_setenv_handle_response_start img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979d48 VAL=0x55a3c177ddef init_fn=mod_setenv_plugin_init fn=mod_setenv_handle_response_start img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_setenv.c:253
+[mapped.add] fn=0x55a3c177dfb2 name=mod_setenv_handle_request_reset img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979d50 VAL=0x55a3c177dfb2 init_fn=mod_setenv_plugin_init fn=mod_setenv_handle_request_reset img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_setenv.c:282
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x55a3c177eb3e[mapped.add] fn=0x55a3c177eb3e name=mod_expire_plugin_init img=/usr/local/sbin/lighttpd
+ fn=mod_expire_plugin_init img=/usr/local/sbin/lighttpd
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177eb3e callee_fn=mod_expire_plugin_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8979dd0 arg1_rsi=0x0 arg2_rdx=0x55a3c177eb3e arg3_rcx=0x55a3d8979dc0 arg4_r8=0x7fc298068460 arg5_r9=0x55a3d8979dd0
+[plugin.init.enter] init=0x55a3c177eb3e fn=mod_expire_plugin_init img=/usr/local/sbin/lighttpd p=0x55a3d8979dd0
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d8979e88 VAL=0x10450 init_fn=mod_expire_plugin_init fn= img=
+[mapped.add] fn=0x55a3c17b7ef6 name=? img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979e80 VAL=0x55a3c17b7ef6 init_fn=mod_expire_plugin_init fn= img=/usr/local/sbin/lighttpd
+[mapped.add] fn=0x55a3c177e0f1 name=mod_expire_init img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979e58 VAL=0x55a3c177e0f1 init_fn=mod_expire_plugin_init fn=mod_expire_init img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_expire.c:34
+[mapped.add] fn=0x55a3c177e10a name=mod_expire_free img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979e78 VAL=0x55a3c177e10a init_fn=mod_expire_plugin_init fn=mod_expire_free img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_expire.c:38
+[mapped.add] fn=0x55a3c177e462 name=mod_expire_set_defaults img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979e68 VAL=0x55a3c177e462 init_fn=mod_expire_plugin_init fn=mod_expire_set_defaults img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_expire.c:127
+[mapped.add] fn=0x55a3c177e9b8 name=mod_expire_handler img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979e18 VAL=0x55a3c177e9b8 init_fn=mod_expire_plugin_init fn=mod_expire_handler img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_expire.c:266
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x55a3c177f318[mapped.add] fn=0x55a3c177f318 name=mod_simple_vhost_plugin_init img=/usr/local/sbin/lighttpd
+ fn=mod_simple_vhost_plugin_init img=/usr/local/sbin/lighttpd
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177f318 callee_fn=mod_simple_vhost_plugin_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8979ea0 arg1_rsi=0x0 arg2_rdx=0x55a3c177f318 arg3_rcx=0x55a3d8979e90 arg4_r8=0x7fc298068460 arg5_r9=0x55a3d8979ea0
+[plugin.init.enter] init=0x55a3c177f318 fn=mod_simple_vhost_plugin_init img=/usr/local/sbin/lighttpd p=0x55a3d8979ea0
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d8979f58 VAL=0x10450 init_fn=mod_simple_vhost_plugin_init fn= img=
+[mapped.add] fn=0x55a3c17b7f6f name=? img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979f50 VAL=0x55a3c17b7f6f init_fn=mod_simple_vhost_plugin_init fn= img=/usr/local/sbin/lighttpd
+[mapped.add] fn=0x55a3c177eca5 name=mod_simple_vhost_init img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979f28 VAL=0x55a3c177eca5 init_fn=mod_simple_vhost_plugin_init fn=mod_simple_vhost_init img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_simple_vhost.c:28
+[mapped.add] fn=0x55a3c177ee65 name=mod_simple_vhost_set_defaults img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979f38 VAL=0x55a3c177ee65 init_fn=mod_simple_vhost_plugin_init fn=mod_simple_vhost_set_defaults img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_simple_vhost.c:72
+[mapped.add] fn=0x55a3c177f1d1 name=mod_simple_vhost_docroot img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979eb8 VAL=0x55a3c177f1d1 init_fn=mod_simple_vhost_plugin_init fn=mod_simple_vhost_docroot img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_simple_vhost.c:167
+[mapped.add] fn=0x55a3c177ecbe name=mod_simple_vhost_free img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979f48 VAL=0x55a3c177ecbe init_fn=mod_simple_vhost_plugin_init fn=mod_simple_vhost_free img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_simple_vhost.c:32
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x55a3c17803dc[mapped.add] fn=0x55a3c17803dc name=mod_evhost_plugin_init img=/usr/local/sbin/lighttpd
+ fn=mod_evhost_plugin_init img=/usr/local/sbin/lighttpd
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x55a3c17803dc callee_fn=mod_evhost_plugin_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8979f70 arg1_rsi=0x0 arg2_rdx=0x55a3c17803dc arg3_rcx=0x55a3d8979f60 arg4_r8=0x7fc298068460 arg5_r9=0x55a3d8979f70
+[plugin.init.enter] init=0x55a3c17803dc fn=mod_evhost_plugin_init img=/usr/local/sbin/lighttpd p=0x55a3d8979f70
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d897a028 VAL=0x10450 init_fn=mod_evhost_plugin_init fn= img=
+[mapped.add] fn=0x55a3c17b8023 name=? img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a020 VAL=0x55a3c17b8023 init_fn=mod_evhost_plugin_init fn= img=/usr/local/sbin/lighttpd
+[mapped.add] fn=0x55a3c177f535 name=mod_evhost_init img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979ff8 VAL=0x55a3c177f535 init_fn=mod_evhost_plugin_init fn=mod_evhost_init img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_evhost.c:41
+[mapped.add] fn=0x55a3c177fb77 name=mod_evhost_set_defaults img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a008 VAL=0x55a3c177fb77 init_fn=mod_evhost_plugin_init fn=mod_evhost_set_defaults img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_evhost.c:159
+[mapped.add] fn=0x55a3c1780281 name=mod_evhost_uri_handler img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d8979f88 VAL=0x55a3c1780281 init_fn=mod_evhost_plugin_init fn=mod_evhost_uri_handler img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_evhost.c:322
+[mapped.add] fn=0x55a3c177f5bd name=mod_evhost_free img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a018 VAL=0x55a3c177f5bd init_fn=mod_evhost_plugin_init fn=mod_evhost_free img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_evhost.c:52
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x55a3c17819f7[mapped.add] fn=0x55a3c17819f7 name=mod_fastcgi_plugin_init img=/usr/local/sbin/lighttpd
+ fn=mod_fastcgi_plugin_init img=/usr/local/sbin/lighttpd
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x55a3c17819f7 callee_fn=mod_fastcgi_plugin_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897a040 arg1_rsi=0x0 arg2_rdx=0x55a3c17819f7 arg3_rcx=0x55a3d897a030 arg4_r8=0x7fc298068460 arg5_r9=0x55a3d897a040
+[plugin.init.enter] init=0x55a3c17819f7 fn=mod_fastcgi_plugin_init img=/usr/local/sbin/lighttpd p=0x55a3d897a040
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d897a0f8 VAL=0x10450 init_fn=mod_fastcgi_plugin_init fn= img=
+[mapped.add] fn=0x55a3c17b8175 name=? img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a0f0 VAL=0x55a3c17b8175 init_fn=mod_fastcgi_plugin_init fn= img=/usr/local/sbin/lighttpd
+[mapped.add] fn=0x55a3c1795577 name=gw_init img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a0c8 VAL=0x55a3c1795577 init_fn=mod_fastcgi_plugin_init fn=gw_init img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/gw_backend.c:1166
+[mapped.add] fn=0x55a3c1795753 name=gw_free img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a0e8 VAL=0x55a3c1795753 init_fn=mod_fastcgi_plugin_init fn=gw_free img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/gw_backend.c:1207
+[mapped.add] fn=0x55a3c17806e5 name=mod_fastcgi_set_defaults img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a0d8 VAL=0x55a3c17806e5 init_fn=mod_fastcgi_plugin_init fn=mod_fastcgi_set_defaults img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_fastcgi.c:70
+[mapped.add] fn=0x55a3c1797477 name=gw_handle_request_reset img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a090 VAL=0x55a3c1797477 init_fn=mod_fastcgi_plugin_init fn=gw_handle_request_reset img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/gw_backend.c:1903
+[mapped.add] fn=0x55a3c178199b name=fcgi_check_extension_1 img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a050 VAL=0x55a3c178199b init_fn=mod_fastcgi_plugin_init fn=fcgi_check_extension_1 img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_fastcgi.c:529
+[mapped.add] fn=0x55a3c17819c9 name=fcgi_check_extension_2 img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a078 VAL=0x55a3c17819c9 init_fn=mod_fastcgi_plugin_init fn=fcgi_check_extension_2 img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_fastcgi.c:534
+[mapped.add] fn=0x55a3c1798256 name=gw_handle_subrequest img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a080 VAL=0x55a3c1798256 init_fn=mod_fastcgi_plugin_init fn=gw_handle_subrequest img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/gw_backend.c:2237
+[mapped.add] fn=0x55a3c1799dec name=gw_handle_trigger img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a0b0 VAL=0x55a3c1799dec init_fn=mod_fastcgi_plugin_init fn=gw_handle_trigger img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/gw_backend.c:2983
+[mapped.add] fn=0x55a3c1799f86 name=gw_handle_waitpid_cb img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a0c0 VAL=0x55a3c1799f86 init_fn=mod_fastcgi_plugin_init fn=gw_handle_waitpid_cb img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/gw_backend.c:3022
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x55a3c17826f0[mapped.add] fn=0x55a3c17826f0 name=mod_scgi_plugin_init img=/usr/local/sbin/lighttpd
+ fn=mod_scgi_plugin_init img=/usr/local/sbin/lighttpd
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x55a3c17826f0 callee_fn=mod_scgi_plugin_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897a110 arg1_rsi=0x0 arg2_rdx=0x55a3c17826f0 arg3_rcx=0x55a3d897a100 arg4_r8=0x74 arg5_r9=0x55a3d897a110
+[plugin.init.enter] init=0x55a3c17826f0 fn=mod_scgi_plugin_init img=/usr/local/sbin/lighttpd p=0x55a3d897a110
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d897a1c8 VAL=0x10450 init_fn=mod_scgi_plugin_init fn= img=
+[mapped.add] fn=0x55a3c17b81e5 name=? img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a1c0 VAL=0x55a3c17b81e5 init_fn=mod_scgi_plugin_init fn= img=/usr/local/sbin/lighttpd
+[mapped.add] fn=0x55a3c1795577 name=gw_init img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a198 VAL=0x55a3c1795577 init_fn=mod_scgi_plugin_init fn=gw_init img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/gw_backend.c:1166
+[mapped.add] fn=0x55a3c1795753 name=gw_free img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a1b8 VAL=0x55a3c1795753 init_fn=mod_scgi_plugin_init fn=gw_free img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/gw_backend.c:1207
+[mapped.add] fn=0x55a3c1781cf4 name=mod_scgi_set_defaults img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a1a8 VAL=0x55a3c1781cf4 init_fn=mod_scgi_plugin_init fn=mod_scgi_set_defaults img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_scgi.c:63
+[mapped.add] fn=0x55a3c1797477 name=gw_handle_request_reset img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a160 VAL=0x55a3c1797477 init_fn=mod_scgi_plugin_init fn=gw_handle_request_reset img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/gw_backend.c:1903
+[mapped.add] fn=0x55a3c1782694 name=scgi_check_extension_1 img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a120 VAL=0x55a3c1782694 init_fn=mod_scgi_plugin_init fn=scgi_check_extension_1 img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_scgi.c:274
+[mapped.add] fn=0x55a3c17826c2 name=scgi_check_extension_2 img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a148 VAL=0x55a3c17826c2 init_fn=mod_scgi_plugin_init fn=scgi_check_extension_2 img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_scgi.c:279
+[mapped.add] fn=0x55a3c1798256 name=gw_handle_subrequest img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a150 VAL=0x55a3c1798256 init_fn=mod_scgi_plugin_init fn=gw_handle_subrequest img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/gw_backend.c:2237
+[mapped.add] fn=0x55a3c1799dec name=gw_handle_trigger img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a180 VAL=0x55a3c1799dec init_fn=mod_scgi_plugin_init fn=gw_handle_trigger img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/gw_backend.c:2983
+[mapped.add] fn=0x55a3c1799f86 name=gw_handle_waitpid_cb img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897a190 VAL=0x55a3c1799f86 init_fn=mod_scgi_plugin_init fn=gw_handle_waitpid_cb img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/gw_backend.c:3022
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x0
+[IMG_LOAD] /usr/local/lib/mod_dirlisting.so
+[plugin.init.sym] fn=mod_dirlisting_plugin_init addr=0x7fc296042bd6 img=/usr/local/lib/mod_dirlisting.so
+[dlopen.after] path= flags=0x55a3d8974010 handle=0x55a3d897a1e0
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x7fc296042bd6[mapped.add] fn=0x7fc296042bd6 name=mod_dirlisting_plugin_init img=/usr/local/lib/mod_dirlisting.so
+ fn=mod_dirlisting_plugin_init img=/usr/local/lib/mod_dirlisting.so
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x7fc296042bd6 callee_fn=mod_dirlisting_plugin_init callee_img=/usr/local/lib/mod_dirlisting.so arg0_rdi=0x55a3d897b0e0 arg1_rsi=0x0 arg2_rdx=0x7fc296042bd6 arg3_rcx=0x55a3d897b0d0 arg4_r8=0x36 arg5_r9=0x55a3d897b0e0
+[plugin.init.enter] init=0x7fc296042bd6 fn=mod_dirlisting_plugin_init img=/usr/local/lib/mod_dirlisting.so p=0x55a3d897b0e0
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d897b198 VAL=0x10450 init_fn=mod_dirlisting_plugin_init fn= img=
+[mapped.add] fn=0x7fc296044ed6 name=? img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x55a3d897b190 VAL=0x7fc296044ed6 init_fn=mod_dirlisting_plugin_init fn= img=/usr/local/lib/mod_dirlisting.so
+[mapped.add] fn=0x7fc29603f1d2 name=mod_dirlisting_init img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x55a3d897b168 VAL=0x7fc29603f1d2 init_fn=mod_dirlisting_plugin_init fn=mod_dirlisting_init img=/usr/local/lib/mod_dirlisting.so src=/home/bhsus/lighttpd1.4/src/mod_dirlisting.c:286
+[mapped.add] fn=0x7fc2960416fa name=mod_dirlisting_subrequest_start img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x55a3d897b118 VAL=0x7fc2960416fa init_fn=mod_dirlisting_plugin_init fn=mod_dirlisting_subrequest_start img=/usr/local/lib/mod_dirlisting.so src=/home/bhsus/lighttpd1.4/src/mod_dirlisting.c:1475
+[mapped.add] fn=0x7fc296041b32 name=mod_dirlisting_subrequest img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x55a3d897b120 VAL=0x7fc296041b32 init_fn=mod_dirlisting_plugin_init fn=mod_dirlisting_subrequest img=/usr/local/lib/mod_dirlisting.so src=/home/bhsus/lighttpd1.4/src/mod_dirlisting.c:1624
+[mapped.add] fn=0x7fc296041d21 name=mod_dirlisting_reset img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x55a3d897b130 VAL=0x7fc296041d21 init_fn=mod_dirlisting_plugin_init fn=mod_dirlisting_reset img=/usr/local/lib/mod_dirlisting.so src=/home/bhsus/lighttpd1.4/src/mod_dirlisting.c:1670
+[mapped.add] fn=0x7fc29603f574 name=mod_dirlisting_set_defaults img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x55a3d897b178 VAL=0x7fc29603f574 init_fn=mod_dirlisting_plugin_init fn=mod_dirlisting_set_defaults img=/usr/local/lib/mod_dirlisting.so src=/home/bhsus/lighttpd1.4/src/mod_dirlisting.c:385
+[mapped.add] fn=0x7fc29603f1eb name=mod_dirlisting_free img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x55a3d897b188 VAL=0x7fc29603f1eb init_fn=mod_dirlisting_plugin_init fn=mod_dirlisting_free img=/usr/local/lib/mod_dirlisting.so src=/home/bhsus/lighttpd1.4/src/mod_dirlisting.c:290
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x55a3c177d3a0[mapped.add] fn=0x55a3c177d3a0 name=mod_staticfile_plugin_init img=/usr/local/sbin/lighttpd
+ fn=mod_staticfile_plugin_init img=/usr/local/sbin/lighttpd
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177d3a0 callee_fn=mod_staticfile_plugin_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897b1b0 arg1_rsi=0x0 arg2_rdx=0x55a3c177d3a0 arg3_rcx=0x55a3d897b1a0 arg4_r8=0x7fc298068460 arg5_r9=0x55a3d897b1b0
+[plugin.init.enter] init=0x55a3c177d3a0 fn=mod_staticfile_plugin_init img=/usr/local/sbin/lighttpd p=0x55a3d897b1b0
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d897b268 VAL=0x10450 init_fn=mod_staticfile_plugin_init fn= img=
+[mapped.add] fn=0x55a3c17b7ca6 name=? img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897b260 VAL=0x55a3c17b7ca6 init_fn=mod_staticfile_plugin_init fn= img=/usr/local/sbin/lighttpd
+[mapped.add] fn=0x55a3c177cf81 name=mod_staticfile_init img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897b238 VAL=0x55a3c177cf81 init_fn=mod_staticfile_plugin_init fn=mod_staticfile_init img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_staticfile.c:25
+[mapped.add] fn=0x55a3c177d331 name=mod_staticfile_subrequest img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897b1e8 VAL=0x55a3c177d331 init_fn=mod_staticfile_plugin_init fn=mod_staticfile_subrequest img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_staticfile.c:128
+[mapped.add] fn=0x55a3c177d0f2 name=mod_staticfile_set_defaults img=/usr/local/sbin/lighttpd
+[plugin.map.write] EA=0x55a3d897b248 VAL=0x55a3c177d0f2 init_fn=mod_staticfile_plugin_init fn=mod_staticfile_set_defaults img=/usr/local/sbin/lighttpd src=/home/bhsus/lighttpd1.4/src/mod_staticfile.c:61
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x0
+[IMG_LOAD] /usr/local/lib/mod_deflate.so
+[plugin.init.sym] fn=mod_deflate_plugin_init addr=0x7fc295c6c71c img=/usr/local/lib/mod_deflate.so
+[IMG_LOAD] /lib/x86_64-linux-gnu/libz.so.1
+[dlopen.after] path= flags=0x55a3d8974010 handle=0x55a3d897b280
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x7fc295c6c71c[mapped.add] fn=0x7fc295c6c71c name=mod_deflate_plugin_init img=/usr/local/lib/mod_deflate.so
+ fn=mod_deflate_plugin_init img=/usr/local/lib/mod_deflate.so
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x7fc295c6c71c callee_fn=mod_deflate_plugin_init callee_img=/usr/local/lib/mod_deflate.so arg0_rdi=0x55a3d897c840 arg1_rsi=0x0 arg2_rdx=0x7fc295c6c71c arg3_rcx=0x55a3d897c830 arg4_r8=0x63 arg5_r9=0x55a3d897c840
+[plugin.init.enter] init=0x7fc295c6c71c fn=mod_deflate_plugin_init img=/usr/local/lib/mod_deflate.so p=0x55a3d897c840
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d897c8f8 VAL=0x10450 init_fn=mod_deflate_plugin_init fn= img=
+[mapped.add] fn=0x7fc295c6d124 name=? img=/usr/local/lib/mod_deflate.so
+[plugin.map.write] EA=0x55a3d897c8f0 VAL=0x7fc295c6d124 init_fn=mod_deflate_plugin_init fn= img=/usr/local/lib/mod_deflate.so
+[mapped.add] fn=0x7fc295c69a49 name=mod_deflate_init img=/usr/local/lib/mod_deflate.so
+[plugin.map.write] EA=0x55a3d897c8c8 VAL=0x7fc295c69a49 init_fn=mod_deflate_plugin_init fn=mod_deflate_init img=/usr/local/lib/mod_deflate.so src=/home/bhsus/lighttpd1.4/src/mod_deflate.c:266
+[mapped.add] fn=0x7fc295c69a85 name=mod_deflate_free img=/usr/local/lib/mod_deflate.so
+[plugin.map.write] EA=0x55a3d897c8e8 VAL=0x7fc295c69a85 init_fn=mod_deflate_plugin_init fn=mod_deflate_free img=/usr/local/lib/mod_deflate.so src=/home/bhsus/lighttpd1.4/src/mod_deflate.c:276
+[mapped.add] fn=0x7fc295c6a4c3 name=mod_deflate_set_defaults img=/usr/local/lib/mod_deflate.so
+[plugin.map.write] EA=0x55a3d897c8d8 VAL=0x7fc295c6a4c3 init_fn=mod_deflate_plugin_init fn=mod_deflate_set_defaults img=/usr/local/lib/mod_deflate.so src=/home/bhsus/lighttpd1.4/src/mod_deflate.c:678
+[mapped.add] fn=0x7fc295c6c6a3 name=mod_deflate_cleanup img=/usr/local/lib/mod_deflate.so
+[plugin.map.write] EA=0x55a3d897c890 VAL=0x7fc295c6c6a3 init_fn=mod_deflate_plugin_init fn=mod_deflate_cleanup img=/usr/local/lib/mod_deflate.so src=/home/bhsus/lighttpd1.4/src/mod_deflate.c:2212
+[mapped.add] fn=0x7fc295c6bc41 name=mod_deflate_handle_response_start img=/usr/local/lib/mod_deflate.so
+[plugin.map.write] EA=0x55a3d897c888 VAL=0x7fc295c6bc41 init_fn=mod_deflate_plugin_init fn=mod_deflate_handle_response_start img=/usr/local/lib/mod_deflate.so src=/home/bhsus/lighttpd1.4/src/mod_deflate.c:1908
+[plugin.init.leave]
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x0
+[IMG_LOAD] /usr/local/lib/mod_h2.so
+[plugin.init.sym] fn=mod_h2_plugin_init addr=0x7fc295b02407 img=/usr/local/lib/mod_h2.so
+[dlopen.after] path= flags=0x55a3d8974010 handle=0x55a3d897c940
+[dlsym.after] sym=<null> handle=0x7fc2abfa9a48 rtn=0x7fc295b02407[mapped.add] fn=0x7fc295b02407 name=mod_h2_plugin_init img=/usr/local/lib/mod_h2.so
+ fn=mod_h2_plugin_init img=/usr/local/lib/mod_h2.so
+[mapped.indirect.call] caller_ip=0x55a3c17aabf0 caller_fn=plugins_load caller_img=/usr/local/sbin/lighttpd callee=0x7fc295b02407 callee_fn=mod_h2_plugin_init callee_img=/usr/local/lib/mod_h2.so arg0_rdi=0x55a3d897cef0 arg1_rsi=0x0 arg2_rdx=0x7fc295b02407 arg3_rcx=0x55a3d897cee0 arg4_r8=0x37 arg5_r9=0x55a3d897cef0
+[plugin.init.enter] init=0x7fc295b02407 fn=mod_h2_plugin_init img=/usr/local/lib/mod_h2.so p=0x55a3d897cef0
+[mapped.add] fn=0x10450 name=? img=?
+[plugin.map.write] EA=0x55a3d897cfa8 VAL=0x10450 init_fn=mod_h2_plugin_init fn= img=
+[mapped.add] fn=0x7fc295b06bcb name=? img=/usr/local/lib/mod_h2.so
+[plugin.map.write] EA=0x55a3d897cfa0 VAL=0x7fc295b06bcb init_fn=mod_h2_plugin_init fn= img=/usr/local/lib/mod_h2.so
+[mapped.add] fn=0x7fc295b02328 name=mod_h2_init img=/usr/local/lib/mod_h2.so
+[plugin.map.write] EA=0x55a3d897cf78 VAL=0x7fc295b02328 init_fn=mod_h2_plugin_init fn=mod_h2_init img=/usr/local/lib/mod_h2.so src=/home/bhsus/lighttpd1.4/src/h2.c:3755
+[plugin.init.leave]
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177a3da callee_fn=mod_rewrite_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x7ffc84afdce0 arg1_rsi=0x0 arg2_rdx=0x0 arg3_rcx=0xf arg4_r8=0x37 arg5_r9=0x55a3d897cef0
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177b2ea callee_fn=mod_redirect_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x0 arg1_rsi=0x40 arg2_rdx=0x8 arg3_rcx=0x55a3d897cfb0 arg4_r8=0x37 arg5_r9=0x55a3d897cfc0
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177bb9a callee_fn=mod_access_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x0 arg1_rsi=0x40 arg2_rdx=0x10 arg3_rcx=0x55a3d897cff0 arg4_r8=0x37 arg5_r9=0x55a3d897d000
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177c118 callee_fn=mod_alias_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x0 arg1_rsi=0x40 arg2_rdx=0x18 arg3_rcx=0x55a3d897d030 arg4_r8=0x37 arg5_r9=0x55a3d897d040
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177c994 callee_fn=mod_indexfile_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x0 arg1_rsi=0x30 arg2_rdx=0x20 arg3_rcx=0x55a3d897d070 arg4_r8=0x37 arg5_r9=0x55a3d897d080
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177d4a8 callee_fn=mod_setenv_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x0 arg1_rsi=0x30 arg2_rdx=0x28 arg3_rcx=0x55a3d897d0a0 arg4_r8=0x37 arg5_r9=0x55a3d897d0b0
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177e0f1 callee_fn=mod_expire_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897d158 arg1_rsi=0x0 arg2_rdx=0x30 arg3_rcx=0x55a3d897d0d0 arg4_r8=0x37 arg5_r9=0x55a3d897d0e0
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177eca5 callee_fn=mod_simple_vhost_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x0 arg1_rsi=0x50 arg2_rdx=0x38 arg3_rcx=0x55a3d897d150 arg4_r8=0x37 arg5_r9=0x55a3d897d160
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177f535 callee_fn=mod_evhost_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897d218 arg1_rsi=0x0 arg2_rdx=0x40 arg3_rcx=0x55a3d897d1a0 arg4_r8=0x37 arg5_r9=0x55a3d897d1b0
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1795577 callee_fn=gw_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x0 arg1_rsi=0x50 arg2_rdx=0x48 arg3_rcx=0x55a3d897d210 arg4_r8=0x37 arg5_r9=0x55a3d897d220
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1795577 callee_fn=gw_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897d278 arg1_rsi=0x0 arg2_rdx=0x50 arg3_rcx=0x55a3d897d260 arg4_r8=0x37 arg5_r9=0x55a3d897d270
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x7fc29603f1d2 callee_fn=mod_dirlisting_init callee_img=/usr/local/lib/mod_dirlisting.so arg0_rdi=0x55a3d897d308 arg1_rsi=0x0 arg2_rdx=0x58 arg3_rcx=0x55a3d897d2f0 arg4_r8=0x37 arg5_r9=0x55a3d897d300
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177cf81 callee_fn=mod_staticfile_init callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897d3d8 arg1_rsi=0x0 arg2_rdx=0x60 arg3_rcx=0x55a3d897d380 arg4_r8=0x37 arg5_r9=0x55a3d897d390
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x7fc295c69a49 callee_fn=mod_deflate_init callee_img=/usr/local/lib/mod_deflate.so arg0_rdi=0x0 arg1_rsi=0x40 arg2_rdx=0x68 arg3_rcx=0x55a3d897d450 arg4_r8=0x37 arg5_r9=0x55a3d897d460
+[mapped.indirect.call] caller_ip=0x55a3c17ab3ce caller_fn=plugins_call_init caller_img=/usr/local/sbin/lighttpd callee=0x7fc295b02328 callee_fn=mod_h2_init callee_img=/usr/local/lib/mod_h2.so arg0_rdi=0x0 arg1_rsi=0x21000 arg2_rdx=0x70 arg3_rcx=0x7fc297fb5a27 arg4_r8=0x7fc29598c010 arg5_r9=0x7fc29598c010
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177a859 callee_fn=mod_rewrite_set_defaults callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897cfc0 arg2_rdx=0x55a3d897cfc0 arg3_rcx=0x55a3c177a859 arg4_r8=0x0 arg5_r9=0x7ffc84afdac0
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177b6e1 callee_fn=mod_redirect_set_defaults callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d000 arg2_rdx=0x55a3d897d000 arg3_rcx=0x55a3c177b6e1 arg4_r8=0x0 arg5_r9=0x55a3d89763c0
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177bce5 callee_fn=mod_access_set_defaults callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d040 arg2_rdx=0x55a3d897d040 arg3_rcx=0x55a3c177bce5 arg4_r8=0x0 arg5_r9=0x55a3d8976d70
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177c3d5 callee_fn=mod_alias_set_defaults callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d080 arg2_rdx=0x55a3d897d080 arg3_rcx=0x55a3c177c3d5 arg4_r8=0x55a3d8974010 arg5_r9=0x55a3d8977380
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177cac1 callee_fn=mod_indexfile_set_defaults callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d0b0 arg2_rdx=0x55a3d897d0b0 arg3_rcx=0x55a3c177cac1 arg4_r8=0x55a3d8974010 arg5_r9=0x55a3d897db30
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177d8db callee_fn=mod_setenv_set_defaults callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d0e0 arg2_rdx=0x55a3d897d0e0 arg3_rcx=0x55a3c177d8db arg4_r8=0x55a3d897dbb0 arg5_r9=0x55a3d897db90
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177e462 callee_fn=mod_expire_set_defaults callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d160 arg2_rdx=0x55a3d897d160 arg3_rcx=0x55a3c177e462 arg4_r8=0x55a3d897dbb0 arg5_r9=0x55a3d897dbe0
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177ee65 callee_fn=mod_simple_vhost_set_defaults callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d1b0 arg2_rdx=0x55a3d897d1b0 arg3_rcx=0x55a3c177ee65 arg4_r8=0x55a3d897dbb0 arg5_r9=0x55a3d897dc00
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177fb77 callee_fn=mod_evhost_set_defaults callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d220 arg2_rdx=0x55a3d897d220 arg3_rcx=0x55a3c177fb77 arg4_r8=0x55a3d897dbb0 arg5_r9=0x55a3d897dc20
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x55a3c17806e5 callee_fn=mod_fastcgi_set_defaults callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d270 arg2_rdx=0x55a3d897d270 arg3_rcx=0x55a3c17806e5 arg4_r8=0x55a3d897dbb0 arg5_r9=0x55a3d897dc40
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1781cf4 callee_fn=mod_scgi_set_defaults callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d300 arg2_rdx=0x55a3d897d300 arg3_rcx=0x55a3c1781cf4 arg4_r8=0x55a3d897dbb0 arg5_r9=0x55a3d897dc60
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x7fc29603f574 callee_fn=mod_dirlisting_set_defaults callee_img=/usr/local/lib/mod_dirlisting.so arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d390 arg2_rdx=0x55a3d897d390 arg3_rcx=0x7fc29603f574 arg4_r8=0x55a3d897dbb0 arg5_r9=0x55a3d897dc80
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177d0f2 callee_fn=mod_staticfile_set_defaults callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d460 arg2_rdx=0x55a3d897d460 arg3_rcx=0x55a3c177d0f2 arg4_r8=0x55a3d897dd50 arg5_r9=0x55a3d897dd30
+[mapped.indirect.call] caller_ip=0x55a3c17aae4e caller_fn=plugins_call_fn_srv_data caller_img=/usr/local/sbin/lighttpd callee=0x7fc295c6a4c3 callee_fn=mod_deflate_set_defaults callee_img=/usr/local/lib/mod_deflate.so arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d4a0 arg2_rdx=0x55a3d897d4a0 arg3_rcx=0x7fc295c6a4c3 arg4_r8=0x55a3d897dd50 arg5_r9=0x55a3d897dd80
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d270 arg2_rdx=0x55a3d897d270 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d300 arg2_rdx=0x55a3d897d300 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d270 arg2_rdx=0x55a3d897d270 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d300 arg2_rdx=0x55a3d897d300 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d270 arg2_rdx=0x55a3d897d270 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d300 arg2_rdx=0x55a3d897d300 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d270 arg2_rdx=0x55a3d897d270 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d300 arg2_rdx=0x55a3d897d300 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d270 arg2_rdx=0x55a3d897d270 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d300 arg2_rdx=0x55a3d897d300 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d270 arg2_rdx=0x55a3d897d270 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d300 arg2_rdx=0x55a3d897d300 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d270 arg2_rdx=0x55a3d897d270 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d300 arg2_rdx=0x55a3d897d300 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d270 arg2_rdx=0x55a3d897d270 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d300 arg2_rdx=0x55a3d897d300 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d270 arg2_rdx=0x55a3d897d270 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17aaec1 caller_fn=plugins_call_fn_srv_data_all caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1799dec callee_fn=gw_handle_trigger callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d8974540 arg1_rsi=0x55a3d897d300 arg2_rdx=0x55a3d897d300 arg3_rcx=0x55a3c1799dec arg4_r8=0x55a3c176eb6e arg5_r9=0x55a3d897db50
+[mapped.indirect.call] caller_ip=0x55a3c17ab201 caller_fn=plugins_call_cleanup caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177a3f3 callee_fn=mod_rewrite_free callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897cfc0 arg1_rsi=0x55a3d8974010 arg2_rdx=0x55a3c177a3f3 arg3_rcx=0x1 arg4_r8=0x55a3d897da10 arg5_r9=0x7ffc84afdc00
+[mapped.indirect.call] caller_ip=0x55a3c17ab201 caller_fn=plugins_call_cleanup caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177b303 callee_fn=mod_redirect_free callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897d000 arg1_rsi=0x55a3d8974010 arg2_rdx=0x55a3c177b303 arg3_rcx=0x55a682aa523c arg4_r8=0x55a3d897cfc0 arg5_r9=0x7ffc84afdc00
+[mapped.indirect.call] caller_ip=0x55a3c17ab201 caller_fn=plugins_call_cleanup caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177e10a callee_fn=mod_expire_free callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897d160 arg1_rsi=0x55a3d8974010 arg2_rdx=0x55a3c177e10a arg3_rcx=0x6 arg4_r8=0x55a3d897d0e0 arg5_r9=0x7ffc84afdc00
+[mapped.indirect.call] caller_ip=0x55a3c17ab201 caller_fn=plugins_call_cleanup caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177ecbe callee_fn=mod_simple_vhost_free callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897d1b0 arg1_rsi=0x55a3d8974010 arg2_rdx=0x55a3c177ecbe arg3_rcx=0x55a682aa52fd arg4_r8=0x55a3d897d160 arg5_r9=0x7ffc84afdc00
+[mapped.indirect.call] caller_ip=0x55a3c17ab201 caller_fn=plugins_call_cleanup caller_img=/usr/local/sbin/lighttpd callee=0x55a3c177f5bd callee_fn=mod_evhost_free callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897d220 arg1_rsi=0x55a3d8974010 arg2_rdx=0x55a3c177f5bd arg3_rcx=0x5 arg4_r8=0x55a3d897d1b0 arg5_r9=0x7ffc84afdc00
+[mapped.indirect.call] caller_ip=0x55a3c17ab201 caller_fn=plugins_call_cleanup caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1795753 callee_fn=gw_free callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897d270 arg1_rsi=0x55a3d8974010 arg2_rdx=0x55a3c1795753 arg3_rcx=0x55a682aa582d arg4_r8=0x55a3d897d220 arg5_r9=0x7ffc84afdc00
+[mapped.indirect.call] caller_ip=0x55a3c17ab201 caller_fn=plugins_call_cleanup caller_img=/usr/local/sbin/lighttpd callee=0x55a3c1795753 callee_fn=gw_free callee_img=/usr/local/sbin/lighttpd arg0_rdi=0x55a3d897d300 arg1_rsi=0x55a3d8974010 arg2_rdx=0x55a3c1795753 arg3_rcx=0x7 arg4_r8=0x55a3d897d270 arg5_r9=0x7ffc84afdc00
+[mapped.indirect.call] caller_ip=0x55a3c17ab201 caller_fn=plugins_call_cleanup caller_img=/usr/local/sbin/lighttpd callee=0x7fc29603f1eb callee_fn=mod_dirlisting_free callee_img=/usr/local/lib/mod_dirlisting.so arg0_rdi=0x55a3d897d390 arg1_rsi=0x55a3d8974010 arg2_rdx=0x7fc29603f1eb arg3_rcx=0x7 arg4_r8=0x55a3d897d300 arg5_r9=0x7ffc84afdc00
+[mapped.indirect.call] caller_ip=0x55a3c17ab201 caller_fn=plugins_call_cleanup caller_img=/usr/local/sbin/lighttpd callee=0x7fc295c69a85 callee_fn=mod_deflate_free callee_img=/usr/local/lib/mod_deflate.so arg0_rdi=0x55a3d897d4a0 arg1_rsi=0x55a3d8974010 arg2_rdx=0x7fc295c69a85 arg3_rcx=0x55a682aa594d arg4_r8=0x55a3d897d460 arg5_r9=0x7ffc84afdc00
+[callsite.write] wrote 5 callers -> callsite_list.txt
+[fini]

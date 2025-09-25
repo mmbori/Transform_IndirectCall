@@ -1,0 +1,806 @@
+[start] output=lighttpd_g_exec_log.txt
+[IMG_LOAD] /home/bhsus/lighttpd1.4_g/src/lighttpd (main)
+[sym.record] addr=0x555d4a63c1fd fn=mod_rewrite_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.sym] fn=mod_rewrite_plugin_init addr=0x555d4a63c1fd img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63cb21 fn=mod_redirect_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.sym] fn=mod_redirect_plugin_init addr=0x555d4a63cb21 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63cfd5 fn=mod_access_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.sym] fn=mod_access_plugin_init addr=0x555d4a63cfd5 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63d831 fn=mod_alias_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.sym] fn=mod_alias_plugin_init addr=0x555d4a63d831 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63df00 fn=mod_indexfile_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.sym] fn=mod_indexfile_plugin_init addr=0x555d4a63df00 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63e3a0 fn=mod_staticfile_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.sym] fn=mod_staticfile_plugin_init addr=0x555d4a63e3a0 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63f00e fn=mod_setenv_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.sym] fn=mod_setenv_plugin_init addr=0x555d4a63f00e img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63fb3e fn=mod_expire_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.sym] fn=mod_expire_plugin_init addr=0x555d4a63fb3e img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a640318 fn=mod_simple_vhost_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.sym] fn=mod_simple_vhost_plugin_init addr=0x555d4a640318 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a6413dc fn=mod_evhost_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.sym] fn=mod_evhost_plugin_init addr=0x555d4a6413dc img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a6429f7 fn=mod_fastcgi_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.sym] fn=mod_fastcgi_plugin_init addr=0x555d4a6429f7 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a6436f0 fn=mod_scgi_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.sym] fn=mod_scgi_plugin_init addr=0x555d4a6436f0 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.register] name=plugins_call_fn_srv_data addr=0x555d4a66bdcc size=145 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.register] name=plugins_call_fn_srv_data_all addr=0x555d4a66be5e size=122 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[IMG_LOAD] /lib64/ld-linux-x86-64.so.2
+[IMG_LOAD] [vdso]
+[IMG_LOAD] /lib/x86_64-linux-gnu/libpcre2-8.so.0
+[IMG_LOAD] /lib/x86_64-linux-gnu/libc.so.6
+[hook] dlsym in /lib/x86_64-linux-gnu/libc.so.6
+[hook] dlopen in /lib/x86_64-linux-gnu/libc.so.6
+[dlsym.before] handle=0x0 sym=mallopt
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x7f808c63df00[sym.record] addr=0x7f808c63df00 fn=mallopt img=/lib/x86_64-linux-gnu/libc.so.6
+ fn=mallopt img=/lib/x86_64-linux-gnu/libc.so.6
+[dlsym.before] handle=0x0 sym=malloc_trim
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x7f808c63d870[sym.record] addr=0x7f808c63d870 fn=malloc_trim img=/lib/x86_64-linux-gnu/libc.so.6
+ fn=malloc_trim img=/lib/x86_64-linux-gnu/libc.so.6
+[dlsym.before] handle=0x0 sym=mod_rewrite_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x555d4a63c1fd fn=mod_rewrite_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.enter] init=0x555d4a63c1fd fn=mod_rewrite_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd p=0x555d738008f0
+[plugin.map.write] EA=0x555d738009a8 VAL=0x10450 init_fn=mod_rewrite_plugin_init fn= img=
+[plugin.map.write] EA=0x555d738009a0 VAL=0x555d4a678943 init_fn=mod_rewrite_plugin_init fn= img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63b3da fn=mod_rewrite_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800978 VAL=0x555d4a63b3da init_fn=mod_rewrite_plugin_init fn=mod_rewrite_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_rewrite.c:28
+[sym.record] addr=0x555d4a63c18e fn=mod_rewrite_uri_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d738008f8 VAL=0x555d4a63c18e init_fn=mod_rewrite_plugin_init fn=mod_rewrite_uri_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_rewrite.c:345
+[sym.record] addr=0x555d4a63c0d1 fn=mod_rewrite_physical img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800910 VAL=0x555d4a63c0d1 init_fn=mod_rewrite_plugin_init fn=mod_rewrite_physical img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_rewrite.c:330
+[sym.record] addr=0x555d4a63b3f3 fn=mod_rewrite_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800998 VAL=0x555d4a63b3f3 init_fn=mod_rewrite_plugin_init fn=mod_rewrite_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_rewrite.c:32
+[sym.record] addr=0x555d4a63bd41 fn=mod_rewrite_con_reset img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800940 VAL=0x555d4a63bd41 init_fn=mod_rewrite_plugin_init fn=mod_rewrite_con_reset img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_rewrite.c:274
+[sym.record] addr=0x555d4a63b859 fn=mod_rewrite_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800988 VAL=0x555d4a63b859 init_fn=mod_rewrite_plugin_init fn=mod_rewrite_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_rewrite.c:135
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_redirect_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x555d4a63cb21 fn=mod_redirect_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.enter] init=0x555d4a63cb21 fn=mod_redirect_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd p=0x555d738009c0
+[plugin.map.write] EA=0x555d73800a78 VAL=0x10450 init_fn=mod_redirect_plugin_init fn= img=
+[plugin.map.write] EA=0x555d73800a70 VAL=0x555d4a678a43 init_fn=mod_redirect_plugin_init fn= img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63c2ea fn=mod_redirect_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800a48 VAL=0x555d4a63c2ea init_fn=mod_redirect_plugin_init fn=mod_redirect_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_redirect.c:27
+[sym.record] addr=0x555d4a63c897 fn=mod_redirect_uri_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d738009d0 VAL=0x555d4a63c897 init_fn=mod_redirect_plugin_init fn=mod_redirect_uri_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_redirect.c:160
+[sym.record] addr=0x555d4a63c6e1 fn=mod_redirect_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800a58 VAL=0x555d4a63c6e1 init_fn=mod_redirect_plugin_init fn=mod_redirect_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_redirect.c:112
+[sym.record] addr=0x555d4a63c303 fn=mod_redirect_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800a68 VAL=0x555d4a63c303 init_fn=mod_redirect_plugin_init fn=mod_redirect_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_redirect.c:31
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_access_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x555d4a63cfd5 fn=mod_access_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.enter] init=0x555d4a63cfd5 fn=mod_access_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd p=0x555d73800a90
+[plugin.map.write] EA=0x555d73800b48 VAL=0x10450 init_fn=mod_access_plugin_init fn= img=
+[plugin.map.write] EA=0x555d73800b40 VAL=0x555d4a678aee init_fn=mod_access_plugin_init fn= img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63cb9a fn=mod_access_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800b18 VAL=0x555d4a63cb9a init_fn=mod_access_plugin_init fn=mod_access_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_redirect.c:221
+[sym.record] addr=0x555d4a63cce5 fn=mod_access_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800b28 VAL=0x555d4a63cce5 init_fn=mod_access_plugin_init fn=mod_access_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_access.c:53
+[sym.record] addr=0x555d4a63cf2c fn=mod_access_uri_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800aa0 VAL=0x555d4a63cf2c init_fn=mod_access_plugin_init fn=mod_access_uri_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_access.c:125
+[plugin.map.write] EA=0x555d73800ac8 VAL=0x555d4a63cf2c init_fn=mod_access_plugin_init fn=mod_access_uri_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_access.c:125
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_alias_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x555d4a63d831 fn=mod_alias_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.enter] init=0x555d4a63d831 fn=mod_alias_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd p=0x555d73800b60
+[plugin.map.write] EA=0x555d73800c18 VAL=0x10450 init_fn=mod_alias_plugin_init fn= img=
+[plugin.map.write] EA=0x555d73800c10 VAL=0x555d4a678b65 init_fn=mod_alias_plugin_init fn= img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63d118 fn=mod_alias_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800be8 VAL=0x555d4a63d118 init_fn=mod_alias_plugin_init fn=mod_alias_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_alias.c:23
+[sym.record] addr=0x555d4a63d7d5 fn=mod_alias_physical_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800b80 VAL=0x555d4a63d7d5 init_fn=mod_alias_plugin_init fn=mod_alias_physical_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_alias.c:177
+[sym.record] addr=0x555d4a63d3d5 fn=mod_alias_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800bf8 VAL=0x555d4a63d3d5 init_fn=mod_alias_plugin_init fn=mod_alias_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_alias.c:80
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_indexfile_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x555d4a63df00 fn=mod_indexfile_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.enter] init=0x555d4a63df00 fn=mod_indexfile_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd p=0x555d73800c30
+[plugin.map.write] EA=0x555d73800ce8 VAL=0x10450 init_fn=mod_indexfile_plugin_init fn= img=
+[plugin.map.write] EA=0x555d73800ce0 VAL=0x555d4a678c0f init_fn=mod_indexfile_plugin_init fn= img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63d994 fn=mod_indexfile_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800cb8 VAL=0x555d4a63d994 init_fn=mod_indexfile_plugin_init fn=mod_indexfile_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_indexfile.c:24
+[sym.record] addr=0x555d4a63ddf4 fn=mod_indexfile_subrequest img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800c68 VAL=0x555d4a63ddf4 init_fn=mod_indexfile_plugin_init fn=mod_indexfile_subrequest img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_indexfile.c:142
+[sym.record] addr=0x555d4a63dac1 fn=mod_indexfile_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800cc8 VAL=0x555d4a63dac1 init_fn=mod_indexfile_plugin_init fn=mod_indexfile_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_indexfile.c:54
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_setenv_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x555d4a63f00e fn=mod_setenv_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.enter] init=0x555d4a63f00e fn=mod_setenv_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd p=0x555d73800d00
+[plugin.map.write] EA=0x555d73800db8 VAL=0x10450 init_fn=mod_setenv_plugin_init fn= img=
+[plugin.map.write] EA=0x555d73800db0 VAL=0x555d4a678db2 init_fn=mod_setenv_plugin_init fn= img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63e4a8 fn=mod_setenv_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800d88 VAL=0x555d4a63e4a8 init_fn=mod_setenv_plugin_init fn=mod_setenv_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_setenv.c:43
+[sym.record] addr=0x555d4a63e8db fn=mod_setenv_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800d98 VAL=0x555d4a63e8db init_fn=mod_setenv_plugin_init fn=mod_setenv_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_setenv.c:126
+[sym.record] addr=0x555d4a63ea4d fn=mod_setenv_uri_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800d10 VAL=0x555d4a63ea4d init_fn=mod_setenv_plugin_init fn=mod_setenv_uri_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_setenv.c:189
+[sym.record] addr=0x555d4a63ec68 fn=mod_setenv_handle_request_env img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800d28 VAL=0x555d4a63ec68 init_fn=mod_setenv_plugin_init fn=mod_setenv_handle_request_env img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_setenv.c:224
+[sym.record] addr=0x555d4a63edef fn=mod_setenv_handle_response_start img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800d48 VAL=0x555d4a63edef init_fn=mod_setenv_plugin_init fn=mod_setenv_handle_response_start img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_setenv.c:253
+[sym.record] addr=0x555d4a63efb2 fn=mod_setenv_handle_request_reset img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800d50 VAL=0x555d4a63efb2 init_fn=mod_setenv_plugin_init fn=mod_setenv_handle_request_reset img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_setenv.c:282
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_expire_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x555d4a63fb3e fn=mod_expire_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.enter] init=0x555d4a63fb3e fn=mod_expire_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd p=0x555d73800dd0
+[plugin.map.write] EA=0x555d73800e88 VAL=0x10450 init_fn=mod_expire_plugin_init fn= img=
+[plugin.map.write] EA=0x555d73800e80 VAL=0x555d4a678ef6 init_fn=mod_expire_plugin_init fn= img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63f0f1 fn=mod_expire_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800e58 VAL=0x555d4a63f0f1 init_fn=mod_expire_plugin_init fn=mod_expire_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_expire.c:34
+[sym.record] addr=0x555d4a63f10a fn=mod_expire_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800e78 VAL=0x555d4a63f10a init_fn=mod_expire_plugin_init fn=mod_expire_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_expire.c:38
+[sym.record] addr=0x555d4a63f462 fn=mod_expire_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800e68 VAL=0x555d4a63f462 init_fn=mod_expire_plugin_init fn=mod_expire_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_expire.c:127
+[sym.record] addr=0x555d4a63f9b8 fn=mod_expire_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800e18 VAL=0x555d4a63f9b8 init_fn=mod_expire_plugin_init fn=mod_expire_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_expire.c:266
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_simple_vhost_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x555d4a640318 fn=mod_simple_vhost_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.enter] init=0x555d4a640318 fn=mod_simple_vhost_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd p=0x555d73800ea0
+[plugin.map.write] EA=0x555d73800f58 VAL=0x10450 init_fn=mod_simple_vhost_plugin_init fn= img=
+[plugin.map.write] EA=0x555d73800f50 VAL=0x555d4a678f6f init_fn=mod_simple_vhost_plugin_init fn= img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63fca5 fn=mod_simple_vhost_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800f28 VAL=0x555d4a63fca5 init_fn=mod_simple_vhost_plugin_init fn=mod_simple_vhost_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_simple_vhost.c:28
+[sym.record] addr=0x555d4a63fe65 fn=mod_simple_vhost_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800f38 VAL=0x555d4a63fe65 init_fn=mod_simple_vhost_plugin_init fn=mod_simple_vhost_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_simple_vhost.c:72
+[sym.record] addr=0x555d4a6401d1 fn=mod_simple_vhost_docroot img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800eb8 VAL=0x555d4a6401d1 init_fn=mod_simple_vhost_plugin_init fn=mod_simple_vhost_docroot img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_simple_vhost.c:167
+[sym.record] addr=0x555d4a63fcbe fn=mod_simple_vhost_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800f48 VAL=0x555d4a63fcbe init_fn=mod_simple_vhost_plugin_init fn=mod_simple_vhost_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_simple_vhost.c:32
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_evhost_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x555d4a6413dc fn=mod_evhost_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.enter] init=0x555d4a6413dc fn=mod_evhost_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd p=0x555d73800f70
+[plugin.map.write] EA=0x555d73801028 VAL=0x10450 init_fn=mod_evhost_plugin_init fn= img=
+[plugin.map.write] EA=0x555d73801020 VAL=0x555d4a679023 init_fn=mod_evhost_plugin_init fn= img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a640535 fn=mod_evhost_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800ff8 VAL=0x555d4a640535 init_fn=mod_evhost_plugin_init fn=mod_evhost_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_evhost.c:41
+[sym.record] addr=0x555d4a640b77 fn=mod_evhost_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73801008 VAL=0x555d4a640b77 init_fn=mod_evhost_plugin_init fn=mod_evhost_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_evhost.c:159
+[sym.record] addr=0x555d4a641281 fn=mod_evhost_uri_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73800f88 VAL=0x555d4a641281 init_fn=mod_evhost_plugin_init fn=mod_evhost_uri_handler img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_evhost.c:322
+[sym.record] addr=0x555d4a6405bd fn=mod_evhost_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73801018 VAL=0x555d4a6405bd init_fn=mod_evhost_plugin_init fn=mod_evhost_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_evhost.c:52
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_fastcgi_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x555d4a6429f7 fn=mod_fastcgi_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.enter] init=0x555d4a6429f7 fn=mod_fastcgi_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd p=0x555d73801040
+[plugin.map.write] EA=0x555d738010f8 VAL=0x10450 init_fn=mod_fastcgi_plugin_init fn= img=
+[plugin.map.write] EA=0x555d738010f0 VAL=0x555d4a679175 init_fn=mod_fastcgi_plugin_init fn= img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a656577 fn=gw_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d738010c8 VAL=0x555d4a656577 init_fn=mod_fastcgi_plugin_init fn=gw_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/gw_backend.c:1166
+[sym.record] addr=0x555d4a656753 fn=gw_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d738010e8 VAL=0x555d4a656753 init_fn=mod_fastcgi_plugin_init fn=gw_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/gw_backend.c:1207
+[sym.record] addr=0x555d4a6416e5 fn=mod_fastcgi_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d738010d8 VAL=0x555d4a6416e5 init_fn=mod_fastcgi_plugin_init fn=mod_fastcgi_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_fastcgi.c:70
+[sym.record] addr=0x555d4a658477 fn=gw_handle_request_reset img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73801090 VAL=0x555d4a658477 init_fn=mod_fastcgi_plugin_init fn=gw_handle_request_reset img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/gw_backend.c:1903
+[sym.record] addr=0x555d4a64299b fn=fcgi_check_extension_1 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73801050 VAL=0x555d4a64299b init_fn=mod_fastcgi_plugin_init fn=fcgi_check_extension_1 img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_fastcgi.c:529
+[sym.record] addr=0x555d4a6429c9 fn=fcgi_check_extension_2 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73801078 VAL=0x555d4a6429c9 init_fn=mod_fastcgi_plugin_init fn=fcgi_check_extension_2 img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_fastcgi.c:534
+[sym.record] addr=0x555d4a659256 fn=gw_handle_subrequest img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73801080 VAL=0x555d4a659256 init_fn=mod_fastcgi_plugin_init fn=gw_handle_subrequest img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/gw_backend.c:2237
+[sym.record] addr=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d738010b0 VAL=0x555d4a65adec init_fn=mod_fastcgi_plugin_init fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/gw_backend.c:2983
+[sym.record] addr=0x555d4a65af86 fn=gw_handle_waitpid_cb img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d738010c0 VAL=0x555d4a65af86 init_fn=mod_fastcgi_plugin_init fn=gw_handle_waitpid_cb img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/gw_backend.c:3022
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_scgi_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x555d4a6436f0 fn=mod_scgi_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.enter] init=0x555d4a6436f0 fn=mod_scgi_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd p=0x555d73801110
+[plugin.map.write] EA=0x555d738011c8 VAL=0x10450 init_fn=mod_scgi_plugin_init fn= img=
+[plugin.map.write] EA=0x555d738011c0 VAL=0x555d4a6791e5 init_fn=mod_scgi_plugin_init fn= img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73801198 VAL=0x555d4a656577 init_fn=mod_scgi_plugin_init fn=gw_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/gw_backend.c:1166
+[plugin.map.write] EA=0x555d738011b8 VAL=0x555d4a656753 init_fn=mod_scgi_plugin_init fn=gw_free img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/gw_backend.c:1207
+[sym.record] addr=0x555d4a642cf4 fn=mod_scgi_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d738011a8 VAL=0x555d4a642cf4 init_fn=mod_scgi_plugin_init fn=mod_scgi_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_scgi.c:63
+[plugin.map.write] EA=0x555d73801160 VAL=0x555d4a658477 init_fn=mod_scgi_plugin_init fn=gw_handle_request_reset img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/gw_backend.c:1903
+[sym.record] addr=0x555d4a643694 fn=scgi_check_extension_1 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73801120 VAL=0x555d4a643694 init_fn=mod_scgi_plugin_init fn=scgi_check_extension_1 img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_scgi.c:274
+[sym.record] addr=0x555d4a6436c2 fn=scgi_check_extension_2 img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73801148 VAL=0x555d4a6436c2 init_fn=mod_scgi_plugin_init fn=scgi_check_extension_2 img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_scgi.c:279
+[plugin.map.write] EA=0x555d73801150 VAL=0x555d4a659256 init_fn=mod_scgi_plugin_init fn=gw_handle_subrequest img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/gw_backend.c:2237
+[plugin.map.write] EA=0x555d73801180 VAL=0x555d4a65adec init_fn=mod_scgi_plugin_init fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/gw_backend.c:2983
+[plugin.map.write] EA=0x555d73801190 VAL=0x555d4a65af86 init_fn=mod_scgi_plugin_init fn=gw_handle_waitpid_cb img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/gw_backend.c:3022
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_dirlisting_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x0
+[dlopen.before] path=/usr/local/lib/mod_dirlisting.so flags=0x102
+[IMG_LOAD] /usr/local/lib/mod_dirlisting.so
+[sym.record] addr=0x7f8089ef9bd6 fn=mod_dirlisting_plugin_init img=/usr/local/lib/mod_dirlisting.so
+[plugin.init.sym] fn=mod_dirlisting_plugin_init addr=0x7f8089ef9bd6 img=/usr/local/lib/mod_dirlisting.so
+[dlopen.after] path= flags=0x555d737fb010 handle=0x555d73801240
+[dlsym.before] handle=0x555d73801240 sym=mod_dirlisting_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x7f8089ef9bd6 fn=mod_dirlisting_plugin_init img=/usr/local/lib/mod_dirlisting.so
+[plugin.init.enter] init=0x7f8089ef9bd6 fn=mod_dirlisting_plugin_init img=/usr/local/lib/mod_dirlisting.so p=0x555d73802140
+[plugin.map.write] EA=0x555d738021f8 VAL=0x10450 init_fn=mod_dirlisting_plugin_init fn= img=
+[plugin.map.write] EA=0x555d738021f0 VAL=0x7f8089efbed6 init_fn=mod_dirlisting_plugin_init fn= img=/usr/local/lib/mod_dirlisting.so
+[sym.record] addr=0x7f8089ef61d2 fn=mod_dirlisting_init img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x555d738021c8 VAL=0x7f8089ef61d2 init_fn=mod_dirlisting_plugin_init fn=mod_dirlisting_init img=/usr/local/lib/mod_dirlisting.so src=/home/bhsus/lighttpd1.4_g_opt/src/mod_dirlisting.c:286
+[sym.record] addr=0x7f8089ef86fa fn=mod_dirlisting_subrequest_start img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x555d73802178 VAL=0x7f8089ef86fa init_fn=mod_dirlisting_plugin_init fn=mod_dirlisting_subrequest_start img=/usr/local/lib/mod_dirlisting.so src=/home/bhsus/lighttpd1.4_g_opt/src/mod_dirlisting.c:1475
+[sym.record] addr=0x7f8089ef8b32 fn=mod_dirlisting_subrequest img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x555d73802180 VAL=0x7f8089ef8b32 init_fn=mod_dirlisting_plugin_init fn=mod_dirlisting_subrequest img=/usr/local/lib/mod_dirlisting.so src=/home/bhsus/lighttpd1.4_g_opt/src/mod_dirlisting.c:1624
+[sym.record] addr=0x7f8089ef8d21 fn=mod_dirlisting_reset img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x555d73802190 VAL=0x7f8089ef8d21 init_fn=mod_dirlisting_plugin_init fn=mod_dirlisting_reset img=/usr/local/lib/mod_dirlisting.so src=/home/bhsus/lighttpd1.4_g_opt/src/mod_dirlisting.c:1670
+[sym.record] addr=0x7f8089ef6574 fn=mod_dirlisting_set_defaults img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x555d738021d8 VAL=0x7f8089ef6574 init_fn=mod_dirlisting_plugin_init fn=mod_dirlisting_set_defaults img=/usr/local/lib/mod_dirlisting.so src=/home/bhsus/lighttpd1.4_g_opt/src/mod_dirlisting.c:385
+[sym.record] addr=0x7f8089ef61eb fn=mod_dirlisting_free img=/usr/local/lib/mod_dirlisting.so
+[plugin.map.write] EA=0x555d738021e8 VAL=0x7f8089ef61eb init_fn=mod_dirlisting_plugin_init fn=mod_dirlisting_free img=/usr/local/lib/mod_dirlisting.so src=/home/bhsus/lighttpd1.4_g_opt/src/mod_dirlisting.c:290
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_staticfile_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x555d4a63e3a0 fn=mod_staticfile_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.init.enter] init=0x555d4a63e3a0 fn=mod_staticfile_plugin_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd p=0x555d73802210
+[plugin.map.write] EA=0x555d738022c8 VAL=0x10450 init_fn=mod_staticfile_plugin_init fn= img=
+[plugin.map.write] EA=0x555d738022c0 VAL=0x555d4a678ca6 init_fn=mod_staticfile_plugin_init fn= img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[sym.record] addr=0x555d4a63df81 fn=mod_staticfile_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73802298 VAL=0x555d4a63df81 init_fn=mod_staticfile_plugin_init fn=mod_staticfile_init img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_staticfile.c:25
+[sym.record] addr=0x555d4a63e331 fn=mod_staticfile_subrequest img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d73802248 VAL=0x555d4a63e331 init_fn=mod_staticfile_plugin_init fn=mod_staticfile_subrequest img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_staticfile.c:128
+[sym.record] addr=0x555d4a63e0f2 fn=mod_staticfile_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[plugin.map.write] EA=0x555d738022a8 VAL=0x555d4a63e0f2 init_fn=mod_staticfile_plugin_init fn=mod_staticfile_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd src=/home/bhsus/lighttpd1.4_g_opt/src/mod_staticfile.c:61
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_deflate_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x0
+[dlopen.before] path=/usr/local/lib/mod_deflate.so flags=0x102
+[IMG_LOAD] /usr/local/lib/mod_deflate.so
+[sym.record] addr=0x7f8089b1671c fn=mod_deflate_plugin_init img=/usr/local/lib/mod_deflate.so
+[plugin.init.sym] fn=mod_deflate_plugin_init addr=0x7f8089b1671c img=/usr/local/lib/mod_deflate.so
+[IMG_LOAD] /lib/x86_64-linux-gnu/libz.so.1
+[dlopen.after] path= flags=0x555d737fb010 handle=0x555d738022e0
+[dlsym.before] handle=0x555d738022e0 sym=mod_deflate_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x7f8089b1671c fn=mod_deflate_plugin_init img=/usr/local/lib/mod_deflate.so
+[plugin.init.enter] init=0x7f8089b1671c fn=mod_deflate_plugin_init img=/usr/local/lib/mod_deflate.so p=0x555d738038a0
+[plugin.map.write] EA=0x555d73803958 VAL=0x10450 init_fn=mod_deflate_plugin_init fn= img=
+[plugin.map.write] EA=0x555d73803950 VAL=0x7f8089b17124 init_fn=mod_deflate_plugin_init fn= img=/usr/local/lib/mod_deflate.so
+[sym.record] addr=0x7f8089b13a49 fn=mod_deflate_init img=/usr/local/lib/mod_deflate.so
+[plugin.map.write] EA=0x555d73803928 VAL=0x7f8089b13a49 init_fn=mod_deflate_plugin_init fn=mod_deflate_init img=/usr/local/lib/mod_deflate.so src=/home/bhsus/lighttpd1.4_g_opt/src/mod_deflate.c:266
+[sym.record] addr=0x7f8089b13a85 fn=mod_deflate_free img=/usr/local/lib/mod_deflate.so
+[plugin.map.write] EA=0x555d73803948 VAL=0x7f8089b13a85 init_fn=mod_deflate_plugin_init fn=mod_deflate_free img=/usr/local/lib/mod_deflate.so src=/home/bhsus/lighttpd1.4_g_opt/src/mod_deflate.c:276
+[sym.record] addr=0x7f8089b144c3 fn=mod_deflate_set_defaults img=/usr/local/lib/mod_deflate.so
+[plugin.map.write] EA=0x555d73803938 VAL=0x7f8089b144c3 init_fn=mod_deflate_plugin_init fn=mod_deflate_set_defaults img=/usr/local/lib/mod_deflate.so src=/home/bhsus/lighttpd1.4_g_opt/src/mod_deflate.c:678
+[sym.record] addr=0x7f8089b166a3 fn=mod_deflate_cleanup img=/usr/local/lib/mod_deflate.so
+[plugin.map.write] EA=0x555d738038f0 VAL=0x7f8089b166a3 init_fn=mod_deflate_plugin_init fn=mod_deflate_cleanup img=/usr/local/lib/mod_deflate.so src=/home/bhsus/lighttpd1.4_g_opt/src/mod_deflate.c:2212
+[sym.record] addr=0x7f8089b15c41 fn=mod_deflate_handle_response_start img=/usr/local/lib/mod_deflate.so
+[plugin.map.write] EA=0x555d738038e8 VAL=0x7f8089b15c41 init_fn=mod_deflate_plugin_init fn=mod_deflate_handle_response_start img=/usr/local/lib/mod_deflate.so src=/home/bhsus/lighttpd1.4_g_opt/src/mod_deflate.c:1908
+[plugin.init.leave]
+[dlsym.before] handle=0x0 sym=mod_h2_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x0
+[dlopen.before] path=/usr/local/lib/mod_h2.so flags=0x102
+[IMG_LOAD] /usr/local/lib/mod_h2.so
+[sym.record] addr=0x7f80899ab407 fn=mod_h2_plugin_init img=/usr/local/lib/mod_h2.so
+[plugin.init.sym] fn=mod_h2_plugin_init addr=0x7f80899ab407 img=/usr/local/lib/mod_h2.so
+[dlopen.after] path= flags=0x555d737fb010 handle=0x555d738039a0
+[dlsym.before] handle=0x555d738039a0 sym=mod_h2_plugin_init
+[dlsym.after] handle=0x7f80a06b0a48 sym=<null> rtn=0x7f80899ab407 fn=mod_h2_plugin_init img=/usr/local/lib/mod_h2.so
+[plugin.init.enter] init=0x7f80899ab407 fn=mod_h2_plugin_init img=/usr/local/lib/mod_h2.so p=0x555d73803f50
+[plugin.map.write] EA=0x555d73804008 VAL=0x10450 init_fn=mod_h2_plugin_init fn= img=
+[plugin.map.write] EA=0x555d73804000 VAL=0x7f80899afbcb init_fn=mod_h2_plugin_init fn= img=/usr/local/lib/mod_h2.so
+[sym.record] addr=0x7f80899ab328 fn=mod_h2_init img=/usr/local/lib/mod_h2.so
+[plugin.map.write] EA=0x555d73803fd8 VAL=0x7f80899ab328 init_fn=mod_h2_plugin_init fn=mod_h2_init img=/usr/local/lib/mod_h2.so src=/home/bhsus/lighttpd1.4_g_opt/src/h2.c:3755
+[plugin.init.leave]
+[srv.like.callsite] ip=0x555d4a66c076 target=0x555d4a66bdcc caller_fn=plugins_call_set_defaults caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data callee_addr=0x555d4a66bdcc caller_ret=0x555d4a66c07b callsite~=0x555d4a66c07a caller_fn=plugins_call_set_defaults caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a63b859 fn=mod_rewrite_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804020
+[srv.like.fn.call] target=0x555d4a63c6e1 fn=mod_redirect_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804060
+[srv.like.fn.call] target=0x555d4a63cce5 fn=mod_access_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738040a0
+[srv.like.fn.call] target=0x555d4a63d3d5 fn=mod_alias_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738040e0
+[srv.like.fn.call] target=0x555d4a63dac1 fn=mod_indexfile_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804110
+[srv.like.fn.call] target=0x555d4a63e8db fn=mod_setenv_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804140
+[srv.like.fn.call] target=0x555d4a63f462 fn=mod_expire_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738041c0
+[srv.like.fn.call] target=0x555d4a63fe65 fn=mod_simple_vhost_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804210
+[srv.like.fn.call] target=0x555d4a640b77 fn=mod_evhost_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804280
+[srv.like.fn.call] target=0x555d4a6416e5 fn=mod_fastcgi_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a642cf4 fn=mod_scgi_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.fn.call] target=0x7f8089ef6574 fn=mod_dirlisting_set_defaults img=/usr/local/lib/mod_dirlisting.so srv=0x555d737fb540 data=0x555d738043f0
+[srv.like.fn.call] target=0x555d4a63e0f2 fn=mod_staticfile_set_defaults img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738044c0
+[srv.like.fn.call] target=0x7f8089b144c3 fn=mod_deflate_set_defaults img=/usr/local/lib/mod_deflate.so srv=0x555d737fb540 data=0x555d73804500
+[srv.like.callsite] ip=0x555d4a66c099 target=0x555d4a66bdcc caller_fn=plugins_call_worker_init caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data callee_addr=0x555d4a66bdcc caller_ret=0x555d4a66c09e callsite~=0x555d4a66c09d caller_fn=plugins_call_worker_init caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[srv.like.callsite] ip=0x555d4a66c0bc target=0x555d4a66be5e caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd callee_fn=plugins_call_fn_srv_data_all callee_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.enter] callee=plugins_call_fn_srv_data_all callee_addr=0x555d4a66be5e caller_ret=0x555d4a66c0c1 callsite~=0x555d4a66c0c0 caller_fn=plugins_call_handle_trigger caller_img=/home/bhsus/lighttpd1.4_g/src/lighttpd
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d738042d0
+[srv.like.fn.call] target=0x555d4a65adec fn=gw_handle_trigger img=/home/bhsus/lighttpd1.4_g/src/lighttpd srv=0x555d737fb540 data=0x555d73804360
+[fini]

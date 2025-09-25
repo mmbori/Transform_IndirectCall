@@ -1,0 +1,124 @@
+[
+  {
+    "callsite_caller": "plugins_call_set_defaults",
+    "callsite": "plugins_call_fn_srv_data",
+    "callee": [
+      "mod_access_set_defaults",
+      "mod_alias_set_defaults",
+      "mod_deflate_set_defaults",
+      "mod_dirlisting_set_defaults",
+      "mod_evhost_set_defaults",
+      "mod_expire_set_defaults",
+      "mod_fastcgi_set_defaults",
+      "mod_indexfile_set_defaults",
+      "mod_redirect_set_defaults",
+      "mod_rewrite_set_defaults",
+      "mod_scgi_set_defaults",
+      "mod_setenv_set_defaults",
+      "mod_simple_vhost_set_defaults",
+      "mod_staticfile_set_defaults"
+    ]
+  },
+  {
+    "callsite_caller": "plugins_call_worker_init",
+    "callsite": "plugins_call_fn_srv_data",
+    "callee": [
+      ""
+    ]
+  },
+  {
+    "callsite_caller": "",
+    "callsite": "plugins_call_fn_srv_data_all",
+    "callee": [
+      "gw_handle_trigger"
+    ]
+  },
+  {
+    "callsite_caller": "plugins_call_handle_docroot",
+    "callsite": "plugins_call_fn_req_data",
+    "callee": [
+      "mod_evhost_uri_handler",
+      "mod_simple_vhost_docroot"
+    ]
+  },
+  {
+    "callsite_caller": "plugins_call_handle_physical",
+    "callsite": "plugins_call_fn_req_data",
+    "callee": [
+      "mod_alias_physical_handler",
+      "mod_rewrite_physical"
+    ]
+  },
+  {
+    "callsite_caller": "plugins_call_handle_request_done",
+    "callsite": "plugins_call_fn_req_data",
+    "callee": [
+      ""
+    ]
+  },
+  {
+    "callsite_caller": "plugins_call_handle_request_reset",
+    "callsite": "plugins_call_fn_req_data",
+    "callee": [
+      "gw_handle_request_reset",
+      "mod_deflate_cleanup",
+      "mod_dirlisting_reset",
+      "mod_rewrite_con_reset",
+      "mod_setenv_handle_request_reset"
+    ]
+  },
+  {
+    "callsite_caller": "plugins_call_handle_response_start",
+    "callsite": "plugins_call_fn_req_data",
+    "callee": [
+      "mod_deflate_handle_response_start",
+      "mod_expire_handler",
+      "mod_setenv_handle_response_start"
+    ]
+  },
+  {
+    "callsite_caller": "plugins_call_handle_subrequest_start",
+    "callsite": "plugins_call_fn_req_data",
+    "callee": [
+      "fcgi_check_extension_2",
+      "mod_access_uri_handler",
+      "mod_dirlisting_subrequest_start",
+      "mod_indexfile_subrequest",
+      "mod_staticfile_subrequest",
+      "scgi_check_extension_2"
+    ]
+  },
+  {
+    "callsite_caller": "plugins_call_handle_uri_clean",
+    "callsite": "plugins_call_fn_req_data",
+    "callee": [
+      "fcgi_check_extension_1",
+      "mod_access_uri_handler",
+      "mod_redirect_uri_handler",
+      "mod_rewrite_uri_handler",
+      "mod_setenv_uri_handler",
+      "scgi_check_extension_1"
+    ]
+  },
+  {
+    "callsite_caller": "plugins_call_handle_connection_accept",
+    "callsite": "plugins_call_fn_con_data",
+    "callee": [
+      ""
+    ]
+  },
+  {
+    "callsite_caller": "plugins_call_handle_connection_close",
+    "callsite": "plugins_call_fn_con_data",
+    "callee": [
+      ""
+    ]
+  },
+  {
+    "callsite_caller": "plugins_call_handle_connection_shut_wr",
+    "callsite": "plugins_call_fn_con_data",
+    "callee": [
+      ""
+    ]
+  }
+]
