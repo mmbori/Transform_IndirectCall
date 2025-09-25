@@ -1,0 +1,119 @@
+[
+  { 변환 완료
+    "callsite_caller": "",
+    "callsite": "plugins_call_cleanup",
+    "src_line": "p->cleanup(p->data);",
+    "callee": [
+      "mod_extforward_free",
+      "mod_auth_free",
+      "mod_expire_free",
+      "mod_simple_vhost_free",
+      "mod_cgi_free",
+      "mod_deflate_free",
+      "mod_accesslog_free",
+      "mod_dirlisting_free"
+    ]
+  },
+  { 변환 완료
+    "callsite_caller": "",
+    "callsite": "plugins_call_fn_srv_data_all",
+    "src_line": "plfd->fn(srv, plfd->data);",
+    "callee": [
+      "mod_auth_periodic",
+      "cgi_trigger_cb",
+      "mod_status_trigger",
+      "log_access_periodic_flush"
+    ]
+  },
+  { 변환 완료
+    "callsite_caller": "",
+    "callsite": "plugins_call_handle_connection_accept",
+    "src_line": "if (plfd->fn && (rc = plfd->fn(con, plfd->data)) == HANDLER_GO_ON) {",
+    "callee": [
+      "mod_extforward_handle_con_accept"
+    ]
+  },
+  { 변환 완료
+    "callsite_caller": "",
+    "callsite": "plugins_call_handle_connection_close",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(con, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_extforward_handle_con_close"
+    ]
+  },
+  { 변환 완료
+    "callsite_caller": "",
+    "callsite": "plugins_call_handle_request_env",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_extforward_handle_request_env",
+      "mod_setenv_handle_request_env"
+    ]
+  },
+  { 변환 완료
+    "callsite_caller": "cgi_local_redir",
+    "callsite": "plugins_call_handle_request_reset",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_dirlisting_reset",
+      "mod_deflate_cleanup",
+      "cgi_connection_close_callback",
+      "mod_setenv_handle_request_reset",
+      "mod_extforward_restore"
+    ]
+  },
+  { 변환 완료
+    "callsite_caller": "request_reset",
+    "callsite": "plugins_call_handle_request_reset",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_dirlisting_reset",
+      "mod_deflate_cleanup",
+      "cgi_connection_close_callback",
+      "mod_setenv_handle_request_reset",
+      "mod_extforward_restore"
+    ]
+  },
+  { 변환 완료
+    "callsite_caller": "",
+    "callsite": "plugins_call_handle_response_start",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_setenv_handle_response_start",
+      "mod_expire_handler",
+      "mod_deflate_handle_response_start"
+    ]
+  },
+  { 변환 완료
+    "callsite_caller": "",
+    "callsite": "plugins_call_handle_subrequest_start",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_indexfile_subrequest",
+      "mod_access_uri_handler",
+      "cgi_is_handled",
+      "mod_dirlisting_subrequest_start",
+      "mod_staticfile_subrequest"
+    ]
+  },
+  { 변환 완료 - 테스트 실패
+    "callsite_caller": "",
+    "callsite": "plugins_call_handle_uri_clean",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_extforward_uri_handler", // 오키
+      "mod_auth_uri_handler", // 오키
+      "mod_setenv_uri_handler", // 얘가 문제!
+      "mod_access_uri_handler", // 오키
+      "mod_status_handler" // 
+    ]
+  },
+  { 변환 완료
+    "callsite_caller": "",
+    "callsite": "plugins_call_handle_waitpid",
+    "src_line": "while (plfd->fn&&(rc=plfd->fn(srv,plfd->data,pid,status))==HANDLER_GO_ON)",
+    "callee": [
+      "cgi_waitpid_cb"
+    ]
+  }
+]

@@ -1,0 +1,174 @@
+[
+  {
+    "callsite_caller": "",
+    "callsite": "plugins_call_init",
+    "src_line": "if (NULL == (p->data = p->init())) {",
+    "callee": [
+      "mod_indexfile_init",
+      "mod_extforward_init",
+      "mod_auth_init",
+      "mod_authn_file_init",
+      "mod_setenv_init",
+      "mod_access_init",
+      "mod_expire_init",
+      "mod_simple_vhost_init",
+      "mod_cgi_init",
+      "mod_status_init",
+      "mod_deflate_init",
+      "mod_accesslog_init",
+      "mod_dirlisting_init",
+      "mod_staticfile_init"
+    ]
+  },
+  {
+    "callsite_caller": "",
+    "callsite": "plugins_call_fn_srv_data",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(srv,plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_indexfile_set_defaults",
+      "mod_extforward_set_defaults",
+      "mod_auth_set_defaults",
+      "mod_authn_file_set_defaults",
+      "mod_setenv_set_defaults",
+      "mod_access_set_defaults",
+      "mod_expire_set_defaults",
+      "mod_simple_vhost_set_defaults",
+      "mod_cgi_set_defaults",
+      "mod_status_set_defaults",
+      "mod_deflate_set_defaults",
+      "mod_accesslog_set_defaults",
+      "mod_dirlisting_set_defaults",
+      "mod_staticfile_set_defaults"
+    ]
+  },
+  { 완료
+    "callsite_caller": "",
+    "callsite": "plugins_call_fn_srv_data_all",
+    "src_line": "plfd->fn(srv, plfd->data);",
+    "callee": [
+      "mod_auth_periodic",
+      "cgi_trigger_cb",
+      "mod_status_trigger",
+      "log_access_periodic_flush"
+    ]
+  },
+  { 완료
+    "callsite_caller": "plugins_call_handle_request_reset",
+    "callsite": "plugins_call_fn_req_data",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_dirlisting_reset",
+      "mod_deflate_cleanup",
+      "cgi_connection_close_callback",
+      "mod_setenv_handle_request_reset",
+      "mod_extforward_restore"
+    ]
+  },
+  { 완료
+    "callsite_caller": "plugins_call_handle_connection_accept",
+    "callsite": "plugins_call_fn_con_data",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(con, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_extforward_handle_con_accept"
+    ]
+  },
+  { 완료
+    "callsite_caller": "plugins_call_handle_uri_clean",
+    "callsite": "plugins_call_fn_req_data",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_extforward_uri_handler",
+      "mod_auth_uri_handler",
+      "mod_setenv_uri_handler",
+      "mod_access_uri_handler",
+      "mod_status_handler"
+    ]
+  },
+  { 완료
+    "callsite_caller": "plugins_call_handle_docroot",
+    "callsite": "plugins_call_fn_req_data",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_simple_vhost_docroot"
+    ]
+  },
+  { 완료
+    "callsite_caller": "plugins_call_handle_subrequest_start",
+    "callsite": "plugins_call_fn_req_data",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_indexfile_subrequest",
+      "mod_access_uri_handler",
+      "cgi_is_handled",
+      "mod_dirlisting_subrequest_start",
+      "mod_staticfile_subrequest"
+    ]
+  },
+  { 완료
+    "callsite_caller": "plugins_call_handle_response_start",
+    "callsite": "plugins_call_fn_req_data",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_setenv_handle_response_start",
+      "mod_expire_handler",
+      "mod_deflate_handle_response_start"
+    ]
+  },
+  { 완료
+    "callsite_caller": "plugins_call_handle_request_done",
+    "callsite": "plugins_call_fn_req_data",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_status_account",
+      "log_access_write"
+    ]
+  },
+  { 완료
+    "callsite_caller": "plugins_call_handle_connection_close",
+    "callsite": "plugins_call_fn_con_data",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(con, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_extforward_handle_con_close"
+    ]
+  },
+  { 완료
+    "callsite_caller": "",
+    "callsite": "http_response_handler",
+    "src_line": "rc = p->handle_subrequest(r, p->data);",
+    "callee": [
+      "mod_cgi_handle_subrequest"
+    ]
+  },
+  { 완료
+    "callsite_caller": "plugins_call_handle_request_env",
+    "callsite": "plugins_call_fn_req_data",
+    "src_line": "while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)",
+    "callee": [
+      "mod_extforward_handle_request_env",
+      "mod_setenv_handle_request_env"
+    ]
+  },
+  { 완료
+    "callsite_caller": "",
+    "callsite": "plugins_call_handle_waitpid",
+    "src_line": "while (plfd->fn&&(rc=plfd->fn(srv,plfd->data,pid,status))==HANDLER_GO_ON)",
+    "callee": [
+      "cgi_waitpid_cb"
+    ]
+  },
+  { 완료
+    "callsite_caller": "",
+    "callsite": "plugins_call_cleanup",
+    "src_line": "p->cleanup(p->data);",
+    "callee": [
+      "mod_extforward_free",
+      "mod_auth_free",
+      "mod_expire_free",
+      "mod_simple_vhost_free",
+      "mod_cgi_free",
+      "mod_deflate_free",
+      "mod_accesslog_free",
+      "mod_dirlisting_free"
+    ]
+  }
+]

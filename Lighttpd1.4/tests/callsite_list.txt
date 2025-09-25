@@ -1,0 +1,8 @@
+http_response_handler
+plugins_call_cleanup
+plugins_call_fn_con_data
+plugins_call_fn_req_data
+plugins_call_fn_srv_data
+plugins_call_fn_srv_data_all
+plugins_call_handle_waitpid
+plugins_call_init

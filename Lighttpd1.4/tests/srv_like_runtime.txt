@@ -1,0 +1,32 @@
+[srv.like] name=http_response_handler img=/home/bhsus/lighttpd1.4/src/lighttpd start=0x55e310c5e450 end=0x55e310c5e5bd
+  callers: connection_state_machine_loop
+  callees: mod_cgi_handle_subrequest
+  src_texts: "        rc = p->handle_subrequest(r, p->data);"
+[srv.like] name=plugins_call_cleanup img=/home/bhsus/lighttpd1.4/src/lighttpd start=0x55e310c9ac10 end=0x55e310c9acde
+  callers: plugins_free
+  callees: mod_accesslog_free mod_auth_free mod_cgi_free mod_deflate_free mod_dirlisting_free mod_expire_free mod_extforward_free mod_simple_vhost_free
+  src_texts: "                p->cleanup(p->data);"
+[srv.like] name=plugins_call_fn_con_data img=/home/bhsus/lighttpd1.4/src/lighttpd start=0x55e310c9a7c9 end=0x55e310c9a862
+  callers: plugins_call_handle_connection_accept plugins_call_handle_connection_close
+  callees: mod_extforward_handle_con_accept mod_extforward_handle_con_close
+  src_texts: "    while (plfd->fn && (rc = plfd->fn(con, plfd->data)) == HANDLER_GO_ON)"
+[srv.like] name=plugins_call_fn_req_data img=/home/bhsus/lighttpd1.4/src/lighttpd start=0x55e310c9a72c end=0x55e310c9a7c9
+  callers: plugins_call_handle_docroot plugins_call_handle_request_done plugins_call_handle_request_env plugins_call_handle_request_reset plugins_call_handle_response_start plugins_call_handle_subrequest_start plugins_call_handle_uri_clean
+  callees: cgi_connection_close_callback cgi_is_handled log_access_write mod_access_uri_handler mod_auth_uri_handler mod_deflate_cleanup mod_deflate_handle_response_start mod_dirlisting_reset mod_dirlisting_subrequest_start mod_expire_handler mod_extforward_handle_request_env mod_extforward_restore mod_extforward_uri_handler mod_indexfile_subrequest mod_setenv_handle_request_env mod_setenv_handle_request_reset mod_setenv_handle_response_start mod_setenv_uri_handler mod_simple_vhost_docroot mod_staticfile_subrequest mod_status_account mod_status_handler
+  src_texts: "    while (plfd->fn && (rc = plfd->fn(r, plfd->data)) == HANDLER_GO_ON)"
+[srv.like] name=plugins_call_fn_srv_data img=/home/bhsus/lighttpd1.4/src/lighttpd start=0x55e310c9a862 end=0x55e310c9a8f4
+  callers: plugins_call_set_defaults
+  callees: mod_access_set_defaults mod_accesslog_set_defaults mod_auth_set_defaults mod_authn_file_set_defaults mod_cgi_set_defaults mod_deflate_set_defaults mod_dirlisting_set_defaults mod_expire_set_defaults mod_extforward_set_defaults mod_indexfile_set_defaults mod_setenv_set_defaults mod_simple_vhost_set_defaults mod_staticfile_set_defaults mod_status_set_defaults
+  src_texts: "    while (plfd->fn && (rc = plfd->fn(srv,plfd->data)) == HANDLER_GO_ON)"
+[srv.like] name=plugins_call_fn_srv_data_all img=/home/bhsus/lighttpd1.4/src/lighttpd start=0x55e310c9a8f4 end=0x55e310c9a96f
+  callers: plugins_call_handle_trigger
+  callees: cgi_trigger_cb log_access_periodic_flush mod_auth_periodic mod_status_trigger
+  src_texts: "        plfd->fn(srv, plfd->data);"
+[srv.like] name=plugins_call_handle_waitpid img=/home/bhsus/lighttpd1.4/src/lighttpd start=0x55e310c9ab7e end=0x55e310c9ac10
+  callers: server_handle_sigchld
+  callees: cgi_waitpid_cb
+  src_texts: "    while (plfd->fn&&(rc=plfd->fn(srv,plfd->data,pid,status))==HANDLER_GO_ON)"
+[srv.like] name=plugins_call_init img=/home/bhsus/lighttpd1.4/src/lighttpd start=0x55e310c9addc end=0x55e310c9b4f5
+  callers: server_main_setup
+  callees: mod_access_init mod_accesslog_init mod_auth_init mod_authn_file_init mod_cgi_init mod_deflate_init mod_dirlisting_init mod_expire_init mod_extforward_init mod_indexfile_init mod_setenv_init mod_simple_vhost_init mod_staticfile_init mod_status_init
+  src_texts: "   if (NULL == (p->data = p->init())) {"

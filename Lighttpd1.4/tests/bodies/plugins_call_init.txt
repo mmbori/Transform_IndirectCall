@@ -1,0 +1,131 @@
+	plugin ** const ps = srv->plugins.ptr;
+	uint16_t offsets[PLUGIN_FUNC_SIZEOF];
+	memset(offsets, 0, sizeof(offsets));
+
+	for (uint32_t i = 0; i < srv->plugins.used; ++i) {
+		/* check which calls are supported */
+
+		plugin *p = ps[i];
+
+		if (p->init) {
+			if (NULL == (p->data = p->init())) {
+				log_error(srv->errh, __FILE__, __LINE__,
+				  "plugin-init failed for mod_%s", p->name);
+				return HANDLER_ERROR;
+			}
+
+			((plugin_data_base *)(p->data))->self = p;
+			((plugin_data_base *)(p->data))->id = i + 1;
+
+			if (p->version != LIGHTTPD_VERSION_ID) {
+				log_error(srv->errh, __FILE__, __LINE__,
+				  "plugin-version doesn't match lighttpd-version for mod_%s", p->name);
+				return HANDLER_ERROR;
+			}
+		}
+
+		if (p->priv_defaults && HANDLER_ERROR==p->priv_defaults(srv, p->data)) {
+			return HANDLER_ERROR;
+		}
+
+		if (p->handle_uri_clean)
+			++offsets[PLUGIN_FUNC_HANDLE_URI_CLEAN];
+		if (p->handle_uri_raw && !p->handle_uri_clean)
+			++offsets[PLUGIN_FUNC_HANDLE_URI_CLEAN]; /*(same as above)*/
+		if (p->handle_request_env)
+			++offsets[PLUGIN_FUNC_HANDLE_REQUEST_ENV];
+		if (p->handle_request_done)
+			++offsets[PLUGIN_FUNC_HANDLE_REQUEST_DONE];
+		if (p->handle_connection_accept)
+			++offsets[PLUGIN_FUNC_HANDLE_CONNECTION_ACCEPT];
+		if (p->handle_connection_shut_wr)
+			++offsets[PLUGIN_FUNC_HANDLE_CONNECTION_SHUT_WR];
+		if (p->handle_connection_close)
+			++offsets[PLUGIN_FUNC_HANDLE_CONNECTION_CLOSE];
+		if (p->handle_trigger)
+			++offsets[PLUGIN_FUNC_HANDLE_TRIGGER];
+		if (p->handle_sighup)
+			++offsets[PLUGIN_FUNC_HANDLE_SIGHUP];
+		if (p->handle_waitpid)
+			++offsets[PLUGIN_FUNC_HANDLE_WAITPID];
+		if (p->handle_subrequest_start)
+			++offsets[PLUGIN_FUNC_HANDLE_SUBREQUEST_START];
+		if (p->handle_response_start)
+			++offsets[PLUGIN_FUNC_HANDLE_RESPONSE_START];
+		if (p->handle_docroot)
+			++offsets[PLUGIN_FUNC_HANDLE_DOCROOT];
+		if (p->handle_physical)
+			++offsets[PLUGIN_FUNC_HANDLE_PHYSICAL];
+		if (p->handle_request_reset)
+			++offsets[PLUGIN_FUNC_HANDLE_REQUEST_RESET];
+		if (p->set_defaults)
+			++offsets[PLUGIN_FUNC_SET_DEFAULTS];
+		if (p->worker_init)
+			++offsets[PLUGIN_FUNC_WORKER_INIT];
+	}
+
+	uint32_t nslots =
+	  (sizeof(offsets)+sizeof(plugin_fn_data)-1) / sizeof(plugin_fn_data);
+	for (uint32_t i = 0; i < PLUGIN_FUNC_SIZEOF; ++i) {
+		if (offsets[i]) {
+			uint32_t offset = nslots;
+			nslots += offsets[i]+1; /* +1 to mark end of each list */
+			force_assert(offset * sizeof(plugin_fn_data) <= USHRT_MAX);
+			offsets[i] = (uint16_t)(offset * sizeof(plugin_fn_data));
+		}
+	}
+
+	/* allocate and fill slots of two dimensional array */
+	srv->plugin_slots = ck_calloc(nslots, sizeof(plugin_fn_data));
+	memcpy(srv->plugin_slots, offsets, sizeof(offsets));
+
+	/* add handle_uri_raw before handle_uri_clean, but in same slot */
+	for (uint32_t i = 0; i < srv->plugins.used; ++i) {
+		plugin * const p = ps[i];
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_uri_raw, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_URI_CLEAN]);
+	}
+
+	for (uint32_t i = 0; i < srv->plugins.used; ++i) {
+		plugin * const p = ps[i];
+
+		if (!p->handle_uri_raw)
+			plugins_call_init_slot(srv, (pl_cb_t)p->handle_uri_clean, p->data,
+						offsets[PLUGIN_FUNC_HANDLE_URI_CLEAN]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_request_env, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_REQUEST_ENV]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_request_done, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_REQUEST_DONE]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_connection_accept, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_CONNECTION_ACCEPT]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_connection_shut_wr, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_CONNECTION_SHUT_WR]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_connection_close, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_CONNECTION_CLOSE]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_trigger, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_TRIGGER]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_sighup, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_SIGHUP]);
+		plugins_call_init_slot(srv, (pl_cb_t)(uintptr_t)p->handle_waitpid, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_WAITPID]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_subrequest_start, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_SUBREQUEST_START]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_response_start, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_RESPONSE_START]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_docroot, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_DOCROOT]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_physical, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_PHYSICAL]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->handle_request_reset, p->data,
+					offsets[PLUGIN_FUNC_HANDLE_REQUEST_RESET]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->set_defaults, p->data,
+					offsets[PLUGIN_FUNC_SET_DEFAULTS]);
+		plugins_call_init_slot(srv, (pl_cb_t)p->worker_init, p->data,
+					offsets[PLUGIN_FUNC_WORKER_INIT]);
+	}
+
+	/* reverse cleanup lists to balance ctor/dtor-like plugin behaviors */
+	plugins_call_init_reverse(srv,offsets[PLUGIN_FUNC_HANDLE_REQUEST_RESET]);
+	plugins_call_init_reverse(srv,offsets[PLUGIN_FUNC_HANDLE_CONNECTION_CLOSE]);
+
+	return HANDLER_GO_ON;

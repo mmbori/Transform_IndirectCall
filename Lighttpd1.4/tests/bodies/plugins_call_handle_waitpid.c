@@ -1,0 +1,11 @@
+handler_t plugins_call_handle_waitpid(server *srv, pid_t pid, int status) {
+    const uint32_t offset =
+      ((const uint16_t *)srv->plugin_slots)[PLUGIN_FUNC_HANDLE_WAITPID];
+    if (0 == offset) return HANDLER_GO_ON;
+    const plugin_fn_waitpid_data *plfd = (const plugin_fn_waitpid_data *)
+      (((uintptr_t)srv->plugin_slots) + offset);
+    handler_t rc = HANDLER_GO_ON;
+    while (plfd->fn&&(rc=plfd->fn(srv,plfd->data,pid,status))==HANDLER_GO_ON)
+        ++plfd;
+    return rc;
+}

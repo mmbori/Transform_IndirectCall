@@ -1,0 +1,15 @@
+static void plugins_call_cleanup(server * const srv) {
+    plugin ** const ps = srv->plugins.ptr;
+    for (uint32_t i = 0; i < srv->plugins.used; ++i) {
+        plugin *p = ps[i];
+        if (NULL == p) continue;
+        if (NULL != p->data) {
+            plugin_data_base *pd = p->data;
+            if (p->cleanup)
+                p->cleanup(p->data);
+            free(pd->cvlist);
+            free(pd);
+            p->data = NULL;
+        }
+    }
+}

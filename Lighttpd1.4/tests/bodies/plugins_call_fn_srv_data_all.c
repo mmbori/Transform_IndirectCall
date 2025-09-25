@@ -1,0 +1,8 @@
+static void plugins_call_fn_srv_data_all(server * const srv, const int e) {
+    const uint32_t offset = ((const uint16_t *)srv->plugin_slots)[e];
+    if (0 == offset) return;
+    const plugin_fn_srv_data *plfd = (const plugin_fn_srv_data *)
+      (((uintptr_t)srv->plugin_slots) + offset);
+    for (; plfd->fn; ++plfd)
+        plfd->fn(srv, plfd->data);
+}
