@@ -1,0 +1,40 @@
+   11014:	ff d0                	call   *%rax
+   1285f:	ff 15 63 f7 0b 00    	call   *0xbf763(%rip)        # d1fc8 <__libc_start_main@GLIBC_2.34>
+   171ac:	ff d2                	call   *%rdx
+   2ac1e:	ff d2                	call   *%rdx
+   2ad28:	ff d2                	call   *%rdx
+   2ad69:	ff d2                	call   *%rdx
+   2ae6e:	ff d2                	call   *%rdx
+   2af19:	ff d2                	call   *%rdx
+   2b905:	ff d2                	call   *%rdx
+   2ba09:	ff d0                	call   *%rax
+   2bab4:	ff d2                	call   *%rdx
+   2bb9b:	ff d2                	call   *%rdx
+   2bfae:	ff d2                	call   *%rdx
+   2c103:	ff d2                	call   *%rdx
+   2c340:	ff d2                	call   *%rdx
+   2c49b:	ff d2                	call   *%rdx
+   2c4d5:	ff d2                	call   *%rdx
+   2ca28:	ff d2                	call   *%rdx
+   2cb28:	ff d2                	call   *%rdx
+   2cbb9:	ff d2                	call   *%rdx
+   2d178:	ff d2                	call   *%rdx
+   2d3a1:	ff d2                	call   *%rdx
+   2d5f6:	ff d2                	call   *%rdx
+   32b72:	ff d1                	call   *%rcx
+   32cc3:	ff d1                	call   *%rcx
+   3d4db:	41 ff d0             	call   *%r8
+   43521:	ff d2                	call   *%rdx
+   490e4:	ff d2                	call   *%rdx
+   491a9:	ff d2                	call   *%rdx
+   4987e:	ff d2                	call   *%rdx
+   49d61:	ff d2                	call   *%rdx
+   49dfb:	ff d1                	call   *%rcx
+   49e10:	ff d2                	call   *%rdx
+   527ba:	ff d1                	call   *%rcx
+   55f34:	ff d2                	call   *%rdx
+   68205:	ff d2                	call   *%rdx
+   687be:	41 ff d0             	call   *%r8
+   68e2f:	41 ff d1             	call   *%r9
+   69d2c:	41 ff d0             	call   *%r8
+   9106f:	41 ff d0             	call   *%r8
