@@ -1,0 +1,4 @@
+// Function declarations for xCurrentTime
+
+int multiplexCurrentTime(sqlite3_vfs *a, double *b);
+int vfstraceCurrentTime(sqlite3_vfs*, double*);

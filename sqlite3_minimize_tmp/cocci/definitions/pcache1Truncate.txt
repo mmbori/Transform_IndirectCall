@@ -1,0 +1,1 @@
+void pcache1Truncate(sqlite3_pcache *p , unsigned int iLimit);

@@ -1,0 +1,4 @@
+// Function declarations for xSleep
+
+int multiplexSleep(sqlite3_vfs *a, int b);
+int vfstraceSleep(sqlite3_vfs*, int microseconds);

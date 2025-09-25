@@ -1,0 +1,1 @@
+void *unixDlOpen(sqlite3_vfs *NotUsed , const char *zFilename);

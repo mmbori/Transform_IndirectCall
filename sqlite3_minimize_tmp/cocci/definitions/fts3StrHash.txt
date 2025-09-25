@@ -1,0 +1,1 @@
+int fts3StrHash(const void *pKey , int nKey);

@@ -1,0 +1,4 @@
+// Function declarations for xFullPathname
+
+int multiplexFullPathname(sqlite3_vfs *a, const char *b, int c, char *d);
+int vfstraceFullPathname(sqlite3_vfs*, const char *zName, int, char *);

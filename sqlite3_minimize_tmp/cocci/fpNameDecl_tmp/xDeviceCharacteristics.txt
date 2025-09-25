@@ -1,0 +1,5 @@
+// Function declarations for xDeviceCharacteristics
+
+int multiplexDeviceCharacteristics(sqlite3_file *pConn);
+int quotaDeviceCharacteristics(sqlite3_file *pConn);
+int vfstraceDeviceCharacteristics(sqlite3_file*);

@@ -1,0 +1,4 @@
+// Function declarations for xBusyHandler
+
+int xBusy(void *pArg, int nBusy);
+// 선언을 찾을 수 없음: xBusyHandler

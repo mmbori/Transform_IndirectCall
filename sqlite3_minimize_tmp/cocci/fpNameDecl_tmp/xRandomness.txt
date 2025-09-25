@@ -1,0 +1,4 @@
+// Function declarations for xRandomness
+
+int multiplexRandomness(sqlite3_vfs *a, int b, char *c);
+int vfstraceRandomness(sqlite3_vfs*, int nByte, char *zOut);

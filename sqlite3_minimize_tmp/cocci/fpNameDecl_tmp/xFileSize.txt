@@ -1,0 +1,5 @@
+// Function declarations for xFileSize
+
+int multiplexFileSize(sqlite3_file *pConn, sqlite3_int64 *pSize);
+int quotaFileSize(sqlite3_file *pConn, sqlite3_int64 *pSize);
+int vfstraceFileSize(sqlite3_file*, sqlite3_int64 *pSize);

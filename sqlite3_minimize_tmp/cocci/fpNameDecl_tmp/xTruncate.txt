@@ -1,0 +1,5 @@
+// Function declarations for xTruncate
+
+int multiplexTruncate(sqlite3_file *pConn, sqlite3_int64 size);
+int quotaTruncate(sqlite3_file *pConn, sqlite3_int64 size);
+int vfstraceTruncate(sqlite3_file*, sqlite3_int64 size);

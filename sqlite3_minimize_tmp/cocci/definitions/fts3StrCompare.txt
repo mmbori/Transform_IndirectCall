@@ -1,0 +1,1 @@
+int fts3StrCompare(const void *pKey1 , int n1 , const void *pKey2 , int n2);

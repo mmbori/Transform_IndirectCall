@@ -1,0 +1,5 @@
+// Function declarations for xFileControl
+
+int multiplexFileControl(sqlite3_file *pConn, int op, void *pArg);
+int quotaFileControl(sqlite3_file *pConn, int op, void *pArg);
+int vfstraceFileControl(sqlite3_file*, int op, void *pArg);

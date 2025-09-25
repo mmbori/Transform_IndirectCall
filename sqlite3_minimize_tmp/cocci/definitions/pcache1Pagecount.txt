@@ -1,0 +1,1 @@
+int pcache1Pagecount(sqlite3_pcache *p);

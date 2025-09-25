@@ -1,0 +1,1 @@
+sqlite3_syscall_ptr unixGetSystemCall(sqlite3_vfs *pNotUsed , const char *zName);

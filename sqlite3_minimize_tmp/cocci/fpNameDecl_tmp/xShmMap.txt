@@ -1,0 +1,12 @@
+// Function declarations for xShmMap
+
+int multiplexShmMap(sqlite3_file *pConn,            
+  int iRegion,                    
+  int szRegion,                   
+  int bExtend,                    
+  void volatile **pp);
+int quotaShmMap(sqlite3_file *pConn,            
+  int iRegion,                    
+  int szRegion,                   
+  int bExtend,                    
+  void volatile **pp);

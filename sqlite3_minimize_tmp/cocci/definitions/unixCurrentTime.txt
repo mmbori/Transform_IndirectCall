@@ -1,0 +1,1 @@
+int unixCurrentTime(sqlite3_vfs *NotUsed , double *prNow);

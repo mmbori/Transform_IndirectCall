@@ -1,0 +1,1 @@
+int fixSelectCb(Walker *p , Select *pSelect);

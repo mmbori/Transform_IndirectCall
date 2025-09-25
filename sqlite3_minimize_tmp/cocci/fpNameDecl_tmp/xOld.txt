@@ -1,0 +1,5 @@
+// Function declarations for xOld
+
+int sessionDiffOld(void *pCtx, int iVal, sqlite3_value **ppVal);
+int sessionPreupdateOld(void *pCtx, int iVal, sqlite3_value **ppVal);
+int sessionStat1Old(void *pCtx, int iCol, sqlite3_value **ppVal);

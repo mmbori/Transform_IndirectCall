@@ -1,0 +1,18 @@
+// Function declarations for xSelectCallback
+
+int convertCompoundSelectToSubquery(Walker *pWalker, Select *p);
+int exprSelectWalkTableConstant(Walker *pWalker, Select *pSelect);
+int fixSelectCb(Walker *p, Select *pSelect);
+int gatherSelectWindowsSelectCallback(Walker *pWalker, Select *p);
+int renameColumnSelectCb(Walker *pWalker, Select *p);
+int renameTableSelectCb(Walker *pWalker, Select *pSelect);
+int renameUnmapSelectCb(Walker *pWalker, Select *p);
+int resolveSelectStep(Walker *pWalker, Select *p);
+int selectCheckOnClausesSelect(Walker *pWalker, Select *pSelect);
+int selectExpander(Walker *pWalker, Select *p);
+int selectRefEnter(Walker *pWalker, Select *pSelect);
+int selectWindowRewriteSelectCb(Walker *pWalker, Select *pSelect);
+int sqlite3ReturningSubqueryCorrelated(Walker *pWalker, Select *pSelect);
+int sqlite3SelectWalkFail(Walker *pWalker, Select *NotUsed);
+int sqlite3SelectWalkNoop(Walker *NotUsed, Select *NotUsed2);
+int sqlite3WalkerDepthIncrease(Walker *pWalker, Select *pSelect);

@@ -1,0 +1,3 @@
+// Function declarations for xGetLastError
+
+int multiplexGetLastError(sqlite3_vfs *a, int b, char *c);

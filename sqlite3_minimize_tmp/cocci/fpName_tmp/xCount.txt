@@ -1,0 +1,3 @@
+sessionDiffCount
+sessionPreupdateCount
+sessionStat1Count

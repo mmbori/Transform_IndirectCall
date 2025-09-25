@@ -1,0 +1,1 @@
+int noopMutexTry(sqlite3_mutex *p);

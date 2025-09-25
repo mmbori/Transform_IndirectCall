@@ -1,0 +1,1 @@
+void versionFunc(sqlite3_context *context , int NotUsed , sqlite3_value **NotUsed2);

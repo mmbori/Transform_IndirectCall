@@ -1,0 +1,5 @@
+// Function declarations for xLock
+
+int multiplexLock(sqlite3_file *pConn, int lock);
+int quotaLock(sqlite3_file *pConn, int lock);
+int vfstraceLock(sqlite3_file*, int);

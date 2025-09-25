@@ -1,0 +1,1 @@
+void nullifFunc(sqlite3_context *context , int NotUsed , sqlite3_value **argv);

@@ -1,0 +1,3 @@
+// Function declarations for xDlError
+
+void multiplexDlError(sqlite3_vfs *a, int b, char *c);

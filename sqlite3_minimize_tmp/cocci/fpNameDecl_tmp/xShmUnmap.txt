@@ -1,0 +1,4 @@
+// Function declarations for xShmUnmap
+
+int multiplexShmUnmap(sqlite3_file *pConn, int deleteFlag);
+int quotaShmUnmap(sqlite3_file *pConn, int deleteFlag);

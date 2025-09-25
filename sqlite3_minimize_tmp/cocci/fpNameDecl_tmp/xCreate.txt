@@ -1,0 +1,6 @@
+// Function declarations for xCreate
+
+int fts5VtoVCreate(void *pCtx, 
+  const char **azArg, 
+  int nArg, 
+  Fts5Tokenizer **ppOut);

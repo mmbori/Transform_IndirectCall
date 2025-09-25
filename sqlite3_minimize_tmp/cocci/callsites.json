@@ -1,0 +1,1865 @@
+[
+  {
+    "callsite_caller": "sqlite3_initialize",
+    "callsite": "sqlite3MutexInit",
+    "src_line": "  rc = sqlite3GlobalConfig.mutex.xMutexInit();",
+    "callee": [
+      "pthreadMutexInit"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_initialize",
+    "callsite": "sqlite3MutexAlloc",
+    "src_line": "  return sqlite3GlobalConfig.mutex.xMutexAlloc(id);",
+    "callee": [
+      "pthreadMutexAlloc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_initialize",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3MallocInit",
+    "callsite": "sqlite3MutexAlloc",
+    "src_line": "  return sqlite3GlobalConfig.mutex.xMutexAlloc(id);",
+    "callee": [
+      "pthreadMutexAlloc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_initialize",
+    "callsite": "sqlite3MallocInit",
+    "src_line": "  rc = sqlite3GlobalConfig.m.xInit(sqlite3GlobalConfig.m.pAppData);",
+    "callee": [
+      "sqlite3MemInit"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3Malloc",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3Malloc",
+    "callsite": "mallocWithAlarm",
+    "src_line": "  nFull = sqlite3GlobalConfig.m.xRoundup(n);",
+    "callee": [
+      "sqlite3MemRoundup"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3Malloc",
+    "callsite": "mallocWithAlarm",
+    "src_line": "  p = sqlite3GlobalConfig.m.xMalloc(nFull);",
+    "callee": [
+      "sqlite3MemMalloc"
+    ]
+  },
+  {
+    "callsite_caller": "mallocWithAlarm",
+    "callsite": "sqlite3MallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3Malloc",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_initialize",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_initialize",
+    "callsite": "sqlite3PcacheInitialize",
+    "src_line": "  return sqlite3GlobalConfig.pcache2.xInit(sqlite3GlobalConfig.pcache2.pArg);",
+    "callee": [
+      "pcache1Init"
+    ]
+  },
+  {
+    "callsite_caller": "pcache1Init",
+    "callsite": "sqlite3MutexAlloc",
+    "src_line": "  return sqlite3GlobalConfig.mutex.xMutexAlloc(id);",
+    "callee": [
+      "pthreadMutexAlloc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_free",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_free",
+    "callsite": "sqlite3MallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3OsInit",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_free",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_vfs_register",
+    "callsite": "sqlite3MutexAlloc",
+    "src_line": "  return sqlite3GlobalConfig.mutex.xMutexAlloc(id);",
+    "callee": [
+      "pthreadMutexAlloc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_vfs_register",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_vfs_register",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_os_init",
+    "callsite": "sqlite3MutexAlloc",
+    "src_line": "  return sqlite3GlobalConfig.mutex.xMutexAlloc(id);",
+    "callee": [
+      "pthreadMutexAlloc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_vfs_find",
+    "callsite": "sqlite3MutexAlloc",
+    "src_line": "  return sqlite3GlobalConfig.mutex.xMutexAlloc(id);",
+    "callee": [
+      "pthreadMutexAlloc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_vfs_find",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_vfs_find",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_initialize",
+    "callsite": "sqlite3_mutex_free",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexFree(p);",
+    "callee": [
+      "pthreadMutexFree"
+    ]
+  },
+  {
+    "callsite_caller": "pthreadMutexFree",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "find_xdg_file",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "process_sqliterc",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerOpen",
+    "callsite": "sqlite3OsFullPathname",
+    "src_line": "  return pVfs->xFullPathname(pVfs, zPath, nPathOut, zPathOut);",
+    "callee": [
+      "unixFullPathname"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3DbFreeNN",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerOpen",
+    "callsite": "sqlite3OsOpen",
+    "src_line": "  rc = pVfs->xOpen(pVfs, zPath, pFile, flags & 0x1087f7f, pFlagsOut);",
+    "callee": [
+      "unixOpen"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_randomness",
+    "callsite": "sqlite3MutexAlloc",
+    "src_line": "  return sqlite3GlobalConfig.mutex.xMutexAlloc(id);",
+    "callee": [
+      "pthreadMutexAlloc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_randomness",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_randomness",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "unixEnterMutex",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "unixLeaveMutex",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "unixOpen",
+    "callsite": "robust_open",
+    "src_line": "    fd = osOpen(z,f|O_CLOEXEC,m2);",
+    "callee": [
+      "posixOpen"
+    ]
+  },
+  {
+    "callsite_caller": "unixOpen",
+    "callsite": "fillInUnixFile",
+    "src_line": "    pLockingStyle = (**(finder_type*)pVfs->pAppData)(zFilename, pNew);",
+    "callee": [
+      "posixIoFinderImpl"
+    ]
+  },
+  {
+    "callsite_caller": "findInodeInfo",
+    "callsite": "sqlite3_mutex_alloc",
+    "src_line": "  return sqlite3GlobalConfig.mutex.xMutexAlloc(id);",
+    "callee": [
+      "pthreadMutexAlloc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerOpen",
+    "callsite": "sqlite3OsDeviceCharacteristics",
+    "src_line": "  return id->pMethods->xDeviceCharacteristics(id);",
+    "callee": [
+      "unixDeviceCharacteristics"
+    ]
+  },
+  {
+    "callsite_caller": "setSectorSize",
+    "callsite": "sqlite3OsDeviceCharacteristics",
+    "src_line": "  return id->pMethods->xDeviceCharacteristics(id);",
+    "callee": [
+      "unixDeviceCharacteristics"
+    ]
+  },
+  {
+    "callsite_caller": "pcache1Alloc",
+    "callsite": "sqlite3MallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "pcache1Alloc",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "pcache1Alloc",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "pagerFixMaplimit",
+    "callsite": "sqlite3OsFileControlHint",
+    "src_line": "  if( id->pMethods ) (void)id->pMethods->xFileControl(id, op, pArg);",
+    "callee": [
+      "unixFileControl"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PcacheOpen",
+    "callsite": "sqlite3PcacheSetPageSize",
+    "src_line": "    pNew = sqlite3GlobalConfig.pcache2.xCreate(",
+    "callee": [
+      "pcache1Create"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PcacheOpen",
+    "callsite": "sqlite3PcacheSetPageSize",
+    "src_line": "    sqlite3GlobalConfig.pcache2.xCachesize(pNew, numberOfCachePages(pCache));",
+    "callee": [
+      "pcache1Cachesize"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerReadFileheader",
+    "callsite": "sqlite3OsRead",
+    "src_line": "  return id->pMethods->xRead(id, pBuf, amt, offset);",
+    "callee": [
+      "unixRead"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerSetBusyHandler",
+    "callsite": "sqlite3OsFileControlHint",
+    "src_line": "  if( id->pMethods ) (void)id->pMethods->xFileControl(id, op, pArg);",
+    "callee": [
+      "unixFileControl"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerSetCachesize",
+    "callsite": "sqlite3PcacheSetCachesize",
+    "src_line": "  sqlite3GlobalConfig.pcache2.xCachesize(pCache->pCache,",
+    "callee": [
+      "pcache1Cachesize"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3BtreeOpen",
+    "callsite": "sqlite3OsFileControlHint",
+    "src_line": "  if( id->pMethods ) (void)id->pMethods->xFileControl(id, op, pArg);",
+    "callee": [
+      "unixFileControl"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_open_v2",
+    "callsite": "openDatabase",
+    "src_line": "    rc = sqlite3BuiltinExtensions[i](db);",
+    "callee": [
+      "sqlite3Fts3Init",
+      "sqlite3RtreeInit",
+      "sqlite3DbpageRegister",
+      "sqlite3DbstatRegister",
+      "sqlite3TestExtInit",
+      "sqlite3JsonTableFunctions",
+      "sqlite3StmtVtabInit",
+      "sqlite3VdbeBytecodeVtabInit"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3Fts3Init",
+    "callsite": "sqlite3Fts3HashInsert",
+    "src_line": "  hraw = (*xHash)(pKey, nKey);",
+    "callee": [
+      "fts3StrHash"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3Fts3HashInsert",
+    "callsite": "fts3FindElementByHash",
+    "src_line": "      if( (*xCompare)(elem->pKey,elem->nKey,pKey,nKey)==0 ){",
+    "callee": [
+      "fts3StrCompare"
+    ]
+  },
+  {
+    "callsite_caller": "rehash",
+    "callsite": "sqlite3MallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "setupLookaside",
+    "callsite": "sqlite3MallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_free_filename",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "rehash",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3Realloc",
+    "callsite": "sqlite3MallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "dbReallocFinish",
+    "callsite": "sqlite3Realloc",
+    "src_line": "  nNew = sqlite3GlobalConfig.m.xRoundup((int)nBytes);",
+    "callee": [
+      "sqlite3MemRoundup"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3Realloc",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "dbReallocFinish",
+    "callsite": "sqlite3Realloc",
+    "src_line": "    pNew = sqlite3GlobalConfig.m.xRealloc(pOld, nNew);",
+    "callee": [
+      "sqlite3MemRealloc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3Realloc",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "pagerLockDb",
+    "callsite": "sqlite3OsLock",
+    "src_line": "  return id->pMethods->xLock(id, lockType);",
+    "callee": [
+      "unixLock"
+    ]
+  },
+  {
+    "callsite_caller": "unixLock",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "unixLock",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "hasHotJournal",
+    "callsite": "sqlite3OsAccess",
+    "src_line": "  return pVfs->xAccess(pVfs, zPath, flags, pResOut);",
+    "callee": [
+      "unixAccess"
+    ]
+  },
+  {
+    "callsite_caller": "pagerOpenWalIfPresent",
+    "callsite": "sqlite3OsAccess",
+    "src_line": "  return pVfs->xAccess(pVfs, zPath, flags, pResOut);",
+    "callee": [
+      "unixAccess"
+    ]
+  },
+  {
+    "callsite_caller": "pagerPagecount",
+    "callsite": "sqlite3OsFileSize",
+    "src_line": "  return id->pMethods->xFileSize(id, pSize);",
+    "callee": [
+      "unixFileSize"
+    ]
+  },
+  {
+    "callsite_caller": "btreeGetPage",
+    "callsite": "sqlite3PagerGet",
+    "src_line": "  return pPager->xGet(pPager, pgno, ppPage, flags);",
+    "callee": [
+      "getPageNormal",
+      "getPageError"
+    ]
+  },
+  {
+    "callsite_caller": "getPageNormal",
+    "callsite": "sqlite3PcacheFetch",
+    "src_line": "  pRes = sqlite3GlobalConfig.pcache2.xFetch(pCache->pCache, pgno, eCreate);",
+    "callee": [
+      "pcache1Fetch"
+    ]
+  },
+  {
+    "callsite_caller": "pcache1InitBulk",
+    "callsite": "sqlite3MallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3SelectExpand",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "    rc = pWalker->xSelectCallback(pWalker, p);",
+    "callee": [
+      "selectExpander"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3WalkExpr",
+    "callsite": "sqlite3WalkExprNN",
+    "src_line": "    rc = pWalker->xExprCallback(pWalker, pExpr);",
+    "callee": [
+      "sqlite3ExprWalkNoop",
+      "exprNodeIsConstant",
+      "propagateConstantExprRewrite",
+      "fixExprCb",
+      "analyzeAggregate",
+      "exprIdxCover",
+      "checkConstraintExprNode",
+      "resolveExprStep",
+      "exprRefToSrcList",
+      "impliesNotNullRow",
+      "agginfoPersistExprCb",
+      "selectWindowRewriteExprCb",
+      "resolveRemoveWindowsCb",
+      "sqlite3WindowExtraAggFuncDepth",
+      "disallowAggregatesInOrderByCb",
+      "exprNodeIsDeterministic"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3SelectExpand",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "      pWalker->xSelectCallback2(pWalker, p);",
+    "callee": [
+      "sqlite3SelectPopWith"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3ResolveSelectNames",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "    rc = pWalker->xSelectCallback(pWalker, p);",
+    "callee": [
+      "resolveSelectStep"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3ResolveExprListNames",
+    "callsite": "sqlite3WalkExprNN",
+    "src_line": "    rc = pWalker->xExprCallback(pWalker, pExpr);",
+    "callee": [
+      "resolveExprStep"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3ResolveExprNames",
+    "callsite": "sqlite3WalkExprNN",
+    "src_line": "    rc = pWalker->xExprCallback(pWalker, pExpr);",
+    "callee": [
+      "resolveExprStep"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3SelectAddTypeInfo",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "    rc = pWalker->xSelectCallback(pWalker, p);",
+    "callee": [
+      "sqlite3SelectWalkNoop"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3SelectAddTypeInfo",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "      pWalker->xSelectCallback2(pWalker, p);",
+    "callee": [
+      "selectAddSubqueryTypeInfo"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PcacheRelease",
+    "callsite": "pcacheUnpin",
+    "src_line": "    sqlite3GlobalConfig.pcache2.xUnpin(p->pCache->pCache, p->pPage, 0);",
+    "callee": [
+      "pcache1Unpin"
+    ]
+  },
+  {
+    "callsite_caller": "pager_unlock",
+    "callsite": "sqlite3OsDeviceCharacteristics",
+    "src_line": "  return id->pMethods->xDeviceCharacteristics(id);",
+    "callee": [
+      "unixDeviceCharacteristics"
+    ]
+  },
+  {
+    "callsite_caller": "pagerUnlockDb",
+    "callsite": "sqlite3OsUnlock",
+    "src_line": "  return id->pMethods->xUnlock(id, lockType);",
+    "callee": [
+      "unixUnlock"
+    ]
+  },
+  {
+    "callsite_caller": "posixUnlock",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "posixUnlock",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "exec_prepared_stmt",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "growOpArray",
+    "callsite": "sqlite3DbMallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3StrAccumEnlarge",
+    "callsite": "sqlite3DbMallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3DbNNFreeNN",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3WalkExprNN",
+    "callsite": "sqlite3WalkExprNN",
+    "src_line": "    rc = pWalker->xExprCallback(pWalker, pExpr);",
+    "callee": [
+      "resolveExprStep",
+      "sqlite3ExprWalkNoop",
+      "propagateConstantExprRewrite",
+      "exprNodeIsConstant",
+      "exprIdxCover",
+      "checkConstraintExprNode",
+      "selectCheckOnClausesExpr"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerSharedLock",
+    "callsite": "sqlite3OsRead",
+    "src_line": "  return id->pMethods->xRead(id, pBuf, amt, offset);",
+    "callee": [
+      "unixRead"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3JournalOpen",
+    "callsite": "sqlite3OsOpen",
+    "src_line": "  rc = pVfs->xOpen(pVfs, zPath, pFile, flags & 0x1087f7f, pFlagsOut);",
+    "callee": [
+      "unixOpen"
+    ]
+  },
+  {
+    "callsite_caller": "writeJournalHdr",
+    "callsite": "sqlite3OsDeviceCharacteristics",
+    "src_line": "  return id->pMethods->xDeviceCharacteristics(id);",
+    "callee": [
+      "unixDeviceCharacteristics"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_randomness",
+    "callsite": "sqlite3OsRandomness",
+    "src_line": "    return pVfs->xRandomness(pVfs, nByte, zBufOut);",
+    "callee": [
+      "unixRandomness"
+    ]
+  },
+  {
+    "callsite_caller": "unixRandomness",
+    "callsite": "robust_open",
+    "src_line": "    fd = osOpen(z,f|O_CLOEXEC,m2);",
+    "callee": [
+      "posixOpen"
+    ]
+  },
+  {
+    "callsite_caller": "writeJournalHdr",
+    "callsite": "sqlite3OsWrite",
+    "src_line": "  return id->pMethods->xWrite(id, pBuf, amt, offset);",
+    "callee": [
+      "unixWrite",
+      "memjrnlWrite"
+    ]
+  },
+  {
+    "callsite_caller": "getAndInitPage",
+    "callsite": "sqlite3PagerGet",
+    "src_line": "  return pPager->xGet(pPager, pgno, ppPage, flags);",
+    "callee": [
+      "getPageNormal"
+    ]
+  },
+  {
+    "callsite_caller": "getCellInfo",
+    "callsite": "btreeParseCell",
+    "src_line": "  pPage->xParseCell(pPage, findCell(pPage, iCell), pInfo);",
+    "callee": [
+      "btreeParseCellPtr",
+      "btreeParseCellPtrIndex"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeExec",
+    "callsite": "sqlite3BtreeInsert",
+    "src_line": "    BTREE_CLEAR_CELL(rc, pPage, oldCell, info);",
+    "callee": [
+      "btreeParseCellPtr"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3MemCompare",
+    "callsite": "vdbeCompareMemString",
+    "src_line": "    return pColl->xCmp(pColl->pUser,pMem1->n,pMem1->z,pMem2->n,pMem2->z);",
+    "callee": [
+      "binCollFunc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeExec",
+    "callsite": "sqlite3_exec",
+    "src_line": "        if( xCallback(pArg, nCol, azVals, azCols) ){",
+    "callee": [
+      "sqlite3InitCallback"
+    ]
+  },
+  {
+    "callsite_caller": "pager_incr_changecounter",
+    "callsite": "sqlite3PagerGet",
+    "src_line": "  return pPager->xGet(pPager, pgno, ppPage, flags);",
+    "callee": [
+      "getPageNormal"
+    ]
+  },
+  {
+    "callsite_caller": "syncJournal",
+    "callsite": "sqlite3OsDeviceCharacteristics",
+    "src_line": "  return id->pMethods->xDeviceCharacteristics(id);",
+    "callee": [
+      "unixDeviceCharacteristics"
+    ]
+  },
+  {
+    "callsite_caller": "syncJournal",
+    "callsite": "sqlite3OsRead",
+    "src_line": "  return id->pMethods->xRead(id, pBuf, amt, offset);",
+    "callee": [
+      "unixRead"
+    ]
+  },
+  {
+    "callsite_caller": "syncJournal",
+    "callsite": "sqlite3OsSync",
+    "src_line": "  return flags ? id->pMethods->xSync(id, flags) : SQLITE_OK;",
+    "callee": [
+      "unixSync"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3OsSync",
+    "callsite": "unixSync",
+    "src_line": "    rc = osOpenDirectory(pFile->zPath, &dirfd);",
+    "callee": [
+      "openDirectory"
+    ]
+  },
+  {
+    "callsite_caller": "openDirectory",
+    "callsite": "robust_open",
+    "src_line": "    fd = osOpen(z,f|O_CLOEXEC,m2);",
+    "callee": [
+      "posixOpen"
+    ]
+  },
+  {
+    "callsite_caller": "syncJournal",
+    "callsite": "sqlite3OsWrite",
+    "src_line": "  return id->pMethods->xWrite(id, pBuf, amt, offset);",
+    "callee": [
+      "unixWrite"
+    ]
+  },
+  {
+    "callsite_caller": "pager_write_pagelist",
+    "callsite": "sqlite3OsFileControlHint",
+    "src_line": "  if( id->pMethods ) (void)id->pMethods->xFileControl(id, op, pArg);",
+    "callee": [
+      "unixFileControl"
+    ]
+  },
+  {
+    "callsite_caller": "pager_write_pagelist",
+    "callsite": "sqlite3OsWrite",
+    "src_line": "  return id->pMethods->xWrite(id, pBuf, amt, offset);",
+    "callee": [
+      "unixWrite"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PcacheMakeClean",
+    "callsite": "pcacheUnpin",
+    "src_line": "    sqlite3GlobalConfig.pcache2.xUnpin(p->pCache->pCache, p->pPage, 0);",
+    "callee": [
+      "pcache1Unpin"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerSync",
+    "callsite": "sqlite3OsFileControl",
+    "src_line": "  return id->pMethods->xFileControl(id, op, pArg);",
+    "callee": [
+      "unixFileControl"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerSync",
+    "callsite": "sqlite3OsSync",
+    "src_line": "  return flags ? id->pMethods->xSync(id, flags) : SQLITE_OK;",
+    "callee": [
+      "unixSync"
+    ]
+  },
+  {
+    "callsite_caller": "pager_end_transaction",
+    "callsite": "sqlite3OsClose",
+    "src_line": "    pId->pMethods->xClose(pId);",
+    "callee": [
+      "nolockClose",
+      "memjrnlClose"
+    ]
+  },
+  {
+    "callsite_caller": "pager_end_transaction",
+    "callsite": "sqlite3OsDelete",
+    "src_line": "  return pVfs->xDelete!=0 ? pVfs->xDelete(pVfs, zPath, dirSync) : SQLITE_OK;",
+    "callee": [
+      "unixDelete"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3BitvecDestroy",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "pager_end_transaction",
+    "callsite": "sqlite3PcacheTruncate",
+    "src_line": "    sqlite3GlobalConfig.pcache2.xTruncate(pCache->pCache, pgno+1);",
+    "callee": [
+      "pcache1Truncate"
+    ]
+  },
+  {
+    "callsite_caller": "pager_end_transaction",
+    "callsite": "sqlite3OsFileControl",
+    "src_line": "  return id->pMethods->xFileControl(id, op, pArg);",
+    "callee": [
+      "unixFileControl"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3FixSrcList",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "    rc = pWalker->xSelectCallback(pWalker, p);",
+    "callee": [
+      "fixSelectCb"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3FixSrcList",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "      pWalker->xSelectCallback2(pWalker, p);",
+    "callee": [
+      "sqlite3WalkWinDefnDummyCallback"
+    ]
+  },
+  {
+    "callsite_caller": "databaseIsUnmoved",
+    "callsite": "sqlite3OsFileControl",
+    "src_line": "  return id->pMethods->xFileControl(id, op, pArg);",
+    "callee": [
+      "unixFileControl"
+    ]
+  },
+  {
+    "callsite_caller": "write32bits",
+    "callsite": "sqlite3OsWrite",
+    "src_line": "  return id->pMethods->xWrite(id, pBuf, amt, offset);",
+    "callee": [
+      "unixWrite",
+      "memjrnlWrite"
+    ]
+  },
+  {
+    "callsite_caller": "pagerAddPageToRollbackJournal",
+    "callsite": "sqlite3OsWrite",
+    "src_line": "  return id->pMethods->xWrite(id, pBuf, amt, offset);",
+    "callee": [
+      "unixWrite",
+      "memjrnlWrite"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeSorterClose",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3FixSelect",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "    rc = pWalker->xSelectCallback(pWalker, p);",
+    "callee": [
+      "fixSelectCb"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3FixSelect",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "      pWalker->xSelectCallback2(pWalker, p);",
+    "callee": [
+      "sqlite3WalkWinDefnDummyCallback"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3ExprListDup",
+    "callsite": "sqlite3DbMallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3Prepare",
+    "callsite": "sqlite3ParseObjectReset",
+    "src_line": "    pCleanup->xCleanup(db, pCleanup->pPtr);",
+    "callee": [
+      "sqlite3DbFree",
+      "agginfoFree",
+      "sqlite3ExprDeleteGeneric"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3Step",
+    "callsite": "sqlite3VdbeExec",
+    "src_line": "  (*pCtx->pFunc->xSFunc)(pCtx, pCtx->argc, pCtx->argv);/* IMP: R-24505-23230 */",
+    "callee": [
+      "ctimestampFunc",
+      "likeFunc",
+      "jsonObjectFunc",
+      "jsonArrayFunc",
+      "jsonTypeFunc",
+      "dateFunc",
+      "timeFunc",
+      "datetimeFunc",
+      "strftimeFunc",
+      "juliandayFunc",
+      "unixepochFunc",
+      "lengthFunc",
+      "upperFunc",
+      "lowerFunc",
+      "substrFunc",
+      "instrFunc",
+      "replaceFunc",
+      "trimFunc",
+      "printfFunc",
+      "quoteFunc",
+      "hexFunc",
+      "unhexFunc",
+      "unicodeFunc",
+      "charFunc",
+      "absFunc",
+      "roundFunc",
+      "ceilingFunc",
+      "signFunc",
+      "math1Func",
+      "math2Func",
+      "logFunc",
+      "nullifFunc",
+      "typeofFunc",
+      "randomBlob",
+      "versionFunc",
+      "sourceidFunc",
+      "last_insert_rowid",
+      "changes",
+      "total_changes",
+      "statInit",
+      "statPush",
+      "statGet",
+      "attachFunc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3StmtCurrentTime",
+    "callsite": "sqlite3OsCurrentTimeInt64",
+    "src_line": "    rc = pVfs->xCurrentTimeInt64(pVfs, pTimeOut);",
+    "callee": [
+      "unixCurrentTimeInt64"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeExec",
+    "callsite": "sqlite3BtreeIndexMoveto",
+    "src_line": "        c = xRecordCompare(nCell, (void*)&pCell[1], pIdxKey);",
+    "callee": [
+      "vdbeRecordCompareString",
+      "vdbeRecordCompareInt"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3BtreeInsert",
+    "callsite": "sqlite3BtreeIndexMoveto",
+    "src_line": "        c = xRecordCompare(nCell, (void*)&pCell[1], pIdxKey);",
+    "callee": [
+      "vdbeRecordCompareString",
+      "vdbeRecordCompareInt"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3BtreeIndexMoveto",
+    "callsite": "indexCellCompare",
+    "src_line": "    c = xRecordCompare(nCell, (void*)&pCell[1], pIdxKey);",
+    "callee": [
+      "vdbeRecordCompareString",
+      "vdbeRecordCompareInt"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeExec",
+    "callsite": "sqlite3BtreeDelete",
+    "src_line": "  BTREE_CLEAR_CELL(rc, pPage, pCell, info);",
+    "callee": [
+      "btreeParseCellPtrIndex",
+      "btreeParseCellPtr"
+    ]
+  },
+  {
+    "callsite_caller": "removeElement",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "selectCheckOnClauses",
+    "callsite": "sqlite3WalkExprNN",
+    "src_line": "    rc = pWalker->xExprCallback(pWalker, pExpr);",
+    "callee": [
+      "selectCheckOnClausesExpr"
+    ]
+  },
+  {
+    "callsite_caller": "vdbeSorterSort",
+    "callsite": "vdbeSorterMerge",
+    "src_line": "    res = pTask->xCompare(",
+    "callee": [
+      "vdbeSorterCompareText",
+      "vdbeSorterCompareInt"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeRecordCompareWithSkip",
+    "callsite": "vdbeCompareMemString",
+    "src_line": "    return pColl->xCmp(pColl->pUser,pMem1->n,pMem1->z,pMem2->n,pMem2->z);",
+    "callee": [
+      "binCollFunc"
+    ]
+  },
+  {
+    "callsite_caller": "selectCheckOnClausesExpr",
+    "callsite": "sqlite3WalkExprNN",
+    "src_line": "    rc = pWalker->xExprCallback(pWalker, pExpr);",
+    "callee": [
+      "selectCheckOnClausesExpr"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_log",
+    "callsite": "renderLogMsg",
+    "src_line": "  sqlite3GlobalConfig.xLog(sqlite3GlobalConfig.pLogArg, iErrCode,",
+    "callee": [
+      "shellLog"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeMemGrow",
+    "callsite": "sqlite3DbMallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "btreeMoveto",
+    "callsite": "sqlite3BtreeIndexMoveto",
+    "src_line": "        c = xRecordCompare(nCell, (void*)&pCell[1], pIdxKey);",
+    "callee": [
+      "vdbeRecordCompareInt"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3Step",
+    "callsite": "sqlite3VdbeExec",
+    "src_line": "  (pCtx->pFunc->xSFunc)(pCtx,pCtx->argc,pCtx->argv); /* IMP: R-24505-23230 */",
+    "callee": [
+      "countStep",
+      "sumStep",
+      "minmaxStep",
+      "groupConcatStep",
+      "dense_rankStepFunc",
+      "rankStepFunc",
+      "row_numberStepFunc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeExec",
+    "callsite": "sqlite3VdbeMemFinalize",
+    "src_line": "  pFunc->xFinalize(&ctx); /* IMP: R-24505-23230 */",
+    "callee": [
+      "countFinalize",
+      "sumFinalize",
+      "avgFinalize",
+      "minMaxFinalize",
+      "totalFinalize",
+      "groupConcatFinalize"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PcacheClear",
+    "callsite": "sqlite3PcacheTruncate",
+    "src_line": "    sqlite3GlobalConfig.pcache2.xTruncate(pCache->pCache, pgno+1);",
+    "callee": [
+      "pcache1Truncate"
+    ]
+  },
+  {
+    "callsite_caller": "pcache1Free",
+    "callsite": "sqlite3MallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "pcache1Free",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "pcache1Free",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "pcache1Free",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerClose",
+    "callsite": "sqlite3PcacheClose",
+    "src_line": "  sqlite3GlobalConfig.pcache2.xDestroy(pCache->pCache);",
+    "callee": [
+      "pcache1Destroy"
+    ]
+  },
+  {
+    "callsite_caller": "pcache1EnforceMaxPage",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "pcache1Destroy",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerClose",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3BtreeClose",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3WalkExprNN",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "    rc = pWalker->xSelectCallback(pWalker, p);",
+    "callee": [
+      "selectExpander",
+      "resolveSelectStep",
+      "sqlite3SelectWalkNoop"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3WalkExprNN",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "      pWalker->xSelectCallback2(pWalker, p);",
+    "callee": [
+      "sqlite3SelectPopWith",
+      "selectAddSubqueryTypeInfo"
+    ]
+  },
+  {
+    "callsite_caller": "resolveExprStep",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "    rc = pWalker->xSelectCallback(pWalker, p);",
+    "callee": [
+      "resolveSelectStep"
+    ]
+  },
+  {
+    "callsite_caller": "pager_playback",
+    "callsite": "sqlite3OsFileSize",
+    "src_line": "  return id->pMethods->xFileSize(id, pSize);",
+    "callee": [
+      "unixFileSize"
+    ]
+  },
+  {
+    "callsite_caller": "readSuperJournal",
+    "callsite": "sqlite3OsFileSize",
+    "src_line": "  return id->pMethods->xFileSize(id, pSize);",
+    "callee": [
+      "unixFileSize"
+    ]
+  },
+  {
+    "callsite_caller": "read32bits",
+    "callsite": "sqlite3OsRead",
+    "src_line": "  return id->pMethods->xRead(id, pBuf, amt, offset);",
+    "callee": [
+      "unixRead"
+    ]
+  },
+  {
+    "callsite_caller": "pager_playback_one_page",
+    "callsite": "sqlite3OsRead",
+    "src_line": "  return id->pMethods->xRead(id, pBuf, amt, offset);",
+    "callee": [
+      "unixRead"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerLookup",
+    "callsite": "sqlite3PcacheFetch",
+    "src_line": "  pRes = sqlite3GlobalConfig.pcache2.xFetch(pCache->pCache, pgno, eCreate);",
+    "callee": [
+      "pcache1Fetch"
+    ]
+  },
+  {
+    "callsite_caller": "pager_playback",
+    "callsite": "pager_playback_one_page",
+    "src_line": "    pPager->xReiniter(pPg);",
+    "callee": [
+      "pageReinit"
+    ]
+  },
+  {
+    "callsite_caller": "closeAllCursors",
+    "callsite": "sqlite3VdbeDeleteAuxData",
+    "src_line": "        pAux->xDeleteAux(pAux->pAux);",
+    "callee": [
+      "jsonCacheDeleteGeneric"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3RCStrUnref",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3StrAccumEnlarge",
+    "callsite": "sqlite3Realloc",
+    "src_line": "  nNew = sqlite3GlobalConfig.m.xRoundup((int)nBytes);",
+    "callee": [
+      "sqlite3MemRoundup"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3StrAccumEnlarge",
+    "callsite": "sqlite3Realloc",
+    "src_line": "    pNew = sqlite3GlobalConfig.m.xRealloc(pOld, nNew);",
+    "callee": [
+      "sqlite3MemRealloc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeMemSetStr",
+    "callsite": "sqlite3DbMallocSize",
+    "src_line": "  return sqlite3GlobalConfig.m.xSize((void*)p);",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "resolveFromTermToCte",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "    rc = pWalker->xSelectCallback(pWalker, p);",
+    "callee": [
+      "selectExpander"
+    ]
+  },
+  {
+    "callsite_caller": "resolveFromTermToCte",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "      pWalker->xSelectCallback2(pWalker, p);",
+    "callee": [
+      "sqlite3SelectPopWith"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3HashClear",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3WalkSelectFrom",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "    rc = pWalker->xSelectCallback(pWalker, p);",
+    "callee": [
+      "selectExpander",
+      "sqlite3SelectWalkNoop",
+      "sqlite3WalkerDepthIncrease"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3WalkSelectFrom",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "      pWalker->xSelectCallback2(pWalker, p);",
+    "callee": [
+      "selectAddSubqueryTypeInfo",
+      "sqlite3WalkerDepthDecrease"
+    ]
+  },
+  {
+    "callsite_caller": "replaceFunc",
+    "callsite": "sqlite3Realloc",
+    "src_line": "  nNew = sqlite3GlobalConfig.m.xRoundup((int)nBytes);",
+    "callee": [
+      "sqlite3MemRoundup"
+    ]
+  },
+  {
+    "callsite_caller": "vdbeMemClear",
+    "callsite": "vdbeMemClearExternAndSetNull",
+    "src_line": "    p->xDel((void *)p->z);",
+    "callee": [
+      "sqlite3_free",
+      "statAccumDestructor"
+    ]
+  },
+  {
+    "callsite_caller": "vdbeMemClearExternAndSetNull",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeMemZeroTerminateIfAble",
+    "callsite": "sqlite3_msize",
+    "src_line": "  return p ? sqlite3GlobalConfig.m.xSize(p) : 0;",
+    "callee": [
+      "sqlite3MemSize"
+    ]
+  },
+  {
+    "callsite_caller": "roundFunc",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeExec",
+    "callsite": "ceilingFunc",
+    "src_line": "       sqlite3_result_double(context, x(sqlite3_value_double(argv[0])));",
+    "callee": [
+      "xCeil",
+      "xFloor"
+    ]
+  },
+  {
+    "callsite_caller": "memjrnlFreeChunks",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3WindowRewrite",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "    rc = pWalker->xSelectCallback(pWalker, p);",
+    "callee": [
+      "sqlite3SelectWalkNoop",
+      "sqlite3WalkerDepthIncrease"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3WindowRewrite",
+    "callsite": "sqlite3WalkSelect",
+    "src_line": "      pWalker->xSelectCallback2(pWalker, p);",
+    "callee": [
+      "sqlite3WalkerDepthDecrease"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeExec",
+    "callsite": "sqlite3VdbeMemAggValue",
+    "src_line": "  pFunc->xValue(&ctx);",
+    "callee": [
+      "noopValueFunc",
+      "sumFinalize",
+      "dense_rankValueFunc",
+      "rankValueFunc",
+      "row_numberValueFunc"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3BtreeClearTable",
+    "callsite": "clearDatabasePage",
+    "src_line": "    BTREE_CLEAR_CELL(rc, pPage, pCell, info);",
+    "callee": [
+      "btreeParseCellPtr",
+      "btreeParseCellPtrIndex"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeExec",
+    "callsite": "sqlite3BtreeDelete",
+    "src_line": "     || (pPage->nFree+pPage->xCellSize(pPage,pCell)+2) >",
+    "callee": [
+      "cellSizePtrTableLeaf"
+    ]
+  },
+  {
+    "callsite_caller": "vdbeMemClearExternAndSetNull",
+    "callsite": "sqlite3VdbeMemFinalize",
+    "src_line": "  pFunc->xFinalize(&ctx); /* IMP: R-24505-23230 */",
+    "callee": [
+      "row_numberValueFunc",
+      "dense_rankValueFunc",
+      "rankValueFunc",
+      "sumFinalize"
+    ]
+  },
+  {
+    "callsite_caller": "vdbeMemAddTerminator",
+    "callsite": "sqlite3VdbeMemGrow",
+    "src_line": "    pMem->xDel((void *)(pMem->z));",
+    "callee": [
+      "sqlite3_free"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3VdbeMemGrow",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "save_err_msg",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_str_finish",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "runOneSqlLine",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3InitOne",
+    "callsite": "sqlite3_exec",
+    "src_line": "        if( xCallback(pArg, nCol, azVals, azCols) ){",
+    "callee": [
+      "sqlite3InitCallback"
+    ]
+  },
+  {
+    "callsite_caller": "eqp_reset",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3AnalysisLoad",
+    "callsite": "sqlite3_exec",
+    "src_line": "        if( xCallback(pArg, nCol, azVals, azCols) ){",
+    "callee": [
+      "analysisLoader"
+    ]
+  },
+  {
+    "callsite_caller": "subjournalPage",
+    "callsite": "sqlite3OsWrite",
+    "src_line": "  return id->pMethods->xWrite(id, pBuf, amt, offset);",
+    "callee": [
+      "memjrnlWrite"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerSavepoint",
+    "callsite": "sqlite3OsTruncate",
+    "src_line": "  return id->pMethods->xTruncate(id, size);",
+    "callee": [
+      "memjrnlTruncate"
+    ]
+  },
+  {
+    "callsite_caller": "pagerOpenSavepoint",
+    "callsite": "sqlite3Realloc",
+    "src_line": "  nNew = sqlite3GlobalConfig.m.xRoundup((int)nBytes);",
+    "callee": [
+      "sqlite3MemRoundup"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3BtreeCopyFile",
+    "callsite": "sqlite3OsFileControl",
+    "src_line": "  return id->pMethods->xFileControl(id, op, pArg);",
+    "callee": [
+      "unixFileControl"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_backup_step",
+    "callsite": "sqlite3PagerGet",
+    "src_line": "  return pPager->xGet(pPager, pgno, ppPage, flags);",
+    "callee": [
+      "getPageNormal"
+    ]
+  },
+  {
+    "callsite_caller": "backupOnePage",
+    "callsite": "sqlite3PagerGet",
+    "src_line": "  return pPager->xGet(pPager, pgno, ppPage, flags);",
+    "callee": [
+      "getPageNormal"
+    ]
+  },
+  {
+    "callsite_caller": "releaseAllSavepoints",
+    "callsite": "sqlite3OsClose",
+    "src_line": "    pId->pMethods->xClose(pId);",
+    "callee": [
+      "memjrnlClose"
+    ]
+  },
+  {
+    "callsite_caller": "releaseAllSavepoints",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3RunVacuum",
+    "callsite": "sqlite3BtreeClose",
+    "src_line": "      pBt->xFreeSchema(pBt->pSchema);",
+    "callee": [
+      "sqlite3SchemaClear"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3_file_control",
+    "callsite": "sqlite3OsFileControl",
+    "src_line": "  return id->pMethods->xFileControl(id, op, pArg);",
+    "callee": [
+      "unixFileControl"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3PagerClose",
+    "callsite": "sqlite3OsClose",
+    "src_line": "    pId->pMethods->xClose(pId);",
+    "callee": [
+      "unixClose"
+    ]
+  },
+  {
+    "callsite_caller": "unixClose",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "unixClose",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "releaseInodeInfo",
+    "callsite": "sqlite3_mutex_enter",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexEnter(p);",
+    "callee": [
+      "pthreadMutexEnter"
+    ]
+  },
+  {
+    "callsite_caller": "releaseInodeInfo",
+    "callsite": "sqlite3_mutex_leave",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexLeave(p);",
+    "callee": [
+      "pthreadMutexLeave"
+    ]
+  },
+  {
+    "callsite_caller": "releaseInodeInfo",
+    "callsite": "sqlite3_mutex_free",
+    "src_line": "    sqlite3GlobalConfig.mutex.xMutexFree(p);",
+    "callee": [
+      "pthreadMutexFree"
+    ]
+  },
+  {
+    "callsite_caller": "releaseInodeInfo",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "closeUnixFile",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3LeaveMutexAndCloseZombie",
+    "callsite": "sqlite3BtreeClose",
+    "src_line": "      pBt->xFreeSchema(pBt->pSchema);",
+    "callee": [
+      "sqlite3SchemaClear"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3LeaveMutexAndCloseZombie",
+    "callsite": "functionDestroy",
+    "src_line": "      pDestructor->xDestroy(pDestructor->pUserData);",
+    "callee": [
+      "sqlite3_free"
+    ]
+  },
+  {
+    "callsite_caller": "functionDestroy",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3LeaveMutexAndCloseZombie",
+    "callsite": "sqlite3VtabModuleUnref",
+    "src_line": "      pMod->xDestroy(pMod->pAux);",
+    "callee": [
+      "hashDestroy"
+    ]
+  },
+  {
+    "callsite_caller": "fts3HashFree",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "hashDestroy",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  },
+  {
+    "callsite_caller": "sqlite3LeaveMutexAndCloseZombie",
+    "callsite": "sqlite3_free",
+    "src_line": "    sqlite3GlobalConfig.m.xFree(p);",
+    "callee": [
+      "sqlite3MemFree"
+    ]
+  }
+]

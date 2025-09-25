@@ -1,0 +1,1 @@
+int getPageError(Pager *, Pgno , DbPage **, int);

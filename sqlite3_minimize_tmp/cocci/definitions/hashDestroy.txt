@@ -1,0 +1,1 @@
+void hashDestroy(void *p);

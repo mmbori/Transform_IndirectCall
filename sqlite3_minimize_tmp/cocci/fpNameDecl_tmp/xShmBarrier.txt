@@ -1,0 +1,4 @@
+// Function declarations for xShmBarrier
+
+void multiplexShmBarrier(sqlite3_file *pConn);
+void quotaShmBarrier(sqlite3_file *pConn);

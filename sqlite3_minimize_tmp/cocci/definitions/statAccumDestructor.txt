@@ -1,0 +1,1 @@
+void statAccumDestructor(void *pOld);

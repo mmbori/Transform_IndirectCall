@@ -1,0 +1,1 @@
+void last_insert_rowid(sqlite3_context *context , int NotUsed , sqlite3_value **NotUsed2);

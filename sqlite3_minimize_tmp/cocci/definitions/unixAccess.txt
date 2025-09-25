@@ -1,0 +1,1 @@
+int unixAccess(sqlite3_vfs *NotUsed , const char *zPath , int flags , int *pResOut);

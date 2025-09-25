@@ -1,0 +1,5 @@
+// Function declarations for xSync
+
+int multiplexSync(sqlite3_file *pConn, int flags);
+int quotaSync(sqlite3_file *pConn, int flags);
+int vfstraceSync(sqlite3_file*, int flags);

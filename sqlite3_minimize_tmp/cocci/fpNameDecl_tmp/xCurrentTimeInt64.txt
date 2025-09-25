@@ -1,0 +1,3 @@
+// Function declarations for xCurrentTimeInt64
+
+int multiplexCurrentTimeInt64(sqlite3_vfs *a, sqlite3_int64 *b);

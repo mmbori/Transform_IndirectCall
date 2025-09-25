@@ -1,0 +1,10 @@
+// Function declarations for xShmLock
+
+int multiplexShmLock(sqlite3_file *pConn,       
+  int ofst,                  
+  int n,                     
+  int flags);
+int quotaShmLock(sqlite3_file *pConn,       
+  int ofst,                  
+  int n,                     
+  int flags);

@@ -1,0 +1,4 @@
+// Function declarations for xDelUser
+
+void circle_del(void *p);
+void cube_context_free(void *p);
