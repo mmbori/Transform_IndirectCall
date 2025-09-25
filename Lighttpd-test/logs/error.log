@@ -1,0 +1,2301 @@
+2025-08-12 16:29:30: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-12 16:29:30: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-12 16:29:33: (server.c.1271) [note] graceful shutdown started
+2025-08-12 16:29:33: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-12 16:33:02: (/home/bhsus/lighttpd1.4/src/server.c.1971) server started (lighttpd/1.4.80)
+2025-08-12 16:33:02: (/home/bhsus/lighttpd1.4/src/configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-12 16:33:04: (/home/bhsus/lighttpd1.4/src/server.c.1271) [note] graceful shutdown started
+2025-08-12 16:33:04: (/home/bhsus/lighttpd1.4/src/server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-12 19:21:39: (/home/bhsus/lighttpd1.4/src/server.c.1971) server started (lighttpd/1.4.80)
+2025-08-12 19:21:39: (/home/bhsus/lighttpd1.4/src/configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-12 19:26:48: (/home/bhsus/lighttpd1.4/src/server.c.1271) [note] graceful shutdown started
+2025-08-12 19:26:48: (/home/bhsus/lighttpd1.4/src/server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-12 19:27:21: (/home/bhsus/lighttpd1.4/src/server.c.1971) server started (lighttpd/1.4.80)
+2025-08-12 19:27:21: (/home/bhsus/lighttpd1.4/src/configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-12 19:57:42: (/home/bhsus/lighttpd1.4/src/server.c.469) warning: clock jumped 13521 secs
+2025-08-12 19:57:42: (/home/bhsus/lighttpd1.4/src/server.c.482) clock jumped; attempting graceful restart in < ~5 seconds, else hard restart
+2025-08-12 23:43:03: (/home/bhsus/lighttpd1.4/src/server.c.1271) [note] graceful shutdown started
+2025-08-12 23:43:03: (/home/bhsus/lighttpd1.4/src/server.c.2372) server stopped by UID = 1000 PID = 75712
+2025-08-12 23:43:03: (/home/bhsus/lighttpd1.4/src/server.c.1971) server started (lighttpd/1.4.80)
+2025-08-12 23:43:03: (/home/bhsus/lighttpd1.4/src/configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-12 23:53:42: (/home/bhsus/lighttpd1.4/src/server.c.469) warning: clock jumped 1714 secs
+2025-08-13 00:31:44: (/home/bhsus/lighttpd1.4/src/server.c.1271) [note] graceful shutdown started
+2025-08-13 00:31:44: (/home/bhsus/lighttpd1.4/src/server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-13 00:43:41: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-13 00:43:41: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-13 00:43:48: (server.c.1271) [note] graceful shutdown started
+2025-08-13 00:43:48: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-13 00:45:29: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-13 00:45:29: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-13 00:45:50: (server.c.1271) [note] graceful shutdown started
+2025-08-13 00:45:50: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-13 00:46:17: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-13 00:46:17: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-13 00:46:22: (server.c.1271) [note] graceful shutdown started
+2025-08-13 00:46:22: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-13 01:01:27: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-13 01:01:27: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-13 01:01:31: (server.c.1271) [note] graceful shutdown started
+2025-08-13 01:01:31: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-13 01:12:05: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-13 01:12:05: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-13 01:13:11: (server.c.1271) [note] graceful shutdown started
+2025-08-13 01:13:11: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-13 15:49:32: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-13 15:49:32: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-13 16:05:53: (server.c.1271) [note] graceful shutdown started
+2025-08-13 16:05:53: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-13 16:10:23: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-13 16:10:23: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-13 16:27:33: (server.c.469) warning: clock jumped 768 secs
+2025-08-13 16:40:32: (server.c.1271) [note] graceful shutdown started
+2025-08-13 16:40:32: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-13 17:14:35: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-13 17:14:35: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-13 17:16:51: (server.c.1271) [note] graceful shutdown started
+2025-08-13 17:16:51: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-14 00:56:45: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-14 00:56:45: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-14 00:57:05: (server.c.1271) [note] graceful shutdown started
+2025-08-14 00:57:05: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-14 01:15:50: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-14 01:15:50: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-14 01:15:51: (h1.c.497) fd:9 rqst: GET / HTTP/1.1
+2025-08-14 01:15:51: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-14 01:15:51: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-14 01:15:51: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-14 01:15:51: (h1.c.497) fd:9 rqst: 
+2025-08-14 01:15:51: (response.c.298) -- parsed Request-URI
+2025-08-14 01:15:51: (response.c.300) Request-URI     : /
+2025-08-14 01:15:51: (response.c.302) URI-scheme      : http
+2025-08-14 01:15:51: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-14 01:15:51: (response.c.306) URI-path (clean): /
+2025-08-14 01:15:51: (response.c.308) URI-query       : 
+2025-08-14 01:15:51: (response.c.387) -- logical -> physical
+2025-08-14 01:15:51: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-14 01:15:51: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-14 01:15:51: (response.c.393) Rel-Path     : /
+2025-08-14 01:15:51: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-14 01:15:51: (response.c.407) -- handling subrequest
+2025-08-14 01:15:51: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-14 01:15:51: (response.c.411) URI          : /
+2025-08-14 01:15:51: (response.c.413) Pathinfo     : 
+2025-08-14 01:15:51: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-14 01:15:51: (mod_indexfile.c.153) URI          : /
+2025-08-14 01:15:51: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-14 01:15:51: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-14 01:15:51: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-14 01:15:51: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-14 01:15:51: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-14 01:15:51: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-14 01:15:51: (h1.c.248) fd:9 resp: Date: Thu, 14 Aug 2025 05:15:51 GMT
+2025-08-14 01:15:51: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-14 01:15:51: (h1.c.248) fd:9 resp: 
+2025-08-14 01:15:56: (h1.c.497) fd:9 rqst: GET /index.html HTTP/1.1
+2025-08-14 01:15:56: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-14 01:15:56: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-14 01:15:56: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-14 01:15:56: (h1.c.497) fd:9 rqst: 
+2025-08-14 01:15:56: (response.c.298) -- parsed Request-URI
+2025-08-14 01:15:56: (response.c.300) Request-URI     : /index.html
+2025-08-14 01:15:56: (response.c.302) URI-scheme      : http
+2025-08-14 01:15:56: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-14 01:15:56: (response.c.306) URI-path (clean): /index.html
+2025-08-14 01:15:56: (response.c.308) URI-query       : 
+2025-08-14 01:15:56: (response.c.387) -- logical -> physical
+2025-08-14 01:15:56: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-14 01:15:56: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-14 01:15:56: (response.c.393) Rel-Path     : /index.html
+2025-08-14 01:15:56: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-14 01:15:56: (response.c.407) -- handling subrequest
+2025-08-14 01:15:56: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-14 01:15:56: (response.c.411) URI          : /index.html
+2025-08-14 01:15:56: (response.c.413) Pathinfo     : 
+2025-08-14 01:15:56: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-14 01:15:56: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-14 01:15:56: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-14 01:15:56: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-14 01:15:56: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-14 01:15:56: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-14 01:15:56: (h1.c.248) fd:9 resp: Date: Thu, 14 Aug 2025 05:15:56 GMT
+2025-08-14 01:15:56: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-14 01:15:56: (h1.c.248) fd:9 resp: 
+2025-08-14 01:16:00: (h1.c.497) fd:9 rqst: GET /test.txt HTTP/1.1
+2025-08-14 01:16:00: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-14 01:16:00: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-14 01:16:00: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-14 01:16:00: (h1.c.497) fd:9 rqst: 
+2025-08-14 01:16:00: (response.c.298) -- parsed Request-URI
+2025-08-14 01:16:00: (response.c.300) Request-URI     : /test.txt
+2025-08-14 01:16:00: (response.c.302) URI-scheme      : http
+2025-08-14 01:16:00: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-14 01:16:00: (response.c.306) URI-path (clean): /test.txt
+2025-08-14 01:16:00: (response.c.308) URI-query       : 
+2025-08-14 01:16:00: (response.c.387) -- logical -> physical
+2025-08-14 01:16:00: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-14 01:16:00: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-14 01:16:00: (response.c.393) Rel-Path     : /test.txt
+2025-08-14 01:16:00: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-14 01:16:00: (response.c.407) -- handling subrequest
+2025-08-14 01:16:00: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-14 01:16:00: (response.c.411) URI          : /test.txt
+2025-08-14 01:16:00: (response.c.413) Pathinfo     : 
+2025-08-14 01:16:00: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-14 01:16:00: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-14 01:16:00: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-14 01:16:00: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-14 01:16:00: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-14 01:16:00: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-14 01:16:00: (h1.c.248) fd:9 resp: Date: Thu, 14 Aug 2025 05:16:00 GMT
+2025-08-14 01:16:00: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-14 01:16:00: (h1.c.248) fd:9 resp: 
+2025-08-14 01:16:04: (h1.c.497) fd:9 rqst: GET /api.json HTTP/1.1
+2025-08-14 01:16:04: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-14 01:16:04: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-14 01:16:04: (h1.c.497) fd:9 rqst: Accept: application/json
+2025-08-14 01:16:04: (h1.c.497) fd:9 rqst: 
+2025-08-14 01:16:04: (response.c.298) -- parsed Request-URI
+2025-08-14 01:16:04: (response.c.300) Request-URI     : /api.json
+2025-08-14 01:16:04: (response.c.302) URI-scheme      : http
+2025-08-14 01:16:04: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-14 01:16:04: (response.c.306) URI-path (clean): /api.json
+2025-08-14 01:16:04: (response.c.308) URI-query       : 
+2025-08-14 01:16:04: (response.c.387) -- logical -> physical
+2025-08-14 01:16:04: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-14 01:16:04: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-14 01:16:04: (response.c.393) Rel-Path     : /api.json
+2025-08-14 01:16:04: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-14 01:16:04: (response.c.116) -- : No such file or directory
+2025-08-14 01:16:04: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-14 01:16:04: (response.c.121) URI          : /api.json
+2025-08-14 01:16:04: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-14 01:16:04: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-14 01:16:04: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-14 01:16:04: (h1.c.248) fd:9 resp: Date: Thu, 14 Aug 2025 05:16:04 GMT
+2025-08-14 01:16:04: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-14 01:16:04: (h1.c.248) fd:9 resp: 
+2025-08-14 01:16:09: (h1.c.497) fd:9 rqst: GET /nonexistent.html HTTP/1.1
+2025-08-14 01:16:09: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-14 01:16:09: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-14 01:16:09: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-14 01:16:09: (h1.c.497) fd:9 rqst: 
+2025-08-14 01:16:09: (response.c.298) -- parsed Request-URI
+2025-08-14 01:16:09: (response.c.300) Request-URI     : /nonexistent.html
+2025-08-14 01:16:09: (response.c.302) URI-scheme      : http
+2025-08-14 01:16:09: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-14 01:16:09: (response.c.306) URI-path (clean): /nonexistent.html
+2025-08-14 01:16:09: (response.c.308) URI-query       : 
+2025-08-14 01:16:09: (response.c.387) -- logical -> physical
+2025-08-14 01:16:09: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-14 01:16:09: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-14 01:16:09: (response.c.393) Rel-Path     : /nonexistent.html
+2025-08-14 01:16:09: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-14 01:16:09: (response.c.116) -- : No such file or directory
+2025-08-14 01:16:09: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-14 01:16:09: (response.c.121) URI          : /nonexistent.html
+2025-08-14 01:16:09: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-14 01:16:09: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-14 01:16:09: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-14 01:16:09: (h1.c.248) fd:9 resp: Date: Thu, 14 Aug 2025 05:16:09 GMT
+2025-08-14 01:16:09: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-14 01:16:09: (h1.c.248) fd:9 resp: 
+2025-08-14 01:16:15: (server.c.1271) [note] graceful shutdown started
+2025-08-14 01:16:15: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-15 17:33:01: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-15 17:33:01: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-15 17:33:28: (server.c.1271) [note] graceful shutdown started
+2025-08-15 17:33:28: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-15 17:33:55: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-15 17:33:55: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-15 17:33:59: (h1.c.497) fd:9 rqst: GET / HTTP/1.1
+2025-08-15 17:33:59: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-15 17:33:59: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-15 17:33:59: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-15 17:33:59: (h1.c.497) fd:9 rqst: 
+2025-08-15 17:33:59: (response.c.298) -- parsed Request-URI
+2025-08-15 17:33:59: (response.c.300) Request-URI     : /
+2025-08-15 17:33:59: (response.c.302) URI-scheme      : http
+2025-08-15 17:33:59: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-15 17:33:59: (response.c.306) URI-path (clean): /
+2025-08-15 17:33:59: (response.c.308) URI-query       : 
+2025-08-15 17:33:59: (response.c.387) -- logical -> physical
+2025-08-15 17:33:59: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 17:33:59: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 17:33:59: (response.c.393) Rel-Path     : /
+2025-08-15 17:33:59: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-15 17:33:59: (response.c.407) -- handling subrequest
+2025-08-15 17:33:59: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-15 17:33:59: (response.c.411) URI          : /
+2025-08-15 17:33:59: (response.c.413) Pathinfo     : 
+2025-08-15 17:33:59: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-15 17:33:59: (mod_indexfile.c.153) URI          : /
+2025-08-15 17:33:59: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-15 17:33:59: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-15 17:33:59: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-15 17:33:59: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-15 17:33:59: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-15 17:33:59: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-15 17:33:59: (h1.c.248) fd:9 resp: Date: Fri, 15 Aug 2025 21:33:59 GMT
+2025-08-15 17:33:59: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-15 17:33:59: (h1.c.248) fd:9 resp: 
+2025-08-15 17:34:04: (h1.c.497) fd:9 rqst: GET /index.html HTTP/1.1
+2025-08-15 17:34:04: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-15 17:34:04: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-15 17:34:04: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-15 17:34:04: (h1.c.497) fd:9 rqst: 
+2025-08-15 17:34:04: (response.c.298) -- parsed Request-URI
+2025-08-15 17:34:04: (response.c.300) Request-URI     : /index.html
+2025-08-15 17:34:04: (response.c.302) URI-scheme      : http
+2025-08-15 17:34:04: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-15 17:34:04: (response.c.306) URI-path (clean): /index.html
+2025-08-15 17:34:04: (response.c.308) URI-query       : 
+2025-08-15 17:34:04: (response.c.387) -- logical -> physical
+2025-08-15 17:34:04: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 17:34:04: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 17:34:04: (response.c.393) Rel-Path     : /index.html
+2025-08-15 17:34:04: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-15 17:34:04: (response.c.407) -- handling subrequest
+2025-08-15 17:34:04: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-15 17:34:04: (response.c.411) URI          : /index.html
+2025-08-15 17:34:04: (response.c.413) Pathinfo     : 
+2025-08-15 17:34:04: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-15 17:34:04: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-15 17:34:04: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-15 17:34:04: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-15 17:34:04: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-15 17:34:04: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-15 17:34:04: (h1.c.248) fd:9 resp: Date: Fri, 15 Aug 2025 21:34:04 GMT
+2025-08-15 17:34:04: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-15 17:34:04: (h1.c.248) fd:9 resp: 
+2025-08-15 17:34:09: (h1.c.497) fd:9 rqst: GET /test.txt HTTP/1.1
+2025-08-15 17:34:09: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-15 17:34:09: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-15 17:34:09: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-15 17:34:09: (h1.c.497) fd:9 rqst: 
+2025-08-15 17:34:09: (response.c.298) -- parsed Request-URI
+2025-08-15 17:34:09: (response.c.300) Request-URI     : /test.txt
+2025-08-15 17:34:09: (response.c.302) URI-scheme      : http
+2025-08-15 17:34:09: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-15 17:34:09: (response.c.306) URI-path (clean): /test.txt
+2025-08-15 17:34:09: (response.c.308) URI-query       : 
+2025-08-15 17:34:09: (response.c.387) -- logical -> physical
+2025-08-15 17:34:09: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 17:34:09: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 17:34:09: (response.c.393) Rel-Path     : /test.txt
+2025-08-15 17:34:09: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-15 17:34:09: (response.c.407) -- handling subrequest
+2025-08-15 17:34:09: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-15 17:34:09: (response.c.411) URI          : /test.txt
+2025-08-15 17:34:09: (response.c.413) Pathinfo     : 
+2025-08-15 17:34:09: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-15 17:34:09: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-15 17:34:09: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-15 17:34:09: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-15 17:34:09: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-15 17:34:09: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-15 17:34:09: (h1.c.248) fd:9 resp: Date: Fri, 15 Aug 2025 21:34:09 GMT
+2025-08-15 17:34:09: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-15 17:34:09: (h1.c.248) fd:9 resp: 
+2025-08-15 17:34:13: (h1.c.497) fd:9 rqst: GET /api.json HTTP/1.1
+2025-08-15 17:34:13: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-15 17:34:13: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-15 17:34:13: (h1.c.497) fd:9 rqst: Accept: application/json
+2025-08-15 17:34:13: (h1.c.497) fd:9 rqst: 
+2025-08-15 17:34:13: (response.c.298) -- parsed Request-URI
+2025-08-15 17:34:13: (response.c.300) Request-URI     : /api.json
+2025-08-15 17:34:13: (response.c.302) URI-scheme      : http
+2025-08-15 17:34:13: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-15 17:34:13: (response.c.306) URI-path (clean): /api.json
+2025-08-15 17:34:13: (response.c.308) URI-query       : 
+2025-08-15 17:34:13: (response.c.387) -- logical -> physical
+2025-08-15 17:34:13: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 17:34:13: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 17:34:13: (response.c.393) Rel-Path     : /api.json
+2025-08-15 17:34:13: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-15 17:34:13: (response.c.116) -- : No such file or directory
+2025-08-15 17:34:13: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-15 17:34:13: (response.c.121) URI          : /api.json
+2025-08-15 17:34:13: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-15 17:34:13: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-15 17:34:13: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-15 17:34:13: (h1.c.248) fd:9 resp: Date: Fri, 15 Aug 2025 21:34:13 GMT
+2025-08-15 17:34:13: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-15 17:34:13: (h1.c.248) fd:9 resp: 
+2025-08-15 17:34:16: (h1.c.497) fd:9 rqst: GET /nonexistent.html HTTP/1.1
+2025-08-15 17:34:16: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-15 17:34:16: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-15 17:34:16: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-15 17:34:16: (h1.c.497) fd:9 rqst: 
+2025-08-15 17:34:16: (response.c.298) -- parsed Request-URI
+2025-08-15 17:34:16: (response.c.300) Request-URI     : /nonexistent.html
+2025-08-15 17:34:16: (response.c.302) URI-scheme      : http
+2025-08-15 17:34:16: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-15 17:34:16: (response.c.306) URI-path (clean): /nonexistent.html
+2025-08-15 17:34:16: (response.c.308) URI-query       : 
+2025-08-15 17:34:16: (response.c.387) -- logical -> physical
+2025-08-15 17:34:16: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 17:34:16: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 17:34:16: (response.c.393) Rel-Path     : /nonexistent.html
+2025-08-15 17:34:16: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-15 17:34:16: (response.c.116) -- : No such file or directory
+2025-08-15 17:34:16: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-15 17:34:16: (response.c.121) URI          : /nonexistent.html
+2025-08-15 17:34:16: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-15 17:34:16: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-15 17:34:16: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-15 17:34:16: (h1.c.248) fd:9 resp: Date: Fri, 15 Aug 2025 21:34:16 GMT
+2025-08-15 17:34:16: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-15 17:34:16: (h1.c.248) fd:9 resp: 
+2025-08-15 17:34:30: (h1.c.497) fd:9 rqst: HEAD /index.html HTTP/1.1
+2025-08-15 17:34:30: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-15 17:34:30: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-15 17:34:30: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-15 17:34:30: (h1.c.497) fd:9 rqst: 
+2025-08-15 17:34:30: (response.c.298) -- parsed Request-URI
+2025-08-15 17:34:30: (response.c.300) Request-URI     : /index.html
+2025-08-15 17:34:30: (response.c.302) URI-scheme      : http
+2025-08-15 17:34:30: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-15 17:34:30: (response.c.306) URI-path (clean): /index.html
+2025-08-15 17:34:30: (response.c.308) URI-query       : 
+2025-08-15 17:34:30: (response.c.387) -- logical -> physical
+2025-08-15 17:34:30: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 17:34:30: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 17:34:30: (response.c.393) Rel-Path     : /index.html
+2025-08-15 17:34:30: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-15 17:34:30: (response.c.407) -- handling subrequest
+2025-08-15 17:34:30: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-15 17:34:30: (response.c.411) URI          : /index.html
+2025-08-15 17:34:30: (response.c.413) Pathinfo     : 
+2025-08-15 17:34:30: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-15 17:34:30: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-15 17:34:30: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-15 17:34:30: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-15 17:34:30: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-15 17:34:30: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-15 17:34:30: (h1.c.248) fd:9 resp: Date: Fri, 15 Aug 2025 21:34:30 GMT
+2025-08-15 17:34:30: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-15 17:34:30: (h1.c.248) fd:9 resp: 
+2025-08-15 17:34:38: (server.c.1271) [note] graceful shutdown started
+2025-08-15 17:34:38: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-15 18:12:01: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-15 18:12:01: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-15 18:12:06: (h1.c.497) fd:9 rqst: GET / HTTP/1.1
+2025-08-15 18:12:06: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-15 18:12:06: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-15 18:12:06: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-15 18:12:06: (h1.c.497) fd:9 rqst: 
+2025-08-15 18:12:06: (response.c.298) -- parsed Request-URI
+2025-08-15 18:12:06: (response.c.300) Request-URI     : /
+2025-08-15 18:12:06: (response.c.302) URI-scheme      : http
+2025-08-15 18:12:06: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-15 18:12:06: (response.c.306) URI-path (clean): /
+2025-08-15 18:12:06: (response.c.308) URI-query       : 
+2025-08-15 18:12:06: (response.c.387) -- logical -> physical
+2025-08-15 18:12:06: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 18:12:06: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 18:12:06: (response.c.393) Rel-Path     : /
+2025-08-15 18:12:06: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-15 18:12:06: (response.c.407) -- handling subrequest
+2025-08-15 18:12:06: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-15 18:12:06: (response.c.411) URI          : /
+2025-08-15 18:12:06: (response.c.413) Pathinfo     : 
+2025-08-15 18:12:06: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-15 18:12:06: (mod_indexfile.c.153) URI          : /
+2025-08-15 18:12:06: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-15 18:12:06: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-15 18:12:06: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-15 18:12:06: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-15 18:12:06: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-15 18:12:06: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-15 18:12:06: (h1.c.248) fd:9 resp: Date: Fri, 15 Aug 2025 22:12:06 GMT
+2025-08-15 18:12:06: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-15 18:12:06: (h1.c.248) fd:9 resp: 
+2025-08-15 18:12:10: (h1.c.497) fd:9 rqst: GET /index.html HTTP/1.1
+2025-08-15 18:12:10: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-15 18:12:10: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-15 18:12:10: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-15 18:12:10: (h1.c.497) fd:9 rqst: 
+2025-08-15 18:12:10: (response.c.298) -- parsed Request-URI
+2025-08-15 18:12:10: (response.c.300) Request-URI     : /index.html
+2025-08-15 18:12:10: (response.c.302) URI-scheme      : http
+2025-08-15 18:12:10: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-15 18:12:10: (response.c.306) URI-path (clean): /index.html
+2025-08-15 18:12:10: (response.c.308) URI-query       : 
+2025-08-15 18:12:10: (response.c.387) -- logical -> physical
+2025-08-15 18:12:10: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 18:12:10: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 18:12:10: (response.c.393) Rel-Path     : /index.html
+2025-08-15 18:12:10: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-15 18:12:10: (response.c.407) -- handling subrequest
+2025-08-15 18:12:10: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-15 18:12:10: (response.c.411) URI          : /index.html
+2025-08-15 18:12:10: (response.c.413) Pathinfo     : 
+2025-08-15 18:12:10: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-15 18:12:10: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-15 18:12:10: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-15 18:12:10: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-15 18:12:10: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-15 18:12:10: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-15 18:12:10: (h1.c.248) fd:9 resp: Date: Fri, 15 Aug 2025 22:12:10 GMT
+2025-08-15 18:12:10: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-15 18:12:10: (h1.c.248) fd:9 resp: 
+2025-08-15 18:12:14: (h1.c.497) fd:9 rqst: GET /test.txt HTTP/1.1
+2025-08-15 18:12:14: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-15 18:12:14: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-15 18:12:14: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-15 18:12:14: (h1.c.497) fd:9 rqst: 
+2025-08-15 18:12:14: (response.c.298) -- parsed Request-URI
+2025-08-15 18:12:14: (response.c.300) Request-URI     : /test.txt
+2025-08-15 18:12:14: (response.c.302) URI-scheme      : http
+2025-08-15 18:12:14: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-15 18:12:14: (response.c.306) URI-path (clean): /test.txt
+2025-08-15 18:12:14: (response.c.308) URI-query       : 
+2025-08-15 18:12:14: (response.c.387) -- logical -> physical
+2025-08-15 18:12:14: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 18:12:14: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 18:12:14: (response.c.393) Rel-Path     : /test.txt
+2025-08-15 18:12:14: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-15 18:12:14: (response.c.407) -- handling subrequest
+2025-08-15 18:12:14: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-15 18:12:14: (response.c.411) URI          : /test.txt
+2025-08-15 18:12:14: (response.c.413) Pathinfo     : 
+2025-08-15 18:12:14: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-15 18:12:14: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-15 18:12:14: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-15 18:12:14: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-15 18:12:14: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-15 18:12:14: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-15 18:12:14: (h1.c.248) fd:9 resp: Date: Fri, 15 Aug 2025 22:12:14 GMT
+2025-08-15 18:12:14: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-15 18:12:14: (h1.c.248) fd:9 resp: 
+2025-08-15 18:12:18: (h1.c.497) fd:9 rqst: GET /api.json HTTP/1.1
+2025-08-15 18:12:18: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-15 18:12:18: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-15 18:12:18: (h1.c.497) fd:9 rqst: Accept: application/json
+2025-08-15 18:12:18: (h1.c.497) fd:9 rqst: 
+2025-08-15 18:12:18: (response.c.298) -- parsed Request-URI
+2025-08-15 18:12:18: (response.c.300) Request-URI     : /api.json
+2025-08-15 18:12:18: (response.c.302) URI-scheme      : http
+2025-08-15 18:12:18: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-15 18:12:18: (response.c.306) URI-path (clean): /api.json
+2025-08-15 18:12:18: (response.c.308) URI-query       : 
+2025-08-15 18:12:18: (response.c.387) -- logical -> physical
+2025-08-15 18:12:18: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 18:12:18: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 18:12:18: (response.c.393) Rel-Path     : /api.json
+2025-08-15 18:12:18: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-15 18:12:18: (response.c.116) -- : No such file or directory
+2025-08-15 18:12:18: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-15 18:12:18: (response.c.121) URI          : /api.json
+2025-08-15 18:12:18: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-15 18:12:18: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-15 18:12:18: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-15 18:12:18: (h1.c.248) fd:9 resp: Date: Fri, 15 Aug 2025 22:12:18 GMT
+2025-08-15 18:12:18: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-15 18:12:18: (h1.c.248) fd:9 resp: 
+2025-08-15 18:12:22: (h1.c.497) fd:9 rqst: GET /nonexistent.html HTTP/1.1
+2025-08-15 18:12:22: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-15 18:12:22: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-15 18:12:22: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-15 18:12:22: (h1.c.497) fd:9 rqst: 
+2025-08-15 18:12:22: (response.c.298) -- parsed Request-URI
+2025-08-15 18:12:22: (response.c.300) Request-URI     : /nonexistent.html
+2025-08-15 18:12:22: (response.c.302) URI-scheme      : http
+2025-08-15 18:12:22: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-15 18:12:22: (response.c.306) URI-path (clean): /nonexistent.html
+2025-08-15 18:12:22: (response.c.308) URI-query       : 
+2025-08-15 18:12:22: (response.c.387) -- logical -> physical
+2025-08-15 18:12:22: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 18:12:22: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 18:12:22: (response.c.393) Rel-Path     : /nonexistent.html
+2025-08-15 18:12:22: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-15 18:12:22: (response.c.116) -- : No such file or directory
+2025-08-15 18:12:22: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-15 18:12:22: (response.c.121) URI          : /nonexistent.html
+2025-08-15 18:12:22: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-15 18:12:22: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-15 18:12:22: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-15 18:12:22: (h1.c.248) fd:9 resp: Date: Fri, 15 Aug 2025 22:12:22 GMT
+2025-08-15 18:12:22: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-15 18:12:22: (h1.c.248) fd:9 resp: 
+2025-08-15 18:12:28: (h1.c.497) fd:9 rqst: HEAD /index.html HTTP/1.1
+2025-08-15 18:12:28: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-15 18:12:28: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-15 18:12:28: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-15 18:12:28: (h1.c.497) fd:9 rqst: 
+2025-08-15 18:12:28: (response.c.298) -- parsed Request-URI
+2025-08-15 18:12:28: (response.c.300) Request-URI     : /index.html
+2025-08-15 18:12:28: (response.c.302) URI-scheme      : http
+2025-08-15 18:12:28: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-15 18:12:28: (response.c.306) URI-path (clean): /index.html
+2025-08-15 18:12:28: (response.c.308) URI-query       : 
+2025-08-15 18:12:28: (response.c.387) -- logical -> physical
+2025-08-15 18:12:28: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 18:12:28: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-15 18:12:28: (response.c.393) Rel-Path     : /index.html
+2025-08-15 18:12:28: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-15 18:12:28: (response.c.407) -- handling subrequest
+2025-08-15 18:12:28: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-15 18:12:28: (response.c.411) URI          : /index.html
+2025-08-15 18:12:28: (response.c.413) Pathinfo     : 
+2025-08-15 18:12:28: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-15 18:12:28: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-15 18:12:28: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-15 18:12:28: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-15 18:12:28: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-15 18:12:28: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-15 18:12:28: (h1.c.248) fd:9 resp: Date: Fri, 15 Aug 2025 22:12:28 GMT
+2025-08-15 18:12:28: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-15 18:12:28: (h1.c.248) fd:9 resp: 
+2025-08-15 18:12:35: (server.c.1271) [note] graceful shutdown started
+2025-08-15 18:12:35: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-16 18:43:30: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-16 18:43:30: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-16 18:44:05: (h1.c.497) fd:9 rqst: GET / HTTP/1.1
+2025-08-16 18:44:05: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:44:05: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:44:05: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:44:05: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:44:05: (response.c.298) -- parsed Request-URI
+2025-08-16 18:44:05: (response.c.300) Request-URI     : /
+2025-08-16 18:44:05: (response.c.302) URI-scheme      : http
+2025-08-16 18:44:05: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:44:05: (response.c.306) URI-path (clean): /
+2025-08-16 18:44:05: (response.c.308) URI-query       : 
+2025-08-16 18:44:05: (response.c.387) -- logical -> physical
+2025-08-16 18:44:05: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:05: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:05: (response.c.393) Rel-Path     : /
+2025-08-16 18:44:05: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 18:44:05: (response.c.407) -- handling subrequest
+2025-08-16 18:44:05: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 18:44:05: (response.c.411) URI          : /
+2025-08-16 18:44:05: (response.c.413) Pathinfo     : 
+2025-08-16 18:44:05: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-16 18:44:05: (mod_indexfile.c.153) URI          : /
+2025-08-16 18:44:05: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 18:44:05: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 18:44:05: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-16 18:44:05: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-16 18:44:05: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-16 18:44:05: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-16 18:44:05: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:44:05 GMT
+2025-08-16 18:44:05: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:44:05: (h1.c.248) fd:9 resp: 
+2025-08-16 18:44:09: (h1.c.497) fd:9 rqst: GET /index.html HTTP/1.1
+2025-08-16 18:44:09: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:44:09: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:44:09: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:44:09: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:44:09: (response.c.298) -- parsed Request-URI
+2025-08-16 18:44:09: (response.c.300) Request-URI     : /index.html
+2025-08-16 18:44:09: (response.c.302) URI-scheme      : http
+2025-08-16 18:44:09: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:44:09: (response.c.306) URI-path (clean): /index.html
+2025-08-16 18:44:09: (response.c.308) URI-query       : 
+2025-08-16 18:44:09: (response.c.387) -- logical -> physical
+2025-08-16 18:44:09: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:09: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:09: (response.c.393) Rel-Path     : /index.html
+2025-08-16 18:44:09: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-16 18:44:09: (response.c.407) -- handling subrequest
+2025-08-16 18:44:09: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-16 18:44:09: (response.c.411) URI          : /index.html
+2025-08-16 18:44:09: (response.c.413) Pathinfo     : 
+2025-08-16 18:44:09: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 18:44:09: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 18:44:09: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-16 18:44:09: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-16 18:44:09: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-16 18:44:09: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-16 18:44:09: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:44:09 GMT
+2025-08-16 18:44:09: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:44:09: (h1.c.248) fd:9 resp: 
+2025-08-16 18:44:12: (h1.c.497) fd:9 rqst: GET /api.json HTTP/1.1
+2025-08-16 18:44:12: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:44:12: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:44:12: (h1.c.497) fd:9 rqst: Accept: application/json
+2025-08-16 18:44:12: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:44:12: (response.c.298) -- parsed Request-URI
+2025-08-16 18:44:12: (response.c.300) Request-URI     : /api.json
+2025-08-16 18:44:12: (response.c.302) URI-scheme      : http
+2025-08-16 18:44:12: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:44:12: (response.c.306) URI-path (clean): /api.json
+2025-08-16 18:44:12: (response.c.308) URI-query       : 
+2025-08-16 18:44:12: (response.c.387) -- logical -> physical
+2025-08-16 18:44:12: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:12: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:12: (response.c.393) Rel-Path     : /api.json
+2025-08-16 18:44:12: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-16 18:44:12: (response.c.116) -- : No such file or directory
+2025-08-16 18:44:12: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-16 18:44:12: (response.c.121) URI          : /api.json
+2025-08-16 18:44:12: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-16 18:44:12: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 18:44:12: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-16 18:44:12: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:44:12 GMT
+2025-08-16 18:44:12: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:44:12: (h1.c.248) fd:9 resp: 
+2025-08-16 18:44:16: (h1.c.497) fd:9 rqst: HEAD /test.txt HTTP/1.1
+2025-08-16 18:44:16: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:44:16: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:44:16: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:44:16: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:44:16: (response.c.298) -- parsed Request-URI
+2025-08-16 18:44:16: (response.c.300) Request-URI     : /test.txt
+2025-08-16 18:44:16: (response.c.302) URI-scheme      : http
+2025-08-16 18:44:16: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:44:16: (response.c.306) URI-path (clean): /test.txt
+2025-08-16 18:44:16: (response.c.308) URI-query       : 
+2025-08-16 18:44:16: (response.c.387) -- logical -> physical
+2025-08-16 18:44:16: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:16: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:16: (response.c.393) Rel-Path     : /test.txt
+2025-08-16 18:44:16: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 18:44:16: (response.c.407) -- handling subrequest
+2025-08-16 18:44:16: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 18:44:16: (response.c.411) URI          : /test.txt
+2025-08-16 18:44:16: (response.c.413) Pathinfo     : 
+2025-08-16 18:44:16: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 18:44:16: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-16 18:44:16: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-16 18:44:16: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-16 18:44:16: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-16 18:44:16: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-16 18:44:16: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:44:16 GMT
+2025-08-16 18:44:16: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:44:16: (h1.c.248) fd:9 resp: 
+2025-08-16 18:44:20: (h1.c.497) fd:9 rqst: GET /nonexistent.html HTTP/1.1
+2025-08-16 18:44:20: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:44:20: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:44:20: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:44:20: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:44:20: (response.c.298) -- parsed Request-URI
+2025-08-16 18:44:20: (response.c.300) Request-URI     : /nonexistent.html
+2025-08-16 18:44:20: (response.c.302) URI-scheme      : http
+2025-08-16 18:44:20: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:44:20: (response.c.306) URI-path (clean): /nonexistent.html
+2025-08-16 18:44:20: (response.c.308) URI-query       : 
+2025-08-16 18:44:20: (response.c.387) -- logical -> physical
+2025-08-16 18:44:20: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:20: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:20: (response.c.393) Rel-Path     : /nonexistent.html
+2025-08-16 18:44:20: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-16 18:44:20: (response.c.116) -- : No such file or directory
+2025-08-16 18:44:20: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-16 18:44:20: (response.c.121) URI          : /nonexistent.html
+2025-08-16 18:44:20: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-16 18:44:20: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 18:44:20: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-16 18:44:20: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:44:20 GMT
+2025-08-16 18:44:20: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:44:20: (h1.c.248) fd:9 resp: 
+2025-08-16 18:44:26: (h1.c.497) fd:9 rqst: OPTIONS / HTTP/1.1
+2025-08-16 18:44:26: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:44:26: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:44:26: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:44:26: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:44:26: (response.c.298) -- parsed Request-URI
+2025-08-16 18:44:26: (response.c.300) Request-URI     : /
+2025-08-16 18:44:26: (response.c.302) URI-scheme      : http
+2025-08-16 18:44:26: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:44:26: (response.c.306) URI-path (clean): /
+2025-08-16 18:44:26: (response.c.308) URI-query       : 
+2025-08-16 18:44:26: (response.c.387) -- logical -> physical
+2025-08-16 18:44:26: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:26: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:26: (response.c.393) Rel-Path     : /
+2025-08-16 18:44:26: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 18:44:26: (response.c.407) -- handling subrequest
+2025-08-16 18:44:26: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 18:44:26: (response.c.411) URI          : /
+2025-08-16 18:44:26: (response.c.413) Pathinfo     : 
+2025-08-16 18:44:26: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-16 18:44:26: (mod_indexfile.c.153) URI          : /
+2025-08-16 18:44:26: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 18:44:26: (h1.c.248) fd:9 resp: Allow: OPTIONS, GET, HEAD, POST
+2025-08-16 18:44:26: (h1.c.248) fd:9 resp: Content-Length: 0
+2025-08-16 18:44:26: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:44:26 GMT
+2025-08-16 18:44:26: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:44:26: (h1.c.248) fd:9 resp: 
+2025-08-16 18:44:31: (h1.c.497) fd:9 rqst: DELETE /test.txt HTTP/1.1
+2025-08-16 18:44:31: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:44:31: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:44:31: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:44:31: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:44:31: (response.c.298) -- parsed Request-URI
+2025-08-16 18:44:31: (response.c.300) Request-URI     : /test.txt
+2025-08-16 18:44:31: (response.c.302) URI-scheme      : http
+2025-08-16 18:44:31: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:44:31: (response.c.306) URI-path (clean): /test.txt
+2025-08-16 18:44:31: (response.c.308) URI-query       : 
+2025-08-16 18:44:31: (response.c.387) -- logical -> physical
+2025-08-16 18:44:31: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:31: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:44:31: (response.c.393) Rel-Path     : /test.txt
+2025-08-16 18:44:31: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 18:44:31: (response.c.407) -- handling subrequest
+2025-08-16 18:44:31: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 18:44:31: (response.c.411) URI          : /test.txt
+2025-08-16 18:44:31: (response.c.413) Pathinfo     : 
+2025-08-16 18:44:31: (h1.c.248) fd:9 resp: HTTP/1.1 501 Not Implemented
+2025-08-16 18:44:31: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 18:44:31: (h1.c.248) fd:9 resp: Content-Length: 170
+2025-08-16 18:44:31: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:44:31 GMT
+2025-08-16 18:44:31: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:44:31: (h1.c.248) fd:9 resp: 
+2025-08-16 18:44:36: (server.c.1271) [note] graceful shutdown started
+2025-08-16 18:44:36: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-16 18:49:19: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-16 18:49:19: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-16 18:49:23: (h1.c.497) fd:9 rqst: DELETE /test.txt HTTP/1.1
+2025-08-16 18:49:23: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:49:23: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:49:23: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:49:23: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:49:23: (response.c.298) -- parsed Request-URI
+2025-08-16 18:49:23: (response.c.300) Request-URI     : /test.txt
+2025-08-16 18:49:23: (response.c.302) URI-scheme      : http
+2025-08-16 18:49:23: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:49:23: (response.c.306) URI-path (clean): /test.txt
+2025-08-16 18:49:23: (response.c.308) URI-query       : 
+2025-08-16 18:49:23: (response.c.387) -- logical -> physical
+2025-08-16 18:49:23: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:23: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:23: (response.c.393) Rel-Path     : /test.txt
+2025-08-16 18:49:23: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 18:49:23: (response.c.407) -- handling subrequest
+2025-08-16 18:49:23: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 18:49:23: (response.c.411) URI          : /test.txt
+2025-08-16 18:49:23: (response.c.413) Pathinfo     : 
+2025-08-16 18:49:23: (h1.c.248) fd:9 resp: HTTP/1.1 501 Not Implemented
+2025-08-16 18:49:23: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 18:49:23: (h1.c.248) fd:9 resp: Content-Length: 170
+2025-08-16 18:49:23: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:49:23 GMT
+2025-08-16 18:49:23: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:49:23: (h1.c.248) fd:9 resp: 
+2025-08-16 18:49:25: (h1.c.497) fd:9 rqst: OPTIONS / HTTP/1.1
+2025-08-16 18:49:25: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:49:25: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:49:25: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:49:25: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:49:25: (response.c.298) -- parsed Request-URI
+2025-08-16 18:49:25: (response.c.300) Request-URI     : /
+2025-08-16 18:49:25: (response.c.302) URI-scheme      : http
+2025-08-16 18:49:25: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:49:25: (response.c.306) URI-path (clean): /
+2025-08-16 18:49:25: (response.c.308) URI-query       : 
+2025-08-16 18:49:25: (response.c.387) -- logical -> physical
+2025-08-16 18:49:25: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:25: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:25: (response.c.393) Rel-Path     : /
+2025-08-16 18:49:25: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 18:49:25: (response.c.407) -- handling subrequest
+2025-08-16 18:49:25: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 18:49:25: (response.c.411) URI          : /
+2025-08-16 18:49:25: (response.c.413) Pathinfo     : 
+2025-08-16 18:49:25: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-16 18:49:25: (mod_indexfile.c.153) URI          : /
+2025-08-16 18:49:25: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 18:49:25: (h1.c.248) fd:9 resp: Allow: OPTIONS, GET, HEAD, POST
+2025-08-16 18:49:25: (h1.c.248) fd:9 resp: Content-Length: 0
+2025-08-16 18:49:25: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:49:25 GMT
+2025-08-16 18:49:25: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:49:25: (h1.c.248) fd:9 resp: 
+2025-08-16 18:49:29: (h1.c.497) fd:9 rqst: GET /nonexistent.html HTTP/1.1
+2025-08-16 18:49:29: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:49:29: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:49:29: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:49:29: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:49:29: (response.c.298) -- parsed Request-URI
+2025-08-16 18:49:29: (response.c.300) Request-URI     : /nonexistent.html
+2025-08-16 18:49:29: (response.c.302) URI-scheme      : http
+2025-08-16 18:49:29: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:49:29: (response.c.306) URI-path (clean): /nonexistent.html
+2025-08-16 18:49:29: (response.c.308) URI-query       : 
+2025-08-16 18:49:29: (response.c.387) -- logical -> physical
+2025-08-16 18:49:29: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:29: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:29: (response.c.393) Rel-Path     : /nonexistent.html
+2025-08-16 18:49:29: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-16 18:49:29: (response.c.116) -- : No such file or directory
+2025-08-16 18:49:29: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-16 18:49:29: (response.c.121) URI          : /nonexistent.html
+2025-08-16 18:49:29: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-16 18:49:29: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 18:49:29: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-16 18:49:29: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:49:29 GMT
+2025-08-16 18:49:29: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:49:29: (h1.c.248) fd:9 resp: 
+2025-08-16 18:49:34: (h1.c.497) fd:9 rqst: HEAD /test.txt HTTP/1.1
+2025-08-16 18:49:34: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:49:34: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:49:34: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:49:34: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:49:34: (response.c.298) -- parsed Request-URI
+2025-08-16 18:49:34: (response.c.300) Request-URI     : /test.txt
+2025-08-16 18:49:34: (response.c.302) URI-scheme      : http
+2025-08-16 18:49:34: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:49:34: (response.c.306) URI-path (clean): /test.txt
+2025-08-16 18:49:34: (response.c.308) URI-query       : 
+2025-08-16 18:49:34: (response.c.387) -- logical -> physical
+2025-08-16 18:49:34: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:34: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:34: (response.c.393) Rel-Path     : /test.txt
+2025-08-16 18:49:34: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 18:49:34: (response.c.407) -- handling subrequest
+2025-08-16 18:49:34: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 18:49:34: (response.c.411) URI          : /test.txt
+2025-08-16 18:49:34: (response.c.413) Pathinfo     : 
+2025-08-16 18:49:34: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 18:49:34: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-16 18:49:34: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-16 18:49:34: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-16 18:49:34: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-16 18:49:34: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-16 18:49:34: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:49:34 GMT
+2025-08-16 18:49:34: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:49:34: (h1.c.248) fd:9 resp: 
+2025-08-16 18:49:36: (h1.c.497) fd:9 rqst: OPTIONS / HTTP/1.1
+2025-08-16 18:49:36: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:49:36: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:49:36: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:49:36: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:49:36: (response.c.298) -- parsed Request-URI
+2025-08-16 18:49:36: (response.c.300) Request-URI     : /
+2025-08-16 18:49:36: (response.c.302) URI-scheme      : http
+2025-08-16 18:49:36: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:49:36: (response.c.306) URI-path (clean): /
+2025-08-16 18:49:36: (response.c.308) URI-query       : 
+2025-08-16 18:49:36: (response.c.387) -- logical -> physical
+2025-08-16 18:49:36: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:36: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:36: (response.c.393) Rel-Path     : /
+2025-08-16 18:49:36: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 18:49:36: (response.c.407) -- handling subrequest
+2025-08-16 18:49:36: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 18:49:36: (response.c.411) URI          : /
+2025-08-16 18:49:36: (response.c.413) Pathinfo     : 
+2025-08-16 18:49:36: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-16 18:49:36: (mod_indexfile.c.153) URI          : /
+2025-08-16 18:49:36: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 18:49:36: (h1.c.248) fd:9 resp: Allow: OPTIONS, GET, HEAD, POST
+2025-08-16 18:49:36: (h1.c.248) fd:9 resp: Content-Length: 0
+2025-08-16 18:49:36: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:49:36 GMT
+2025-08-16 18:49:36: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:49:36: (h1.c.248) fd:9 resp: 
+2025-08-16 18:49:43: (h1.c.497) fd:9 rqst: GET /api.json HTTP/1.1
+2025-08-16 18:49:43: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:49:43: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:49:43: (h1.c.497) fd:9 rqst: Accept: application/json
+2025-08-16 18:49:43: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:49:43: (response.c.298) -- parsed Request-URI
+2025-08-16 18:49:43: (response.c.300) Request-URI     : /api.json
+2025-08-16 18:49:43: (response.c.302) URI-scheme      : http
+2025-08-16 18:49:43: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:49:43: (response.c.306) URI-path (clean): /api.json
+2025-08-16 18:49:43: (response.c.308) URI-query       : 
+2025-08-16 18:49:43: (response.c.387) -- logical -> physical
+2025-08-16 18:49:43: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:43: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:43: (response.c.393) Rel-Path     : /api.json
+2025-08-16 18:49:43: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-16 18:49:43: (response.c.116) -- : No such file or directory
+2025-08-16 18:49:43: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-16 18:49:43: (response.c.121) URI          : /api.json
+2025-08-16 18:49:43: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-16 18:49:43: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 18:49:43: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-16 18:49:43: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:49:43 GMT
+2025-08-16 18:49:43: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:49:43: (h1.c.248) fd:9 resp: 
+2025-08-16 18:49:47: (h1.c.497) fd:9 rqst: GET /index.html HTTP/1.1
+2025-08-16 18:49:47: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:49:47: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:49:47: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:49:47: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:49:47: (response.c.298) -- parsed Request-URI
+2025-08-16 18:49:47: (response.c.300) Request-URI     : /index.html
+2025-08-16 18:49:47: (response.c.302) URI-scheme      : http
+2025-08-16 18:49:47: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:49:47: (response.c.306) URI-path (clean): /index.html
+2025-08-16 18:49:47: (response.c.308) URI-query       : 
+2025-08-16 18:49:47: (response.c.387) -- logical -> physical
+2025-08-16 18:49:47: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:47: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:47: (response.c.393) Rel-Path     : /index.html
+2025-08-16 18:49:47: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-16 18:49:47: (response.c.407) -- handling subrequest
+2025-08-16 18:49:47: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-16 18:49:47: (response.c.411) URI          : /index.html
+2025-08-16 18:49:47: (response.c.413) Pathinfo     : 
+2025-08-16 18:49:47: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 18:49:47: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 18:49:47: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-16 18:49:47: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-16 18:49:47: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-16 18:49:47: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-16 18:49:47: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:49:47 GMT
+2025-08-16 18:49:47: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:49:47: (h1.c.248) fd:9 resp: 
+2025-08-16 18:49:53: (h1.c.497) fd:9 rqst: GET / HTTP/1.1
+2025-08-16 18:49:53: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 18:49:53: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 18:49:53: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 18:49:53: (h1.c.497) fd:9 rqst: 
+2025-08-16 18:49:53: (response.c.298) -- parsed Request-URI
+2025-08-16 18:49:53: (response.c.300) Request-URI     : /
+2025-08-16 18:49:53: (response.c.302) URI-scheme      : http
+2025-08-16 18:49:53: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 18:49:53: (response.c.306) URI-path (clean): /
+2025-08-16 18:49:53: (response.c.308) URI-query       : 
+2025-08-16 18:49:53: (response.c.387) -- logical -> physical
+2025-08-16 18:49:53: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:53: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 18:49:53: (response.c.393) Rel-Path     : /
+2025-08-16 18:49:53: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 18:49:53: (response.c.407) -- handling subrequest
+2025-08-16 18:49:53: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 18:49:53: (response.c.411) URI          : /
+2025-08-16 18:49:53: (response.c.413) Pathinfo     : 
+2025-08-16 18:49:53: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-16 18:49:53: (mod_indexfile.c.153) URI          : /
+2025-08-16 18:49:53: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 18:49:53: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 18:49:53: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-16 18:49:53: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-16 18:49:53: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-16 18:49:53: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-16 18:49:53: (h1.c.248) fd:9 resp: Date: Sat, 16 Aug 2025 22:49:53 GMT
+2025-08-16 18:49:53: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 18:49:53: (h1.c.248) fd:9 resp: 
+2025-08-16 18:49:55: (server.c.1271) [note] graceful shutdown started
+2025-08-16 18:49:55: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-16 20:18:34: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-16 20:18:34: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-16 20:18:37: (h1.c.497) fd:9 rqst: GET / HTTP/1.1
+2025-08-16 20:18:37: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:18:37: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:18:37: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:18:37: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:18:37: (response.c.298) -- parsed Request-URI
+2025-08-16 20:18:37: (response.c.300) Request-URI     : /
+2025-08-16 20:18:37: (response.c.302) URI-scheme      : http
+2025-08-16 20:18:37: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:18:37: (response.c.306) URI-path (clean): /
+2025-08-16 20:18:37: (response.c.308) URI-query       : 
+2025-08-16 20:18:37: (response.c.387) -- logical -> physical
+2025-08-16 20:18:37: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:18:37: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:18:37: (response.c.393) Rel-Path     : /
+2025-08-16 20:18:37: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 20:18:37: (response.c.407) -- handling subrequest
+2025-08-16 20:18:37: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 20:18:37: (response.c.411) URI          : /
+2025-08-16 20:18:37: (response.c.413) Pathinfo     : 
+2025-08-16 20:18:37: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-16 20:18:37: (mod_indexfile.c.153) URI          : /
+2025-08-16 20:18:37: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 20:18:37: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 20:18:37: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-16 20:18:37: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-16 20:18:37: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-16 20:18:37: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-16 20:18:37: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:18:37 GMT
+2025-08-16 20:18:37: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:18:37: (h1.c.248) fd:9 resp: 
+2025-08-16 20:18:44: (h1.c.497) fd:9 rqst: GET /index.html HTTP/1.1
+2025-08-16 20:18:44: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:18:44: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:18:44: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:18:44: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:18:44: (response.c.298) -- parsed Request-URI
+2025-08-16 20:18:44: (response.c.300) Request-URI     : /index.html
+2025-08-16 20:18:44: (response.c.302) URI-scheme      : http
+2025-08-16 20:18:44: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:18:44: (response.c.306) URI-path (clean): /index.html
+2025-08-16 20:18:44: (response.c.308) URI-query       : 
+2025-08-16 20:18:44: (response.c.387) -- logical -> physical
+2025-08-16 20:18:44: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:18:44: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:18:44: (response.c.393) Rel-Path     : /index.html
+2025-08-16 20:18:44: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-16 20:18:44: (response.c.407) -- handling subrequest
+2025-08-16 20:18:44: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-16 20:18:44: (response.c.411) URI          : /index.html
+2025-08-16 20:18:44: (response.c.413) Pathinfo     : 
+2025-08-16 20:18:44: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 20:18:44: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 20:18:44: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-16 20:18:44: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-16 20:18:44: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-16 20:18:44: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-16 20:18:44: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:18:44 GMT
+2025-08-16 20:18:44: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:18:44: (h1.c.248) fd:9 resp: 
+2025-08-16 20:18:45: (h1.c.497) fd:9 rqst: GET /test.txt HTTP/1.1
+2025-08-16 20:18:45: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:18:45: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:18:45: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:18:45: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:18:45: (response.c.298) -- parsed Request-URI
+2025-08-16 20:18:45: (response.c.300) Request-URI     : /test.txt
+2025-08-16 20:18:45: (response.c.302) URI-scheme      : http
+2025-08-16 20:18:45: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:18:45: (response.c.306) URI-path (clean): /test.txt
+2025-08-16 20:18:45: (response.c.308) URI-query       : 
+2025-08-16 20:18:45: (response.c.387) -- logical -> physical
+2025-08-16 20:18:45: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:18:45: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:18:45: (response.c.393) Rel-Path     : /test.txt
+2025-08-16 20:18:45: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 20:18:45: (response.c.407) -- handling subrequest
+2025-08-16 20:18:45: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 20:18:45: (response.c.411) URI          : /test.txt
+2025-08-16 20:18:45: (response.c.413) Pathinfo     : 
+2025-08-16 20:18:45: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 20:18:45: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-16 20:18:45: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-16 20:18:45: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-16 20:18:45: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-16 20:18:45: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-16 20:18:45: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:18:45 GMT
+2025-08-16 20:18:45: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:18:45: (h1.c.248) fd:9 resp: 
+2025-08-16 20:18:49: (h1.c.497) fd:9 rqst: GET /api.json HTTP/1.1
+2025-08-16 20:18:49: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:18:49: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:18:49: (h1.c.497) fd:9 rqst: Accept: application/json
+2025-08-16 20:18:49: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:18:49: (response.c.298) -- parsed Request-URI
+2025-08-16 20:18:49: (response.c.300) Request-URI     : /api.json
+2025-08-16 20:18:49: (response.c.302) URI-scheme      : http
+2025-08-16 20:18:49: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:18:49: (response.c.306) URI-path (clean): /api.json
+2025-08-16 20:18:49: (response.c.308) URI-query       : 
+2025-08-16 20:18:49: (response.c.387) -- logical -> physical
+2025-08-16 20:18:49: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:18:49: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:18:49: (response.c.393) Rel-Path     : /api.json
+2025-08-16 20:18:49: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-16 20:18:49: (response.c.116) -- : No such file or directory
+2025-08-16 20:18:49: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-16 20:18:49: (response.c.121) URI          : /api.json
+2025-08-16 20:18:49: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-16 20:18:49: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 20:18:49: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-16 20:18:49: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:18:49 GMT
+2025-08-16 20:18:49: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:18:49: (h1.c.248) fd:9 resp: 
+2025-08-16 20:18:56: (h1.c.497) fd:9 rqst: HEAD /test.txt HTTP/1.1
+2025-08-16 20:18:56: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:18:56: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:18:56: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:18:56: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:18:56: (response.c.298) -- parsed Request-URI
+2025-08-16 20:18:56: (response.c.300) Request-URI     : /test.txt
+2025-08-16 20:18:56: (response.c.302) URI-scheme      : http
+2025-08-16 20:18:56: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:18:56: (response.c.306) URI-path (clean): /test.txt
+2025-08-16 20:18:56: (response.c.308) URI-query       : 
+2025-08-16 20:18:56: (response.c.387) -- logical -> physical
+2025-08-16 20:18:56: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:18:56: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:18:56: (response.c.393) Rel-Path     : /test.txt
+2025-08-16 20:18:56: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 20:18:56: (response.c.407) -- handling subrequest
+2025-08-16 20:18:56: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 20:18:56: (response.c.411) URI          : /test.txt
+2025-08-16 20:18:56: (response.c.413) Pathinfo     : 
+2025-08-16 20:18:56: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 20:18:56: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-16 20:18:56: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-16 20:18:56: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-16 20:18:56: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-16 20:18:56: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-16 20:18:56: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:18:56 GMT
+2025-08-16 20:18:56: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:18:56: (h1.c.248) fd:9 resp: 
+2025-08-16 20:18:58: (h1.c.497) fd:9 rqst: GET /nonexistent.html HTTP/1.1
+2025-08-16 20:18:58: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:18:58: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:18:58: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:18:58: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:18:58: (response.c.298) -- parsed Request-URI
+2025-08-16 20:18:58: (response.c.300) Request-URI     : /nonexistent.html
+2025-08-16 20:18:58: (response.c.302) URI-scheme      : http
+2025-08-16 20:18:58: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:18:58: (response.c.306) URI-path (clean): /nonexistent.html
+2025-08-16 20:18:58: (response.c.308) URI-query       : 
+2025-08-16 20:18:58: (response.c.387) -- logical -> physical
+2025-08-16 20:18:58: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:18:58: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:18:58: (response.c.393) Rel-Path     : /nonexistent.html
+2025-08-16 20:18:58: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-16 20:18:58: (response.c.116) -- : No such file or directory
+2025-08-16 20:18:58: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-16 20:18:58: (response.c.121) URI          : /nonexistent.html
+2025-08-16 20:18:58: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-16 20:18:58: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 20:18:58: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-16 20:18:58: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:18:58 GMT
+2025-08-16 20:18:58: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:18:58: (h1.c.248) fd:9 resp: 
+2025-08-16 20:19:04: (h1.c.497) fd:9 rqst: OPTIONS / HTTP/1.1
+2025-08-16 20:19:04: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:19:04: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:19:04: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:19:04: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:19:04: (response.c.298) -- parsed Request-URI
+2025-08-16 20:19:04: (response.c.300) Request-URI     : /
+2025-08-16 20:19:04: (response.c.302) URI-scheme      : http
+2025-08-16 20:19:04: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:19:04: (response.c.306) URI-path (clean): /
+2025-08-16 20:19:04: (response.c.308) URI-query       : 
+2025-08-16 20:19:04: (response.c.387) -- logical -> physical
+2025-08-16 20:19:04: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:19:04: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:19:04: (response.c.393) Rel-Path     : /
+2025-08-16 20:19:04: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 20:19:04: (response.c.407) -- handling subrequest
+2025-08-16 20:19:04: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 20:19:04: (response.c.411) URI          : /
+2025-08-16 20:19:04: (response.c.413) Pathinfo     : 
+2025-08-16 20:19:04: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-16 20:19:04: (mod_indexfile.c.153) URI          : /
+2025-08-16 20:19:04: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 20:19:04: (h1.c.248) fd:9 resp: Allow: OPTIONS, GET, HEAD, POST
+2025-08-16 20:19:04: (h1.c.248) fd:9 resp: Content-Length: 0
+2025-08-16 20:19:04: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:19:04 GMT
+2025-08-16 20:19:04: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:19:04: (h1.c.248) fd:9 resp: 
+2025-08-16 20:19:08: (h1.c.497) fd:9 rqst: DELETE /test.txt HTTP/1.1
+2025-08-16 20:19:08: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:19:08: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:19:08: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:19:08: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:19:08: (response.c.298) -- parsed Request-URI
+2025-08-16 20:19:08: (response.c.300) Request-URI     : /test.txt
+2025-08-16 20:19:08: (response.c.302) URI-scheme      : http
+2025-08-16 20:19:08: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:19:08: (response.c.306) URI-path (clean): /test.txt
+2025-08-16 20:19:08: (response.c.308) URI-query       : 
+2025-08-16 20:19:08: (response.c.387) -- logical -> physical
+2025-08-16 20:19:08: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:19:08: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:19:08: (response.c.393) Rel-Path     : /test.txt
+2025-08-16 20:19:08: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 20:19:08: (response.c.407) -- handling subrequest
+2025-08-16 20:19:08: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 20:19:08: (response.c.411) URI          : /test.txt
+2025-08-16 20:19:08: (response.c.413) Pathinfo     : 
+2025-08-16 20:19:08: (h1.c.248) fd:9 resp: HTTP/1.1 501 Not Implemented
+2025-08-16 20:19:08: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 20:19:08: (h1.c.248) fd:9 resp: Content-Length: 170
+2025-08-16 20:19:08: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:19:08 GMT
+2025-08-16 20:19:08: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:19:08: (h1.c.248) fd:9 resp: 
+2025-08-16 20:19:10: (server.c.1271) [note] graceful shutdown started
+2025-08-16 20:19:10: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-16 20:29:19: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-16 20:29:19: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-16 20:29:22: (h1.c.497) fd:9 rqst: DELETE /test.txt HTTP/1.1
+2025-08-16 20:29:22: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:29:22: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:29:22: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:29:22: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:29:22: (response.c.298) -- parsed Request-URI
+2025-08-16 20:29:22: (response.c.300) Request-URI     : /test.txt
+2025-08-16 20:29:22: (response.c.302) URI-scheme      : http
+2025-08-16 20:29:22: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:29:22: (response.c.306) URI-path (clean): /test.txt
+2025-08-16 20:29:22: (response.c.308) URI-query       : 
+2025-08-16 20:29:22: (response.c.387) -- logical -> physical
+2025-08-16 20:29:22: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:22: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:22: (response.c.393) Rel-Path     : /test.txt
+2025-08-16 20:29:22: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 20:29:22: (response.c.407) -- handling subrequest
+2025-08-16 20:29:22: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 20:29:22: (response.c.411) URI          : /test.txt
+2025-08-16 20:29:22: (response.c.413) Pathinfo     : 
+2025-08-16 20:29:22: (h1.c.248) fd:9 resp: HTTP/1.1 501 Not Implemented
+2025-08-16 20:29:22: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 20:29:22: (h1.c.248) fd:9 resp: Content-Length: 170
+2025-08-16 20:29:22: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:29:22 GMT
+2025-08-16 20:29:22: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:29:22: (h1.c.248) fd:9 resp: 
+2025-08-16 20:29:24: (h1.c.497) fd:9 rqst: OPTIONS / HTTP/1.1
+2025-08-16 20:29:24: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:29:24: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:29:24: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:29:24: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:29:24: (response.c.298) -- parsed Request-URI
+2025-08-16 20:29:24: (response.c.300) Request-URI     : /
+2025-08-16 20:29:24: (response.c.302) URI-scheme      : http
+2025-08-16 20:29:24: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:29:24: (response.c.306) URI-path (clean): /
+2025-08-16 20:29:24: (response.c.308) URI-query       : 
+2025-08-16 20:29:24: (response.c.387) -- logical -> physical
+2025-08-16 20:29:24: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:24: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:24: (response.c.393) Rel-Path     : /
+2025-08-16 20:29:24: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 20:29:24: (response.c.407) -- handling subrequest
+2025-08-16 20:29:24: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 20:29:24: (response.c.411) URI          : /
+2025-08-16 20:29:24: (response.c.413) Pathinfo     : 
+2025-08-16 20:29:24: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-16 20:29:24: (mod_indexfile.c.153) URI          : /
+2025-08-16 20:29:24: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 20:29:24: (h1.c.248) fd:9 resp: Allow: OPTIONS, GET, HEAD, POST
+2025-08-16 20:29:24: (h1.c.248) fd:9 resp: Content-Length: 0
+2025-08-16 20:29:24: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:29:24 GMT
+2025-08-16 20:29:24: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:29:24: (h1.c.248) fd:9 resp: 
+2025-08-16 20:29:26: (h1.c.497) fd:9 rqst: GET /nonexistent.html HTTP/1.1
+2025-08-16 20:29:26: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:29:26: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:29:26: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:29:26: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:29:26: (response.c.298) -- parsed Request-URI
+2025-08-16 20:29:26: (response.c.300) Request-URI     : /nonexistent.html
+2025-08-16 20:29:26: (response.c.302) URI-scheme      : http
+2025-08-16 20:29:26: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:29:26: (response.c.306) URI-path (clean): /nonexistent.html
+2025-08-16 20:29:26: (response.c.308) URI-query       : 
+2025-08-16 20:29:26: (response.c.387) -- logical -> physical
+2025-08-16 20:29:26: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:26: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:26: (response.c.393) Rel-Path     : /nonexistent.html
+2025-08-16 20:29:26: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-16 20:29:26: (response.c.116) -- : No such file or directory
+2025-08-16 20:29:26: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-16 20:29:26: (response.c.121) URI          : /nonexistent.html
+2025-08-16 20:29:26: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-16 20:29:26: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 20:29:26: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-16 20:29:26: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:29:26 GMT
+2025-08-16 20:29:26: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:29:26: (h1.c.248) fd:9 resp: 
+2025-08-16 20:29:30: (h1.c.497) fd:9 rqst: OPTIONS / HTTP/1.1
+2025-08-16 20:29:30: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:29:30: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:29:30: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:29:30: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:29:30: (response.c.298) -- parsed Request-URI
+2025-08-16 20:29:30: (response.c.300) Request-URI     : /
+2025-08-16 20:29:30: (response.c.302) URI-scheme      : http
+2025-08-16 20:29:30: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:29:30: (response.c.306) URI-path (clean): /
+2025-08-16 20:29:30: (response.c.308) URI-query       : 
+2025-08-16 20:29:30: (response.c.387) -- logical -> physical
+2025-08-16 20:29:30: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:30: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:30: (response.c.393) Rel-Path     : /
+2025-08-16 20:29:30: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 20:29:30: (response.c.407) -- handling subrequest
+2025-08-16 20:29:30: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 20:29:30: (response.c.411) URI          : /
+2025-08-16 20:29:30: (response.c.413) Pathinfo     : 
+2025-08-16 20:29:30: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-16 20:29:30: (mod_indexfile.c.153) URI          : /
+2025-08-16 20:29:30: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 20:29:30: (h1.c.248) fd:9 resp: Allow: OPTIONS, GET, HEAD, POST
+2025-08-16 20:29:30: (h1.c.248) fd:9 resp: Content-Length: 0
+2025-08-16 20:29:30: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:29:30 GMT
+2025-08-16 20:29:30: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:29:30: (h1.c.248) fd:9 resp: 
+2025-08-16 20:29:34: (h1.c.497) fd:9 rqst: GET /api.json HTTP/1.1
+2025-08-16 20:29:34: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:29:34: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:29:34: (h1.c.497) fd:9 rqst: Accept: application/json
+2025-08-16 20:29:34: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:29:34: (response.c.298) -- parsed Request-URI
+2025-08-16 20:29:34: (response.c.300) Request-URI     : /api.json
+2025-08-16 20:29:34: (response.c.302) URI-scheme      : http
+2025-08-16 20:29:34: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:29:34: (response.c.306) URI-path (clean): /api.json
+2025-08-16 20:29:34: (response.c.308) URI-query       : 
+2025-08-16 20:29:34: (response.c.387) -- logical -> physical
+2025-08-16 20:29:34: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:34: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:34: (response.c.393) Rel-Path     : /api.json
+2025-08-16 20:29:34: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-16 20:29:34: (response.c.116) -- : No such file or directory
+2025-08-16 20:29:34: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-16 20:29:34: (response.c.121) URI          : /api.json
+2025-08-16 20:29:34: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-16 20:29:34: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 20:29:34: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-16 20:29:34: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:29:34 GMT
+2025-08-16 20:29:34: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:29:34: (h1.c.248) fd:9 resp: 
+2025-08-16 20:29:36: (h1.c.497) fd:9 rqst: HEAD /test.txt HTTP/1.1
+2025-08-16 20:29:36: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:29:36: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:29:36: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:29:36: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:29:36: (response.c.298) -- parsed Request-URI
+2025-08-16 20:29:36: (response.c.300) Request-URI     : /test.txt
+2025-08-16 20:29:36: (response.c.302) URI-scheme      : http
+2025-08-16 20:29:36: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:29:36: (response.c.306) URI-path (clean): /test.txt
+2025-08-16 20:29:36: (response.c.308) URI-query       : 
+2025-08-16 20:29:36: (response.c.387) -- logical -> physical
+2025-08-16 20:29:36: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:36: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:36: (response.c.393) Rel-Path     : /test.txt
+2025-08-16 20:29:36: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 20:29:36: (response.c.407) -- handling subrequest
+2025-08-16 20:29:36: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-16 20:29:36: (response.c.411) URI          : /test.txt
+2025-08-16 20:29:36: (response.c.413) Pathinfo     : 
+2025-08-16 20:29:36: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 20:29:36: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-16 20:29:36: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-16 20:29:36: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-16 20:29:36: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-16 20:29:36: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-16 20:29:36: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:29:36 GMT
+2025-08-16 20:29:36: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:29:36: (h1.c.248) fd:9 resp: 
+2025-08-16 20:29:44: (h1.c.497) fd:9 rqst: GET / HTTP/1.1
+2025-08-16 20:29:44: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-16 20:29:44: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-16 20:29:44: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-16 20:29:44: (h1.c.497) fd:9 rqst: 
+2025-08-16 20:29:44: (response.c.298) -- parsed Request-URI
+2025-08-16 20:29:44: (response.c.300) Request-URI     : /
+2025-08-16 20:29:44: (response.c.302) URI-scheme      : http
+2025-08-16 20:29:44: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-16 20:29:44: (response.c.306) URI-path (clean): /
+2025-08-16 20:29:44: (response.c.308) URI-query       : 
+2025-08-16 20:29:44: (response.c.387) -- logical -> physical
+2025-08-16 20:29:44: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:44: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-16 20:29:44: (response.c.393) Rel-Path     : /
+2025-08-16 20:29:44: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 20:29:44: (response.c.407) -- handling subrequest
+2025-08-16 20:29:44: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-16 20:29:44: (response.c.411) URI          : /
+2025-08-16 20:29:44: (response.c.413) Pathinfo     : 
+2025-08-16 20:29:44: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-16 20:29:44: (mod_indexfile.c.153) URI          : /
+2025-08-16 20:29:44: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-16 20:29:44: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-16 20:29:44: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-16 20:29:44: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-16 20:29:44: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-16 20:29:44: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-16 20:29:44: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 00:29:44 GMT
+2025-08-16 20:29:44: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-16 20:29:44: (h1.c.248) fd:9 resp: 
+2025-08-16 20:30:03: (server.c.2372) server stopped by UID = 1000 PID = 4215
+2025-08-17 17:34:33: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-17 17:34:33: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-17 17:34:47: (h1.c.497) fd:9 rqst: GET / HTTP/1.1
+2025-08-17 17:34:47: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:34:47: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:34:47: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:34:47: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:34:47: (response.c.298) -- parsed Request-URI
+2025-08-17 17:34:47: (response.c.300) Request-URI     : /
+2025-08-17 17:34:47: (response.c.302) URI-scheme      : http
+2025-08-17 17:34:47: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:34:47: (response.c.306) URI-path (clean): /
+2025-08-17 17:34:47: (response.c.308) URI-query       : 
+2025-08-17 17:34:47: (response.c.387) -- logical -> physical
+2025-08-17 17:34:47: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:34:47: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:34:47: (response.c.393) Rel-Path     : /
+2025-08-17 17:34:47: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-17 17:34:47: (response.c.407) -- handling subrequest
+2025-08-17 17:34:47: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-17 17:34:47: (response.c.411) URI          : /
+2025-08-17 17:34:47: (response.c.413) Pathinfo     : 
+2025-08-17 17:34:47: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-17 17:34:47: (mod_indexfile.c.153) URI          : /
+2025-08-17 17:34:47: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 17:34:47: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 17:34:47: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-17 17:34:47: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-17 17:34:47: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-17 17:34:47: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-17 17:34:47: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:34:47 GMT
+2025-08-17 17:34:47: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:34:47: (h1.c.248) fd:9 resp: 
+2025-08-17 17:34:50: (h1.c.497) fd:9 rqst: GET /index.html HTTP/1.1
+2025-08-17 17:34:50: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:34:50: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:34:50: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:34:50: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:34:50: (response.c.298) -- parsed Request-URI
+2025-08-17 17:34:50: (response.c.300) Request-URI     : /index.html
+2025-08-17 17:34:50: (response.c.302) URI-scheme      : http
+2025-08-17 17:34:50: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:34:50: (response.c.306) URI-path (clean): /index.html
+2025-08-17 17:34:50: (response.c.308) URI-query       : 
+2025-08-17 17:34:50: (response.c.387) -- logical -> physical
+2025-08-17 17:34:50: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:34:50: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:34:50: (response.c.393) Rel-Path     : /index.html
+2025-08-17 17:34:50: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-17 17:34:50: (response.c.407) -- handling subrequest
+2025-08-17 17:34:50: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-17 17:34:50: (response.c.411) URI          : /index.html
+2025-08-17 17:34:50: (response.c.413) Pathinfo     : 
+2025-08-17 17:34:50: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 17:34:50: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 17:34:50: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-17 17:34:50: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-17 17:34:50: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-17 17:34:50: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-17 17:34:50: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:34:50 GMT
+2025-08-17 17:34:50: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:34:50: (h1.c.248) fd:9 resp: 
+2025-08-17 17:34:53: (h1.c.497) fd:9 rqst: GET /test.txt HTTP/1.1
+2025-08-17 17:34:53: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:34:53: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:34:53: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:34:53: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:34:53: (response.c.298) -- parsed Request-URI
+2025-08-17 17:34:53: (response.c.300) Request-URI     : /test.txt
+2025-08-17 17:34:53: (response.c.302) URI-scheme      : http
+2025-08-17 17:34:53: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:34:53: (response.c.306) URI-path (clean): /test.txt
+2025-08-17 17:34:53: (response.c.308) URI-query       : 
+2025-08-17 17:34:53: (response.c.387) -- logical -> physical
+2025-08-17 17:34:53: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:34:53: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:34:53: (response.c.393) Rel-Path     : /test.txt
+2025-08-17 17:34:53: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:34:53: (response.c.407) -- handling subrequest
+2025-08-17 17:34:53: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:34:53: (response.c.411) URI          : /test.txt
+2025-08-17 17:34:53: (response.c.413) Pathinfo     : 
+2025-08-17 17:34:53: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 17:34:53: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-17 17:34:53: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-17 17:34:53: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-17 17:34:53: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-17 17:34:53: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-17 17:34:53: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:34:53 GMT
+2025-08-17 17:34:53: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:34:53: (h1.c.248) fd:9 resp: 
+2025-08-17 17:34:56: (h1.c.497) fd:9 rqst: GET /nonexistent.html HTTP/1.1
+2025-08-17 17:34:56: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:34:56: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:34:56: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:34:56: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:34:56: (response.c.298) -- parsed Request-URI
+2025-08-17 17:34:56: (response.c.300) Request-URI     : /nonexistent.html
+2025-08-17 17:34:56: (response.c.302) URI-scheme      : http
+2025-08-17 17:34:56: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:34:56: (response.c.306) URI-path (clean): /nonexistent.html
+2025-08-17 17:34:56: (response.c.308) URI-query       : 
+2025-08-17 17:34:56: (response.c.387) -- logical -> physical
+2025-08-17 17:34:56: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:34:56: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:34:56: (response.c.393) Rel-Path     : /nonexistent.html
+2025-08-17 17:34:56: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-17 17:34:56: (response.c.116) -- : No such file or directory
+2025-08-17 17:34:56: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-17 17:34:56: (response.c.121) URI          : /nonexistent.html
+2025-08-17 17:34:56: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-17 17:34:56: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 17:34:56: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-17 17:34:56: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:34:56 GMT
+2025-08-17 17:34:56: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:34:56: (h1.c.248) fd:9 resp: 
+2025-08-17 17:34:58: (h1.c.497) fd:9 rqst: HEAD /test.txt HTTP/1.1
+2025-08-17 17:34:58: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:34:58: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:34:58: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:34:58: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:34:58: (response.c.298) -- parsed Request-URI
+2025-08-17 17:34:58: (response.c.300) Request-URI     : /test.txt
+2025-08-17 17:34:58: (response.c.302) URI-scheme      : http
+2025-08-17 17:34:58: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:34:58: (response.c.306) URI-path (clean): /test.txt
+2025-08-17 17:34:58: (response.c.308) URI-query       : 
+2025-08-17 17:34:58: (response.c.387) -- logical -> physical
+2025-08-17 17:34:58: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:34:58: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:34:58: (response.c.393) Rel-Path     : /test.txt
+2025-08-17 17:34:58: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:34:58: (response.c.407) -- handling subrequest
+2025-08-17 17:34:58: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:34:58: (response.c.411) URI          : /test.txt
+2025-08-17 17:34:58: (response.c.413) Pathinfo     : 
+2025-08-17 17:34:58: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 17:34:58: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-17 17:34:58: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-17 17:34:58: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-17 17:34:58: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-17 17:34:58: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-17 17:34:58: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:34:58 GMT
+2025-08-17 17:34:58: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:34:58: (h1.c.248) fd:9 resp: 
+2025-08-17 17:35:02: (h1.c.497) fd:9 rqst: HEAD /test.txt HTTP/1.1
+2025-08-17 17:35:02: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:35:02: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:35:02: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:35:02: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:35:02: (response.c.298) -- parsed Request-URI
+2025-08-17 17:35:02: (response.c.300) Request-URI     : /test.txt
+2025-08-17 17:35:02: (response.c.302) URI-scheme      : http
+2025-08-17 17:35:02: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:35:02: (response.c.306) URI-path (clean): /test.txt
+2025-08-17 17:35:02: (response.c.308) URI-query       : 
+2025-08-17 17:35:02: (response.c.387) -- logical -> physical
+2025-08-17 17:35:02: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:35:02: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:35:02: (response.c.393) Rel-Path     : /test.txt
+2025-08-17 17:35:02: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:35:02: (response.c.407) -- handling subrequest
+2025-08-17 17:35:02: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:35:02: (response.c.411) URI          : /test.txt
+2025-08-17 17:35:02: (response.c.413) Pathinfo     : 
+2025-08-17 17:35:02: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 17:35:02: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-17 17:35:02: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-17 17:35:02: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-17 17:35:02: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-17 17:35:02: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-17 17:35:02: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:35:02 GMT
+2025-08-17 17:35:02: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:35:02: (h1.c.248) fd:9 resp: 
+2025-08-17 17:35:09: (h1.c.497) fd:9 rqst: HEAD /test.txt HTTP/1.1
+2025-08-17 17:35:09: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:35:09: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:35:09: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:35:09: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:35:09: (response.c.298) -- parsed Request-URI
+2025-08-17 17:35:09: (response.c.300) Request-URI     : /test.txt
+2025-08-17 17:35:09: (response.c.302) URI-scheme      : http
+2025-08-17 17:35:09: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:35:09: (response.c.306) URI-path (clean): /test.txt
+2025-08-17 17:35:09: (response.c.308) URI-query       : 
+2025-08-17 17:35:09: (response.c.387) -- logical -> physical
+2025-08-17 17:35:09: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:35:09: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:35:09: (response.c.393) Rel-Path     : /test.txt
+2025-08-17 17:35:09: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:35:09: (response.c.407) -- handling subrequest
+2025-08-17 17:35:09: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:35:09: (response.c.411) URI          : /test.txt
+2025-08-17 17:35:09: (response.c.413) Pathinfo     : 
+2025-08-17 17:35:09: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 17:35:09: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-17 17:35:09: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-17 17:35:09: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-17 17:35:09: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-17 17:35:09: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-17 17:35:09: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:35:09 GMT
+2025-08-17 17:35:09: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:35:09: (h1.c.248) fd:9 resp: 
+2025-08-17 17:35:11: (h1.c.497) fd:9 rqst: DELETE /test.txt HTTP/1.1
+2025-08-17 17:35:11: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:35:11: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:35:11: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:35:11: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:35:11: (response.c.298) -- parsed Request-URI
+2025-08-17 17:35:11: (response.c.300) Request-URI     : /test.txt
+2025-08-17 17:35:11: (response.c.302) URI-scheme      : http
+2025-08-17 17:35:11: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:35:11: (response.c.306) URI-path (clean): /test.txt
+2025-08-17 17:35:11: (response.c.308) URI-query       : 
+2025-08-17 17:35:11: (response.c.387) -- logical -> physical
+2025-08-17 17:35:11: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:35:11: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:35:11: (response.c.393) Rel-Path     : /test.txt
+2025-08-17 17:35:11: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:35:11: (response.c.407) -- handling subrequest
+2025-08-17 17:35:11: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:35:11: (response.c.411) URI          : /test.txt
+2025-08-17 17:35:11: (response.c.413) Pathinfo     : 
+2025-08-17 17:35:11: (h1.c.248) fd:9 resp: HTTP/1.1 501 Not Implemented
+2025-08-17 17:35:11: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 17:35:11: (h1.c.248) fd:9 resp: Content-Length: 170
+2025-08-17 17:35:11: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:35:11 GMT
+2025-08-17 17:35:11: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:35:11: (h1.c.248) fd:9 resp: 
+2025-08-17 17:35:14: (server.c.2372) server stopped by UID = 1000 PID = 10560
+2025-08-17 17:55:17: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-17 17:55:17: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-17 17:55:19: (h1.c.497) fd:9 rqst: GET / HTTP/1.1
+2025-08-17 17:55:19: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:55:19: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:55:19: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:55:19: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:55:19: (response.c.298) -- parsed Request-URI
+2025-08-17 17:55:19: (response.c.300) Request-URI     : /
+2025-08-17 17:55:19: (response.c.302) URI-scheme      : http
+2025-08-17 17:55:19: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:55:19: (response.c.306) URI-path (clean): /
+2025-08-17 17:55:19: (response.c.308) URI-query       : 
+2025-08-17 17:55:19: (response.c.387) -- logical -> physical
+2025-08-17 17:55:19: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:19: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:19: (response.c.393) Rel-Path     : /
+2025-08-17 17:55:19: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-17 17:55:19: (response.c.407) -- handling subrequest
+2025-08-17 17:55:19: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-17 17:55:19: (response.c.411) URI          : /
+2025-08-17 17:55:19: (response.c.413) Pathinfo     : 
+2025-08-17 17:55:19: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-17 17:55:19: (mod_indexfile.c.153) URI          : /
+2025-08-17 17:55:19: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 17:55:19: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 17:55:19: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-17 17:55:19: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-17 17:55:19: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-17 17:55:19: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-17 17:55:19: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:55:19 GMT
+2025-08-17 17:55:19: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:55:19: (h1.c.248) fd:9 resp: 
+2025-08-17 17:55:19: (h1.c.497) fd:11 rqst: GET /index.html HTTP/1.1
+2025-08-17 17:55:19: (h1.c.497) fd:11 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:55:19: (h1.c.497) fd:11 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:55:19: (h1.c.497) fd:11 rqst: Accept: */*
+2025-08-17 17:55:19: (h1.c.497) fd:11 rqst: 
+2025-08-17 17:55:19: (response.c.298) -- parsed Request-URI
+2025-08-17 17:55:19: (response.c.300) Request-URI     : /index.html
+2025-08-17 17:55:19: (response.c.302) URI-scheme      : http
+2025-08-17 17:55:19: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:55:19: (response.c.306) URI-path (clean): /index.html
+2025-08-17 17:55:19: (response.c.308) URI-query       : 
+2025-08-17 17:55:19: (response.c.387) -- logical -> physical
+2025-08-17 17:55:19: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:19: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:19: (response.c.393) Rel-Path     : /index.html
+2025-08-17 17:55:19: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-17 17:55:19: (response.c.407) -- handling subrequest
+2025-08-17 17:55:19: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-17 17:55:19: (response.c.411) URI          : /index.html
+2025-08-17 17:55:19: (response.c.413) Pathinfo     : 
+2025-08-17 17:55:19: (h1.c.248) fd:11 resp: HTTP/1.1 200 OK
+2025-08-17 17:55:19: (h1.c.248) fd:11 resp: Content-Type: text/html
+2025-08-17 17:55:19: (h1.c.248) fd:11 resp: ETag: "3397526728"
+2025-08-17 17:55:19: (h1.c.248) fd:11 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-17 17:55:19: (h1.c.248) fd:11 resp: Content-Length: 200
+2025-08-17 17:55:19: (h1.c.248) fd:11 resp: Accept-Ranges: bytes
+2025-08-17 17:55:19: (h1.c.248) fd:11 resp: Date: Sun, 17 Aug 2025 21:55:19 GMT
+2025-08-17 17:55:19: (h1.c.248) fd:11 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:55:19: (h1.c.248) fd:11 resp: 
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: GET /test.txt HTTP/1.1
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:55:21: (response.c.298) -- parsed Request-URI
+2025-08-17 17:55:21: (response.c.300) Request-URI     : /test.txt
+2025-08-17 17:55:21: (response.c.302) URI-scheme      : http
+2025-08-17 17:55:21: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:55:21: (response.c.306) URI-path (clean): /test.txt
+2025-08-17 17:55:21: (response.c.308) URI-query       : 
+2025-08-17 17:55:21: (response.c.387) -- logical -> physical
+2025-08-17 17:55:21: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.393) Rel-Path     : /test.txt
+2025-08-17 17:55:21: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:55:21: (response.c.407) -- handling subrequest
+2025-08-17 17:55:21: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:55:21: (response.c.411) URI          : /test.txt
+2025-08-17 17:55:21: (response.c.413) Pathinfo     : 
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:55:21 GMT
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: 
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: HEAD /test.txt HTTP/1.1
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:55:21: (response.c.298) -- parsed Request-URI
+2025-08-17 17:55:21: (response.c.300) Request-URI     : /test.txt
+2025-08-17 17:55:21: (response.c.302) URI-scheme      : http
+2025-08-17 17:55:21: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:55:21: (response.c.306) URI-path (clean): /test.txt
+2025-08-17 17:55:21: (response.c.308) URI-query       : 
+2025-08-17 17:55:21: (response.c.387) -- logical -> physical
+2025-08-17 17:55:21: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.393) Rel-Path     : /test.txt
+2025-08-17 17:55:21: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:55:21: (response.c.407) -- handling subrequest
+2025-08-17 17:55:21: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:55:21: (response.c.411) URI          : /test.txt
+2025-08-17 17:55:21: (response.c.413) Pathinfo     : 
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:55:21 GMT
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: 
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: GET /api.json HTTP/1.1
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Accept: application/json
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:55:21: (response.c.298) -- parsed Request-URI
+2025-08-17 17:55:21: (response.c.300) Request-URI     : /api.json
+2025-08-17 17:55:21: (response.c.302) URI-scheme      : http
+2025-08-17 17:55:21: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:55:21: (response.c.306) URI-path (clean): /api.json
+2025-08-17 17:55:21: (response.c.308) URI-query       : 
+2025-08-17 17:55:21: (response.c.387) -- logical -> physical
+2025-08-17 17:55:21: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.393) Rel-Path     : /api.json
+2025-08-17 17:55:21: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-17 17:55:21: (response.c.116) -- : No such file or directory
+2025-08-17 17:55:21: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-17 17:55:21: (response.c.121) URI          : /api.json
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:55:21 GMT
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: 
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: HEAD /api.json HTTP/1.1
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:55:21: (response.c.298) -- parsed Request-URI
+2025-08-17 17:55:21: (response.c.300) Request-URI     : /api.json
+2025-08-17 17:55:21: (response.c.302) URI-scheme      : http
+2025-08-17 17:55:21: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:55:21: (response.c.306) URI-path (clean): /api.json
+2025-08-17 17:55:21: (response.c.308) URI-query       : 
+2025-08-17 17:55:21: (response.c.387) -- logical -> physical
+2025-08-17 17:55:21: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.393) Rel-Path     : /api.json
+2025-08-17 17:55:21: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-17 17:55:21: (response.c.116) -- : No such file or directory
+2025-08-17 17:55:21: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-17 17:55:21: (response.c.121) URI          : /api.json
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:55:21 GMT
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: 
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: GET /nonexistent.html HTTP/1.1
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:55:21: (response.c.298) -- parsed Request-URI
+2025-08-17 17:55:21: (response.c.300) Request-URI     : /nonexistent.html
+2025-08-17 17:55:21: (response.c.302) URI-scheme      : http
+2025-08-17 17:55:21: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:55:21: (response.c.306) URI-path (clean): /nonexistent.html
+2025-08-17 17:55:21: (response.c.308) URI-query       : 
+2025-08-17 17:55:21: (response.c.387) -- logical -> physical
+2025-08-17 17:55:21: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.393) Rel-Path     : /nonexistent.html
+2025-08-17 17:55:21: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-17 17:55:21: (response.c.116) -- : No such file or directory
+2025-08-17 17:55:21: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-17 17:55:21: (response.c.121) URI          : /nonexistent.html
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:55:21 GMT
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: 
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: OPTIONS / HTTP/1.1
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:55:21: (response.c.298) -- parsed Request-URI
+2025-08-17 17:55:21: (response.c.300) Request-URI     : /
+2025-08-17 17:55:21: (response.c.302) URI-scheme      : http
+2025-08-17 17:55:21: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:55:21: (response.c.306) URI-path (clean): /
+2025-08-17 17:55:21: (response.c.308) URI-query       : 
+2025-08-17 17:55:21: (response.c.387) -- logical -> physical
+2025-08-17 17:55:21: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.393) Rel-Path     : /
+2025-08-17 17:55:21: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-17 17:55:21: (response.c.407) -- handling subrequest
+2025-08-17 17:55:21: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-17 17:55:21: (response.c.411) URI          : /
+2025-08-17 17:55:21: (response.c.413) Pathinfo     : 
+2025-08-17 17:55:21: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-17 17:55:21: (mod_indexfile.c.153) URI          : /
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Allow: OPTIONS, GET, HEAD, POST
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Length: 0
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:55:21 GMT
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: 
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: DELETE /test.txt HTTP/1.1
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 17:55:21: (h1.c.497) fd:9 rqst: 
+2025-08-17 17:55:21: (response.c.298) -- parsed Request-URI
+2025-08-17 17:55:21: (response.c.300) Request-URI     : /test.txt
+2025-08-17 17:55:21: (response.c.302) URI-scheme      : http
+2025-08-17 17:55:21: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 17:55:21: (response.c.306) URI-path (clean): /test.txt
+2025-08-17 17:55:21: (response.c.308) URI-query       : 
+2025-08-17 17:55:21: (response.c.387) -- logical -> physical
+2025-08-17 17:55:21: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 17:55:21: (response.c.393) Rel-Path     : /test.txt
+2025-08-17 17:55:21: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:55:21: (response.c.407) -- handling subrequest
+2025-08-17 17:55:21: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 17:55:21: (response.c.411) URI          : /test.txt
+2025-08-17 17:55:21: (response.c.413) Pathinfo     : 
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: HTTP/1.1 501 Not Implemented
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Content-Length: 170
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 21:55:21 GMT
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 17:55:21: (h1.c.248) fd:9 resp: 
+2025-08-17 17:55:21: (server.c.2372) server stopped by UID = 1000 PID = 11460
+2025-08-17 18:32:44: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-17 18:32:44: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-17 18:32:46: (h1.c.497) fd:9 rqst: GET / HTTP/1.1
+2025-08-17 18:32:46: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 18:32:46: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 18:32:46: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 18:32:46: (h1.c.497) fd:9 rqst: 
+2025-08-17 18:32:46: (response.c.298) -- parsed Request-URI
+2025-08-17 18:32:46: (response.c.300) Request-URI     : /
+2025-08-17 18:32:46: (response.c.302) URI-scheme      : http
+2025-08-17 18:32:46: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 18:32:46: (response.c.306) URI-path (clean): /
+2025-08-17 18:32:46: (response.c.308) URI-query       : 
+2025-08-17 18:32:46: (response.c.387) -- logical -> physical
+2025-08-17 18:32:46: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:46: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:46: (response.c.393) Rel-Path     : /
+2025-08-17 18:32:46: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-17 18:32:46: (response.c.407) -- handling subrequest
+2025-08-17 18:32:46: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-17 18:32:46: (response.c.411) URI          : /
+2025-08-17 18:32:46: (response.c.413) Pathinfo     : 
+2025-08-17 18:32:46: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-17 18:32:46: (mod_indexfile.c.153) URI          : /
+2025-08-17 18:32:46: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 18:32:46: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 18:32:46: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-17 18:32:46: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-17 18:32:46: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-17 18:32:46: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-17 18:32:46: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 22:32:46 GMT
+2025-08-17 18:32:46: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 18:32:46: (h1.c.248) fd:9 resp: 
+2025-08-17 18:32:46: (h1.c.497) fd:11 rqst: GET /index.html HTTP/1.1
+2025-08-17 18:32:46: (h1.c.497) fd:11 rqst: Host: 127.0.0.1:8080
+2025-08-17 18:32:46: (h1.c.497) fd:11 rqst: User-Agent: curl/7.81.0
+2025-08-17 18:32:46: (h1.c.497) fd:11 rqst: Accept: */*
+2025-08-17 18:32:46: (h1.c.497) fd:11 rqst: 
+2025-08-17 18:32:46: (response.c.298) -- parsed Request-URI
+2025-08-17 18:32:46: (response.c.300) Request-URI     : /index.html
+2025-08-17 18:32:46: (response.c.302) URI-scheme      : http
+2025-08-17 18:32:46: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 18:32:46: (response.c.306) URI-path (clean): /index.html
+2025-08-17 18:32:46: (response.c.308) URI-query       : 
+2025-08-17 18:32:46: (response.c.387) -- logical -> physical
+2025-08-17 18:32:46: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:46: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:46: (response.c.393) Rel-Path     : /index.html
+2025-08-17 18:32:46: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-17 18:32:46: (response.c.407) -- handling subrequest
+2025-08-17 18:32:46: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-17 18:32:46: (response.c.411) URI          : /index.html
+2025-08-17 18:32:46: (response.c.413) Pathinfo     : 
+2025-08-17 18:32:46: (h1.c.248) fd:11 resp: HTTP/1.1 200 OK
+2025-08-17 18:32:46: (h1.c.248) fd:11 resp: Content-Type: text/html
+2025-08-17 18:32:46: (h1.c.248) fd:11 resp: ETag: "3397526728"
+2025-08-17 18:32:46: (h1.c.248) fd:11 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-17 18:32:46: (h1.c.248) fd:11 resp: Content-Length: 200
+2025-08-17 18:32:46: (h1.c.248) fd:11 resp: Accept-Ranges: bytes
+2025-08-17 18:32:46: (h1.c.248) fd:11 resp: Date: Sun, 17 Aug 2025 22:32:46 GMT
+2025-08-17 18:32:46: (h1.c.248) fd:11 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 18:32:46: (h1.c.248) fd:11 resp: 
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: GET /test.txt HTTP/1.1
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: 
+2025-08-17 18:32:48: (response.c.298) -- parsed Request-URI
+2025-08-17 18:32:48: (response.c.300) Request-URI     : /test.txt
+2025-08-17 18:32:48: (response.c.302) URI-scheme      : http
+2025-08-17 18:32:48: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 18:32:48: (response.c.306) URI-path (clean): /test.txt
+2025-08-17 18:32:48: (response.c.308) URI-query       : 
+2025-08-17 18:32:48: (response.c.387) -- logical -> physical
+2025-08-17 18:32:48: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.393) Rel-Path     : /test.txt
+2025-08-17 18:32:48: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 18:32:48: (response.c.407) -- handling subrequest
+2025-08-17 18:32:48: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 18:32:48: (response.c.411) URI          : /test.txt
+2025-08-17 18:32:48: (response.c.413) Pathinfo     : 
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 22:32:48 GMT
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: 
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: HEAD /test.txt HTTP/1.1
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: 
+2025-08-17 18:32:48: (response.c.298) -- parsed Request-URI
+2025-08-17 18:32:48: (response.c.300) Request-URI     : /test.txt
+2025-08-17 18:32:48: (response.c.302) URI-scheme      : http
+2025-08-17 18:32:48: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 18:32:48: (response.c.306) URI-path (clean): /test.txt
+2025-08-17 18:32:48: (response.c.308) URI-query       : 
+2025-08-17 18:32:48: (response.c.387) -- logical -> physical
+2025-08-17 18:32:48: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.393) Rel-Path     : /test.txt
+2025-08-17 18:32:48: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 18:32:48: (response.c.407) -- handling subrequest
+2025-08-17 18:32:48: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 18:32:48: (response.c.411) URI          : /test.txt
+2025-08-17 18:32:48: (response.c.413) Pathinfo     : 
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Type: text/plain
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: ETag: "1768855526"
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:14:15 GMT
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Length: 21
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 22:32:48 GMT
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: 
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: GET /api.json HTTP/1.1
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Accept: application/json
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: 
+2025-08-17 18:32:48: (response.c.298) -- parsed Request-URI
+2025-08-17 18:32:48: (response.c.300) Request-URI     : /api.json
+2025-08-17 18:32:48: (response.c.302) URI-scheme      : http
+2025-08-17 18:32:48: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 18:32:48: (response.c.306) URI-path (clean): /api.json
+2025-08-17 18:32:48: (response.c.308) URI-query       : 
+2025-08-17 18:32:48: (response.c.387) -- logical -> physical
+2025-08-17 18:32:48: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.393) Rel-Path     : /api.json
+2025-08-17 18:32:48: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-17 18:32:48: (response.c.116) -- : No such file or directory
+2025-08-17 18:32:48: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-17 18:32:48: (response.c.121) URI          : /api.json
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 22:32:48 GMT
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: 
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: HEAD /api.json HTTP/1.1
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: 
+2025-08-17 18:32:48: (response.c.298) -- parsed Request-URI
+2025-08-17 18:32:48: (response.c.300) Request-URI     : /api.json
+2025-08-17 18:32:48: (response.c.302) URI-scheme      : http
+2025-08-17 18:32:48: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 18:32:48: (response.c.306) URI-path (clean): /api.json
+2025-08-17 18:32:48: (response.c.308) URI-query       : 
+2025-08-17 18:32:48: (response.c.387) -- logical -> physical
+2025-08-17 18:32:48: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.393) Rel-Path     : /api.json
+2025-08-17 18:32:48: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-17 18:32:48: (response.c.116) -- : No such file or directory
+2025-08-17 18:32:48: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-17 18:32:48: (response.c.121) URI          : /api.json
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 22:32:48 GMT
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: 
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: GET /nonexistent.html HTTP/1.1
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: 
+2025-08-17 18:32:48: (response.c.298) -- parsed Request-URI
+2025-08-17 18:32:48: (response.c.300) Request-URI     : /nonexistent.html
+2025-08-17 18:32:48: (response.c.302) URI-scheme      : http
+2025-08-17 18:32:48: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 18:32:48: (response.c.306) URI-path (clean): /nonexistent.html
+2025-08-17 18:32:48: (response.c.308) URI-query       : 
+2025-08-17 18:32:48: (response.c.387) -- logical -> physical
+2025-08-17 18:32:48: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.393) Rel-Path     : /nonexistent.html
+2025-08-17 18:32:48: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-17 18:32:48: (response.c.116) -- : No such file or directory
+2025-08-17 18:32:48: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-17 18:32:48: (response.c.121) URI          : /nonexistent.html
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 22:32:48 GMT
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: 
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: OPTIONS / HTTP/1.1
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: 
+2025-08-17 18:32:48: (response.c.298) -- parsed Request-URI
+2025-08-17 18:32:48: (response.c.300) Request-URI     : /
+2025-08-17 18:32:48: (response.c.302) URI-scheme      : http
+2025-08-17 18:32:48: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 18:32:48: (response.c.306) URI-path (clean): /
+2025-08-17 18:32:48: (response.c.308) URI-query       : 
+2025-08-17 18:32:48: (response.c.387) -- logical -> physical
+2025-08-17 18:32:48: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.393) Rel-Path     : /
+2025-08-17 18:32:48: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-17 18:32:48: (response.c.407) -- handling subrequest
+2025-08-17 18:32:48: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-17 18:32:48: (response.c.411) URI          : /
+2025-08-17 18:32:48: (response.c.413) Pathinfo     : 
+2025-08-17 18:32:48: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-17 18:32:48: (mod_indexfile.c.153) URI          : /
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Allow: OPTIONS, GET, HEAD, POST
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Length: 0
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 22:32:48 GMT
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: 
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: DELETE /test.txt HTTP/1.1
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-17 18:32:48: (h1.c.497) fd:9 rqst: 
+2025-08-17 18:32:48: (response.c.298) -- parsed Request-URI
+2025-08-17 18:32:48: (response.c.300) Request-URI     : /test.txt
+2025-08-17 18:32:48: (response.c.302) URI-scheme      : http
+2025-08-17 18:32:48: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-17 18:32:48: (response.c.306) URI-path (clean): /test.txt
+2025-08-17 18:32:48: (response.c.308) URI-query       : 
+2025-08-17 18:32:48: (response.c.387) -- logical -> physical
+2025-08-17 18:32:48: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-17 18:32:48: (response.c.393) Rel-Path     : /test.txt
+2025-08-17 18:32:48: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 18:32:48: (response.c.407) -- handling subrequest
+2025-08-17 18:32:48: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-17 18:32:48: (response.c.411) URI          : /test.txt
+2025-08-17 18:32:48: (response.c.413) Pathinfo     : 
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: HTTP/1.1 501 Not Implemented
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Content-Length: 170
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Date: Sun, 17 Aug 2025 22:32:48 GMT
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-17 18:32:48: (h1.c.248) fd:9 resp: 
+2025-08-17 18:32:48: (server.c.2372) server stopped by UID = 1000 PID = 11825
+2025-08-21 20:28:33: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-21 20:28:33: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-21 20:29:42: (server.c.2372) server stopped by UID = 1000 PID = 132456
+2025-08-21 20:29:59: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-21 20:29:59: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-21 20:30:10: (h1.c.497) fd:9 rqst: GET / HTTP/1.1
+2025-08-21 20:30:10: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-21 20:30:10: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-21 20:30:10: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-21 20:30:10: (h1.c.497) fd:9 rqst: 
+2025-08-21 20:30:10: (response.c.298) -- parsed Request-URI
+2025-08-21 20:30:10: (response.c.300) Request-URI     : /
+2025-08-21 20:30:10: (response.c.302) URI-scheme      : http
+2025-08-21 20:30:10: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-21 20:30:10: (response.c.306) URI-path (clean): /
+2025-08-21 20:30:10: (response.c.308) URI-query       : 
+2025-08-21 20:30:10: (response.c.387) -- logical -> physical
+2025-08-21 20:30:10: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-21 20:30:10: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-21 20:30:10: (response.c.393) Rel-Path     : /
+2025-08-21 20:30:10: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-21 20:30:10: (response.c.407) -- handling subrequest
+2025-08-21 20:30:10: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-21 20:30:10: (response.c.411) URI          : /
+2025-08-21 20:30:10: (response.c.413) Pathinfo     : 
+2025-08-21 20:30:10: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-21 20:30:10: (mod_indexfile.c.153) URI          : /
+2025-08-21 20:30:10: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-21 20:30:10: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-21 20:30:10: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-21 20:30:10: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-21 20:30:10: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-21 20:30:10: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-21 20:30:10: (h1.c.248) fd:9 resp: Date: Fri, 22 Aug 2025 00:30:10 GMT
+2025-08-21 20:30:10: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-21 20:30:10: (h1.c.248) fd:9 resp: 
+2025-08-21 20:30:20: (h1.c.497) fd:9 rqst: GET /index.html HTTP/1.1
+2025-08-21 20:30:20: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-21 20:30:20: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-21 20:30:20: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-21 20:30:20: (h1.c.497) fd:9 rqst: 
+2025-08-21 20:30:20: (response.c.298) -- parsed Request-URI
+2025-08-21 20:30:20: (response.c.300) Request-URI     : /index.html
+2025-08-21 20:30:20: (response.c.302) URI-scheme      : http
+2025-08-21 20:30:20: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-21 20:30:20: (response.c.306) URI-path (clean): /index.html
+2025-08-21 20:30:20: (response.c.308) URI-query       : 
+2025-08-21 20:30:20: (response.c.387) -- logical -> physical
+2025-08-21 20:30:20: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-21 20:30:20: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-21 20:30:20: (response.c.393) Rel-Path     : /index.html
+2025-08-21 20:30:20: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-21 20:30:20: (response.c.407) -- handling subrequest
+2025-08-21 20:30:20: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/index.html
+2025-08-21 20:30:20: (response.c.411) URI          : /index.html
+2025-08-21 20:30:20: (response.c.413) Pathinfo     : 
+2025-08-21 20:30:20: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-21 20:30:20: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-21 20:30:20: (h1.c.248) fd:9 resp: ETag: "3397526728"
+2025-08-21 20:30:20: (h1.c.248) fd:9 resp: Last-Modified: Tue, 12 Aug 2025 20:17:05 GMT
+2025-08-21 20:30:20: (h1.c.248) fd:9 resp: Content-Length: 200
+2025-08-21 20:30:20: (h1.c.248) fd:9 resp: Accept-Ranges: bytes
+2025-08-21 20:30:20: (h1.c.248) fd:9 resp: Date: Fri, 22 Aug 2025 00:30:20 GMT
+2025-08-21 20:30:20: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-21 20:30:20: (h1.c.248) fd:9 resp: 
+2025-08-21 20:30:26: (h1.c.497) fd:9 rqst: GET /api.json HTTP/1.1
+2025-08-21 20:30:26: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-21 20:30:26: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-21 20:30:26: (h1.c.497) fd:9 rqst: Accept: application/json
+2025-08-21 20:30:26: (h1.c.497) fd:9 rqst: 
+2025-08-21 20:30:26: (response.c.298) -- parsed Request-URI
+2025-08-21 20:30:26: (response.c.300) Request-URI     : /api.json
+2025-08-21 20:30:26: (response.c.302) URI-scheme      : http
+2025-08-21 20:30:26: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-21 20:30:26: (response.c.306) URI-path (clean): /api.json
+2025-08-21 20:30:26: (response.c.308) URI-query       : 
+2025-08-21 20:30:26: (response.c.387) -- logical -> physical
+2025-08-21 20:30:26: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-21 20:30:26: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-21 20:30:26: (response.c.393) Rel-Path     : /api.json
+2025-08-21 20:30:26: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-21 20:30:26: (response.c.116) -- : No such file or directory
+2025-08-21 20:30:26: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/api.json
+2025-08-21 20:30:26: (response.c.121) URI          : /api.json
+2025-08-21 20:30:26: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-21 20:30:26: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-21 20:30:26: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-21 20:30:26: (h1.c.248) fd:9 resp: Date: Fri, 22 Aug 2025 00:30:26 GMT
+2025-08-21 20:30:26: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-21 20:30:26: (h1.c.248) fd:9 resp: 
+2025-08-21 20:30:32: (h1.c.497) fd:9 rqst: GET /nonexistent.html HTTP/1.1
+2025-08-21 20:30:32: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-21 20:30:32: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-21 20:30:32: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-21 20:30:32: (h1.c.497) fd:9 rqst: 
+2025-08-21 20:30:32: (response.c.298) -- parsed Request-URI
+2025-08-21 20:30:32: (response.c.300) Request-URI     : /nonexistent.html
+2025-08-21 20:30:32: (response.c.302) URI-scheme      : http
+2025-08-21 20:30:32: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-21 20:30:32: (response.c.306) URI-path (clean): /nonexistent.html
+2025-08-21 20:30:32: (response.c.308) URI-query       : 
+2025-08-21 20:30:32: (response.c.387) -- logical -> physical
+2025-08-21 20:30:32: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-21 20:30:32: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-21 20:30:32: (response.c.393) Rel-Path     : /nonexistent.html
+2025-08-21 20:30:32: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-21 20:30:32: (response.c.116) -- : No such file or directory
+2025-08-21 20:30:32: (response.c.119) Path         : /home/bhsus/lighttpd1.4-test/htdocs/nonexistent.html
+2025-08-21 20:30:32: (response.c.121) URI          : /nonexistent.html
+2025-08-21 20:30:32: (h1.c.248) fd:9 resp: HTTP/1.1 404 Not Found
+2025-08-21 20:30:32: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-21 20:30:32: (h1.c.248) fd:9 resp: Content-Length: 158
+2025-08-21 20:30:32: (h1.c.248) fd:9 resp: Date: Fri, 22 Aug 2025 00:30:32 GMT
+2025-08-21 20:30:32: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-21 20:30:32: (h1.c.248) fd:9 resp: 
+2025-08-21 20:30:53: (h1.c.497) fd:9 rqst: OPTIONS / HTTP/1.1
+2025-08-21 20:30:53: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-21 20:30:53: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-21 20:30:53: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-21 20:30:53: (h1.c.497) fd:9 rqst: 
+2025-08-21 20:30:53: (response.c.298) -- parsed Request-URI
+2025-08-21 20:30:53: (response.c.300) Request-URI     : /
+2025-08-21 20:30:53: (response.c.302) URI-scheme      : http
+2025-08-21 20:30:53: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-21 20:30:53: (response.c.306) URI-path (clean): /
+2025-08-21 20:30:53: (response.c.308) URI-query       : 
+2025-08-21 20:30:53: (response.c.387) -- logical -> physical
+2025-08-21 20:30:53: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-21 20:30:53: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-21 20:30:53: (response.c.393) Rel-Path     : /
+2025-08-21 20:30:53: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-21 20:30:53: (response.c.407) -- handling subrequest
+2025-08-21 20:30:53: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/
+2025-08-21 20:30:53: (response.c.411) URI          : /
+2025-08-21 20:30:53: (response.c.413) Pathinfo     : 
+2025-08-21 20:30:53: (mod_indexfile.c.151) -- handling the request as Indexfile
+2025-08-21 20:30:53: (mod_indexfile.c.153) URI          : /
+2025-08-21 20:30:53: (h1.c.248) fd:9 resp: HTTP/1.1 200 OK
+2025-08-21 20:30:53: (h1.c.248) fd:9 resp: Allow: OPTIONS, GET, HEAD, POST
+2025-08-21 20:30:53: (h1.c.248) fd:9 resp: Content-Length: 0
+2025-08-21 20:30:53: (h1.c.248) fd:9 resp: Date: Fri, 22 Aug 2025 00:30:53 GMT
+2025-08-21 20:30:53: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-21 20:30:53: (h1.c.248) fd:9 resp: 
+2025-08-21 20:30:59: (h1.c.497) fd:9 rqst: DELETE /test.txt HTTP/1.1
+2025-08-21 20:30:59: (h1.c.497) fd:9 rqst: Host: 127.0.0.1:8080
+2025-08-21 20:30:59: (h1.c.497) fd:9 rqst: User-Agent: curl/7.81.0
+2025-08-21 20:30:59: (h1.c.497) fd:9 rqst: Accept: */*
+2025-08-21 20:30:59: (h1.c.497) fd:9 rqst: 
+2025-08-21 20:30:59: (response.c.298) -- parsed Request-URI
+2025-08-21 20:30:59: (response.c.300) Request-URI     : /test.txt
+2025-08-21 20:30:59: (response.c.302) URI-scheme      : http
+2025-08-21 20:30:59: (response.c.304) URI-authority   : 127.0.0.1:8080
+2025-08-21 20:30:59: (response.c.306) URI-path (clean): /test.txt
+2025-08-21 20:30:59: (response.c.308) URI-query       : 
+2025-08-21 20:30:59: (response.c.387) -- logical -> physical
+2025-08-21 20:30:59: (response.c.389) Doc-Root     : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-21 20:30:59: (response.c.391) Basedir      : /home/bhsus/lighttpd1.4-test/htdocs
+2025-08-21 20:30:59: (response.c.393) Rel-Path     : /test.txt
+2025-08-21 20:30:59: (response.c.395) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-21 20:30:59: (response.c.407) -- handling subrequest
+2025-08-21 20:30:59: (response.c.409) Path         : /home/bhsus/lighttpd1.4-test/htdocs/test.txt
+2025-08-21 20:30:59: (response.c.411) URI          : /test.txt
+2025-08-21 20:30:59: (response.c.413) Pathinfo     : 
+2025-08-21 20:30:59: (h1.c.248) fd:9 resp: HTTP/1.1 501 Not Implemented
+2025-08-21 20:30:59: (h1.c.248) fd:9 resp: Content-Type: text/html
+2025-08-21 20:30:59: (h1.c.248) fd:9 resp: Content-Length: 170
+2025-08-21 20:30:59: (h1.c.248) fd:9 resp: Date: Fri, 22 Aug 2025 00:30:59 GMT
+2025-08-21 20:30:59: (h1.c.248) fd:9 resp: Server: lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61
+2025-08-21 20:30:59: (h1.c.248) fd:9 resp: 
+2025-08-21 20:31:13: (server.c.2372) server stopped by UID = 1000 PID = 132484
+2025-08-21 23:41:00: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-21 23:41:00: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-21 23:41:04: (server.c.1271) [note] graceful shutdown started
+2025-08-21 23:41:04: (server.c.2372) server stopped by UID = 0 PID = 0
+2025-08-21 23:42:01: (server.c.1971) server started (lighttpd/1.4.80-devel-lighttpd-1.4.79-88-gbae3fe61)
+2025-08-21 23:42:01: (configfile.c.1402) WARNING: unknown config-key: accesslog.filename (ignored)
+2025-08-21 23:42:11: (server.c.2372) server stopped by UID = 1000 PID = 241674
