@@ -1,0 +1,1 @@
+void totalFinalize(sqlite3_context *context);

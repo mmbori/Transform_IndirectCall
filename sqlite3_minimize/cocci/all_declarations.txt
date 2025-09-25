@@ -1,0 +1,28 @@
+// Auto-generated function declarations
+// Collected from 25 definition files
+
+sqlite3_mutex *noopMutexAlloc(int id);
+int noopMutexEnd(void);
+void noopMutexEnter(sqlite3_mutex *p);
+void noopMutexFree(sqlite3_mutex *p);
+int noopMutexInit(void);
+void noopMutexLeave(sqlite3_mutex *p);
+int noopMutexTry(sqlite3_mutex *p);
+void pcache1Cachesize(sqlite3_pcache *p , int nMax);
+sqlite3_pcache *pcache1Create(int szPage , int szExtra , int bPurgeable);
+void pcache1Destroy(sqlite3_pcache *p);
+sqlite3_pcache_page *pcache1Fetch(sqlite3_pcache *p , unsigned int iKey , int createFlag);
+int pcache1Init(void *NotUsed);
+int pcache1Pagecount(sqlite3_pcache *p);
+void pcache1Rekey(sqlite3_pcache *p , sqlite3_pcache_page *pPg , unsigned int iOld , unsigned int iNew);
+void pcache1Shrink(sqlite3_pcache *p);
+void pcache1Shutdown(void *NotUsed);
+void pcache1Truncate(sqlite3_pcache *p , unsigned int iLimit);
+void pcache1Unpin(sqlite3_pcache *p , sqlite3_pcache_page *pPg , int reuseUnlikely);
+void sqlite3MemFree(void *pPrior);
+int sqlite3MemInit(void *NotUsed);
+void *sqlite3MemMalloc(int nByte);
+void *sqlite3MemRealloc(void *pPrior , int nByte);
+int sqlite3MemRoundup(int n);
+void sqlite3MemShutdown(void *NotUsed);
+int sqlite3MemSize(void *pPrior);

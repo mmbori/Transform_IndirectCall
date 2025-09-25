@@ -1,0 +1,1 @@
+void unixDlClose(sqlite3_vfs *NotUsed , void *pHandle);

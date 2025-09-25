@@ -1,0 +1,6 @@
+// Function declarations for xFreeSchema
+
+endif
+
+
+void xFree(void *p);

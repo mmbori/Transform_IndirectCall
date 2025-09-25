@@ -1,0 +1,390 @@
+=== 함수 포인터 분석 보고서 ===
+
+총 함수 포인터 타입: 93개
+총 함수 개수: 228개
+
+각 함수 포인터별 상세:
+
+
+[xExprCallback] - 37개 함수:
+   1. agginfoPersistExprCb
+   2. aggregateIdxEprRefToColCallback
+   3. analyzeAggregate
+   4. checkConstraintExprNode
+   5. codeCursorHintCheckExpr
+   6. codeCursorHintFixExpr
+   7. codeCursorHintIsOrFunction
+   8. disallowAggregatesInOrderByCb
+   9. exprColumnFlagUnion
+  10. exprIdxCover
+  ... 그리고 27개 더
+
+[xSelectCallback] - 16개 함수:
+   1. convertCompoundSelectToSubquery
+   2. exprSelectWalkTableConstant
+   3. fixSelectCb
+   4. gatherSelectWindowsSelectCallback
+   5. renameColumnSelectCb
+   6. renameTableSelectCb
+   7. renameUnmapSelectCb
+   8. resolveSelectStep
+   9. selectCheckOnClausesSelect
+  10. selectExpander
+  ... 그리고 6개 더
+
+[xNext] - 8개 함수:
+   1. fts5ExprNodeNext_AND
+   2. fts5ExprNodeNext_NOT
+   3. fts5ExprNodeNext_OR
+   4. fts5ExprNodeNext_STRING
+   5. fts5ExprNodeNext_TERM
+   6. fts5SegIterNext
+   7. fts5SegIterNext_None
+   8. fts5SegIterNext_Reverse
+
+[xDelete] - 7개 함수:
+   1. f5tOrigintextDelete
+   2. f5tTokenizerDelete
+   3. fts5VtoVDelete
+   4. multiplexDelete
+   5. quotaDelete
+   6. vfstraceDelete
+   7. xDelete
+
+[xSetOutputs] - 7개 함수:
+   1. fts5IterSetOutputs_Col
+   2. fts5IterSetOutputs_Col100
+   3. fts5IterSetOutputs_Full
+   4. fts5IterSetOutputs_Nocolset
+   5. fts5IterSetOutputs_None
+   6. fts5IterSetOutputs_Noop
+   7. fts5IterSetOutputs_ZeroColset
+
+[xSelectCallback2] - 6개 함수:
+   1. selectAddSubqueryTypeInfo
+   2. selectRefLeave
+   3. sqlite3SelectPopWith
+   4. sqlite3SelectWalkAssert2
+   5. sqlite3WalkWinDefnDummyCallback
+   6. sqlite3WalkerDepthDecrease
+
+[xDel] - 4개 함수:
+   1. sqlite3RowSetDelete
+   2. sqlite3_free
+   3. xDel
+   4. xDestroy
+
+[xCellSize] - 4개 함수:
+   1. cellSizePtr
+   2. cellSizePtrIdxLeaf
+   3. cellSizePtrNoPayload
+   4. cellSizePtrTableLeaf
+
+[xDeviceCharacteristics] - 3개 함수:
+   1. multiplexDeviceCharacteristics
+   2. quotaDeviceCharacteristics
+   3. vfstraceDeviceCharacteristics
+
+[xCreate] - 3개 함수:
+   1. f5tOrigintextCreate
+   2. f5tTokenizerCreate
+   3. fts5VtoVCreate
+
+[xFileControl] - 3개 함수:
+   1. multiplexFileControl
+   2. quotaFileControl
+   3. vfstraceFileControl
+
+[xSectorSize] - 3개 함수:
+   1. multiplexSectorSize
+   2. quotaSectorSize
+   3. vfstraceSectorSize
+
+[xTruncate] - 3개 함수:
+   1. multiplexTruncate
+   2. quotaTruncate
+   3. vfstraceTruncate
+
+[xLock] - 3개 함수:
+   1. multiplexLock
+   2. quotaLock
+   3. vfstraceLock
+
+[xDelUser] - 3개 함수:
+   1. circle_del
+   2. cube_context_free
+   3. testDelUser
+
+[xGet] - 3개 함수:
+   1. getPageError
+   2. getPageMMap
+   3. getPageNormal
+
+[xFileSize] - 3개 함수:
+   1. multiplexFileSize
+   2. quotaFileSize
+   3. vfstraceFileSize
+
+[xSync] - 3개 함수:
+   1. multiplexSync
+   2. quotaSync
+   3. vfstraceSync
+
+[xWrite] - 3개 함수:
+   1. multiplexWrite
+   2. quotaWrite
+   3. vfstraceWrite
+
+[xOpen] - 3개 함수:
+   1. multiplexOpen
+   2. quotaOpen
+   3. vfstraceOpen
+
+[xClose] - 3개 함수:
+   1. multiplexClose
+   2. quotaClose
+   3. vfstraceClose
+
+[xRead] - 3개 함수:
+   1. multiplexRead
+   2. quotaRead
+   3. vfstraceRead
+
+[xParseCell] - 3개 함수:
+   1. btreeParseCellPtr
+   2. btreeParseCellPtrIndex
+   3. btreeParseCellPtrNoPayload
+
+[xCheckReservedLock] - 3개 함수:
+   1. multiplexCheckReservedLock
+   2. quotaCheckReservedLock
+   3. vfstraceCheckReservedLock
+
+[xOp] - 3개 함수:
+   1. do_compile
+   2. do_finalize
+   3. do_step
+
+[xUnlock] - 3개 함수:
+   1. multiplexUnlock
+   2. quotaUnlock
+   3. vfstraceUnlock
+
+[xDepth] - 2개 함수:
+   1. sessionDiffDepth
+   2. sessionPreupdateDepth
+
+[xShmMap] - 2개 함수:
+   1. multiplexShmMap
+   2. quotaShmMap
+
+[xRandomness] - 2개 함수:
+   1. multiplexRandomness
+   2. vfstraceRandomness
+
+[xMerge] - 2개 함수:
+   1. fts5MergePrefixLists
+   2. fts5MergeRowidLists
+
+[xNew] - 2개 함수:
+   1. sessionDiffNew
+   2. sessionPreupdateNew
+
+[xToken] - 2개 함수:
+   1. xOldToken
+   2. xToken
+
+[xShmBarrier] - 2개 함수:
+   1. multiplexShmBarrier
+   2. quotaShmBarrier
+
+[xSleep] - 2개 함수:
+   1. multiplexSleep
+   2. vfstraceSleep
+
+[xShmUnmap] - 2개 함수:
+   1. multiplexShmUnmap
+   2. quotaShmUnmap
+
+[xBusyHandler] - 2개 함수:
+   1. xBusy
+   2. xBusyHandler
+
+[xCount] - 2개 함수:
+   1. sessionDiffCount
+   2. sessionPreupdateCount
+
+[xOld] - 2개 함수:
+   1. sessionDiffOld
+   2. sessionPreupdateOld
+
+[xFullPathname] - 2개 함수:
+   1. multiplexFullPathname
+   2. vfstraceFullPathname
+
+[xAppend] - 2개 함수:
+   1. fts5AppendPoslist
+   2. fts5AppendRowid
+
+[xRename] - 2개 함수:
+   1. xDefaultRename
+   2. xRename
+
+[xCurrentTime] - 2개 함수:
+   1. multiplexCurrentTime
+   2. vfstraceCurrentTime
+
+[xShmLock] - 2개 함수:
+   1. multiplexShmLock
+   2. quotaShmLock
+
+[xAccess] - 2개 함수:
+   1. multiplexAccess
+   2. vfstraceAccess
+
+[pInit] - 1개 함수:
+   1. p
+
+[xUpdateCallback] - 1개 함수:
+   1. xCallback
+
+[xCommitCallback] - 1개 함수:
+   1. xCallback
+
+[xFreeSchema] - 1개 함수:
+   1. xFree
+
+[xLegacy] - 1개 함수:
+   1. xTrace
+
+[xGetLastError] - 1개 함수:
+   1. multiplexGetLastError
+
+[xDlClose] - 1개 함수:
+   1. multiplexDlClose
+
+[xInput] - 1개 함수:
+   1. xInput
+
+[xChildDestroy] - 1개 함수:
+   1. xDestroy
+
+[xTableFilter] - 1개 함수:
+   1. xFilter
+
+[xCurrentTimeInt64] - 1개 함수:
+   1. multiplexCurrentTimeInt64
+
+[xDlOpen] - 1개 함수:
+   1. multiplexDlOpen
+
+[xProfile] - 1개 함수:
+   1. xProfile
+
+[xDlError] - 1개 함수:
+   1. multiplexDlError
+
+[xSFunc] - 1개 함수:
+   1. xSFunc
+
+[xRollbackCallback] - 1개 함수:
+   1. xCallback
+
+[xDestructor] - 1개 함수:
+   1. xDestructor
+
+[xGeom] - 1개 함수:
+   1. xGeom
+
+[xBenignEnd] - 1개 함수:
+   1. xBenignEnd
+
+[xBacktrace] - 1개 함수:
+   1. xBacktrace
+
+[xReiniter] - 1개 함수:
+   1. xReinit
+
+[xBenignBegin] - 1개 함수:
+   1. xBenignBegin
+
+[xValue] - 1개 함수:
+   1. xValue
+
+[xDestroy] - 1개 함수:
+   1. xDestroy
+
+[xInverse] - 1개 함수:
+   1. xInverse
+
+[xDeleteAux] - 1개 함수:
+   1. xDelete
+
+[xMalloc] - 1개 함수:
+   1. faultsimMalloc
+
+[xRealloc] - 1개 함수:
+   1. faultsimRealloc
+
+[xV2] - 1개 함수:
+   1. xTrace
+
+[xCmp] - 1개 함수:
+   1. xCompare
+
+[xUnlockNotify] - 1개 함수:
+   1. xNotify
+
+[xAutovacPages] - 1개 함수:
+   1. xCallback
+
+[xAutovacDestr] - 1개 함수:
+   1. xDestructor
+
+[xSql] - 1개 함수:
+   1. xSql
+
+[xCollNeeded16] - 1개 함수:
+   1. xCollNeeded16
+
+[xQueryFunc] - 1개 함수:
+   1. xQueryFunc
+
+[xProgress] - 1개 함수:
+   1. xProgress
+
+[xFindTokenizer] - 1개 함수:
+   1. fts5FindTokenizer
+
+[xOut] - 1개 함수:
+   1. xOut
+
+[xStress] - 1개 함수:
+   1. xStress
+
+[xCollNeeded] - 1개 함수:
+   1. xCollNeeded
+
+[xTask] - 1개 함수:
+   1. xTask
+
+[xCleanup] - 1개 함수:
+   1. xCleanup
+
+[xCallback] - 1개 함수:
+   1. xCallback
+
+[xBusy] - 1개 함수:
+   1. xBusy
+
+[xFinalize] - 1개 함수:
+   1. xFinal
+
+[xFunc] - 1개 함수:
+   1. xFunc
+
+[xFindTokenizer_v2] - 1개 함수:
+   1. fts5FindTokenizer_v2
+
+[xWalCallback] - 1개 함수:
+   1. xCallback

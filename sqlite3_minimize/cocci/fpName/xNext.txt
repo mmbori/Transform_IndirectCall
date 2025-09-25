@@ -1,0 +1,8 @@
+fts5ExprNodeNext_AND
+fts5ExprNodeNext_NOT
+fts5ExprNodeNext_OR
+fts5ExprNodeNext_STRING
+fts5ExprNodeNext_TERM
+fts5SegIterNext
+fts5SegIterNext_None
+fts5SegIterNext_Reverse

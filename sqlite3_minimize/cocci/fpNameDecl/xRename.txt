@@ -1,0 +1,4 @@
+// Function declarations for xRename
+
+int xDefaultRename(void *pArg, const char *zOld, const char *zNew);
+// 선언을 찾을 수 없음: xRename

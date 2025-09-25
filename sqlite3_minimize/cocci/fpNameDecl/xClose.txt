@@ -1,0 +1,8 @@
+// Function declarations for xClose
+
+int multiplexClose(sqlite3_file *pConn);
+int quotaClose(sqlite3_file *pConn);
+define VTR_FETCH           0x10000000   
+
+
+int vfstraceClose(sqlite3_file*);

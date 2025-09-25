@@ -1,0 +1,2 @@
+fts5MergePrefixLists
+fts5MergeRowidLists

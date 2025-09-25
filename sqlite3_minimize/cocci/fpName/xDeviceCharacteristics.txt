@@ -1,0 +1,3 @@
+multiplexDeviceCharacteristics
+quotaDeviceCharacteristics
+vfstraceDeviceCharacteristics

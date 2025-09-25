@@ -1,0 +1,6 @@
+// Function declarations for xFree
+
+endif
+
+
+void xFree(void *p);

@@ -1,0 +1,14 @@
+// Function declarations for xOpen
+
+int multiplexOpen(sqlite3_vfs *pVfs,         
+  const char *zName,         
+  sqlite3_file *pConn,       
+  int flags,                 
+  int *pOutFlags);
+int quotaOpen(sqlite3_vfs *pVfs,          
+  const char *zName,          
+  sqlite3_file *pConn,        
+  int flags,                  
+  int *pOutFlags);
+int vfstraceOpen(sqlite3_vfs*, const char *, sqlite3_file*, int , int *);
+int vtshimOpen(sqlite3_vtab *pBase, sqlite3_vtab_cursor **ppCursor);

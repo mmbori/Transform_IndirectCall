@@ -1,0 +1,11 @@
+// Function declarations for xDelete
+
+void fts5VtoVDelete(Fts5Tokenizer *pTok);
+int multiplexDelete(sqlite3_vfs *pVfs,         
+  const char *zName,         
+  int syncDir);
+int quotaDelete(sqlite3_vfs *pVfs,          
+  const char *zName,          
+  int syncDir);
+int vfstraceDelete(sqlite3_vfs*, const char *zName, int syncDir);
+// 선언을 찾을 수 없음: xDelete

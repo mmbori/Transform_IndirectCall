@@ -1,0 +1,9 @@
+../ext/wasm/api/sqlite3-wasm.c
+../ext/misc/vfsstat.c
+../ext/misc/appendvfs.c
+../ext/misc/memvfs.c
+../ext/misc/vfslog.c
+../ext/misc/cksumvfs.c
+../src/test_osinst.c
+../src/test_vfs.c
+../src/memdb.c

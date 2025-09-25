@@ -1,0 +1,10 @@
+// Function declarations for xAppend
+
+void fts5AppendPoslist(Fts5Index *p,
+  u64 iDelta,
+  Fts5Iter *pMulti,
+  Fts5Buffer *pBuf);
+void fts5AppendRowid(Fts5Index *p,
+  u64 iDelta,
+  Fts5Iter *pUnused,
+  Fts5Buffer *pBuf);

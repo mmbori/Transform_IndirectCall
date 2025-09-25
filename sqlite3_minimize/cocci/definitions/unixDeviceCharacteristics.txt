@@ -1,0 +1,1 @@
+int unixDeviceCharacteristics(sqlite3_file *id);

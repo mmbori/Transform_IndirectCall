@@ -1,0 +1,25 @@
+// Function declarations for xNext
+
+int fts5ExprNodeNext_AND(Fts5Expr *pExpr, 
+  Fts5ExprNode *pNode,
+  int bFromValid,
+  i64 iFrom);
+int fts5ExprNodeNext_NOT(Fts5Expr *pExpr, 
+  Fts5ExprNode *pNode,
+  int bFromValid,
+  i64 iFrom);
+int fts5ExprNodeNext_OR(Fts5Expr *pExpr, 
+  Fts5ExprNode *pNode,
+  int bFromValid,
+  i64 iFrom);
+int fts5ExprNodeNext_STRING(Fts5Expr *pExpr,                
+  Fts5ExprNode *pNode,            
+  int bFromValid,
+  i64 iFrom);
+int fts5ExprNodeNext_TERM(Fts5Expr *pExpr, 
+  Fts5ExprNode *pNode,
+  int bFromValid,
+  i64 iFrom);
+void fts5SegIterNext(Fts5Index*, Fts5SegIter*, int*);
+void fts5SegIterNext_None(Fts5Index*, Fts5SegIter*, int*);
+void fts5SegIterNext_Reverse(Fts5Index*, Fts5SegIter*, int*);

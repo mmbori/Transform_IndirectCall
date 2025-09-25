@@ -1,0 +1,1 @@
+void avgFinalize(sqlite3_context *context);

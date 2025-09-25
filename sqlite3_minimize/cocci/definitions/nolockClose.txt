@@ -1,0 +1,1 @@
+int nolockClose(sqlite3_file *id);

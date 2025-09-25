@@ -1,0 +1,1 @@
+int vdbeSorterCompareInt(SortSubtask *pTask , int *pbKey2Cached , const void *pKey1 , int nKey1 , const void *pKey2 , int nKey2);

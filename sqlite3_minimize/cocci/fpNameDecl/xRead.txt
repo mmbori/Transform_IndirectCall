@@ -1,0 +1,11 @@
+// Function declarations for xRead
+
+int multiplexRead(sqlite3_file *pConn,
+  void *pBuf,
+  int iAmt,
+  sqlite3_int64 iOfst);
+int quotaRead(sqlite3_file *pConn,
+  void *pBuf,
+  int iAmt,
+  sqlite3_int64 iOfst);
+int vfstraceRead(sqlite3_file*, void*, int iAmt, sqlite3_int64 iOfst);

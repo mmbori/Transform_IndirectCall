@@ -1,0 +1,57 @@
+// Function declarations for xExprCallback
+
+int agginfoPersistExprCb(Walker *pWalker, Expr *pExpr);
+int aggregateIdxEprRefToColCallback(Walker *pWalker, Expr *pExpr);
+int analyzeAggregate(Walker *pWalker, Expr *pExpr);
+define CKCNSTRNT_ROWID    0x02    
+
+
+int checkConstraintExprNode(Walker *pWalker, Expr *pExpr);
+int codeCursorHintCheckExpr(Walker *pWalker, Expr *pExpr);
+int codeCursorHintFixExpr(Walker *pWalker, Expr *pExpr);
+int codeCursorHintIsOrFunction(Walker *pWalker, Expr *pExpr);
+int disallowAggregatesInOrderByCb(Walker *pWalker, Expr *pExpr);
+int exprColumnFlagUnion(Walker *pWalker, Expr *pExpr);
+int exprIdxCover(Walker *pWalker, Expr *pExpr);
+int exprNodeCanReturnSubtype(Walker *pWalker, Expr *pExpr);
+int exprNodeIsConstant(Walker *pWalker, Expr *pExpr);
+int exprNodeIsConstantOrGroupBy(Walker *pWalker, Expr *pExpr);
+int exprNodeIsDeterministic(Walker *pWalker, Expr *pExpr);
+int exprRefToSrcList(Walker *pWalker, Expr *pExpr);
+endif 
+
+
+int fixExprCb(Walker *p, Expr *pExpr);
+ifndef SQLITE_OMIT_WINDOWFUNC
+
+int gatherSelectWindowsCallback(Walker *pWalker, Expr *pExpr);
+endif
+
+
+int havingToWhereExprCb(Walker *pWalker, Expr *pExpr);
+int impliesNotNullRow(Walker *pWalker, Expr *pExpr);
+define EXCLUDED_TABLE_NUMBER  2
+
+
+int incrAggDepth(Walker *pWalker, Expr *pExpr);
+ifdef SQLITE_DEBUG
+
+int markImmutableExprStep(Walker *pWalker, Expr *pExpr);
+int propagateConstantExprRewrite(Walker *pWalker, Expr *pExpr);
+int recomputeColumnsUsedExpr(Walker *pWalker, Expr *pExpr);
+int renameColumnExprCb(Walker *pWalker, Expr *pExpr);
+int renameQuotefixExprCb(Walker *pWalker, Expr *pExpr);
+int renameTableExprCb(Walker *pWalker, Expr *pExpr);
+int renameUnmapExprCb(Walker *pWalker, Expr *pExpr);
+int renumberCursorsCb(Walker *pWalker, Expr *pExpr);
+int resolveExprStep(Walker *pWalker, Expr *pExpr);
+ifndef SQLITE_OMIT_WINDOWFUNC
+
+int resolveRemoveWindowsCb(Walker *pWalker, Expr *pExpr);
+int selectCheckOnClausesExpr(Walker *pWalker, Expr *pExpr);
+int selectWindowRewriteExprCb(Walker *pWalker, Expr *pExpr);
+int sqlite3CursorRangeHintExprCheck(Walker *pWalker, Expr *pExpr);
+int sqlite3ExprWalkNoop(Walker *NotUsed, Expr *NotUsed2);
+int sqlite3ReturningSubqueryVarSelect(Walker *NotUsed, Expr *pExpr);
+int sqlite3WindowExtraAggFuncDepth(Walker *pWalker, Expr *pExpr);
+int whereIsCoveringIndexWalkCallback(Walker *pWalk, Expr *pExpr);

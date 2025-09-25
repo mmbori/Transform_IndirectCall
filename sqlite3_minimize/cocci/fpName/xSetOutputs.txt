@@ -1,0 +1,7 @@
+fts5IterSetOutputs_Col
+fts5IterSetOutputs_Col100
+fts5IterSetOutputs_Full
+fts5IterSetOutputs_Nocolset
+fts5IterSetOutputs_None
+fts5IterSetOutputs_Noop
+fts5IterSetOutputs_ZeroColset

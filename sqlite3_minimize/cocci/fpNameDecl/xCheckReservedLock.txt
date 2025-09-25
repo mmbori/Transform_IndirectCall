@@ -1,0 +1,5 @@
+// Function declarations for xCheckReservedLock
+
+int multiplexCheckReservedLock(sqlite3_file *pConn, int *pResOut);
+int quotaCheckReservedLock(sqlite3_file *pConn, int *pResOut);
+int vfstraceCheckReservedLock(sqlite3_file*, int *);

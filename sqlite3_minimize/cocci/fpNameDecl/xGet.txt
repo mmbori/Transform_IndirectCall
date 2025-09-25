@@ -1,0 +1,9 @@
+// Function declarations for xGet
+
+int getPageError(Pager*,Pgno,DbPage**,int);
+0
+int getPageMMap(Pager*,Pgno,DbPage**,int);
+endif
+
+
+int getPageNormal(Pager*,Pgno,DbPage**,int);

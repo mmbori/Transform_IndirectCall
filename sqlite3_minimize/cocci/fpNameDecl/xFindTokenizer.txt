@@ -1,0 +1,6 @@
+// Function declarations for xFindTokenizer
+
+int fts5FindTokenizer(fts5_api *pApi,                 
+  const char *zName,              
+  void **ppUserData,
+  fts5_tokenizer *pTokenizer);

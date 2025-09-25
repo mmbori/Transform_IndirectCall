@@ -1,0 +1,10 @@
+// Function declarations for xMerge
+
+void fts5MergePrefixLists(Fts5Index *p,                   
+  Fts5Buffer *p1,                 
+  int nBuf,                       
+  Fts5Buffer *aBuf);
+void fts5MergeRowidLists(Fts5Index *p,                   
+  Fts5Buffer *p1,                 
+  int nBuf,                       
+  Fts5Buffer *aBuf);

@@ -1,0 +1,5 @@
+// Function declarations for xSectorSize
+
+int multiplexSectorSize(sqlite3_file *pConn);
+int quotaSectorSize(sqlite3_file *pConn);
+int vfstraceSectorSize(sqlite3_file*);

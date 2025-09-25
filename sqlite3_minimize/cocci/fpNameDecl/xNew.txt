@@ -1,0 +1,5 @@
+// Function declarations for xNew
+
+int sessionDiffNew(void *pCtx, int iVal, sqlite3_value **ppVal);
+int sessionPreupdateNew(void *pCtx, int iVal, sqlite3_value **ppVal);
+int sessionStat1New(void *pCtx, int iCol, sqlite3_value **ppVal);

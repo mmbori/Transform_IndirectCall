@@ -1,0 +1,1 @@
+sqlite3_pcache *pcache1Create(int szPage , int szExtra , int bPurgeable);

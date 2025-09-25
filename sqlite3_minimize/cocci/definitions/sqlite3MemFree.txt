@@ -1,0 +1,1 @@
+void sqlite3MemFree(void *pPrior);

@@ -1,0 +1,4 @@
+// Function declarations for xAccess
+
+int multiplexAccess(sqlite3_vfs *a, const char *b, int c, int *d);
+int vfstraceAccess(sqlite3_vfs*, const char *zName, int flags, int *);

@@ -1,0 +1,1 @@
+void agginfoFree(sqlite3 *db , void *pArg);

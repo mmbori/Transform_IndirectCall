@@ -1,0 +1,1 @@
+int pcache1Init(void *NotUsed);

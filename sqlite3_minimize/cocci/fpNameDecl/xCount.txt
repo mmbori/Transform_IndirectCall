@@ -1,0 +1,5 @@
+// Function declarations for xCount
+
+int sessionDiffCount(void *pCtx);
+int sessionPreupdateCount(void *pCtx);
+int sessionStat1Count(void *pCtx);

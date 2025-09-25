@@ -1,0 +1,1 @@
+void countFinalize(sqlite3_context *context);

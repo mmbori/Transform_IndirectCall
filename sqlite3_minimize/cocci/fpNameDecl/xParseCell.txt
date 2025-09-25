@@ -1,0 +1,11 @@
+// Function declarations for xParseCell
+
+void btreeParseCellPtr(MemPage *pPage,         
+  u8 *pCell,              
+  CellInfo *pInfo);
+void btreeParseCellPtrIndex(MemPage *pPage,         
+  u8 *pCell,              
+  CellInfo *pInfo);
+void btreeParseCellPtrNoPayload(MemPage *pPage,         
+  u8 *pCell,              
+  CellInfo *pInfo);
