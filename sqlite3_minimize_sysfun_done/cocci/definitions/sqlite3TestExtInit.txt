@@ -1,0 +1,1 @@
+int sqlite3TestExtInit(sqlite3 *db);

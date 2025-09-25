@@ -1,0 +1,12 @@
+// Function declarations for xSelectCallback2
+
+ifndef SQLITE_OMIT_SUBQUERY
+
+void selectAddSubqueryTypeInfo(Walker *pWalker, Select *p);
+void selectRefLeave(Walker *pWalker, Select *pSelect);
+ifndef SQLITE_OMIT_CTE
+void sqlite3SelectPopWith(Walker*, Select*);
+ifdef SQLITE_DEBUG
+void sqlite3SelectWalkAssert2(Walker*, Select*);
+void sqlite3WalkWinDefnDummyCallback(Walker*,Select*);
+void sqlite3WalkerDepthDecrease(Walker*,Select*);

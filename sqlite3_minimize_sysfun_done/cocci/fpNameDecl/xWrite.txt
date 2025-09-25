@@ -1,0 +1,10 @@
+// Function declarations for xWrite
+
+int multiplexWrite(sqlite3_file *pConn,
+  const void *pBuf,
+  int iAmt,
+  sqlite3_int64 iOfst);
+int quotaWrite(sqlite3_file *pConn,
+  const void *pBuf,
+  int iAmt,
+  sqlite3_int64 iOfst);

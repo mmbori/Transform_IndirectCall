@@ -1,0 +1,1 @@
+int exprNodeIsDeterministic(Walker *pWalker , Expr *pExpr);

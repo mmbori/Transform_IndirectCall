@@ -1,0 +1,3 @@
+// Function declarations for xFreeSchema
+
+// 선언을 찾을 수 없음: xFree

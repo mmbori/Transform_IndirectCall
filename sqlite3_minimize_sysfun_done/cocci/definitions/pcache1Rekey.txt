@@ -1,0 +1,1 @@
+void pcache1Rekey(sqlite3_pcache *p , sqlite3_pcache_page *pPg , unsigned int iOld , unsigned int iNew);

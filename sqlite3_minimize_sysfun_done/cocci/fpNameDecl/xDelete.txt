@@ -1,0 +1,8 @@
+// Function declarations for xDelete
+
+int multiplexDelete(sqlite3_vfs *pVfs,         
+  const char *zName,         
+  int syncDir);
+int quotaDelete(sqlite3_vfs *pVfs,          
+  const char *zName,          
+  int syncDir);

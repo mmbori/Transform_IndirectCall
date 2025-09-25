@@ -1,0 +1,1 @@
+sqlite3_pcache_page *pcache1Fetch(sqlite3_pcache *p , unsigned int iKey , int createFlag);

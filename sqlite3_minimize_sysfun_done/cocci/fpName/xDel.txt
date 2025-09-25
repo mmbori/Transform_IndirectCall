@@ -1,0 +1,3 @@
+sqlite3RowSetDelete
+sqlite3VdbeFrameMemDel
+xDel

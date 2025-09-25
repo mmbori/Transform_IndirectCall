@@ -1,0 +1,1 @@
+int getPageNormal(Pager *, Pgno , DbPage **, int);

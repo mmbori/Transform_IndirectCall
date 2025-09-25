@@ -1,0 +1,1 @@
+int vdbeRecordCompareString(int nKey1 , const void *pKey1 , UnpackedRecord *pPKey2);

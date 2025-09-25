@@ -1,0 +1,1 @@
+int unixRandomness(sqlite3_vfs *NotUsed , int nBuf , char *zBuf);

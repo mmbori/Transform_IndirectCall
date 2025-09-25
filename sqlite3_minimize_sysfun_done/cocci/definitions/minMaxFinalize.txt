@@ -1,0 +1,1 @@
+void minMaxFinalize(sqlite3_context *context);

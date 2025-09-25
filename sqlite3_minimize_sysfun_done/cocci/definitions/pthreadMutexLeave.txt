@@ -1,0 +1,1 @@
+void pthreadMutexLeave(sqlite3_mutex *p);

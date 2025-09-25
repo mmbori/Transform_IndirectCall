@@ -1,0 +1,1 @@
+void shellLog(void *pArg , int iErrCode , const char *zMsg);

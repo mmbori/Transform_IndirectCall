@@ -1,0 +1,1 @@
+int memjrnlTruncate(sqlite3_file *pJfd , sqlite_int64 size);

@@ -1,0 +1,9 @@
+// Function declarations for xDel
+
+void sqlite3RowSetDelete(void*);
+endif
+
+
+
+void sqlite3VdbeFrameMemDel(void *pArg);
+// 선언을 찾을 수 없음: xDel

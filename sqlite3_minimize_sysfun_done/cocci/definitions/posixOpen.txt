@@ -1,0 +1,1 @@
+int posixOpen(const char *zFile , int flags , int mode);

@@ -1,0 +1,6 @@
+// Function declarations for xCellSize
+
+u16 cellSizePtr(MemPage *pPage, u8 *pCell);
+u16 cellSizePtrIdxLeaf(MemPage *pPage, u8 *pCell);
+u16 cellSizePtrNoPayload(MemPage *pPage, u8 *pCell);
+u16 cellSizePtrTableLeaf(MemPage *pPage, u8 *pCell);

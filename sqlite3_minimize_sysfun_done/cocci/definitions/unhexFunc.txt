@@ -1,0 +1,1 @@
+void unhexFunc(sqlite3_context *pCtx , int argc , sqlite3_value **argv);

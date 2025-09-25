@@ -1,0 +1,1 @@
+int memjrnlWrite(sqlite3_file *pJfd , const void *zBuf , int iAmt , sqlite_int64 iOfst);

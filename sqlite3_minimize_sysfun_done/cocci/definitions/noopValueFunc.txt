@@ -1,0 +1,1 @@
+void noopValueFunc(sqlite3_context *p);

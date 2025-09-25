@@ -1,0 +1,1 @@
+void jsonTypeFunc(sqlite3_context *ctx , int argc , sqlite3_value **argv);
