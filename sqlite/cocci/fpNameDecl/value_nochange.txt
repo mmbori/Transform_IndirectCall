@@ -1,0 +1,1 @@
+unsigned int sqlite3_value_subtype(sqlite3_value *pVal);

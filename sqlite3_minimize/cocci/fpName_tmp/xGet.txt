@@ -1,3 +1,0 @@
-getPageError
-getPageMMap
-getPageNormal

@@ -1,0 +1,3 @@
+void sqlite3RowSetDelete(void *pArg);
+void sqlite3VdbeFrameMemDel(void *pArg);
+void sqlite3_free(void*);

@@ -1,0 +1,1 @@
+void sqlite3_result_value(sqlite3_context*, sqlite3_value*);

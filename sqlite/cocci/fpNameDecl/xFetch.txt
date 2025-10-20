@@ -1,0 +1,13 @@
+static int apndFetch(sqlite3_file*, sqlite3_int64 iOfst, int iAmt, void **pp);
+int cksmFetch(sqlite3_file*, sqlite3_int64 iOfst, int iAmt, void **pp);
+int memFetch(sqlite3_file*, sqlite3_int64 iOfst, int iAmt, void **pp);
+int memdbFetch(sqlite3_file*, sqlite3_int64 iOfst, int iAmt, void **pp);
+sqlite3_pcache_page *pcache1Fetch(sqlite3_pcache *p , unsigned int iKey , int createFlag);
+static sqlite3_pcache_page *pcachetraceFetch( sqlite3_pcache *p, unsigned key, int crFg );
+int recoverVfsFetch(sqlite3_file*, sqlite3_int64, int, void**);
+static sqlite3_pcache_page *testpcacheFetch( sqlite3_pcache *pCache, unsigned key, int createFlag );
+int tvfsFetch(sqlite3_file*, sqlite3_int64, int, void**);
+int vstatFetch(sqlite3_file*, sqlite3_int64 iOfst, int iAmt, void **pp);
+int winFetch(sqlite3_file *fd, i64 iOff, int nAmt, void **pp);
+static sqlite3_pcache_page *wrPCacheFetch(sqlite3_pcache *p, unsigned a, int b);
+int unixFetch(sqlite3_file *fd, i64 iOff, int nAmt, void **pp);

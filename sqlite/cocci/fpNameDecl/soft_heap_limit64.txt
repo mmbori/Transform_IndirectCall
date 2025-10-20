@@ -1,0 +1,1 @@
+int sqlite3_backup_step(sqlite3_backup *p, int nPage);

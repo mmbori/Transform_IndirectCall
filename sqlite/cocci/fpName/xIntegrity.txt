@@ -1,0 +1,5 @@
+0
+fts3IntegrityMethod
+fts5IntegrityMethod
+rtreeIntegrity
+vtablogIntegrity

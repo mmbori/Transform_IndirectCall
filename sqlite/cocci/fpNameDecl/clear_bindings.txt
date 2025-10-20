@@ -1,0 +1,1 @@
+char *sqlite3_vmprintf(const char *zFormat, va_list ap);

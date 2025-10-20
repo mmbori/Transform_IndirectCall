@@ -1,0 +1,14 @@
+0
+apndFetch
+cksmFetch
+memFetch
+memdbFetch
+pcache1Fetch
+pcachetraceFetch
+recoverVfsFetch
+testpcacheFetch
+tvfsFetch
+vstatFetch
+winFetch
+wrPCacheFetch
+unixFetch

@@ -1,0 +1,4 @@
+void pcache1Unpin( sqlite3_pcache *p, sqlite3_pcache_page *pPg, int reuseUnlikely );
+static void pcachetraceUnpin( sqlite3_pcache *p, sqlite3_pcache_page *pPg, int bDiscard );
+static void testpcacheUnpin( sqlite3_pcache *pCache, sqlite3_pcache_page *pOldPage, int discard );
+static void wrPCacheUnpin(sqlite3_pcache *p, sqlite3_pcache_page *a, int b);

@@ -1,0 +1,1 @@
+int sqlite3_bind_value(sqlite3_stmt*, int, const sqlite3_value*);

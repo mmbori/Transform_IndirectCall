@@ -1,0 +1,7 @@
+void memsys3Free(void *pPrior);
+void memsys5Free(void *pPrior);
+void memtraceFree(void *p);
+void sqlite3MemFree(void *pPrior);
+static void winMemFree(void *pPrior);
+static void wrMemFree(void *p);
+void xFree(void *p);

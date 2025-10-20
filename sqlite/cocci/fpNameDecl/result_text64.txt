@@ -1,0 +1,1 @@
+int sqlite3_uri_boolean(const char *zFilename, const char *zParam, int bDflt);

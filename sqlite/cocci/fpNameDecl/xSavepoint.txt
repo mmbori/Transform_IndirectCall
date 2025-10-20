@@ -1,0 +1,5 @@
+int echoSavepoint(sqlite3_vtab *pVTab, int iSavepoint);
+static int fts3SavepointMethod(sqlite3_vtab *pVtab, int iSavepoint);
+int fts5SavepointMethod(sqlite3_vtab *pVtab, int iSavepoint);
+int rtreeSavepoint(sqlite3_vtab *pVtab, int iSavepoint);
+int vtablogSavepoint(sqlite3_vtab *tab, int N);

@@ -1,1 +1,0 @@
-void pcache1Cachesize(sqlite3_pcache *p , int nMax);

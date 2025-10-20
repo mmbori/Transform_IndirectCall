@@ -1,3 +1,0 @@
-multiplexLock
-quotaLock
-vfstraceLock

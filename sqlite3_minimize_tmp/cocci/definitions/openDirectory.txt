@@ -1,1 +1,0 @@
-int openDirectory(const char *, int *);

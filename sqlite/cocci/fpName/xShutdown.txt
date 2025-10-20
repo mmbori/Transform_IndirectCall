@@ -1,0 +1,10 @@
+memsys3Shutdown
+memsys5Shutdown
+memtraceShutdown
+pcache1Shutdown
+pcachetraceShutdown
+sqlite3MemShutdown
+testpcacheShutdown
+winMemShutdown
+wrMemShutdown
+wrPCacheShutdown

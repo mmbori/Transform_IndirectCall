@@ -1,0 +1,1 @@
+void sqlite3_str_append(sqlite3_str *p, const char *z, int N);

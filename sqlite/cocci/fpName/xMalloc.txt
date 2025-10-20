@@ -1,0 +1,7 @@
+faultsimMalloc
+memsys3Malloc
+memsys5Malloc
+memtraceMalloc
+sqlite3MemMalloc
+winMemMalloc
+wrMemMalloc

@@ -1,0 +1,1 @@
+int sqlite3_stmt_busy(sqlite3_stmt *pStmt);

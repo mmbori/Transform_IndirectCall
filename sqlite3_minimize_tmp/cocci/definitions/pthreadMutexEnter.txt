@@ -1,1 +1,0 @@
-void pthreadMutexEnter(sqlite3_mutex *p);

@@ -1,1 +1,0 @@
-int unixCurrentTimeInt64(sqlite3_vfs *NotUsed , sqlite3_int64 *piNow);

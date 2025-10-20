@@ -1,0 +1,1 @@
+int sqlite3_value_frombind(sqlite3_value *pVal);

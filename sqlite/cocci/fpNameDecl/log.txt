@@ -1,0 +1,1 @@
+int sqlite3_backup_remaining(sqlite3_backup *p);

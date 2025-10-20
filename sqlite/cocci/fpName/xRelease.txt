@@ -1,0 +1,5 @@
+0
+echoRelease
+fts3ReleaseMethod
+fts5ReleaseMethod
+vtablogRelease

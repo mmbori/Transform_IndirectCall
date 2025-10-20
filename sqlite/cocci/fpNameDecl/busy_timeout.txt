@@ -1,0 +1,1 @@
+int sqlite3_busy_handler( sqlite3 *db, int (*xBusy)(void*,int), void *pArg );

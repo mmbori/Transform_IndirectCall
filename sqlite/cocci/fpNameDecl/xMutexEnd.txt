@@ -1,0 +1,7 @@
+static int checkMutexEnd(void);
+static int counterMutexEnd(void);
+int debugMutexEnd(void);
+int noopMutexEnd(void);
+static int pthreadMutexEnd(void);
+int winMutexEnd(void);
+static int wrMutexEnd(void);

@@ -1,0 +1,1 @@
+int fts5ApiColumnLocale( Fts5Context *pCtx, int iCol, const char **pzLocale, int *pnLocale );

@@ -1,0 +1,1 @@
+void *sqlite3_aggregate_context(sqlite3_context *p, int nByte);

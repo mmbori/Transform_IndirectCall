@@ -1,0 +1,16 @@
+apndFullPathname
+cfFullPathname
+cksmFullPathname
+demoFullPathname
+devsymFullPathname
+jtFullPathname
+kvvfsFullPathname
+memFullPathname
+memdbFullPathname
+multiplexFullPathname
+rbuVfsFullPathname
+tvfsFullPathname
+vfslogFullPathname
+vfstraceFullPathname
+winFullPathname
+unixFullPathname

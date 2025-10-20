@@ -1,0 +1,1 @@
+int fts5ApiInstCount(Fts5Context *pCtx, int *pnInst);

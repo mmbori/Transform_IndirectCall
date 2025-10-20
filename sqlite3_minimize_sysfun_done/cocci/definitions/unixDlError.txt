@@ -1,1 +1,0 @@
-void unixDlError(sqlite3_vfs *NotUsed , int nBuf , char *zBufOut);

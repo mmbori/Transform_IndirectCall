@@ -1,0 +1,1 @@
+int sqlite3_db_release_memory(sqlite3 *db);

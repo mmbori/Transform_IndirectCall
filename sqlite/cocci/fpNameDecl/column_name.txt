@@ -1,0 +1,1 @@
+sqlite_int64 sqlite3_column_int64(sqlite3_stmt *pStmt, int i);

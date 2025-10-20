@@ -1,0 +1,6 @@
+void selectAddSubqueryTypeInfo(Walker *pWalker, Select *p);
+void selectRefLeave(Walker *pWalker, Select *pSelect);
+void sqlite3SelectPopWith(Walker *pWalker, Select *p);
+void sqlite3SelectWalkAssert2(Walker *NotUsed, Select *NotUsed2);
+void sqlite3WalkWinDefnDummyCallback(Walker*,Select*);
+void sqlite3WalkerDepthDecrease(Walker*,Select*);

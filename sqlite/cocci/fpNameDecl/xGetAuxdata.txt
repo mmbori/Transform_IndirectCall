@@ -1,0 +1,1 @@
+static void *fts5ApiGetAuxdata(Fts5Context *pCtx, int bClear);

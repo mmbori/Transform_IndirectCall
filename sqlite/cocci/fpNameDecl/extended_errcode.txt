@@ -1,0 +1,1 @@
+int sqlite3_backup_pagecount(sqlite3_backup *p);

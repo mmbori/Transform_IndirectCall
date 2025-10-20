@@ -1,0 +1,1 @@
+void sqlite3_str_vappendf(sqlite3_str*, const char *zFormat, va_list);

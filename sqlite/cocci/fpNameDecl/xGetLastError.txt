@@ -1,0 +1,10 @@
+static int apndGetLastError(sqlite3_vfs*, int, char *);
+int cfGetLastError(sqlite3_vfs *pCfVfs, int n, char *z);
+int cksmGetLastError(sqlite3_vfs*, int, char *);
+static int jtGetLastError(sqlite3_vfs*, int, char*);
+int memGetLastError(sqlite3_vfs*, int, char *);
+int memdbGetLastError(sqlite3_vfs*, int, char *);
+static int multiplexGetLastError(sqlite3_vfs *a, int b, char *c);
+int vfslogGetLastError(sqlite3_vfs*, int, char *);
+static int winGetLastError(sqlite3_vfs *pVfs, int nBuf, char *zBuf);
+int unixGetLastError(sqlite3_vfs *NotUsed, int NotUsed2, char *NotUsed3);

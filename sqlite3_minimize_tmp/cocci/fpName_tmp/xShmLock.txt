@@ -1,2 +1,0 @@
-multiplexShmLock
-quotaShmLock

@@ -1,0 +1,1 @@
+int sqlite3_prepare16( sqlite3 *db, const void *zSql, int nBytes, sqlite3_stmt **ppStmt, const void **pzTail );

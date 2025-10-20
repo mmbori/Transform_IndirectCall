@@ -1,0 +1,2 @@
+void pcache1Shrink(sqlite3_pcache *p);
+static void pcachetraceShrink(sqlite3_pcache *p);

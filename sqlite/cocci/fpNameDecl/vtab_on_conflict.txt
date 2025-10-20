@@ -1,0 +1,1 @@
+void sqlite3_log(int iErrCode, const char *zFormat, ...);

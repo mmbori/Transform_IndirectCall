@@ -1,0 +1,1 @@
+char *sqlite3_expanded_sql(sqlite3_stmt *pStmt);

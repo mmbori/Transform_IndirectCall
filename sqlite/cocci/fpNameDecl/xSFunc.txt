@@ -1,0 +1,3 @@
+static void attachFunc( sqlite3_context *context, int NotUsed, sqlite3_value **argv );
+static void detachFunc( sqlite3_context *context, int NotUsed, sqlite3_value **argv );
+static void statInit( sqlite3_context *context, int argc, sqlite3_value **argv );

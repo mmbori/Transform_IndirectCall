@@ -1,0 +1,6 @@
+static void *faultsimMalloc(int n);
+static void *memsys3Malloc(int nBytes);
+static void *memsys5Malloc(int nBytes);
+static void *memtraceMalloc(int n);
+void *sqlite3MemMalloc(int nByte);
+static void *wrMemMalloc(int n);

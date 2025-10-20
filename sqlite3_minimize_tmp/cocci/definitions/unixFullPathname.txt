@@ -1,1 +1,0 @@
-int unixFullPathname(sqlite3_vfs *pVfs , const char *zPath , int nOut , char *zOut);

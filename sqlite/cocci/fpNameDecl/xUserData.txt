@@ -1,0 +1,1 @@
+static void *fts5ApiUserData(Fts5Context *pCtx);

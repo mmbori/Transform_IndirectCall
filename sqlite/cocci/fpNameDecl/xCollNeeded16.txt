@@ -1,0 +1,2 @@
+void s3jni_collation_needed_impl16(void *pState, sqlite3 *pDb, int eTextRep, const void * z16Name);
+void test_collate_needed_cb(void *pCtx, sqlite3 *db, int eTextRep, const void *pName);

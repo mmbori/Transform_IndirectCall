@@ -349,7 +349,7 @@ log_va_list (const log_error_st *errh,
     buffer * const restrict b = log_buffer_prepare(errh, filename, line);
     if (NULL == b) return; /*(errno not modified if errh->fd == -1)*/
 
-    log_buffer_vsprintf(b, fmt, ap);
+    // log_buffer_vsprintf(b, fmt, ap);
   #ifdef _WIN32
     switch (pri >> 8) {
       case 0: default: break;
@@ -461,7 +461,7 @@ log_pri_multiline (log_error_st *errh,
 
     va_list ap;
     va_start(ap, fmt);
-    log_buffer_vsprintf(b, fmt, ap);
+    // log_buffer_vsprintf(b, fmt, ap);
     va_end(ap);
 
     const uint32_t prefix_len = buffer_clen(b);

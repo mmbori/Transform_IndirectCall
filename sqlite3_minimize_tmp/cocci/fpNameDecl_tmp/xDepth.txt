@@ -1,5 +1,0 @@
-// Function declarations for xDepth
-
-int sessionDiffDepth(void *pCtx);
-int sessionPreupdateDepth(void *pCtx);
-int sessionStat1Depth(void *pCtx);

@@ -1,1 +1,0 @@
-int unixFileSize(sqlite3_file *id , i64 *pSize);

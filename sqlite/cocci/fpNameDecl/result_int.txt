@@ -1,0 +1,1 @@
+void sqlite3_result_error(sqlite3_context *pCtx, const char *z, int n);

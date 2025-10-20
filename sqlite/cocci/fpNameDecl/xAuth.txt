@@ -1,0 +1,8 @@
+int idxAuthCallback(void *pCtx, int eOp, const char *z3, const char *z4, const char *zDb, const char *zTrigger);
+int authCallback(void *pClientData, int op, const char *z1, const char *z2, const char *z3, const char *z4);
+int safeModeAuth(void *pClientData, int op, const char *zA1, const char *zA2, const char *zA3, const char *zA4);
+int shellAuth(void *pClientData, int op, const char *zA1, const char *zA2, const char *zA3, const char *zA4);
+int auth_callback(void *pArg, int code, const char *zArg1, const char *zArg2, const char *zArg3, const char *zArg4);
+int block_troublesome_sql(void *pClientData, int eCode, const char *zArg1, const char *zArg2, const char *zArg3, const char *zArg4);
+int block_debug_pragmas(void *Notused, int eCode, const char *zArg1, const char *zArg2, const char *zArg3, const char *zArg4);
+int s3jni_xAuth(void* pState, int op,const char*z0, const char*z1, const char*z2,const char*z3);

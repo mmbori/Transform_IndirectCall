@@ -1,0 +1,7 @@
+static void checkMutexEnter(sqlite3_mutex *p);
+static void counterMutexEnter(sqlite3_mutex *p);
+void debugMutexEnter(sqlite3_mutex *pX);
+void noopMutexEnter(sqlite3_mutex *p);
+static void pthreadMutexEnter(sqlite3_mutex *p);
+void winMutexEnter(sqlite3_mutex *p);
+static void wrMutexEnter(sqlite3_mutex *p);

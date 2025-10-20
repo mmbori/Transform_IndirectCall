@@ -1,0 +1,3 @@
+static int sessionDiffNew(void *pCtx, int iVal, sqlite3_value **ppVal);
+static int sessionPreupdateNew(void *pCtx, int iVal, sqlite3_value **ppVal);
+static int sessionStat1New(void *pCtx, int iCol, sqlite3_value **ppVal);

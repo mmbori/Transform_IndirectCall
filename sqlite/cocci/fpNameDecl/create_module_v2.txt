@@ -1,0 +1,1 @@
+int sqlite3_overload_function( sqlite3 *db, const char *zName, int nArg );

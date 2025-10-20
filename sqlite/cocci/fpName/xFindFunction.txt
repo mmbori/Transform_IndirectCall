@@ -1,0 +1,8 @@
+0
+echoFindFunction
+fts3FindFunctionMethod
+fts5FindFunctionMethod
+geopolyFindFunction
+tclFindFunction
+vtablogFindMethod
+zipfileFindFunction

@@ -1,0 +1,14 @@
+static int apndShmMap(sqlite3_file*, int iPg, int pgsz, int, void volatile**);
+int cfShmMap( sqlite3_file *pFile, int iRegion, int sz, int w, void volatile **pp );
+int cksmShmMap(sqlite3_file*, int iPg, int pgsz, int, void volatile**);
+int devsymShmMap(sqlite3_file*,int,int,int, void volatile **);
+int memShmMap(sqlite3_file*, int iPg, int pgsz, int, void volatile**);
+static int multiplexShmMap( sqlite3_file *pConn, int iRegion, int szRegion, int bExtend, void volatile **pp );
+static int quotaShmMap( sqlite3_file *pConn, int iRegion, int szRegion, int bExtend, void volatile **pp );
+int rbuVfsShmMap( sqlite3_file *pFile, int iRegion, int szRegion, int isWrite, void volatile **pp );
+int recoverVfsShmMap(sqlite3_file*, int, int, int, void volatile**);
+int tvfsShmMap(sqlite3_file*,int,int,int, void volatile **);
+int vfslogShmMap(sqlite3_file *pFile,int,int,int,volatile void **);
+int vstatShmMap(sqlite3_file*, int iPg, int pgsz, int, void volatile**);
+static int winShmMap( sqlite3_file *fd, int iRegion, int szRegion, int isWrite, void volatile **pp );
+int unixShmMap(sqlite3_file *fd, int iRegion, int szRegion, int bExtend, void volatile **pp);

@@ -1,0 +1,13 @@
+static int apndRandomness(sqlite3_vfs*, int nByte, char *zOut);
+int cfRandomness(sqlite3_vfs *pCfVfs, int nByte, char *zBufOut);
+int cksmRandomness(sqlite3_vfs*, int nByte, char *zOut);
+int demoRandomness(sqlite3_vfs *pVfs, int nByte, char *zByte);
+static int jtRandomness(sqlite3_vfs*, int nByte, char *zOut);
+static int kvvfsRandomness(sqlite3_vfs*, int nByte, char *zOut);
+int memRandomness(sqlite3_vfs*, int nByte, char *zOut);
+int memdbRandomness(sqlite3_vfs*, int nByte, char *zOut);
+static int multiplexRandomness(sqlite3_vfs *a, int b, char *c);
+int vfslogRandomness(sqlite3_vfs*, int nByte, char *zOut);
+int vfstraceRandomness(sqlite3_vfs*, int nByte, char *zOut);
+int winRandomness(sqlite3_vfs *pVfs, int nBuf, char *zBuf);
+int unixRandomness(sqlite3_vfs *NotUsed, int nBuf, char *zBuf);

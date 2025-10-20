@@ -1,0 +1,1 @@
+int sqlite3_create_module_v2( sqlite3 *db, const char *zName, const sqlite3_module *pModule, void *pAux, void (*xDestroy)(void *) );

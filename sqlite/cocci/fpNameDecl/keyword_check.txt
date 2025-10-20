@@ -1,0 +1,1 @@
+int sqlite3_db_cacheflush(sqlite3 *db);

@@ -1,0 +1,1 @@
+int sqlite3_errcode(sqlite3 *db);

@@ -1,0 +1,1 @@
+int sqlite3_strglob(const char *zGlobPattern, const char *zString);

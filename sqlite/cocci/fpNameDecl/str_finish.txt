@@ -1,0 +1,1 @@
+int sqlite3_trace_v2( sqlite3 *db, unsigned mTrace, int(*xTrace)(unsigned,void*,void*,void*), void *pArg );

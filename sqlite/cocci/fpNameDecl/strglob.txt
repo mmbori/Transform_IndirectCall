@@ -1,0 +1,1 @@
+sqlite3_int64 sqlite3_uri_int64( const char *zFilename, const char *zParam, sqlite3_int64 bDflt );

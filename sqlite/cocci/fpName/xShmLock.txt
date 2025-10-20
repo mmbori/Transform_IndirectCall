@@ -1,0 +1,15 @@
+0
+apndShmLock
+cfShmLock
+cksmShmLock
+devsymShmLock
+memShmLock
+multiplexShmLock
+quotaShmLock
+rbuVfsShmLock
+recoverVfsShmLock
+tvfsShmLock
+vfslogShmLock
+vstatShmLock
+winShmLock
+unixShmLock

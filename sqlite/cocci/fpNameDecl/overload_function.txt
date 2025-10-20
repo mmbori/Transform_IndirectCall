@@ -1,0 +1,1 @@
+const void *sqlite3_value_text16be(sqlite3_value *pVal);

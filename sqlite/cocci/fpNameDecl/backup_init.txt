@@ -1,0 +1,1 @@
+int sqlite3_test_control(int op, ...);

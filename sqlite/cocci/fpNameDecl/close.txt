@@ -1,0 +1,1 @@
+int sqlite3_changes(sqlite3 *db);

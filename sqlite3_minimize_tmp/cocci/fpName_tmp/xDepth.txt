@@ -1,3 +1,0 @@
-sessionDiffDepth
-sessionPreupdateDepth
-sessionStat1Depth

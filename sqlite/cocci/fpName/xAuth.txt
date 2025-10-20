@@ -1,0 +1,9 @@
+0
+idxAuthCallback
+s3jni_xAuth
+authCallback
+safeModeAuth
+shellAuth
+(sqlite3_auth_cb)auth_callback
+block_troublesome_sql
+block_debug_pragmas

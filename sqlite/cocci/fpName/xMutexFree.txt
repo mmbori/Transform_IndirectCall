@@ -1,0 +1,7 @@
+checkMutexFree
+counterMutexFree
+debugMutexFree
+noopMutexFree
+pthreadMutexFree
+winMutexFree
+wrMutexFree

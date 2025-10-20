@@ -1,1 +1,0 @@
-void groupConcatFinalize(sqlite3_context *context);

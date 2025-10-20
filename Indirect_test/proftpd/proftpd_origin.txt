@@ -1,0 +1,174 @@
+Indirect Call Instrumentation Log
+===================================
+[1] Indirect call at 0x7b371199583a (ld-linux-x86-64.so.2:_dl_sysdep_start) -> target 0x7b37119978e0 (ld-linux-x86-64.so.2:dl_main)
+[2] Indirect call at 0x7b37119839fd (ld-linux-x86-64.so.2:_dl_new_object) -> target 0x7b37119834f0 (ld-linux-x86-64.so.2:__minimal_calloc)
+[3] Indirect call at 0x7b3711983908 (ld-linux-x86-64.so.2:_dl_add_to_namespace_list) -> target 0x7b371198b080 (ld-linux-x86-64.so.2:rtld_mutex_dummy)
+[4] Indirect call at 0x7b37119839fd (ld-linux-x86-64.so.2:_dl_new_object) -> target 0x7b37119834f0 (ld-linux-x86-64.so.2:__minimal_calloc)
+[5] Indirect call at 0x7b3711983908 (ld-linux-x86-64.so.2:_dl_add_to_namespace_list) -> target 0x7b371198b080 (ld-linux-x86-64.so.2:rtld_mutex_dummy)
+[6] Indirect call at 0x7b3711998da7 (ld-linux-x86-64.so.2:dl_main) -> target 0x7b37119820d0 (ld-linux-x86-64.so.2:_dl_lookup_symbol_x)
+[7] Indirect call at 0x7b3711998e61 (ld-linux-x86-64.so.2:dl_main) -> target 0x7b37119820d0 (ld-linux-x86-64.so.2:_dl_lookup_symbol_x)
+[8] Indirect call at 0x7b3711998f1d (ld-linux-x86-64.so.2:dl_main) -> target 0x7b37119820d0 (ld-linux-x86-64.so.2:_dl_lookup_symbol_x)
+[9] Indirect call at 0x7b3711998fd9 (ld-linux-x86-64.so.2:dl_main) -> target 0x7b37119820d0 (ld-linux-x86-64.so.2:_dl_lookup_symbol_x)
+[10] Indirect call at 0x7b3711999094 (ld-linux-x86-64.so.2:dl_main) -> target 0x7b37119820d0 (ld-linux-x86-64.so.2:_dl_lookup_symbol_x)
+[11] Indirect call at 0x7b37119935af (ld-linux-x86-64.so.2:_dl_important_hwcaps) -> target 0x7b37119833d0 (ld-linux-x86-64.so.2:__minimal_malloc)
+[12] Indirect call at 0x7b371199397b (ld-linux-x86-64.so.2:_dl_important_hwcaps) -> target 0x7b37119833d0 (ld-linux-x86-64.so.2:__minimal_malloc)
+[13] Indirect call at 0x7b371197e752 (ld-linux-x86-64.so.2:_dl_init_paths) -> target 0x7b37119833d0 (ld-linux-x86-64.so.2:__minimal_malloc)
+[14] Indirect call at 0x7b371197e799 (ld-linux-x86-64.so.2:_dl_init_paths) -> target 0x7b37119833d0 (ld-linux-x86-64.so.2:__minimal_malloc)
+[15] Indirect call at 0x7b3711993348 (ld-linux-x86-64.so.2:_dl_catch_exception) -> target 0x7b3711979460 (ld-linux-x86-64.so.2:openaux)
+[16] Indirect call at 0x7b371199d1da (ld-linux-x86-64.so.2:strdup) -> target 0x7b37119833d0 (ld-linux-x86-64.so.2:__minimal_malloc)
+[17] Indirect call at 0x7b371197ca53 (ld-linux-x86-64.so.2:open_verify.constprop.0) -> target 0x7b3711983530 (ld-linux-x86-64.so.2:__minimal_free)
+[18] Indirect call at 0x7b37119839fd (ld-linux-x86-64.so.2:_dl_new_object) -> target 0x7b37119834f0 (ld-linux-x86-64.so.2:__minimal_calloc)
+[19] Indirect call at 0x7b3711983d1b (ld-linux-x86-64.so.2:_dl_new_object) -> target 0x7b37119833d0 (ld-linux-x86-64.so.2:__minimal_malloc)
+[20] Indirect call at 0x7b3711983908 (ld-linux-x86-64.so.2:_dl_add_to_namespace_list) -> target 0x7b371198b080 (ld-linux-x86-64.so.2:rtld_mutex_dummy)
+[21] Indirect call at 0x7b3711993348 (ld-linux-x86-64.so.2:_dl_catch_exception) -> target 0x7b3711979460 (ld-linux-x86-64.so.2:openaux)
+[22] Indirect call at 0x7b3711979a54 (ld-linux-x86-64.so.2:_dl_map_object_deps) -> target 0x7b37119833d0 (ld-linux-x86-64.so.2:__minimal_malloc)
+[23] Indirect call at 0x7b3711979f4c (ld-linux-x86-64.so.2:_dl_map_object_deps) -> target 0x7b37119833d0 (ld-linux-x86-64.so.2:__minimal_malloc)
+[24] Indirect call at 0x7b3711993450 (ld-linux-x86-64.so.2:_dl_receive_error) -> target 0x7b3711996ef0 (ld-linux-x86-64.so.2:version_check_doit)
+[25] Indirect call at 0x7b371198c2d7 (ld-linux-x86-64.so.2:_dl_check_map_versions) -> target 0x7b37119834f0 (ld-linux-x86-64.so.2:__minimal_calloc)
+[26] Indirect call at 0x7b371198c2d7 (ld-linux-x86-64.so.2:_dl_check_map_versions) -> target 0x7b37119834f0 (ld-linux-x86-64.so.2:__minimal_calloc)
+[27] Indirect call at 0x7b371198c2d7 (ld-linux-x86-64.so.2:_dl_check_map_versions) -> target 0x7b37119834f0 (ld-linux-x86-64.so.2:__minimal_calloc)
+[28] Indirect call at 0x7b371198c2d7 (ld-linux-x86-64.so.2:_dl_check_map_versions) -> target 0x7b37119834f0 (ld-linux-x86-64.so.2:__minimal_calloc)
+[29] Indirect call at 0x7b3711996d48 (ld-linux-x86-64.so.2:init_tls) -> target 0x7b37119834f0 (ld-linux-x86-64.so.2:__minimal_calloc)
+[30] Indirect call at 0x7b371198a42b (ld-linux-x86-64.so.2:_dl_allocate_tls_storage) -> target 0x7b37119833d0 (ld-linux-x86-64.so.2:__minimal_malloc)
+[31] Indirect call at 0x7b371198a4a0 (ld-linux-x86-64.so.2:_dl_allocate_tls_storage) -> target 0x7b37119834f0 (ld-linux-x86-64.so.2:__minimal_calloc)
+[32] Indirect call at 0x7b37119876e9 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0c51a0 (unknown)
+[33] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a8720 (unknown)
+[34] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a89e0 (unknown)
+[35] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a82e0 (unknown)
+[36] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0c6cd0 (unknown)
+[37] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a96d0 (unknown)
+[38] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0c5540 (unknown)
+[39] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a9c10 (unknown)
+[40] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0c5370 (unknown)
+[41] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a8260 (unknown)
+[42] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a8960 (unknown)
+[43] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a95a0 (unknown)
+[44] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0c53f0 (unknown)
+[45] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a99e0 (unknown)
+[46] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0c59b0 (unknown)
+[47] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a8830 (unknown)
+[48] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a9a70 (unknown)
+[49] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a8420 (unknown)
+[50] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0c5470 (unknown)
+[51] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a81d0 (unknown)
+[52] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a9b60 (unknown)
+[53] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a9480 (unknown)
+[54] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0c5b00 (unknown)
+[55] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0b1570 (unknown)
+[56] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0ab010 (unknown)
+[57] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0c5370 (unknown)
+[58] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a8390 (unknown)
+[59] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a9b10 (unknown)
+[60] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a86a0 (unknown)
+[61] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a88d0 (unknown)
+[62] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0c5a40 (unknown)
+[63] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a9950 (unknown)
+[64] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0c59b0 (unknown)
+[65] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a95a0 (unknown)
+[66] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a93f0 (unknown)
+[67] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a8b00 (unknown)
+[68] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0c5b00 (unknown)
+[69] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a97d0 (unknown)
+[70] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a9ac0 (unknown)
+[71] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0aaf80 (unknown)
+[72] Indirect call at 0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a8720 (unknown)
+[73] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a9310 (unknown)
+[74] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a9a70 (unknown)
+[75] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a8390 (unknown)
+[76] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0ab010 (unknown)
+[77] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a9950 (unknown)
+[78] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a86a0 (unknown)
+[79] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a8260 (unknown)
+[80] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a96d0 (unknown)
+[81] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a8b00 (unknown)
+[82] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a8420 (unknown)
+[83] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a82e0 (unknown)
+[84] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a9c10 (unknown)
+[85] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a89e0 (unknown)
+[86] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a99e0 (unknown)
+[87] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a97d0 (unknown)
+[88] Indirect call at 0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b36fe0a95a0 (unknown)
+[89] Indirect call at 0x7b371198a524 (ld-linux-x86-64.so.2:__GI__dl_allocate_tls_init) -> target 0x7b371198b080 (ld-linux-x86-64.so.2:rtld_mutex_dummy)
+[90] Indirect call at 0x7b371198a675 (ld-linux-x86-64.so.2:__GI__dl_allocate_tls_init) -> target 0x7b371198b080 (ld-linux-x86-64.so.2:rtld_mutex_dummy)
+[91] Indirect call at 0x7b371197b86c (ld-linux-x86-64.so.2:_dl_find_object_init) -> target 0x7b37119833d0 (ld-linux-x86-64.so.2:__minimal_malloc)
+[92] Indirect call at 0x7b37119876e9 (ld-linux-x86-64.so.2:_dl_relocate_object) -> target 0x7b3711990780 (ld-linux-x86-64.so.2:__x86_cpu_features_ifunc)
+[93] Indirect call at 0x7b371197c47c (ld-linux-x86-64.so.2:call_init.part.0) -> target 0x7b36fe029c30 (libc.so.6:_init_first)
+[94] Indirect call at 0x7b371197c47c (ld-linux-x86-64.so.2:call_init.part.0) -> target 0x7b36fe029ca0 (libc.so.6:check_stdfiles_vtables)
+[95] Indirect call at 0x5f1d865b4f0f (dash:.text) -> target 0x7b36fe029dc0 (libc.so.6:__libc_start_main)
+[96] Indirect call at 0x7b36fe029e66 (libc.so.6:__libc_start_main) -> target 0x5f1d865b4000 (dash:_init)
+[97] Indirect call at 0x7b36fe029eb9 (libc.so.6:__libc_start_main) -> target 0x5f1d865b4fd0 (dash:.text)
+[98] Indirect call at 0x7b36fe029d8e (libc.so.6:__libc_start_call_main) -> target 0x5f1d865b4ae0 (dash:.text)
+[99] Indirect call at 0x5f1d865c6061 (dash:.text) -> target 0x5f1d865b5730 (dash:.text)
+[100] Indirect call at 0x5f1d865c6061 (dash:.text) -> target 0x5f1d865ba220 (dash:.text)
+[101] Indirect call at 0x7b36fe075148 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[102] Indirect call at 0x7b36fe075ca5 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[103] Indirect call at 0x7b36fe075fc7 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[104] Indirect call at 0x5f1d865bcbfe (dash:.text) -> target 0x5f1d865c2e80 (dash:.text)
+[105] Indirect call at 0x5f1d865c0823 (dash:.text) -> target 0x5f1d865bc970 (dash:.text)
+[106] Indirect call at 0x7b36fe075148 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[107] Indirect call at 0x7b36fe077008 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[108] Indirect call at 0x7b36fe075fc7 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[109] Indirect call at 0x7b36fe075ca5 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[110] Indirect call at 0x7b36fe075fc7 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[111] Indirect call at 0x7b36fe077008 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[112] Indirect call at 0x7b36fe075fc7 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[113] Indirect call at 0x7b36fe075148 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[114] Indirect call at 0x7b36fe077008 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[115] Indirect call at 0x7b36fe075fc7 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[116] Indirect call at 0x7b36fe075ca5 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[117] Indirect call at 0x7b36fe075fc7 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[118] Indirect call at 0x7b36fe077008 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[119] Indirect call at 0x7b36fe075fc7 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[120] Indirect call at 0x7b36fe075148 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[121] Indirect call at 0x7b36fe077008 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[122] Indirect call at 0x7b36fe075fc7 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[123] Indirect call at 0x7b36fe075148 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[124] Indirect call at 0x7b36fe077008 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+[125] Indirect call at 0x7b36fe075fc7 (libc.so.6:__vfprintf_internal) -> target 0x7b36fe08ddc0 (libc.so.6:_IO_default_xsputn)
+
+========== Indirect Call Statistics ==========
+Total indirect calls: 125
+Unique call sites: 41
+
+Indirect call sites breakdown:
+  0x5f1d865b4f0f (dash:.text): 1 calls
+  0x5f1d865bcbfe (dash:.text): 1 calls
+  0x5f1d865c0823 (dash:.text): 1 calls
+  0x5f1d865c6061 (dash:.text): 2 calls
+  0x7b36fe029d8e (libc.so.6:__libc_start_call_main): 1 calls
+  0x7b36fe029e66 (libc.so.6:__libc_start_main): 1 calls
+  0x7b36fe029eb9 (libc.so.6:__libc_start_main): 1 calls
+  0x7b36fe075148 (libc.so.6:__vfprintf_internal): 5 calls
+  0x7b36fe075ca5 (libc.so.6:__vfprintf_internal): 3 calls
+  0x7b36fe075fc7 (libc.so.6:__vfprintf_internal): 9 calls
+  0x7b36fe077008 (libc.so.6:__vfprintf_internal): 6 calls
+  0x7b3711979a54 (ld-linux-x86-64.so.2:_dl_map_object_deps): 1 calls
+  0x7b3711979f4c (ld-linux-x86-64.so.2:_dl_map_object_deps): 1 calls
+  0x7b371197b86c (ld-linux-x86-64.so.2:_dl_find_object_init): 1 calls
+  0x7b371197c47c (ld-linux-x86-64.so.2:call_init.part.0): 2 calls
+  0x7b371197ca53 (ld-linux-x86-64.so.2:open_verify.constprop.0): 1 calls
+  0x7b371197e752 (ld-linux-x86-64.so.2:_dl_init_paths): 1 calls
+  0x7b371197e799 (ld-linux-x86-64.so.2:_dl_init_paths): 1 calls
+  0x7b3711983908 (ld-linux-x86-64.so.2:_dl_add_to_namespace_list): 3 calls
+  0x7b37119839fd (ld-linux-x86-64.so.2:_dl_new_object): 3 calls
+  0x7b3711983d1b (ld-linux-x86-64.so.2:_dl_new_object): 1 calls
+  0x7b3711987091 (ld-linux-x86-64.so.2:_dl_relocate_object): 40 calls
+  0x7b37119876e9 (ld-linux-x86-64.so.2:_dl_relocate_object): 2 calls
+  0x7b3711987a8d (ld-linux-x86-64.so.2:_dl_relocate_object): 16 calls
+  0x7b371198a42b (ld-linux-x86-64.so.2:_dl_allocate_tls_storage): 1 calls
+  0x7b371198a4a0 (ld-linux-x86-64.so.2:_dl_allocate_tls_storage): 1 calls
+  0x7b371198a524 (ld-linux-x86-64.so.2:__GI__dl_allocate_tls_init): 1 calls
+  0x7b371198a675 (ld-linux-x86-64.so.2:__GI__dl_allocate_tls_init): 1 calls
+  0x7b371198c2d7 (ld-linux-x86-64.so.2:_dl_check_map_versions): 4 calls
+  0x7b3711993348 (ld-linux-x86-64.so.2:_dl_catch_exception): 2 calls
+  0x7b3711993450 (ld-linux-x86-64.so.2:_dl_receive_error): 1 calls
+  0x7b37119935af (ld-linux-x86-64.so.2:_dl_important_hwcaps): 1 calls
+  0x7b371199397b (ld-linux-x86-64.so.2:_dl_important_hwcaps): 1 calls
+  0x7b371199583a (ld-linux-x86-64.so.2:_dl_sysdep_start): 1 calls
+  0x7b3711996d48 (ld-linux-x86-64.so.2:init_tls): 1 calls
+  0x7b3711998da7 (ld-linux-x86-64.so.2:dl_main): 1 calls
+  0x7b3711998e61 (ld-linux-x86-64.so.2:dl_main): 1 calls
+  0x7b3711998f1d (ld-linux-x86-64.so.2:dl_main): 1 calls
+  0x7b3711998fd9 (ld-linux-x86-64.so.2:dl_main): 1 calls
+  0x7b3711999094 (ld-linux-x86-64.so.2:dl_main): 1 calls
+  0x7b371199d1da (ld-linux-x86-64.so.2:strdup): 1 calls

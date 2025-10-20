@@ -1,0 +1,15 @@
+0
+apndShmMap
+cfShmMap
+cksmShmMap
+devsymShmMap
+memShmMap
+multiplexShmMap
+quotaShmMap
+rbuVfsShmMap
+recoverVfsShmMap
+tvfsShmMap
+vfslogShmMap
+vstatShmMap
+winShmMap
+unixShmMap

@@ -1,0 +1,1 @@
+int fts5CreateTokenizer_v2( fts5_api *pApi, const char *zName, void *pUserData, fts5_tokenizer_v2 *pTokenizer, void(*xDestroy)(void*) );

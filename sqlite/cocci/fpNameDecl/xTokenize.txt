@@ -1,0 +1,7 @@
+int f5tOrigintextTokenize( Fts5Tokenizer *pTokenizer, void *pCtx, int flags, const char *pText, int nText, int (*xToken)(void *, int, const char *, int, int, int) );
+int f5tTokenizerTokenize( Fts5Tokenizer *p, void *pCtx, int flags, const char *pText, int nText, int (*xToken)(void*, int, const char*, int, int, int) );
+int f5tTokenizerTokenize_v2( Fts5Tokenizer *p, void *pCtx, int flags, const char *pText, int nText, const char *pLoc, int nLoc, int (*xToken)(void*, int, const char*, int, int, int) );
+int fts5ApiTokenize( Fts5Context *pCtx, const char *pText, int nText, void *pUserData, int (*xToken)(void*, int, const char*, int, int, int) );
+int fts5PorterTokenize( Fts5Tokenizer *pTokenizer, void *pCtx, int flags, const char *pText, int nText, const char *pLoc, int nLoc, int (*xToken)(void*, int, const char*, int nToken, int iStart, int iEnd) );
+int fts5V1toV2Tokenize( Fts5Tokenizer *pTok, void *pCtx, int flags, const char *pText, int nText, int (*xToken)(void*, int, const char*, int, int, int) );
+int fts5V2toV1Tokenize( Fts5Tokenizer *pTok, void *pCtx, int flags, const char *pText, int nText, const char *pLocale, int nLocale, int (*xToken)(void*, int, const char*, int, int, int) );

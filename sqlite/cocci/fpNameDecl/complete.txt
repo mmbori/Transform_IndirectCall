@@ -1,0 +1,1 @@
+void *sqlite3_commit_hook(sqlite3*, int(*)(void*), void*);

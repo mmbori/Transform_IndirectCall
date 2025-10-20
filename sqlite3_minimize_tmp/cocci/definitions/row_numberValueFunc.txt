@@ -1,1 +1,0 @@
-void row_numberValueFunc(sqlite3_context *pCtx);

@@ -1,0 +1,13 @@
+static int apndSleep(sqlite3_vfs*, int microseconds);
+int cfSleep(sqlite3_vfs *pCfVfs, int nMicro);
+int cksmSleep(sqlite3_vfs*, int microseconds);
+int demoSleep(sqlite3_vfs *pVfs, int nMicro);
+static int jtSleep(sqlite3_vfs*, int microseconds);
+static int kvvfsSleep(sqlite3_vfs*, int microseconds);
+int memSleep(sqlite3_vfs*, int microseconds);
+int memdbSleep(sqlite3_vfs*, int microseconds);
+static int multiplexSleep(sqlite3_vfs *a, int b);
+int vfslogSleep(sqlite3_vfs*, int microseconds);
+int vfstraceSleep(sqlite3_vfs*, int microseconds);
+static int winSleep(sqlite3_vfs *pVfs, int microsec);
+int unixSleep(sqlite3_vfs *NotUsed, int microseconds);

@@ -1,0 +1,14 @@
+static void apndDlClose(sqlite3_vfs*, void*);
+void cfDlClose(sqlite3_vfs *pCfVfs, void *pHandle);
+void cksmDlClose(sqlite3_vfs*, void*);
+void demoDlClose(sqlite3_vfs *pVfs, void *pHandle);
+void devsymDlClose(sqlite3_vfs*, void*);
+static void jtDlClose(sqlite3_vfs*, void*);
+void memDlClose(sqlite3_vfs*, void*);
+void memdbDlClose(sqlite3_vfs*, void*);
+static void multiplexDlClose(sqlite3_vfs *a, void *b);
+void rbuVfsDlClose(sqlite3_vfs *pVfs, void *pHandle);
+void tvfsDlClose(sqlite3_vfs*, void*);
+void vfslogDlClose(sqlite3_vfs*, void*);
+static void winDlClose(sqlite3_vfs *pVfs, void *pHandle);
+void unixDlClose(sqlite3_vfs *NotUsed, void *pHandle);

@@ -1,0 +1,1 @@
+int fts5ApiColumnTotalSize( Fts5Context *pCtx, int iCol, sqlite3_int64 *pnToken );

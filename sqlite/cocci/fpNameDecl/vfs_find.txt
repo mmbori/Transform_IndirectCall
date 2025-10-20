@@ -1,0 +1,1 @@
+void sqlite3_mutex_free(sqlite3_mutex *p);

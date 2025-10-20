@@ -1,0 +1,3 @@
+void useDummyCS(void *up1, sqlite3 *db, int etr, const char *zName);
+static void anyCollNeeded(void *NotUsed, sqlite3 *db, int eTextRep, const char *zCollName);
+static void tclCollateNeeded(void *pCtx, sqlite3 *db, int enc, const char *zName);

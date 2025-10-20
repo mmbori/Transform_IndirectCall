@@ -1,0 +1,1 @@
+void sqlite3_str_appendf(sqlite3_str*, const char *zFormat, ...);

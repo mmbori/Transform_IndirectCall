@@ -1,0 +1,1 @@
+const void *sqlite3_column_database_name16(sqlite3_stmt*,int);

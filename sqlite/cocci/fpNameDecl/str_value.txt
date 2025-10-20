@@ -1,0 +1,1 @@
+int sqlite3_value_nochange(sqlite3_value *pVal);

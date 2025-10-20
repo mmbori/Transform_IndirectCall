@@ -1,0 +1,10 @@
+int memsys3Init(void *NotUsed);
+int memsys5Init(void *NotUsed);
+int memtraceInit(void *p);
+int pcache1Init(void *NotUsed);
+static int pcachetraceInit(void *pArg);
+int sqlite3MemInit(void *NotUsed);
+static int testpcacheInit(void *pArg);
+static int winMemInit(void *pAppData);
+static int wrMemInit(void *pAppData);
+static int wrPCacheInit(void *pArg);

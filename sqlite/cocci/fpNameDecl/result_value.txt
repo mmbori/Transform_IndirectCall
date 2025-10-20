@@ -1,0 +1,1 @@
+void sqlite3_result_text16be( sqlite3_context *pCtx, const void *z, int n, void (*xDel)(void *) );

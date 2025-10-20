@@ -1,0 +1,4 @@
+static int fts3ShadowName(const char *zName);
+int fts5ShadowName(const char *zName);
+int rtreeShadowName(const char *zName);
+int vtablogShadowName(const char *zName);

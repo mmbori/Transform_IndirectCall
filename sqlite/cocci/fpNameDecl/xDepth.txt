@@ -1,0 +1,3 @@
+static int sessionDiffDepth(void *pCtx);
+static int sessionPreupdateDepth(void *pCtx);
+static int sessionStat1Depth(void *pCtx);

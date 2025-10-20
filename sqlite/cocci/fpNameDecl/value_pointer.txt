@@ -1,0 +1,1 @@
+int sqlite3_result_zeroblob64(sqlite3_context *pCtx, u64 n);

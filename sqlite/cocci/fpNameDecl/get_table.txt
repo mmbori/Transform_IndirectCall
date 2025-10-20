@@ -1,0 +1,1 @@
+int sqlite3_get_autocommit(sqlite3 *db);

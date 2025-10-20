@@ -1,0 +1,15 @@
+0
+apndShmBarrier
+cfShmBarrier
+cksmShmBarrier
+devsymShmBarrier
+memShmBarrier
+multiplexShmBarrier
+quotaShmBarrier
+rbuVfsShmBarrier
+recoverVfsShmBarrier
+tvfsShmBarrier
+vfslogShmBarrier
+vstatShmBarrier
+winShmBarrier
+unixShmBarrier

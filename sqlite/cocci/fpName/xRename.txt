@@ -1,0 +1,9 @@
+0
+echoRename
+fts3RenameMethod
+fts5RenameMethod
+rtreeRename
+spellfix1Rename
+vtablogRename
+xDefaultRename
+xRename

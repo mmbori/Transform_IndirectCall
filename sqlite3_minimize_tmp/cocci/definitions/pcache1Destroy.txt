@@ -1,1 +1,0 @@
-void pcache1Destroy(sqlite3_pcache *p);

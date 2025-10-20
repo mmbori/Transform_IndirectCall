@@ -1,0 +1,1 @@
+void *sqlite3_user_data(sqlite3_context *p);

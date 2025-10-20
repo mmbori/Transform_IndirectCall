@@ -1,0 +1,7 @@
+static sqlite3_mutex *checkMutexAlloc(int iType);
+static sqlite3_mutex *counterMutexAlloc(int eType);
+static sqlite3_mutex *debugMutexAlloc(int id);
+sqlite3_mutex *noopMutexAlloc(int id);
+static sqlite3_mutex *pthreadMutexAlloc(int iType);
+static sqlite3_mutex *winMutexAlloc(int iType);
+static sqlite3_mutex *wrMutexAlloc(int e);

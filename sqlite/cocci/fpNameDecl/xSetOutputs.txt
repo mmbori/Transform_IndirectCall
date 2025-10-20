@@ -1,0 +1,7 @@
+static void fts5IterSetOutputs_Col(Fts5Iter *pIter, Fts5SegIter *pSeg);
+static void fts5IterSetOutputs_Col100(Fts5Iter *pIter, Fts5SegIter *pSeg);
+static void fts5IterSetOutputs_Full(Fts5Iter *pIter, Fts5SegIter *pSeg);
+static void fts5IterSetOutputs_Nocolset(Fts5Iter *pIter, Fts5SegIter *pSeg);
+static void fts5IterSetOutputs_None(Fts5Iter *pIter, Fts5SegIter *pSeg);
+static void fts5IterSetOutputs_Noop(Fts5Iter *pUnused1, Fts5SegIter *pUnused2);
+static void fts5IterSetOutputs_ZeroColset(Fts5Iter *pIter, Fts5SegIter *pSeg);

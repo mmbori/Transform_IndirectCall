@@ -1,0 +1,5 @@
+static const char *apndNextSystemCall(sqlite3_vfs*, const char *zName);
+static const char *cksmNextSystemCall(sqlite3_vfs*, const char *zName);
+int rbuVfsGetLastError(sqlite3_vfs *pVfs, int a, char *b);
+static const char *winNextSystemCall(sqlite3_vfs *p, const char *zName);
+const char *unixNextSystemCall(sqlite3_vfs *p, const char *zName);

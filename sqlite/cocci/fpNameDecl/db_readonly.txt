@@ -1,0 +1,1 @@
+int sqlite3_stmt_status(sqlite3_stmt *pStmt, int op, int resetFlag);

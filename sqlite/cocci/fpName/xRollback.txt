@@ -1,0 +1,8 @@
+0
+echoRollback
+fts3RollbackMethod
+fts5RollbackMethod
+rtreeEndTransaction
+rtreeRollback
+vtablogRollback
+zipfileRollback

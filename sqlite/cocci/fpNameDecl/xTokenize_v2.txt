@@ -1,0 +1,1 @@
+int fts5ApiTokenize_v2( Fts5Context *pCtx, const char *pText, int nText, const char *pLoc, int nLoc, void *pUserData, int (*xToken)(void*, int, const char*, int, int, int) );

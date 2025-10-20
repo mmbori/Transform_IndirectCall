@@ -1,1 +1,0 @@
-int unixClose(sqlite3_file *id);

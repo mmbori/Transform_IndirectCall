@@ -1,0 +1,12 @@
+static int apndCurrentTime(sqlite3_vfs*, double*);
+int cfCurrentTime(sqlite3_vfs *pCfVfs, double *pTimeOut);
+int cksmCurrentTime(sqlite3_vfs*, double*);
+int demoCurrentTime(sqlite3_vfs *pVfs, double *pTime);
+static int jtCurrentTime(sqlite3_vfs*, double*);
+static int kvvfsCurrentTime(sqlite3_vfs*, double*);
+int memCurrentTime(sqlite3_vfs*, double*);
+static int multiplexCurrentTime(sqlite3_vfs *a, double *b);
+int vfslogCurrentTime(sqlite3_vfs*, double*);
+int vfstraceCurrentTime(sqlite3_vfs*, double*);
+static int winCurrentTime(sqlite3_vfs *pVfs, double *prNow);
+int unixCurrentTime(sqlite3_vfs *NotUsed, double *prNow);

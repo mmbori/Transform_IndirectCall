@@ -1,0 +1,3 @@
+static int counterMutexNotheld(sqlite3_mutex *p);
+int debugMutexNotheld(sqlite3_mutex *pX);
+static int wrMutexNotheld(sqlite3_mutex *p);

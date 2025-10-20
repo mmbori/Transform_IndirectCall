@@ -1,0 +1,1 @@
+int sqlite3_create_window_function( sqlite3 *db, const char *zFunc, int nArg, int enc, void *p, void (*xStep)(sqlite3_context*,int,sqlite3_value **), void (*xFinal)(sqlite3_context*), void (*xValue)(sqlite3_context*), void (*xInverse)(sqlite3_context*,int,sqlite3_value **), void (*xDestroy)(void *) );

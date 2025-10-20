@@ -1,0 +1,43 @@
+============================================================
+간접 호출 분석 결과
+============================================================
+
+타겟 함수별 호출 횟수:
+------------------------------------------------------------
+  key_cmp                                 :   2325 calls (1 instances)
+    - 0x5e4bfc1b9bb3: 2325 calls
+  sys_stat                                :   1635 calls (1 instances)
+    - 0x5e4bfc1f4149: 1635 calls
+  core_netio_poll_cb                      :    987 calls (1 instances)
+    - 0x5e4bfc1e0fb6: 987 calls
+  core_netio_write_cb                     :    662 calls (1 instances)
+    - 0x5e4bfc1e12fd: 662 calls
+  timer_cmp                               :    480 calls (1 instances)
+    - 0x5e4bfc1b33d1: 480 calls
+  log_any                                 :    346 calls (1 instances)
+    - 0x5e4bfc266fcb: 346 calls
+  core_netio_read_cb                      :    297 calls (1 instances)
+    - 0x5e4bfc1e1258: 297 calls
+  _IO_file_write                          :    147 calls (1 instances)
+    - 0x78c16908aec0: 147 calls
+  entry_remove                            :    120 calls (1 instances)
+    - 0x5e4bfc1b9d51: 120 calls
+  core_exit_ev                            :     23 calls (1 instances)
+    - 0x5e4bfc23419a: 23 calls
+  _IO_file_seekoff                        :      1 calls (1 instances)
+    - 0x78c16908a8e0: 1 calls
+  pr_table_kget                           : Not found
+  pr_table_kremove                        : Not found
+  _dl_relocate_object                     : Not found
+  pr_table_kadd                           : Not found
+  pr_netio_poll                           : Not found
+  pr_module_call                          : Not found
+  xaset_insert_sort                       : Not found
+
+============================================================
+요약:
+------------------------------------------------------------
+타겟 함수 개수:                    18
+발견된 함수 인스턴스 (중복포함):     11
+총 간접 호출 횟수:               7023
+============================================================

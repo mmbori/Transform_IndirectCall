@@ -1,0 +1,4 @@
+int pcache1Pagecount(sqlite3_pcache *p);
+static int pcachetracePagecount(sqlite3_pcache *p);
+static int testpcachePagecount(sqlite3_pcache *pCache);
+static int wrPCachePagecount(sqlite3_pcache *p);

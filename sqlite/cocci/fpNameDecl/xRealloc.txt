@@ -1,0 +1,7 @@
+static void *faultsimRealloc(void *pOld, int n);
+static void *memsys3Realloc(void *pPrior, int nBytes);
+static void *memsys5Realloc(void *pPrior, int nBytes);
+static void *memtraceRealloc(void *p, int n);
+void *sqlite3MemRealloc(void *pPrior , int nByte);
+static void *winMemRealloc(void *pPrior, int nBytes);
+static void *wrMemRealloc(void *p, int n);

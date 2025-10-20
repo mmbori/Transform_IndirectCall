@@ -1,0 +1,7 @@
+0
+echoCommit
+fts3CommitMethod
+fts5CommitMethod
+rtreeEndTransaction
+vtablogCommit
+zipfileCommit

@@ -1,0 +1,1 @@
+SQLITE_DEPRECATED void sqlite3_soft_heap_limit(int N);

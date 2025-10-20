@@ -1,0 +1,7 @@
+int checkMutexInit(void);
+static int counterMutexInit(void);
+int debugMutexInit(void);
+int noopMutexInit(void);
+static int pthreadMutexInit(void);
+int winMutexInit(void);
+static int wrMutexInit(void);

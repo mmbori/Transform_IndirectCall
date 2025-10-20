@@ -1,0 +1,6 @@
+0
+echoSavepoint
+fts3SavepointMethod
+fts5SavepointMethod
+rtreeSavepoint
+vtablogSavepoint

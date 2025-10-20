@@ -1,0 +1,1 @@
+char *sqlite3_vsnprintf(int n, char *zBuf, const char *zFormat, va_list ap);

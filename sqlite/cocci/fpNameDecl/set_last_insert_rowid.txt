@@ -1,0 +1,1 @@
+void sqlite3_result_blob64( sqlite3_context *pCtx, const void *z, sqlite3_uint64 n, void (*xDel)(void *) );

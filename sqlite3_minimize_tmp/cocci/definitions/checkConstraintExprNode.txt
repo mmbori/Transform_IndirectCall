@@ -1,1 +1,0 @@
-int checkConstraintExprNode(Walker *pWalker , Expr *pExpr);

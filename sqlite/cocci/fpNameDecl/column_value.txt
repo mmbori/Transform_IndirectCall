@@ -1,0 +1,1 @@
+int sqlite3_column_type(sqlite3_stmt*, int iCol);

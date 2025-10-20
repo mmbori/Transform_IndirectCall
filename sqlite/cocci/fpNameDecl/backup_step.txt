@@ -1,0 +1,1 @@
+int sqlite3_extended_result_codes(sqlite3 *db, int onoff);

@@ -1,0 +1,7 @@
+static void checkMutexFree(sqlite3_mutex *p);
+static void counterMutexFree(sqlite3_mutex *p);
+void debugMutexFree(sqlite3_mutex *pX);
+void noopMutexFree(sqlite3_mutex *p);
+static void pthreadMutexFree(sqlite3_mutex *p);
+void winMutexFree(sqlite3_mutex *p);
+static void wrMutexFree(sqlite3_mutex *p);

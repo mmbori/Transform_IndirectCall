@@ -1,0 +1,1 @@
+int testTokenizerLanguage( sqlite3_tokenizer_cursor *pCursor, int iLangid );

@@ -1,0 +1,9 @@
+static int apndUnfetch(sqlite3_file*, sqlite3_int64 iOfst, void *p);
+int cksmUnfetch(sqlite3_file*, sqlite3_int64 iOfst, void *p);
+int memUnfetch(sqlite3_file*, sqlite3_int64 iOfst, void *p);
+int memdbUnfetch(sqlite3_file*, sqlite3_int64 iOfst, void *p);
+int recoverVfsUnfetch(sqlite3_file *pFd, sqlite3_int64 iOff, void *p);
+int tvfsUnfetch(sqlite3_file*, sqlite3_int64, void*);
+int vstatUnfetch(sqlite3_file*, sqlite3_int64 iOfst, void *p);
+static int winUnfetch(sqlite3_file *fd, i64 iOff, void *p);
+int unixUnfetch(sqlite3_file *fd, i64 iOff, void *p);

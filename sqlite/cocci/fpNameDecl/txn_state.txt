@@ -1,0 +1,1 @@
+int sqlite3_str_length(sqlite3_str *p);

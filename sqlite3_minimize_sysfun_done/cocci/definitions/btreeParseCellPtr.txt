@@ -1,1 +1,0 @@
-void btreeParseCellPtr(MemPage *pPage , u8 *pCell , CellInfo *pInfo);

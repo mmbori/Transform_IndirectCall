@@ -1,0 +1,11 @@
+0
+apndGetLastError
+cfGetLastError
+cksmGetLastError
+jtGetLastError
+memGetLastError
+memdbGetLastError
+multiplexGetLastError
+vfslogGetLastError
+winGetLastError
+unixGetLastError

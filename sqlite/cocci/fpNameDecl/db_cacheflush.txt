@@ -1,0 +1,1 @@
+void *sqlite3_malloc64(sqlite3_uint64);

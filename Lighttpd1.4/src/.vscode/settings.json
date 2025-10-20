@@ -1,8 +1,0 @@
-{
-    "files.associations": {
-        "xstring": "c",
-        "xutility": "c",
-        "charconv": "c",
-        "xmemory": "c"
-    }
-}

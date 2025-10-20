@@ -1,0 +1,1 @@
+int sqlite3_bind_int64(sqlite3_stmt *pStmt, int i, sqlite_int64 iValue);

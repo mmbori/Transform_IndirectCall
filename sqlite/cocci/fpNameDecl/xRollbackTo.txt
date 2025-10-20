@@ -1,0 +1,5 @@
+int dbpageRollbackTo(sqlite3_vtab *pVtab, int notUsed1);
+int echoRollbackTo(sqlite3_vtab *pVTab, int iSavepoint);
+static int fts3RollbackToMethod(sqlite3_vtab *pVtab, int iSavepoint);
+int fts5RollbackToMethod(sqlite3_vtab *pVtab, int iSavepoint);
+int vtablogRollbackTo(sqlite3_vtab *tab, int N);

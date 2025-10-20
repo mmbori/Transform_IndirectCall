@@ -1,0 +1,8 @@
+0
+f5tOrigintextTokenize
+f5tTokenizerTokenize
+f5tTokenizerTokenize_v2
+fts5ApiTokenize
+fts5PorterTokenize
+fts5V1toV2Tokenize
+fts5V2toV1Tokenize

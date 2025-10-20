@@ -1,0 +1,1 @@
+void *sqlite3_value_pointer(sqlite3_value *pVal, const char *zPType);

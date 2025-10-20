@@ -1,0 +1,10 @@
+void memsys3Shutdown(void *NotUsed);
+void memsys5Shutdown(void *NotUsed);
+void memtraceShutdown(void *p);
+void pcache1Shutdown(void *NotUsed);
+static void pcachetraceShutdown(void *pArg);
+void sqlite3MemShutdown(void *NotUsed);
+static void testpcacheShutdown(void *pArg);
+static void winMemShutdown(void *pAppData);
+static void wrMemShutdown(void *pAppData);
+static void wrPCacheShutdown(void *pArg);

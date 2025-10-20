@@ -1,0 +1,6 @@
+int memsys3Size(void *p);
+int memsys5Size(void *p);
+int memtraceSize(void *p);
+int sqlite3MemSize(void *pPrior);
+static int winMemSize(void *p);
+static int wrMemSize(void *p);

@@ -1,4 +1,0 @@
-cellSizePtr
-cellSizePtrIdxLeaf
-cellSizePtrNoPayload
-cellSizePtrTableLeaf

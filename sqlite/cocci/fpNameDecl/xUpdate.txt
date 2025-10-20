@@ -1,0 +1,14 @@
+int amatchUpdate( sqlite3_vtab *pVTab, int argc, sqlite3_value **argv, sqlite_int64 *pRowid );
+int csvtabUpdate(sqlite3_vtab *p,int n,sqlite3_value**v,sqlite3_int64*x);
+int dbpageUpdate( sqlite3_vtab *pVtab, int argc, sqlite3_value **argv, sqlite_int64 *pRowid );
+int echoUpdate( sqlite3_vtab *tab, int nData, sqlite3_value **apData, sqlite_int64 *pRowid );
+static int expertUpdate( sqlite3_vtab *pVtab, int nData, sqlite3_value **azData, sqlite_int64 *pRowid );
+static int fts3UpdateMethod( sqlite3_vtab *pVtab, int nArg, sqlite3_value **apVal, sqlite_int64 *pRowid );
+int fts5UpdateMethod( sqlite3_vtab *pVtab, int nArg, sqlite3_value **apVal, sqlite_int64 *pRowid );
+int geopolyUpdate( sqlite3_vtab *pVtab, int nData, sqlite3_value **aData, sqlite_int64 *pRowid );
+int rtreeUpdate( sqlite3_vtab *pVtab, int nData, sqlite3_value **aData, sqlite_int64 *pRowid );
+int spellfix1Update( sqlite3_vtab *pVTab, int argc, sqlite3_value **argv, sqlite_int64 *pRowid );
+static int tclvarUpdate( sqlite3_vtab *tab, int argc, sqlite3_value **argv, sqlite_int64 *pRowid );
+int vstattabUpdate(sqlite3_vtab*,int,sqlite3_value**,sqlite3_int64*);
+int vtablogUpdate( sqlite3_vtab *tab, int argc, sqlite3_value **argv, sqlite_int64 *pRowid );
+static int zipfileUpdate( sqlite3_vtab *pVtab, int nVal, sqlite3_value **apVal, sqlite_int64 *pRowid );

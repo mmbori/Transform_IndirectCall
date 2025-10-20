@@ -1,0 +1,1 @@
+void fts5ApiPhraseNext( Fts5Context *pCtx, Fts5PhraseIter *pIter, int *piCol, int *piOff );

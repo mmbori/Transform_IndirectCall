@@ -1,0 +1,1 @@
+int sqlite3_bind_text16(sqlite3_stmt*, int, const void*, int, void(*)(void*));

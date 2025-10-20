@@ -1,0 +1,7 @@
+int dbpageBegin(sqlite3_vtab *pVtab);
+int echoBegin(sqlite3_vtab *tab);
+static int fts3BeginMethod(sqlite3_vtab *pVtab);
+int fts5BeginMethod(sqlite3_vtab *pVtab);
+int rtreeBeginTransaction(sqlite3_vtab *pVtab);
+int vtablogBegin(sqlite3_vtab *tab);
+static int zipfileBegin(sqlite3_vtab *pVtab);

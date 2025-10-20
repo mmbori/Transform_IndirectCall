@@ -1,0 +1,1 @@
+int sqlite3_vtab_nochange(sqlite3_context *p);

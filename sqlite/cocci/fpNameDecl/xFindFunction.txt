@@ -1,0 +1,7 @@
+int echoFindFunction( sqlite3_vtab *vtab, int nArg, const char *zFuncName, void (**pxFunc)(sqlite3_context*,int,sqlite3_value**), void **ppArg );
+static int fts3FindFunctionMethod( sqlite3_vtab *pVtab, int nArg, const char *zName, void (**pxFunc)(sqlite3_context*,int,sqlite3_value**), void **ppArg );
+int fts5FindFunctionMethod( sqlite3_vtab *pVtab, int nUnused, const char *zName, void (**pxFunc)(sqlite3_context*,int,sqlite3_value**), void **ppArg );
+int geopolyFindFunction( sqlite3_vtab *pVtab, int nArg, const char *zName, void (**pxFunc)(sqlite3_context*,int,sqlite3_value**), void **ppArg );
+int tclFindFunction( sqlite3_vtab *tab, int nArg, const char *zName, void (**pxFunc)(sqlite3_context*,int,sqlite3_value**), void **ppArg );
+int vtablogFindMethod( sqlite3_vtab *tab, int nArg, const char *zName, void (**pxFunc)(sqlite3_context*,int,sqlite3_value**), void **ppArg );
+static int zipfileFindFunction( sqlite3_vtab *pVtab, int nArg, const char *zName, void (**pxFunc)(sqlite3_context*,int,sqlite3_value**), void **ppArg );

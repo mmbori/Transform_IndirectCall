@@ -1,0 +1,1 @@
+int fts5ApiColumnText( Fts5Context *pCtx, int iCol, const char **pz, int *pn );

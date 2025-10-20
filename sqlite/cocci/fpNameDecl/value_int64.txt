@@ -1,0 +1,1 @@
+int sqlite3_value_bytes(sqlite3_value *pVal);

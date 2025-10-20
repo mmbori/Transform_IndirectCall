@@ -1,0 +1,1 @@
+int sqlite3_strlike(const char *zPattern, const char *zStr, unsigned int esc);

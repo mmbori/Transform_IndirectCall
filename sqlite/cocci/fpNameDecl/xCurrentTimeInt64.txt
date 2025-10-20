@@ -1,0 +1,10 @@
+static int apndCurrentTimeInt64(sqlite3_vfs*, sqlite3_int64*);
+int cksmCurrentTimeInt64(sqlite3_vfs*, sqlite3_int64*);
+static int jtCurrentTimeInt64(sqlite3_vfs*, sqlite3_int64*);
+static int kvvfsCurrentTimeInt64(sqlite3_vfs*, sqlite3_int64*);
+int memCurrentTimeInt64(sqlite3_vfs*, sqlite3_int64*);
+int memdbCurrentTimeInt64(sqlite3_vfs*, sqlite3_int64*);
+static int multiplexCurrentTimeInt64(sqlite3_vfs *a, sqlite3_int64 *b);
+int vfslogCurrentTimeInt64(sqlite3_vfs*, sqlite3_int64*);
+int winCurrentTimeInt64(sqlite3_vfs *pVfs, sqlite3_int64 *piNow);
+int unixCurrentTimeInt64(sqlite3_vfs *NotUsed, sqlite3_int64 *piNow);

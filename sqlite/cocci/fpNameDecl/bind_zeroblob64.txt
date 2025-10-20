@@ -1,0 +1,1 @@
+int sqlite3_auto_extension(void(*xEntryPoint)(void));

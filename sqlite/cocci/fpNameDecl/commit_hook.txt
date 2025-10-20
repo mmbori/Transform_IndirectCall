@@ -1,0 +1,1 @@
+sqlite3_value *sqlite3_column_value(sqlite3_stmt *pStmt, int i);

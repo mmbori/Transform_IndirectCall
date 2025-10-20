@@ -1,0 +1,3 @@
+static void circle_del(void *p);
+static void cube_context_free(void *p);
+void testDelUser(void *pCtx);

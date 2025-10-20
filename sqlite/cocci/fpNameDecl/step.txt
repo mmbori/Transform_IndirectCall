@@ -1,0 +1,1 @@
+void sqlite3_set_auxdata( sqlite3_context *pCtx, int iArg, void *pAux, void (*xDelete)(void*) );

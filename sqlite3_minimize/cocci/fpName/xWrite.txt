@@ -1,3 +1,0 @@
-multiplexWrite
-quotaWrite
-vfstraceWrite

@@ -1,0 +1,2 @@
+static void fts5MergePrefixLists( Fts5Index *p, Fts5Buffer *p1, int nBuf, Fts5Buffer *aBuf );
+static void fts5MergeRowidLists( Fts5Index *p, Fts5Buffer *p1, int nBuf, Fts5Buffer *aBuf );

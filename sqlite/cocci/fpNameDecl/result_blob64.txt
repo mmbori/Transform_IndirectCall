@@ -1,0 +1,1 @@
+int sqlite3_stricmp(const char *, const char *);

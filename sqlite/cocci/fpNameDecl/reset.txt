@@ -1,0 +1,1 @@
+void sqlite3_progress_handler(sqlite3*, int, int(*)(void*), void*);

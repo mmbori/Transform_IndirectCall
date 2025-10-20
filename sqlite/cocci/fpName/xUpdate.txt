@@ -1,0 +1,15 @@
+0
+amatchUpdate
+csvtabUpdate
+dbpageUpdate
+echoUpdate
+expertUpdate
+fts3UpdateMethod
+fts5UpdateMethod
+geopolyUpdate
+rtreeUpdate
+spellfix1Update
+tclvarUpdate
+vstattabUpdate
+vtablogUpdate
+zipfileUpdate

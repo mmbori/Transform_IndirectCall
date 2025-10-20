@@ -1,0 +1,1 @@
+int fts5ApiSetAuxdata( Fts5Context *pCtx, void *pPtr, void(*xDelete)(void*) );

@@ -1,0 +1,6 @@
+0
+dbpageRollbackTo
+echoRollbackTo
+fts3RollbackToMethod
+fts5RollbackToMethod
+vtablogRollbackTo

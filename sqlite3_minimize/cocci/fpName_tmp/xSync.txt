@@ -1,3 +1,0 @@
-multiplexSync
-quotaSync
-vfstraceSync

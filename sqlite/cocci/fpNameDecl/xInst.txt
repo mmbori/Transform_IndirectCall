@@ -1,0 +1,1 @@
+int fts5ApiInst( Fts5Context *pCtx, int iIdx, int *piPhrase, int *piCol, int *piOff );

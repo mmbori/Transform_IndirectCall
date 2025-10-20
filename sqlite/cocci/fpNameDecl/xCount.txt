@@ -1,0 +1,3 @@
+static int sessionDiffCount(void *pCtx);
+static int sessionPreupdateCount(void *pCtx);
+static int sessionStat1Count(void *pCtx);

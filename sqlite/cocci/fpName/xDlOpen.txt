@@ -1,0 +1,12 @@
+apndDlOpen
+cfDlOpen
+cksmDlOpen
+demoDlOpen
+jtDlOpen
+kvvfsDlOpen
+memDlOpen
+memdbDlOpen
+multiplexDlOpen
+vfslogDlOpen
+winDlOpen
+unixDlOpen

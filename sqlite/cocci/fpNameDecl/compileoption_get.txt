@@ -1,0 +1,1 @@
+int sqlite3_limit(sqlite3 *db, int limitId, int newLimit);

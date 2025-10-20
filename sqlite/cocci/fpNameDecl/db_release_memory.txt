@@ -1,0 +1,1 @@
+int sqlite3_strnicmp(const char *zLeft, const char *zRight, int N);

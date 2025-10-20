@@ -1,1 +1,0 @@
-void rankValueFunc(sqlite3_context *pCtx);

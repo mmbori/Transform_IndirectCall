@@ -1,0 +1,4 @@
+static int fts3IntegrityMethod( sqlite3_vtab *pVtab, const char *zSchema, const char *zTabname, int isQuick, char **pzErr );
+int fts5IntegrityMethod( sqlite3_vtab *pVtab, const char *zSchema, const char *zTabname, int isQuick, char **pzErr );
+int rtreeIntegrity(sqlite3_vtab*, const char*, const char*, int, char**);
+int vtablogIntegrity( sqlite3_vtab *tab, const char *zSchema, const char *zTabName, int mFlags, char **pzErr );

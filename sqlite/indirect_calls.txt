@@ -1,0 +1,194 @@
+   15014:	ff d0                	call   *%rax
+   15dff:	ff 15 e3 21 1e 00    	call   *0x1e21e3(%rip)        # 1f7fe8 <__libc_start_main@GLIBC_2.34>
+   24c6c:	ff d2                	call   *%rdx
+   25f5c:	ff d2                	call   *%rdx
+   25fd2:	ff d2                	call   *%rdx
+   2612a:	ff d2                	call   *%rdx
+   2963b:	41 ff d0             	call   *%r8
+   2b4b9:	41 ff d0             	call   *%r8
+   38f7a:	ff d1                	call   *%rcx
+   41e03:	ff d1                	call   *%rcx
+   56441:	ff d2                	call   *%rdx
+   57131:	41 ff d0             	call   *%r8
+   5735a:	41 ff d0             	call   *%r8
+   5fc1b:	ff d2                	call   *%rdx
+   5fd83:	ff d2                	call   *%rdx
+   603f7:	ff d2                	call   *%rdx
+   60592:	ff d2                	call   *%rdx
+   6e779:	ff d1                	call   *%rcx
+   728e7:	ff d1                	call   *%rcx
+   733d0:	ff d2                	call   *%rdx
+   742c1:	41 ff d0             	call   *%r8
+   74690:	ff d1                	call   *%rcx
+   74c87:	ff d0                	call   *%rax
+   74ca7:	ff d0                	call   *%rax
+   7a258:	ff d3                	call   *%rbx
+   7ae71:	ff d2                	call   *%rdx
+   7bd80:	ff d2                	call   *%rdx
+   7c25e:	ff d2                	call   *%rdx
+   7fb25:	ff d0                	call   *%rax
+   7fb3f:	41 ff d0             	call   *%r8
+   7feb2:	ff d1                	call   *%rcx
+   7ff08:	ff d2                	call   *%rdx
+   7ff19:	ff d2                	call   *%rdx
+   7ff6e:	ff d1                	call   *%rcx
+   7ffab:	ff d1                	call   *%rcx
+   7ffe4:	ff d1                	call   *%rcx
+   8005c:	ff d1                	call   *%rcx
+   8017e:	ff d2                	call   *%rdx
+   80393:	ff d1                	call   *%rcx
+   805f2:	ff d1                	call   *%rcx
+   80692:	ff d1                	call   *%rcx
+   8084f:	ff d1                	call   *%rcx
+   80950:	ff d1                	call   *%rcx
+   809a2:	ff d1                	call   *%rcx
+   811e9:	ff d2                	call   *%rdx
+   81271:	ff d2                	call   *%rdx
+   81335:	ff d2                	call   *%rdx
+   8140c:	41 ff d0             	call   *%r8
+   81636:	41 ff d0             	call   *%r8
+   81994:	ff d1                	call   *%rcx
+   81b25:	ff d1                	call   *%rcx
+   81bf7:	ff d1                	call   *%rcx
+   81ef9:	ff d2                	call   *%rdx
+   82298:	ff d1                	call   *%rcx
+   8236b:	ff d1                	call   *%rcx
+   823b0:	ff d0                	call   *%rax
+   82461:	ff d1                	call   *%rcx
+   8255c:	ff d1                	call   *%rcx
+   82729:	ff d1                	call   *%rcx
+   82c34:	ff d1                	call   *%rcx
+   82e22:	41 ff d2             	call   *%r10
+   8349b:	ff d2                	call   *%rdx
+   834f2:	ff d2                	call   *%rdx
+   835b7:	ff d2                	call   *%rdx
+   835d9:	41 ff d0             	call   *%r8
+   8360e:	ff d1                	call   *%rcx
+   8363e:	41 ff d2             	call   *%r10
+   8371c:	ff d1                	call   *%rcx
+   83a19:	ff d1                	call   *%rcx
+   83bc8:	ff d1                	call   *%rcx
+   83bf6:	ff d2                	call   *%rdx
+   83d52:	ff d2                	call   *%rdx
+   83ded:	ff d1                	call   *%rcx
+   83f89:	ff d1                	call   *%rcx
+   844f0:	ff d2                	call   *%rdx
+   846af:	ff d2                	call   *%rdx
+   847c6:	ff d2                	call   *%rdx
+   8482c:	ff d1                	call   *%rcx
+   84905:	ff d1                	call   *%rcx
+   84953:	ff d2                	call   *%rdx
+   84b51:	ff d1                	call   *%rcx
+   84c0b:	41 ff d0             	call   *%r8
+   84e27:	ff d2                	call   *%rdx
+   84fa0:	ff d1                	call   *%rcx
+   8507a:	41 ff d0             	call   *%r8
+   86251:	41 ff d0             	call   *%r8
+   88051:	ff d1                	call   *%rcx
+   8ab93:	ff d2                	call   *%rdx
+   8c6bd:	ff d2                	call   *%rdx
+   8d352:	ff d2                	call   *%rdx
+   8e18f:	ff d2                	call   *%rdx
+   943e8:	ff d2                	call   *%rdx
+   95d04:	ff d2                	call   *%rdx
+   9b878:	ff d2                	call   *%rdx
+   9d6d3:	41 ff d1             	call   *%r9
+   9f982:	ff d1                	call   *%rcx
+   9f9dd:	ff d1                	call   *%rcx
+   9fc86:	ff d1                	call   *%rcx
+   9fce4:	ff d1                	call   *%rcx
+   a390e:	ff d1                	call   *%rcx
+   a4cce:	ff d1                	call   *%rcx
+   a7270:	41 ff d0             	call   *%r8
+   a7b84:	ff d1                	call   *%rcx
+   a7ceb:	41 ff d0             	call   *%r8
+   a86d0:	41 ff d0             	call   *%r8
+   a8feb:	ff d2                	call   *%rdx
+   ac774:	ff d2                	call   *%rdx
+   accce:	ff d2                	call   *%rdx
+   acdb2:	ff d2                	call   *%rdx
+   ace27:	ff d2                	call   *%rdx
+   add3e:	ff d2                	call   *%rdx
+   b35f5:	ff d2                	call   *%rdx
+   b473f:	ff d2                	call   *%rdx
+   b53f0:	41 ff d1             	call   *%r9
+   b5494:	41 ff d1             	call   *%r9
+   b72e2:	41 ff d0             	call   *%r8
+   b731d:	41 ff d0             	call   *%r8
+   b7aa4:	ff d2                	call   *%rdx
+   b829b:	41 ff d0             	call   *%r8
+   b8d04:	ff d2                	call   *%rdx
+   b8d33:	ff d2                	call   *%rdx
+   b9705:	ff d2                	call   *%rdx
+   b99b8:	ff d2                	call   *%rdx
+   bb8df:	ff d2                	call   *%rdx
+   bc854:	41 ff d0             	call   *%r8
+   c2a42:	41 ff d1             	call   *%r9
+   c2d15:	41 ff d1             	call   *%r9
+   c308a:	ff d1                	call   *%rcx
+   c56f0:	41 ff d0             	call   *%r8
+   c5729:	41 ff d0             	call   *%r8
+   c6240:	ff d1                	call   *%rcx
+   c62f6:	ff d2                	call   *%rdx
+   c63f2:	41 ff d1             	call   *%r9
+   c669e:	41 ff d1             	call   *%r9
+   c66e2:	ff d2                	call   *%rdx
+   c6870:	41 ff d0             	call   *%r8
+   c6976:	ff d2                	call   *%rdx
+   c69bd:	ff d2                	call   *%rdx
+   c6a96:	ff d1                	call   *%rcx
+   c6c6d:	41 ff d0             	call   *%r8
+   c6fbd:	41 ff d0             	call   *%r8
+   c7469:	ff d1                	call   *%rcx
+   c74ef:	41 ff d0             	call   *%r8
+   c753f:	41 ff d0             	call   *%r8
+   c79e4:	ff d2                	call   *%rdx
+   ca3d3:	41 ff d2             	call   *%r10
+   cada4:	41 ff d2             	call   *%r10
+   cbb7f:	41 ff d2             	call   *%r10
+   ce017:	ff d1                	call   *%rcx
+   e9e48:	41 ff d2             	call   *%r10
+   ea107:	41 ff d2             	call   *%r10
+   ef5cb:	ff d0                	call   *%rax
+   f6351:	41 ff d0             	call   *%r8
+   f63f3:	41 ff d0             	call   *%r8
+   fd5f7:	ff d2                	call   *%rdx
+   fd8a4:	ff d2                	call   *%rdx
+   fd97e:	ff d2                	call   *%rdx
+  107642:	41 ff d0             	call   *%r8
+  107c3d:	41 ff d0             	call   *%r8
+  108276:	41 ff d0             	call   *%r8
+  1104b9:	ff d1                	call   *%rcx
+  110639:	ff d1                	call   *%rcx
+  12bd52:	ff d2                	call   *%rdx
+  12d1b7:	41 ff d2             	call   *%r10
+  12df13:	ff d2                	call   *%rdx
+  12dffe:	ff d2                	call   *%rdx
+  12e0db:	ff d2                	call   *%rdx
+  12e5af:	ff d1                	call   *%rcx
+  16152e:	41 ff d0             	call   *%r8
+  1615dc:	ff d2                	call   *%rdx
+  161b60:	ff d2                	call   *%rdx
+  161d36:	ff d2                	call   *%rdx
+  161efa:	ff d1                	call   *%rcx
+  16249c:	ff d2                	call   *%rdx
+  16251f:	ff d2                	call   *%rdx
+  162bc1:	ff d2                	call   *%rdx
+  164554:	ff d2                	call   *%rdx
+  164b8c:	ff d2                	call   *%rdx
+  164c2b:	ff d2                	call   *%rdx
+  1739f7:	ff d1                	call   *%rcx
+  176f9a:	ff d1                	call   *%rcx
+  177267:	ff d1                	call   *%rcx
+  177319:	ff d1                	call   *%rcx
+  177a74:	ff d2                	call   *%rdx
+  17c036:	41 ff d2             	call   *%r10
+  17e538:	ff d1                	call   *%rcx
+  187ced:	41 ff d0             	call   *%r8
+  18ac6e:	ff d2                	call   *%rdx
+  199d9b:	ff d2                	call   *%rdx
+  19a389:	41 ff d0             	call   *%r8
+  19a436:	ff d2                	call   *%rdx
+  19dfbb:	41 ff d0             	call   *%r8
+  1a1fea:	ff d2                	call   *%rdx
+  1a2318:	ff d2                	call   *%rdx

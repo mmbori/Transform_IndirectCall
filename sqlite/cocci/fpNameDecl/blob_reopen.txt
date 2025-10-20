@@ -1,0 +1,1 @@
+int sqlite3_db_status( sqlite3 *db, int op, int *pCurrent, int *pHighwater, int resetFlag );

@@ -1,0 +1,1 @@
+void sqlite3_result_error_code(sqlite3_context *pCtx, int errCode);

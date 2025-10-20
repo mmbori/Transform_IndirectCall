@@ -1,0 +1,4 @@
+int echoRelease(sqlite3_vtab *pVTab, int iSavepoint);
+static int fts3ReleaseMethod(sqlite3_vtab *pVtab, int iSavepoint);
+int fts5ReleaseMethod(sqlite3_vtab *pVtab, int iSavepoint);
+int vtablogRelease(sqlite3_vtab *tab, int N);

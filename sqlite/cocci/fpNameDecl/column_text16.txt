@@ -1,0 +1,1 @@
+const unsigned char *sqlite3_column_text(sqlite3_stmt *pStmt, int i);

@@ -1,0 +1,1 @@
+int sqlite3_bind_text64( sqlite3_stmt *pStmt, int i, const char *zData, sqlite3_uint64 nData, void (*xDel)(void*), unsigned char enc );

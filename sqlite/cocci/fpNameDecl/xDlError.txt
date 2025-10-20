@@ -1,0 +1,14 @@
+static void apndDlError(sqlite3_vfs*, int nByte, char *zErrMsg);
+void cfDlError(sqlite3_vfs *pCfVfs, int nByte, char *zErrMsg);
+void cksmDlError(sqlite3_vfs*, int nByte, char *zErrMsg);
+void demoDlError(sqlite3_vfs *pVfs, int nByte, char *zErrMsg);
+void devsymDlError(sqlite3_vfs*, int nByte, char *zErrMsg);
+static void jtDlError(sqlite3_vfs*, int nByte, char *zErrMsg);
+void memDlError(sqlite3_vfs*, int nByte, char *zErrMsg);
+void memdbDlError(sqlite3_vfs*, int nByte, char *zErrMsg);
+static void multiplexDlError(sqlite3_vfs *a, int b, char *c);
+void rbuVfsDlError(sqlite3_vfs *pVfs, int nByte, char *zErrMsg);
+void tvfsDlError(sqlite3_vfs*, int nByte, char *zErrMsg);
+void vfslogDlError(sqlite3_vfs*, int nByte, char *zErrMsg);
+static void winDlError(sqlite3_vfs *pVfs, int nBuf, char *zBufOut);
+void unixDlError(sqlite3_vfs *NotUsed, int nBuf, char *zBufOut);

@@ -1,0 +1,1 @@
+const char *sqlite3_vtab_collation(sqlite3_index_info *pIdxInfo, int iCons);

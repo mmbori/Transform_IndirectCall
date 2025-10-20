@@ -1,0 +1,6 @@
+memsys3Size
+memsys5Size
+memtraceSize
+sqlite3MemSize
+winMemSize
+wrMemSize

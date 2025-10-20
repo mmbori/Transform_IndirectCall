@@ -1,0 +1,1 @@
+const unsigned char *sqlite3_value_text(sqlite3_value *pVal);

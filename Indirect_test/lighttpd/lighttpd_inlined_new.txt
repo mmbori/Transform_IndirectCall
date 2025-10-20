@@ -1,0 +1,57 @@
+========== Indirect Call Statistics ==========
+Total indirect calls: 1074
+Unique call sites: 52
+
+Indirect call sites breakdown:
+  0x5f42d9ad8bb3 (lighttpd_inline_new_new:configparserAlloc): 1 calls
+  0x5f42d9adab64 (lighttpd_inline_new_new:log_pri_multiline): 710 calls
+  0x5f42d9ae1849 (lighttpd_inline_new_new:plugins_load): 14 calls
+  0x5f42d9aefbdf (lighttpd_inline_new_new:_start): 1 calls
+  0x5f42d9afc8fa (lighttpd_inline_new_new:fdevent_fdnode_event_set): 41 calls
+  0x748967629d8e (libc.so.6:__libc_start_call_main): 1 calls
+  0x748967629e66 (libc.so.6:__libc_start_main): 1 calls
+  0x748967629eb9 (libc.so.6:__libc_start_main): 1 calls
+  0x748967675148 (libc.so.6:__vfprintf_internal): 3 calls
+  0x748967675ca5 (libc.so.6:__vfprintf_internal): 12 calls
+  0x748967675fc7 (libc.so.6:__vfprintf_internal): 12 calls
+  0x74896767eb6d (libc.so.6:_IO_file_doallocate): 1 calls
+  0x74896767ecde (libc.so.6:fclose): 1 calls
+  0x74896768abdf (libc.so.6:_IO_file_seekoff): 1 calls
+  0x74896768bef8 (libc.so.6:_IO_file_close_it): 1 calls
+  0x74896768cc33 (libc.so.6:_IO_file_underflow): 2 calls
+  0x74896768dcdd (libc.so.6:_IO_doallocbuf): 1 calls
+  0x74896768dd93 (libc.so.6:__GI__IO_default_uflow): 11 calls
+  0x7489676d8fe7 (libc.so.6:ranged_convert): 1 calls
+  0x7489676d9a23 (unknown): 1 calls
+  0x7489676e566b (libc.so.6:clock_gettime): 119 calls
+  0x74897bd7aa54 (ld-linux-x86-64.so.2:_dl_map_object_deps): 4 calls
+  0x74897bd7af4c (ld-linux-x86-64.so.2:_dl_map_object_deps): 1 calls
+  0x74897bd7c86c (ld-linux-x86-64.so.2:_dl_find_object_init): 1 calls
+  0x74897bd7d438 (ld-linux-x86-64.so.2:call_init.part.0): 3 calls
+  0x74897bd7d47c (ld-linux-x86-64.so.2:call_init.part.0): 5 calls
+  0x74897bd7da53 (ld-linux-x86-64.so.2:open_verify.constprop.0): 4 calls
+  0x74897bd7f752 (ld-linux-x86-64.so.2:_dl_init_paths): 1 calls
+  0x74897bd7f799 (ld-linux-x86-64.so.2:_dl_init_paths): 1 calls
+  0x74897bd84908 (ld-linux-x86-64.so.2:_dl_add_to_namespace_list): 6 calls
+  0x74897bd849fd (ld-linux-x86-64.so.2:_dl_new_object): 6 calls
+  0x74897bd84d1b (ld-linux-x86-64.so.2:_dl_new_object): 4 calls
+  0x74897bd88091 (ld-linux-x86-64.so.2:_dl_relocate_object): 40 calls
+  0x74897bd886e9 (ld-linux-x86-64.so.2:_dl_relocate_object): 2 calls
+  0x74897bd88a8d (ld-linux-x86-64.so.2:_dl_relocate_object): 27 calls
+  0x74897bd8b42b (ld-linux-x86-64.so.2:_dl_allocate_tls_storage): 1 calls
+  0x74897bd8b4a0 (ld-linux-x86-64.so.2:_dl_allocate_tls_storage): 1 calls
+  0x74897bd8b524 (ld-linux-x86-64.so.2:__GI__dl_allocate_tls_init): 1 calls
+  0x74897bd8b675 (ld-linux-x86-64.so.2:__GI__dl_allocate_tls_init): 1 calls
+  0x74897bd8d2d7 (ld-linux-x86-64.so.2:_dl_check_map_versions): 7 calls
+  0x74897bd94348 (ld-linux-x86-64.so.2:_dl_catch_exception): 8 calls
+  0x74897bd94450 (ld-linux-x86-64.so.2:_dl_receive_error): 1 calls
+  0x74897bd945af (ld-linux-x86-64.so.2:_dl_important_hwcaps): 1 calls
+  0x74897bd9497b (ld-linux-x86-64.so.2:_dl_important_hwcaps): 1 calls
+  0x74897bd9683a (ld-linux-x86-64.so.2:_dl_sysdep_start): 1 calls
+  0x74897bd97d48 (ld-linux-x86-64.so.2:init_tls): 1 calls
+  0x74897bd99da7 (ld-linux-x86-64.so.2:dl_main): 1 calls
+  0x74897bd99e61 (ld-linux-x86-64.so.2:dl_main): 1 calls
+  0x74897bd99f1d (ld-linux-x86-64.so.2:dl_main): 1 calls
+  0x74897bd99fd9 (ld-linux-x86-64.so.2:dl_main): 1 calls
+  0x74897bd9a094 (ld-linux-x86-64.so.2:dl_main): 1 calls
+  0x74897bd9e1da (ld-linux-x86-64.so.2:strdup): 4 calls

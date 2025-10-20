@@ -1,0 +1,1 @@
+int fts5ApiQueryPhrase(Fts5Context*, int, void*, int(*)(const Fts5ExtensionApi*, Fts5Context*, void*) );

@@ -1,0 +1,6 @@
+int echoCommit(sqlite3_vtab *tab);
+static int fts3CommitMethod(sqlite3_vtab *pVtab);
+int fts5CommitMethod(sqlite3_vtab *pVtab);
+int rtreeEndTransaction(sqlite3_vtab *pVtab);
+int vtablogCommit(sqlite3_vtab *tab);
+static int zipfileCommit(sqlite3_vtab *pVtab);

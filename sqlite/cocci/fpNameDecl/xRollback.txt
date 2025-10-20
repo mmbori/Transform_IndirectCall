@@ -1,0 +1,7 @@
+int echoRollback(sqlite3_vtab *tab);
+static int fts3RollbackMethod(sqlite3_vtab *pVtab);
+int fts5RollbackMethod(sqlite3_vtab *pVtab);
+int rtreeEndTransaction(sqlite3_vtab *pVtab);
+int rtreeRollback(sqlite3_vtab *pVtab);
+int vtablogRollback(sqlite3_vtab *tab);
+static int zipfileRollback(sqlite3_vtab *pVtab);

@@ -1,0 +1,7 @@
+faultsimRealloc
+memsys3Realloc
+memsys5Realloc
+memtraceRealloc
+sqlite3MemRealloc
+winMemRealloc
+wrMemRealloc

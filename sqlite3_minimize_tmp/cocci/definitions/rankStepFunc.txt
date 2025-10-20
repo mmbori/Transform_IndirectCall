@@ -1,1 +1,0 @@
-void rankStepFunc(sqlite3_context *pCtx , int nArg , sqlite3_value **apArg);

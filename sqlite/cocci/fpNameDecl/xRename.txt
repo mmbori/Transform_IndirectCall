@@ -1,0 +1,7 @@
+int echoRename(sqlite3_vtab *vtab, const char *zNewName);
+static int fts3RenameMethod( sqlite3_vtab *pVtab, const char *zName );
+int fts5RenameMethod( sqlite3_vtab *pVtab, const char *zName );
+int rtreeRename(sqlite3_vtab *pVtab, const char *zNewName);
+int spellfix1Rename(sqlite3_vtab *pVTab, const char *zNew);
+int vtablogRename(sqlite3_vtab *tab, const char *zNew);
+int xDefaultRename(void *pArg, const char *zOld, const char *zNew);

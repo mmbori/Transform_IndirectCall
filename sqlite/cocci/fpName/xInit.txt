@@ -1,0 +1,10 @@
+memsys3Init
+memsys5Init
+memtraceInit
+pcache1Init
+pcachetraceInit
+sqlite3MemInit
+testpcacheInit
+winMemInit
+wrMemInit
+wrPCacheInit

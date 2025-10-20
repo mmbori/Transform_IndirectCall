@@ -1,0 +1,14 @@
+static int apndShmUnmap(sqlite3_file*, int deleteFlag);
+int cfShmUnmap(sqlite3_file *pFile, int delFlag);
+int cksmShmUnmap(sqlite3_file*, int deleteFlag);
+int devsymShmUnmap(sqlite3_file*,int);
+int memShmUnmap(sqlite3_file*, int deleteFlag);
+static int multiplexShmUnmap(sqlite3_file *pConn, int deleteFlag);
+static int quotaShmUnmap(sqlite3_file *pConn, int deleteFlag);
+int rbuVfsShmUnmap(sqlite3_file *pFile, int delFlag);
+int recoverVfsShmUnmap(sqlite3_file*, int deleteFlag);
+int tvfsShmUnmap(sqlite3_file*, int);
+int vfslogShmUnmap(sqlite3_file *pFile, int deleteFlag);
+int vstatShmUnmap(sqlite3_file*, int deleteFlag);
+static int winShmUnmap( sqlite3_file *fd, int deleteFlag );
+int unixShmUnmap(sqlite3_file *fd, int deleteFlag );

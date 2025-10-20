@@ -1,0 +1,3 @@
+int getPageError(Pager*,Pgno,DbPage**,int);
+int getPageMMap(Pager*,Pgno,DbPage**,int);
+int getPageNormal( Pager *pPager, Pgno pgno, DbPage **ppPage, int flags );

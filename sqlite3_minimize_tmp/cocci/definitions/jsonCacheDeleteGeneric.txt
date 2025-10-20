@@ -1,1 +1,0 @@
-void jsonCacheDeleteGeneric(void *p);

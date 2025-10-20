@@ -1,0 +1,1 @@
+void sqlite3_result_null(sqlite3_context *pCtx);

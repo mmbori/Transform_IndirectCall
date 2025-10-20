@@ -1,0 +1,1 @@
+const char *sqlite3_create_filename( const char *zDatabase, const char *zJournal, const char *zWal, int nParam, const char **azParam );

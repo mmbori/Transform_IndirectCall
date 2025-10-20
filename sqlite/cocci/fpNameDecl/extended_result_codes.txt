@@ -1,0 +1,1 @@
+sqlite3_vfs *sqlite3_vfs_find(const char *zVfsName);

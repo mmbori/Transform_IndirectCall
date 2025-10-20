@@ -1,0 +1,7 @@
+static int checkMutexTry(sqlite3_mutex *p);
+static int counterMutexTry(sqlite3_mutex *p);
+int debugMutexTry(sqlite3_mutex *pX);
+int noopMutexTry(sqlite3_mutex *p);
+static int pthreadMutexTry(sqlite3_mutex *p);
+int winMutexTry(sqlite3_mutex *p);
+static int wrMutexTry(sqlite3_mutex *p);

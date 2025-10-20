@@ -1,0 +1,1 @@
+int fts5ApiPhraseFirst( Fts5Context *pCtx, int iPhrase, Fts5PhraseIter *pIter, int *piCol, int *piOff );

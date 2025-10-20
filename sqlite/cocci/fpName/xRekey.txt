@@ -1,0 +1,5 @@
+pcache1Rekey
+pcachetraceRekey
+testpcacheRekey
+wrPCacheRekey
+unixRandomness

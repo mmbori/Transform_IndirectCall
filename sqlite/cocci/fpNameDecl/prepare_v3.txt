@@ -1,0 +1,1 @@
+void sqlite3_result_text64( sqlite3_context *pCtx, const char *z, sqlite3_uint64 n, void (*xDel)(void *), unsigned char enc );

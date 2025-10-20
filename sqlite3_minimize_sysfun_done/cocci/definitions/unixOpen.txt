@@ -1,1 +1,0 @@
-int unixOpen(sqlite3_vfs *pVfs , const char *zPath , sqlite3_file *pFile , int flags , int *pOutFlags);

@@ -1,0 +1,7 @@
+memsys3Free
+memsys5Free
+memtraceFree
+sqlite3MemFree
+winMemFree
+wrMemFree
+xFree

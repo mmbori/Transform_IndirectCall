@@ -1,3 +1,0 @@
-// Function declarations for xBusy
-
-int xBusy(void *pArg, int nBusy);

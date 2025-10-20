@@ -1,0 +1,1 @@
+int sqlite3_txn_state(sqlite3 *db, const char *zSchema);

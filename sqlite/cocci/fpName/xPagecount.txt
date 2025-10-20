@@ -1,0 +1,4 @@
+pcache1Pagecount
+pcachetracePagecount
+testpcachePagecount
+wrPCachePagecount

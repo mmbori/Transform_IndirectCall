@@ -1,0 +1,4 @@
+void pcache1Cachesize(sqlite3_pcache *p, int nMax);
+static void pcachetraceCachesize(sqlite3_pcache *p, int nCachesize);
+static void testpcacheCachesize(sqlite3_pcache *pCache, int newSize);
+static void wrPCacheCachesize(sqlite3_pcache *p, int n);

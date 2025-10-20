@@ -1,3 +1,0 @@
-// Function declarations for xDlClose
-
-void multiplexDlClose(sqlite3_vfs *a, void *b);

@@ -1,0 +1,16 @@
+static int apndFullPathname(sqlite3_vfs*, const char *zName, int, char *zOut);
+int cfFullPathname( sqlite3_vfs *pCfVfs, const char *zPath, int nPathOut, char *zPathOut );
+int cksmFullPathname(sqlite3_vfs*, const char *zName, int, char *zOut);
+int demoFullPathname( sqlite3_vfs *pVfs, const char *zPath, int nPathOut, char *zPathOut );
+int devsymFullPathname(sqlite3_vfs*, const char *zName, int, char *zOut);
+static int jtFullPathname(sqlite3_vfs*, const char *zName, int, char *zOut);
+static int kvvfsFullPathname(sqlite3_vfs*, const char *zName, int, char *zOut);
+int memFullPathname(sqlite3_vfs*, const char *zName, int, char *zOut);
+int memdbFullPathname(sqlite3_vfs*, const char *zName, int, char *zOut);
+static int multiplexFullPathname(sqlite3_vfs *a, const char *b, int c, char *d);
+int rbuVfsFullPathname( sqlite3_vfs *pVfs, const char *zPath, int nOut, char *zOut );
+int tvfsFullPathname(sqlite3_vfs*, const char *zName, int, char *zOut);
+int vfslogFullPathname(sqlite3_vfs*, const char *zName, int, char *zOut);
+int vfstraceFullPathname(sqlite3_vfs*, const char *zName, int, char *);
+static int winFullPathname( sqlite3_vfs *pVfs, const char *zRelative, int nFull, char *zFull );
+int unixFullPathname(sqlite3_vfs *pVfs, const char *zPath, int nOut, char *zOut );

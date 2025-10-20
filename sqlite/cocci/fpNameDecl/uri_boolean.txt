@@ -1,0 +1,1 @@
+void *sqlite3_wal_hook( sqlite3 *db, int(*xCallback)(void *, sqlite3*, const char*, int), void *pArg );

@@ -1,0 +1,1 @@
+sqlite3_str *sqlite3_str_new(sqlite3 *db);

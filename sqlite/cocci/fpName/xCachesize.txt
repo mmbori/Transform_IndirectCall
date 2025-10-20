@@ -1,0 +1,4 @@
+pcache1Cachesize
+pcachetraceCachesize
+testpcacheCachesize
+wrPCacheCachesize

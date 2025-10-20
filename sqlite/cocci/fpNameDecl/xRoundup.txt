@@ -1,0 +1,6 @@
+int memsys3Roundup(int n);
+int memsys5Roundup(int n);
+int memtraceRoundup(int n);
+int sqlite3MemRoundup(int n);
+static int winMemRoundup(int n);
+static int wrMemRoundup(int n);

@@ -1,0 +1,14 @@
+static int apndShmLock(sqlite3_file*, int offset, int n, int flags);
+int cfShmLock(sqlite3_file *pFile, int ofst, int n, int flags);
+int cksmShmLock(sqlite3_file*, int offset, int n, int flags);
+int devsymShmLock(sqlite3_file*,int,int,int);
+int memShmLock(sqlite3_file*, int offset, int n, int flags);
+static int multiplexShmLock( sqlite3_file *pConn, int ofst, int n, int flags );
+static int quotaShmLock( sqlite3_file *pConn, int ofst, int n, int flags );
+int rbuVfsShmLock(sqlite3_file *pFile, int ofst, int n, int flags);
+int recoverVfsShmLock(sqlite3_file*, int offset, int n, int flags);
+int tvfsShmLock(sqlite3_file*, int , int, int);
+int vfslogShmLock(sqlite3_file *pFile, int ofst, int n, int flags);
+int vstatShmLock(sqlite3_file*, int offset, int n, int flags);
+static int winShmLock( sqlite3_file *fd, int ofst, int n, int flags );
+int unixShmLock(sqlite3_file *fd, int ofst, int n, int flags );

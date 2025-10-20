@@ -1,0 +1,8 @@
+0
+dbpageBegin
+echoBegin
+fts3BeginMethod
+fts5BeginMethod
+rtreeBeginTransaction
+vtablogBegin
+zipfileBegin

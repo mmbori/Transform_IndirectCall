@@ -1,0 +1,5 @@
+0
+fts3ShadowName
+fts5ShadowName
+rtreeShadowName
+vtablogShadowName

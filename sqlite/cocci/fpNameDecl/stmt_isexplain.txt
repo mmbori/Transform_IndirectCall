@@ -1,0 +1,1 @@
+int sqlite3_keyword_name(int,const char**,int*);

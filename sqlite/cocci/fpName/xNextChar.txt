@@ -1,0 +1,2 @@
+re_next_char_nocase
+re_next_char

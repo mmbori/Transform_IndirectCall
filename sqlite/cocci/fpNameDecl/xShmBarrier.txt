@@ -1,0 +1,14 @@
+static void apndShmBarrier(sqlite3_file*);
+void cfShmBarrier(sqlite3_file *pFile);
+void cksmShmBarrier(sqlite3_file*);
+void devsymShmBarrier(sqlite3_file*);
+void memShmBarrier(sqlite3_file*);
+static void multiplexShmBarrier(sqlite3_file *pConn);
+static void quotaShmBarrier(sqlite3_file *pConn);
+void rbuVfsShmBarrier(sqlite3_file *pFile);
+void recoverVfsShmBarrier(sqlite3_file*);
+void tvfsShmBarrier(sqlite3_file*);
+void vfslogShmBarrier(sqlite3_file*);
+void vstatShmBarrier(sqlite3_file*);
+static void winShmBarrier( sqlite3_file *fd );
+void unixShmBarrier(sqlite3_file *fd );
